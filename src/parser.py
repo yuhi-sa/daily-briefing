@@ -1,0 +1,95 @@
+"""RSS feed parser and article normalizer."""
+
+from __future__ import annotations
+
+import html
+import logging
+import re
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from time import mktime
+
+import feedparser
+
+from .feeds import FeedSource
+
+logger = logging.getLogger(__name__)
+
+USER_AGENT = "NewsDigestBot/1.0 (+https://github.com/news-digest)"
+
+
+@dataclass
+class Article:
+    id: str
+    title: str
+    link: str
+    summary: str
+    published: datetime
+    source_name: str
+    category: str
+    category_ja: str
+
+
+def _strip_html(text: str) -> str:
+    """Remove HTML tags and decode entities."""
+    text = re.sub(r"<[^>]+>", "", text)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _parse_date(entry: dict) -> datetime:
+    """Extract published date from a feed entry."""
+    if hasattr(entry, "published_parsed") and entry.published_parsed:
+        return datetime.fromtimestamp(mktime(entry.published_parsed), tz=timezone.utc)
+    if hasattr(entry, "updated_parsed") and entry.updated_parsed:
+        return datetime.fromtimestamp(mktime(entry.updated_parsed), tz=timezone.utc)
+    return datetime.now(timezone.utc)
+
+
+def fetch_articles(source: FeedSource, max_articles: int = 10) -> list[Article]:
+    """Fetch and normalize articles from a single RSS feed.
+
+    Returns an empty list on failure (never crashes).
+    """
+    try:
+        feed = feedparser.parse(
+            source.url,
+            agent=USER_AGENT,
+        )
+
+        if feed.bozo and not feed.entries:
+            logger.warning("Feed error for %s: %s", source.name, feed.bozo_exception)
+            return []
+
+        articles: list[Article] = []
+        for entry in feed.entries[:max_articles]:
+            title = _strip_html(entry.get("title", "No Title"))
+            link = entry.get("link", "")
+            summary_raw = entry.get("summary", entry.get("description", ""))
+            summary = _strip_html(summary_raw)
+            # Truncate long summaries
+            if len(summary) > 500:
+                summary = summary[:497] + "..."
+
+            article_id = entry.get("id", link)
+
+            articles.append(
+                Article(
+                    id=article_id,
+                    title=title,
+                    link=link,
+                    summary=summary,
+                    published=_parse_date(entry),
+                    source_name=source.name,
+                    category=source.category,
+                    category_ja=source.category_ja,
+                )
+            )
+
+        logger.info("Fetched %d articles from %s", len(articles), source.name)
+        return articles
+
+    except Exception:
+        logger.exception("Failed to fetch feed: %s", source.name)
+        return []

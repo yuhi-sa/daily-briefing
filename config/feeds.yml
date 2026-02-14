@@ -1,0 +1,36 @@
+# Daily News Digest - Feed Configuration
+
+settings:
+  max_articles_per_feed: 10
+  dedup_window_days: 7
+
+categories:
+  - name: "Economy & Finance"
+    label_ja: "経済・金融"
+    feeds:
+      - name: "Bloomberg Economics"
+        url: "https://feeds.bloomberg.com/economics/news.rss"
+      - name: "Bloomberg Markets"
+        url: "https://feeds.bloomberg.com/markets/news.rss"
+      - name: "Reuters (via Google News)"
+        url: "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com+economy&ceid=US:en&hl=en-US&gl=US"
+      - name: "Investing.com Economy"
+        url: "https://www.investing.com/rss/news_14.rss"
+
+  - name: "Engineering & Technology"
+    label_ja: "エンジニアリング・技術"
+    feeds:
+      - name: "ArXiv AI/ML"
+        url: "https://rss.arxiv.org/rss/cs.AI+cs.LG"
+      - name: "Hacker News (100+ points)"
+        url: "https://hnrss.org/frontpage?points=100"
+      - name: "IEEE Spectrum AI"
+        url: "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+      - name: "Ars Technica"
+        url: "https://feeds.arstechnica.com/arstechnica/index/"
+      - name: "MIT Technology Review"
+        url: "https://www.technologyreview.com/feed/"
+      - name: "TechXplore Engineering"
+        url: "https://techxplore.com/rss-feed/engineering"
+      - name: "TechXplore ML"
+        url: "https://techxplore.com/rss-feed/machine-learning"
