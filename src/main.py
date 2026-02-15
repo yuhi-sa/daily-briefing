@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import os
 import pathlib
@@ -19,6 +20,7 @@ from .summarizer import generate_briefing, get_summarizer
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = pathlib.Path(__file__).resolve().parent.parent
+WEEKLY_BUFFER = PROJECT_ROOT / "data" / "weekly_articles.json"
 
 
 def setup_logging(verbose: bool = False) -> None:
@@ -30,16 +32,60 @@ def setup_logging(verbose: bool = False) -> None:
     )
 
 
-def run(dry_run: bool = False, verbose: bool = False) -> None:
-    """Execute the full digest pipeline."""
+def _article_to_dict(a: Article) -> dict:
+    return {
+        "id": a.id,
+        "title": a.title,
+        "link": a.link,
+        "summary": a.summary,
+        "published": a.published.isoformat(),
+        "source_name": a.source_name,
+        "category": a.category,
+        "category_ja": a.category_ja,
+    }
+
+
+def _dict_to_article(d: dict) -> Article:
+    return Article(
+        id=d["id"],
+        title=d["title"],
+        link=d["link"],
+        summary=d["summary"],
+        published=datetime.fromisoformat(d["published"]),
+        source_name=d["source_name"],
+        category=d["category"],
+        category_ja=d["category_ja"],
+    )
+
+
+def _load_weekly_buffer() -> list[dict]:
+    if not WEEKLY_BUFFER.exists():
+        return []
+    try:
+        with open(WEEKLY_BUFFER, encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, list) else []
+    except (json.JSONDecodeError, OSError):
+        logger.warning("Corrupted weekly buffer, starting fresh")
+        return []
+
+
+def _save_weekly_buffer(articles: list[dict]) -> None:
+    WEEKLY_BUFFER.parent.mkdir(parents=True, exist_ok=True)
+    with open(WEEKLY_BUFFER, "w", encoding="utf-8") as f:
+        json.dump(articles, f, indent=2, ensure_ascii=False)
+
+
+def run_collect(verbose: bool = False) -> None:
+    """Daily collection: fetch, dedup, summarize, save to daily digest and weekly buffer."""
     setup_logging(verbose)
-    logger.info("Starting Daily News Digest pipeline")
+    logger.info("Starting daily article collection")
 
     # 1. Load config
     config = load_config()
     logger.info("Loaded %d feeds from config", len(config.feeds))
 
-    # 2. Fetch articles from all feeds
+    # 2. Fetch articles
     all_articles: list[Article] = []
     feed_stats: dict[str, bool] = {}
 
@@ -60,80 +106,124 @@ def run(dry_run: bool = False, verbose: bool = False) -> None:
     new_articles = dedup.filter_new(all_articles)
 
     if not new_articles:
-        logger.info("No new articles after dedup, skipping digest")
+        logger.info("No new articles after dedup")
         dedup.save()
         return
 
-    # 4. Summarize
+    # 4. Summarize in Japanese
     api_key = os.environ.get("SUMMARIZER_API_KEY")
     summarizer = get_summarizer(api_key)
     summarized = summarizer.summarize(new_articles)
 
-    # 5. Format digest
+    # 5. Save daily digest file
     now = datetime.now(timezone.utc)
+    date_str = now.strftime("%Y-%m-%d")
     digest_content = format_digest(summarized, date=now, feed_stats=feed_stats)
 
-    # 6. Save digest file
-    date_str = now.strftime("%Y-%m-%d")
     digest_path = PROJECT_ROOT / "digests" / f"{date_str}.md"
     digest_path.parent.mkdir(parents=True, exist_ok=True)
     digest_path.write_text(digest_content, encoding="utf-8")
     logger.info("Digest written to %s", digest_path)
 
-    # Save dedup DB
+    # 6. Append to weekly buffer
+    buffer = _load_weekly_buffer()
+    for a in summarized:
+        buffer.append(_article_to_dict(a))
+    _save_weekly_buffer(buffer)
+    logger.info("Weekly buffer now has %d articles", len(buffer))
+
+    # 7. Save dedup DB
     dedup.save()
 
-    # 6b. Generate briefing for PR body
-    briefing = generate_briefing(summarized, api_key)
+    logger.info("Daily collection complete: %d new articles saved", len(summarized))
+
+
+def run_weekly(dry_run: bool = False, verbose: bool = False) -> None:
+    """Weekly digest: generate briefing from accumulated articles, create PR."""
+    setup_logging(verbose)
+    logger.info("Starting weekly digest PR creation")
+
+    # 1. Load weekly buffer
+    buffer = _load_weekly_buffer()
+    if not buffer:
+        logger.info("No articles in weekly buffer, skipping")
+        return
+
+    articles = [_dict_to_article(d) for d in buffer]
+    logger.info("Loaded %d articles from weekly buffer", len(articles))
+
+    # 2. Generate briefing
+    api_key = os.environ.get("SUMMARIZER_API_KEY")
+    briefing = generate_briefing(articles, api_key)
     if briefing:
-        logger.info("Briefing generated (%d chars)", len(briefing))
+        logger.info("Weekly briefing generated (%d chars)", len(briefing))
     else:
         logger.info("No briefing generated (no API key or failure)")
+
+    # 3. Determine week range for PR title/branch
+    now = datetime.now(timezone.utc)
+    dates = sorted(set(a.published.strftime("%Y-%m-%d") for a in articles))
+    week_start = dates[0]
+    week_end = dates[-1] if len(dates) > 1 else week_start
+    week_label = f"{week_start}_{week_end}"
 
     if dry_run:
         logger.info("Dry run mode - skipping PR creation")
         print(f"\n{'='*60}")
-        print(f"BRIEFING ({date_str})")
+        print(f"WEEKLY BRIEFING ({week_label})")
         print(f"{'='*60}\n")
         print(briefing or "(no briefing)")
-        print(f"\n{'='*60}")
-        print(f"DIGEST ({date_str})")
-        print(f"{'='*60}\n")
-        print(digest_content)
         return
 
-    # 7. Create PR
+    # 4. Collect all digest files for this week
+    digest_dir = PROJECT_ROOT / "digests"
+    digest_files = sorted(digest_dir.glob("*.md"))
+    weekly_digests = [f for f in digest_files if f.name != ".gitkeep"]
+
+    if not weekly_digests:
+        logger.warning("No digest files found")
+        return
+
+    # 5. Create PR
     seen_db_path = PROJECT_ROOT / "data" / "seen_articles.json"
     pr_url = create_pr(
-        digest_path=digest_path,
+        digest_paths=weekly_digests,
         seen_db_path=seen_db_path,
-        date=now,
-        article_count=len(summarized),
-        feed_stats=feed_stats,
+        weekly_buffer_path=WEEKLY_BUFFER,
+        week_label=week_label,
+        article_count=len(articles),
         repo_root=PROJECT_ROOT,
         briefing=briefing,
     )
 
     if pr_url:
-        logger.info("Pipeline complete. PR: %s", pr_url)
+        # 6. Clear weekly buffer (will be committed in next daily run)
+        _save_weekly_buffer([])
+        logger.info("Weekly buffer cleared")
+        logger.info("Weekly digest PR created: %s", pr_url)
     else:
-        logger.warning("Pipeline complete but PR creation failed or was skipped")
+        logger.warning("PR creation failed or was skipped")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Daily News Digest Generator")
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Generate digest locally without creating a PR",
-    )
-    parser.add_argument(
-        "--verbose", "-v",
-        action="store_true",
-        help="Enable debug logging",
-    )
+    subparsers = parser.add_subparsers(dest="command", required=True)
+
+    # collect subcommand
+    collect_parser = subparsers.add_parser("collect", help="Daily article collection")
+    collect_parser.add_argument("--verbose", "-v", action="store_true")
+
+    # weekly subcommand
+    weekly_parser = subparsers.add_parser("weekly", help="Create weekly digest PR")
+    weekly_parser.add_argument("--dry-run", action="store_true")
+    weekly_parser.add_argument("--verbose", "-v", action="store_true")
+
     args = parser.parse_args()
-    run(dry_run=args.dry_run, verbose=args.verbose)
+
+    if args.command == "collect":
+        run_collect(verbose=args.verbose)
+    elif args.command == "weekly":
+        run_weekly(dry_run=args.dry_run, verbose=args.verbose)
 
 
 if __name__ == "__main__":

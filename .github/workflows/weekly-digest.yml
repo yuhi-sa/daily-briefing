@@ -1,19 +1,22 @@
-name: Daily Collect
+name: Weekly Digest PR
 
 on:
   schedule:
-    - cron: '17 22 * * 0-4'  # 07:17 JST (Mon-Fri)
+    - cron: '0 23 * * 4'  # 08:00 JST every Friday
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
-  collect:
+  digest:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
@@ -29,14 +32,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Collect articles
+      - name: Create weekly digest PR
         env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SUMMARIZER_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -m src.main collect
-
-      - name: Commit and push daily digest
-        run: |
-          git add digests/ data/
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Add daily digest for $(date -u +%Y-%m-%d)"
-          git push
+        run: python -m src.main weekly
