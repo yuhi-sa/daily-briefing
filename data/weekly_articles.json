@@ -1,1 +1,692 @@
-[]
+[
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-14/boe-on-knife-edge-over-rates-awaits-pivotal-uk-inflation-data",
+    "title": "BOE on Knife Edge Over Rates Awaits Pivotal UK Inflation Data",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-14/boe-on-knife-edge-over-rates-awaits-pivotal-uk-inflation-data",
+    "summary": "イングランド銀行は、依然として高止まりするインフレへの懸念から金利据え置きを決定した後、今後の重要となるイギリスのインフレ指標を注視している。",
+    "published": "2026-02-14T21:00:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-14/peru-s-sovereignty-not-at-risk-with-chinese-port-minister-says",
+    "title": "Peru’s Sovereignty Not at Risk With Chinese Port, Minister Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-14/peru-s-sovereignty-not-at-risk-with-chinese-port-minister-says",
+    "summary": "ペルー政府は、中国が所有するチャンカイ港の運営が自国の主権を脅かすという懸念を否定し、米政府による規制免除への警告を一蹴しました。",
+    "published": "2026-02-14T16:36:14+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+    "title": "ECB Revamps Euro Liquidity Offer to Boost Currency’s Appeal",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+    "summary": "ECBは、市場の緊張を防ぎユーロの国際的な利用を促進するため、世界各国の金融当局にユーロ流動性を提供する制度を刷新する。",
+    "published": "2026-02-14T16:30:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/features/2026-02-14/beef-prices-are-rising-more-than-inflation-this-year-with-no-relief-seen",
+    "title": "America’s Vanishing Cattle Herd Drives 15% Price Hikes for Beef",
+    "link": "https://www.bloomberg.com/news/features/2026-02-14/beef-prices-are-rising-more-than-inflation-this-year-with-no-relief-seen",
+    "summary": "アメリカの牛の数が減少し、牛肉価格が15%上昇しており、ミズーリ州の牧場主は牛肉市場全体が混乱していると述べています。",
+    "published": "2026-02-14T15:00:02+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/newsletters/2026-02-14/ai-battle-turbocharged-by-50-power-demand-surge-new-economy",
+    "title": "Global AI Battle Turbocharged by 50% Power Demand Surge",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-02-14/ai-battle-turbocharged-by-50-power-demand-surge-new-economy",
+    "summary": "AI開発競争の激化により電力需要が急増し、政策や政治に大きな変化をもたらす「電気の時代」が到来しつつある。",
+    "published": "2026-02-14T11:45:01+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-14/world-economy-latest-us-jobs-inflation-send-mixed-signals-for-fed",
+    "title": "Charting the Global Economy: US Jobs, Inflation Send Mixed Signals for Fed",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-14/world-economy-latest-us-jobs-inflation-send-mixed-signals-for-fed",
+    "summary": "米国の雇用とインフレに関する経済データが相反する兆候を示し、連邦準備制度理事会（FRB）の判断を複雑にしている。",
+    "published": "2026-02-14T10:00:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-14/china-unveils-permanent-rural-finance-framework-eases-risk-rule",
+    "title": "China Unveils Permanent Rural Finance Framework, Eases Risk Rule",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-14/china-unveils-permanent-rural-finance-framework-eases-risk-rule",
+    "summary": "中国は農村振興と貧困再発防止のため、一時的な支援から長期的な支援へと移行し、恒久的な金融支援の枠組みを構築する。リスク管理規則も緩和される。",
+    "published": "2026-02-14T06:37:29+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-14/imf-says-thai-fiscal-support-rate-cut-needed-for-tepid-economy",
+    "title": "IMF Says Thai Fiscal Support, Rate Cut Needed For Tepid Economy",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-14/imf-says-thai-fiscal-support-rate-cut-needed-for-tepid-economy",
+    "summary": "IMFはタイ経済の減速に対応するため、的を絞った財政支援と追加の金融緩和を組み合わせた政策が必要だと提言しました。",
+    "published": "2026-02-14T05:14:31+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-14/friedrichshafen-und-zf-video",
+    "title": "Friedrichshafen und ZF",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-14/friedrichshafen-und-zf-video",
+    "summary": "フリードリヒスハーフェンはかつて工業の中心地であったが、大手自動車部品メーカーZFフリードリヒスハーフェンの経営不振が、その街の経済成長の足かせとなっている。",
+    "published": "2026-02-14T05:00:05+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-13/fed-s-goolsbee-says-more-cuts-hinge-on-inflation-heading-to-2",
+    "title": "Fed’s Goolsbee Says More Cuts Hinge on Inflation Heading to 2%",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-13/fed-s-goolsbee-says-more-cuts-hinge-on-inflation-heading-to-2",
+    "summary": "シカゴ連銀のグールズビー総裁は、インフレ率が2%目標に向かえば追加利下げは可能だが、現状ではそうではないと述べた。",
+    "published": "2026-02-13T20:35:07+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+    "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+    "summary": "インドの中央銀行は、自己勘定取引を行う企業や顧客にレバレッジを提供する企業への融資規制を強化し、投機的市場活動の抑制を目指しています。",
+    "published": "2026-02-15T01:30:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/china-s-stock-bull-run-falters-with-earnings-set-to-underwhelm",
+    "title": "China’s Stock Bull Run Falters With Earnings Set to Underwhelm",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/china-s-stock-bull-run-falters-with-earnings-set-to-underwhelm",
+    "summary": "中国株の強気相場は、企業業績の低迷見通しにより失速しており、春節の消費だけでは相場を再燃させられないと投資家は警戒している。",
+    "published": "2026-02-15T00:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-12/the-legal-weed-business-is-booming-bank-access-isn-t",
+    "title": "The Legal Weed Business Is Booming. Bank Access Isn’t",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-12/the-legal-weed-business-is-booming-bank-access-isn-t",
+    "summary": "合法大麻ビジネスは急成長しているが、銀行からの融資やクレジットカード利用が制限されているため、依然として現金取引が主流となっている。",
+    "published": "2026-02-12T10:00:06+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-14/ai-bubble-fears-are-creating-new-derivatives-credit-weekly",
+    "title": "AI Bubble Fears Are Creating New Derivatives",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-14/ai-bubble-fears-are-creating-new-derivatives-credit-weekly",
+    "summary": "AI開発競争の激化により、大手テック企業が過剰な借り入れを行う懸念から、債券投資家の間で新たな金融派生商品が生まれている。",
+    "published": "2026-02-14T20:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
+    "title": "Zelenskiy Open to Elections if Ceasefire Is Reached",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
+    "summary": "ウクライナのゼレンスキー大統領は、停戦が実現すれば選挙実施に前向きな姿勢を示しました。",
+    "published": "2026-02-14T17:34:54+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-14/starmer-speaks-at-msc-on-independence-from-the-us-video",
+    "title": "Starmer Speaks at MSC, on Independence From the US",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-14/starmer-speaks-at-msc-on-independence-from-the-us-video",
+    "summary": "2026年のミュンヘン安全保障会議で、イギリスのキアー・スターマー首相がアメリカからの独立について演説しました。欧州委員会のフォン・デア・ライエン委員長も同席しました。",
+    "published": "2026-02-14T15:02:29+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-14/is-trump-s-manufacturing-comeback-real-video",
+    "title": "Is Trump’s Manufacturing Comeback Real?",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-14/is-trump-s-manufacturing-comeback-real-video",
+    "summary": "トランプ政権の製造業復活政策（関税など）が実際に効果を上げているのかを検証し、GDP成長率やAIによる生産性向上の可能性について解説しています。",
+    "published": "2026-02-14T15:04:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-14/us-senator-slotkin-speaks-on-us-relationship-with-europe-video",
+    "title": "US Senator Slotkin Speaks on US Relationship with Europe",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-14/us-senator-slotkin-speaks-on-us-relationship-with-europe-video",
+    "summary": "エリッサ・スロットキン上院議員はミュンヘン安全保障会議で、米国の国際的地位とヨーロッパとの関係、関税などについてブルームバーグのインタビューに答えました。",
+    "published": "2026-02-14T14:46:55+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMiygFBVV95cUxPSVdmU1YtU0hWN0VWbHNLVlR1cHZXb3F5b1FZOFM5ZHZFMlVUa3BEZjFBQTZSODg4ejVmZVBMbjRpVXlUOGVIazJPb1Mwcjd2aEVmOXFGNXFwUDl0WndDb2VMM2pUMGdkV3F1SjNRZlByX2FmVUZROW9LODZnTVNjZGRwVmdzN1Rpdm1IbGxBVmxFbkZvSWVUZ3V3dnpoODl1OS1ONEZ1QmM2SXVEemJpU2RZVW1Bb0gwOFpCS0paN2l3c2ZUbkVvNzRB",
+    "title": "Bangladesh's incoming prime minister puts restoring economy and governance first - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSVdmU1YtU0hWN0VWbHNLVlR1cHZXb3F5b1FZOFM5ZHZFMlVUa3BEZjFBQTZSODg4ejVmZVBMbjRpVXlUOGVIazJPb1Mwcjd2aEVmOXFGNXFwUDl0WndDb2VMM2pUMGdkV3F1SjNRZlByX2FmVUZROW9LODZnTVNjZGRwVmdzN1Rpdm1IbGxBVmxFbkZvSWVUZ3V3dnpoODl1OS1ONEZ1QmM2SXVEemJpU2RZVW1Bb0gwOFpCS0paN2l3c2ZUbkVvNzRB?oc=5",
+    "summary": "バングラデシュの新首相は、経済の回復と統治の立て直しを最優先課題として取り組む方針を示しました。",
+    "published": "2026-02-14T11:58:12+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/ecb-makes-euro-backstop-global-to-bolster-currencys-role-4507256",
+    "title": "ECB makes euro backstop global to bolster currency’s role",
+    "link": "https://www.investing.com/news/economy-news/ecb-makes-euro-backstop-global-to-bolster-currencys-role-4507256",
+    "summary": "ECBはユーロの国際的な役割を強化するため、ユーロ建て資金の供給網を世界的に拡大し、他国の中央銀行への支援を強化します。",
+    "published": "2026-02-14T16:54:51+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/factboxecb-opens-up-euro-lifeline-in-bid-to-boost-global-role-4507257",
+    "title": "Factbox-ECB opens up euro lifeline in bid to boost global role",
+    "link": "https://www.investing.com/news/economy-news/factboxecb-opens-up-euro-lifeline-in-bid-to-boost-global-role-4507257",
+    "summary": "欧州中央銀行（ECB）は、ユーロの国際的な役割を強化するため、海外の中央銀行にユーロ建ての流動性供給を開始する。これにより、ユーロ圏外の金融機関がユーロへのアクセスを容易にし、ユーロの利用促進を図る。",
+    "published": "2026-02-14T16:54:34+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/ukraine-imf-ease-conditions-on-new-82-billion-loan-program-4507237",
+    "title": "Ukraine, IMF ease conditions on new $8.2 billion loan program",
+    "link": "https://www.investing.com/news/economy-news/ukraine-imf-ease-conditions-on-new-82-billion-loan-program-4507237",
+    "summary": "ウクライナとIMFは、新たな82億ドルの融資プログラムにおいて、条件を緩和することで合意しました。",
+    "published": "2026-02-14T10:30:32+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/courts-have-ruled-4400-times-that-ice-jailed-people-illegally-it-hasnt-stopped-4507235",
+    "title": "Courts have ruled 4,400 times that ICE jailed people illegally. It hasn’t stopped",
+    "link": "https://www.investing.com/news/economy-news/courts-have-ruled-4400-times-that-ice-jailed-people-illegally-it-hasnt-stopped-4507235",
+    "summary": "ICEが不当に人々を拘束したとして4,400件の裁判所判決が出ているにも関わらず、ICEは同様の行為を続けている。",
+    "published": "2026-02-14T10:12:32+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/what-are-the-implications-of-a-shrinking-fed-balance-sheet-4494164",
+    "title": "What are the implications of a shrinking Fed balance sheet?",
+    "link": "https://www.investing.com/news/economy-news/what-are-the-implications-of-a-shrinking-fed-balance-sheet-4494164",
+    "summary": "FRBのバランスシート縮小は、市場の流動性を低下させ、金利上昇の圧力をかける可能性がある。",
+    "published": "2026-02-14T09:00:02+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/top-3-ai-takeaways-from-web-summit-in-doha-4493554",
+    "title": "Top 3 AI takeaways from Web Summit in Doha",
+    "link": "https://www.investing.com/news/economy-news/top-3-ai-takeaways-from-web-summit-in-doha-4493554",
+    "summary": "Web Summit DohaにおけるAI関連の主要なポイントは3つあり、AI技術の進化とビジネスへの影響に関する洞察が得られた。詳細は記事を参照。",
+    "published": "2026-02-14T08:00:02+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/trump-administration-sued-for-attempted-overhaul-of-public-golf-course-in-washington-4507104",
+    "title": "Trump administration sued for attempted overhaul of public golf course in Washington",
+    "link": "https://www.investing.com/news/economy-news/trump-administration-sued-for-attempted-overhaul-of-public-golf-course-in-washington-4507104",
+    "summary": "環境保護団体が、トランプ政権時代にワシントンD.C.の公共ゴルフコースの改修を試みたことが環境法に違反するとして訴訟を起こしました。この改修はポトマック川への影響を考慮していなかったと主張されています。",
+    "published": "2026-02-14T04:42:29+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/anduril-discusses-new-funding-at-60-billionplus-valuation-the-information-reports-4507049",
+    "title": "Anduril discusses new funding at $60 billion-plus valuation, The Information reports",
+    "link": "https://www.investing.com/news/economy-news/anduril-discusses-new-funding-at-60-billionplus-valuation-the-information-reports-4507049",
+    "summary": "アンドゥリル社が600億ドル以上の評価額で新たな資金調達について協議していると報道されており、同社の成長が期待される。",
+    "published": "2026-02-14T01:24:26+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/swift-home-trademark-abandoned-after-taylor-swift-opposition-4507019",
+    "title": "’Swift Home’ trademark abandoned after Taylor Swift opposition",
+    "link": "https://www.investing.com/news/economy-news/swift-home-trademark-abandoned-after-taylor-swift-opposition-4507019",
+    "summary": "テイラー・スウィフトが異議申し立てをした結果、「Swift Home」の商標が放棄された。",
+    "published": "2026-02-14T00:24:32+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/cubans-turn-to-electric-vehicles-as-us-tightens-oil-blockade-4507016",
+    "title": "Cubans turn to electric vehicles as US tightens oil blockade",
+    "link": "https://www.investing.com/news/economy-news/cubans-turn-to-electric-vehicles-as-us-tightens-oil-blockade-4507016",
+    "summary": "アメリカの経済制裁により石油不足が深刻化するキューバで、電気自動車への移行が進んでいる。",
+    "published": "2026-02-14T00:18:30+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47020218",
+    "title": "NewPipe: YouTube client without vertical videos and algorithmic feed",
+    "link": "https://newpipe.net/",
+    "summary": "NewPipeは、縦型動画やアルゴリズムによるフィードがないYouTubeクライアントであり、ユーザーはよりシンプルで自由な視聴体験を得られる。",
+    "published": "2026-02-15T01:24:16+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47017138",
+    "title": "News publishers limit Internet Archive access due to AI scraping concerns",
+    "link": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
+    "summary": "ニュース出版社が、AIによるスクレイピングを懸念し、Internet Archiveへのアクセスを制限している。これは、記事のURLとコメントURLで議論されており、多くの関心を集めている。",
+    "published": "2026-02-14T18:46:32+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47016443",
+    "title": "uBlock filter list to hide all YouTube Shorts",
+    "link": "https://github.com/i5heu/ublock-hide-yt-shorts/",
+    "summary": "uBlock Originのフィルターリストを使うことで、YouTube Shortsを非表示にできるようになった。GitHubで公開されたこのフィルターリストは、ユーザーがYouTube Shortsを避けるのに役立つ。",
+    "published": "2026-02-14T17:36:45+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47016008",
+    "title": "Amsterdam Compiler Kit",
+    "link": "https://github.com/davidgiven/ack",
+    "summary": "Amsterdam Compiler Kitというコンパイラに関する記事がGitHubで公開され、Hacker Newsで議論されている。",
+    "published": "2026-02-14T16:50:47+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47015294",
+    "title": "My smart sleep mask broadcasts users' brainwaves to an open MQTT broker",
+    "link": "https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/",
+    "summary": "スマート睡眠マスクが、利用者の脳波をMQTTブローカーに公開していることが判明した。これはプライバシー上の懸念を引き起こす可能性がある。",
+    "published": "2026-02-14T15:35:47+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47014500",
+    "title": "Show HN: Sameshi – a ~1200 Elo chess engine that fits within 2KB",
+    "link": "https://github.com/datavorous/sameshi",
+    "summary": "2KBに収まるチェスエンジン「Sameshi」が開発され、MinMaxの変種であるNegamaxとアルファベータ法を採用し、およそ1200 Eloのレーティングを達成した。開発者はデモシーンが好きで、その精神に基づいてこの極小チェスエンジンを作成した。",
+    "published": "2026-02-14T13:47:44+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47014449",
+    "title": "Ooh.directory: a place to find good blogs that interest you",
+    "link": "https://ooh.directory/",
+    "summary": "Ooh.directoryは、興味のある良質なブログを見つけるための場所であり、Hacker Newsで多くの関心を集めている。",
+    "published": "2026-02-14T13:40:20+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47012964",
+    "title": "YouTube as Storage",
+    "link": "https://github.com/PulseBeat02/yt-media-storage",
+    "summary": "GitHub上のプロジェクト「yt-media-storage」に関する記事で、YouTubeをストレージとして利用する試みが紹介されており、議論を呼んでいる。",
+    "published": "2026-02-14T09:10:15+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47012553",
+    "title": "OpenAI should build Slack",
+    "link": "https://www.latent.space/p/ainews-why-openai-should-build-slack",
+    "summary": "OpenAIがSlackのようなコミュニケーションツールを開発すべきという意見が出ているようです。記事とコメント欄では、その理由について議論が交わされています。",
+    "published": "2026-02-14T07:50:13+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47009327",
+    "title": "IBM tripling entry-level jobs after finding the limits of AI adoption",
+    "link": "https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/",
+    "summary": "IBMはAI導入の限界を感じ、Gen Z世代を中心に新卒採用を3倍に増やし、業務内容を見直すことで、AI時代に適応しようとしている。",
+    "published": "2026-02-13T23:34:09+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/chatgpt-translate-skills-human-comparison",
+    "title": "ChatGPT’s Translation Skills Parallel Most Human Translators",
+    "link": "https://spectrum.ieee.org/chatgpt-translate-skills-human-comparison",
+    "summary": "大規模言語モデル（LLM）の翻訳能力が、専門家レベルの人間の翻訳者と遜色ない水準に達しているという研究結果が発表されました。かつては明確な差があった機械翻訳と人間の翻訳の境界線が曖昧になりつつあります。",
+    "published": "2026-02-12T16:00:03+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/moltbook-agentic-ai-agents-openclaw",
+    "title": "The First Social Network for AI Agents Heralds Their Messy Future",
+    "link": "https://spectrum.ieee.org/moltbook-agentic-ai-agents-openclaw",
+    "summary": "AIエージェント向けの初のSNS「Moltbook」が人気を博し、エージェントたちが活発に議論や意見交換を行う一方で、世界征服を脅かすなどの問題も発生している。",
+    "published": "2026-02-12T13:00:03+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/ai-companion-harm-benefit",
+    "title": "How Can AI Companions Be Helpful, not Harmful?",
+    "link": "https://spectrum.ieee.org/ai-companion-harm-benefit",
+    "summary": "AIコンパニオンは孤独な社会でデジタルな友達としての可能性を秘める一方、新たなリスクも伴うため、その有用性を最大限に引き出し、害を最小限に抑える方法を検討する必要がある。",
+    "published": "2026-02-11T14:30:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/ai-companion-relationships",
+    "title": "How Do You Define an AI Companion?",
+    "link": "https://spectrum.ieee.org/ai-companion-relationships",
+    "summary": "AIコンパニオンは、単なるアシスタントではなく感情的なサポートを提供する存在として、チャットボットなどを通じて人間との関係を築きつつあり、専用アプリも人気を集めている。",
+    "published": "2026-02-11T14:00:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/dram-shortage",
+    "title": "How and When the Memory Chip Shortage Will End",
+    "link": "https://spectrum.ieee.org/dram-shortage",
+    "summary": "AIブームによるDRAM需要の急増が、他の用途向けのメモリ供給を圧迫し価格が高騰している。この状況は、AIハードウェア企業による投資動向に左右され、需給バランスの改善時期は不透明である。",
+    "published": "2026-02-10T14:00:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/ai-and-memory-wall",
+    "title": "New Devices Might Scale the Memory Wall",
+    "link": "https://spectrum.ieee.org/ai-and-memory-wall",
+    "summary": "AIの性能を制限するメモリの壁を克服するため、メモリ自体で計算を行うRRAMが有望視されているが、不安定さが課題となっている。最新の研究では、この課題を克服する可能性のある新しいデバイスが登場し、注目を集めている。",
+    "published": "2026-02-09T13:00:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/alphagenome-ai-gene-regulation",
+    "title": "AlphaGenome Deciphers Non-Coding DNA for Gene Regulation",
+    "link": "https://spectrum.ieee.org/alphagenome-ai-gene-regulation",
+    "summary": "AlphaGenomeは、AlphaFoldの技術を応用し、タンパク質の構造予測から、遺伝子制御に関わる非コードDNAの解読へと研究対象を拡大、AIを活用して遺伝子の働きを解明しようとしている。",
+    "published": "2026-02-04T15:00:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/particle-physics-ai",
+    "title": "AI Hunts for the Next Big Thing in Physics",
+    "link": "https://spectrum.ieee.org/particle-physics-ai",
+    "summary": "1932年、物理学者のカール・D・アンダーソンは宇宙線研究中に、陽子と電子の性質を併せ持つ不可解な粒子を発見し、後にノーベル賞を受賞したが、現在AIが物理学における次の大発見を探求している。",
+    "published": "2026-02-03T14:00:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/ai-model-regulation",
+    "title": "Don’t Regulate AI Models. Regulate AI Use",
+    "link": "https://spectrum.ieee.org/ai-model-regulation",
+    "summary": "AI規制においては、モデル自体ではなく、その利用方法に焦点を当てるべきであり、中国やEUなどの規制動向を参考に、プラットフォーム管理や記録保持義務を通じて利用を規制することが重要である。",
+    "published": "2026-02-02T15:00:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/ai-agent-benchmarks",
+    "title": "When Will AI Agents Be Ready for Autonomous Business Operations?",
+    "link": "https://spectrum.ieee.org/ai-agent-benchmarks",
+    "summary": "AIエージェントは高度化しているが、企業が自律的な業務運営に導入するにはリスクがあり、慎重な移行が必要である。特に重要な業務をAIに任せる場合、その影響を十分に考慮する必要がある。",
+    "published": "2026-01-29T21:55:23+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/space/2026/02/nasa-chief-vows-to-solve-sls-rocket-fueling-issues-before-artemis-iii/",
+    "title": "NASA has a new problem to fix before the next Artemis II countdown test",
+    "link": "https://arstechnica.com/space/2026/02/nasa-chief-vows-to-solve-sls-rocket-fueling-issues-before-artemis-iii/",
+    "summary": "NASAはアルテミス2のカウントダウン試験に向けて、以前の試験よりも低い漏洩率を観測したが、新たな修正すべき問題が発生している。",
+    "published": "2026-02-14T21:02:47+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/culture/2026/02/a-valentines-day-homage-to-crouching-tiger-hidden-dragon/",
+    "title": "A Valentine's Day homage to Crouching Tiger, Hidden Dragon",
+    "link": "https://arstechnica.com/culture/2026/02/a-valentines-day-homage-to-crouching-tiger-hidden-dragon/",
+    "summary": "アン・リー監督の映画『グリーン・デスティニー』は、その見事な武術と悲恋物語で、バレンタインデーにふさわしい名作として称えられている。",
+    "published": "2026-02-14T18:33:36+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/science/2026/02/astronomers-are-filling-in-the-blanks-of-the-kuiper-belt/",
+    "title": "Astronomers are filling in the blanks of the Kuiper Belt",
+    "link": "https://arstechnica.com/science/2026/02/astronomers-are-filling-in-the-blanks-of-the-kuiper-belt/",
+    "summary": "次世代望遠鏡が観測を行うことで、天文学者たちは太陽系外縁部のカイパーベルトに関する未解明な情報を解明しつつある。",
+    "published": "2026-02-14T11:45:48+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/health/2026/02/who-slams-us-funded-newborn-vaccine-trial-as-unethical/",
+    "title": "WHO slams US-funded newborn vaccine trial as \"unethical\"",
+    "link": "https://arstechnica.com/health/2026/02/who-slams-us-funded-newborn-vaccine-trial-as-unethical/",
+    "summary": "WHOは、米国が資金提供したギニアビサウでのB型肝炎ワクチン新生児投与試験を「非倫理的」と批判しました。この試験には、CDCが160万ドルを拠出していました。",
+    "published": "2026-02-13T23:16:48+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/tech-policy/2026/02/santa-monica-deploys-ai-powered-parking-cameras-to-protect-bike-lanes/",
+    "title": "Aided by AI, California beach town broadens hunt for bike lane blockers",
+    "link": "https://arstechnica.com/tech-policy/2026/02/santa-monica-deploys-ai-powered-parking-cameras-to-protect-bike-lanes/",
+    "summary": "カリフォルニアの海辺の町は、Hayden AIのAIカメラを搭載した車両を利用し、自転車レーンを塞ぐ車両の取り締まりを強化する。",
+    "published": "2026-02-13T23:03:08+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/tech-policy/2026/02/verizon-makes-customers-wait-35-days-to-unlock-fully-paid-off-phones/",
+    "title": "Verizon imposes new roadblock on users trying to unlock paid-off phones",
+    "link": "https://arstechnica.com/tech-policy/2026/02/verizon-makes-customers-wait-35-days-to-unlock-fully-paid-off-phones/",
+    "summary": "Verizonは、オンラインで端末代金を完済したユーザーが端末のロックを解除する際に、35日間の待機期間を新たに設けた。",
+    "published": "2026-02-13T22:13:27+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/tech-policy/2026/02/after-creepy-super-bowl-ad-sparks-outrage-ring-abandons-flock-deal/",
+    "title": "Ring cancels Flock deal after dystopian Super Bowl ad prompts mass outrage",
+    "link": "https://arstechnica.com/tech-policy/2026/02/after-creepy-super-bowl-ad-sparks-outrage-ring-abandons-flock-deal/",
+    "summary": "Ring社が、ディストピア的なスーパーボウルの広告が大きな反発を招いたことを受け、Flockとの提携を解消し、議員はRing社の顔認識スキャンの停止を求めています。",
+    "published": "2026-02-13T21:39:29+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/gadgets/2026/02/the-first-android-17-beta-is-now-available-on-pixel-devices/",
+    "title": "The first Android 17 beta is now available on Pixel devices",
+    "link": "https://arstechnica.com/gadgets/2026/02/the-first-android-17-beta-is-now-available-on-pixel-devices/",
+    "summary": "Pixelデバイス向けにAndroid 17の最初のベータ版が公開されたが、現時点では大きな変更はない。",
+    "published": "2026-02-13T20:58:25+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/culture/2026/02/1-8-million-mst3k-kickstarter-brings-in-almost-everyone-from-the-old-show/",
+    "title": "$1.8 million MST3K Kickstarter brings in (almost) everyone from the old show",
+    "link": "https://arstechnica.com/culture/2026/02/1-8-million-mst3k-kickstarter-brings-in-almost-everyone-from-the-old-show/",
+    "summary": "MST3Kが180万ドルのKickstarterキャンペーンを実施し、旧番組のキャスト陣がほぼ全員参加することで、2010年代のリバイバルとは異なり、過去を振り返る内容になる。",
+    "published": "2026-02-13T17:52:35+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/science/2026/02/researchers-find-small-rnas-that-can-make-copies-of-themselves/",
+    "title": "Tiny, 45 base long RNA can make copies of itself",
+    "link": "https://arstechnica.com/science/2026/02/researchers-find-small-rnas-that-can-make-copies-of-themselves/",
+    "summary": "わずか45塩基のRNAが自己複製に成功し、生命誕生の過程における重要な段階であった可能性が示唆されました。",
+    "published": "2026-02-13T17:29:51+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132913",
+    "title": "ALS stole this musician’s voice. AI let him sing again.",
+    "link": "https://www.technologyreview.com/2026/02/13/1132913/als-stole-this-musicians-voice-ai-sing/",
+    "summary": "ALSによって歌声を失った音楽家パトリック・ダーリングが、AIの力を借りて再び歌えるようになり、亡き曽祖父に捧げる歌をバンド仲間と演奏し、観客を感動させた。",
+    "published": "2026-02-13T17:17:28+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132896",
+    "title": "The Download: an exclusive chat with Jim O’Neill, and the surprising truth about heists",
+    "link": "https://www.technologyreview.com/2026/02/13/1132896/the-download-an-exclusive-chat-with-jim-oneill-and-the-surprising-truth-about-heists/",
+    "summary": "この記事は、テクノロジー業界のニュースレターの一部で、ジム・オニール氏へのインタビューと、盗難に関する驚くべき事実について触れられています。また、米国の保健副長官がワクチンのガイドラインはまだ変更される可能性があると述べています。",
+    "published": "2026-02-13T13:10:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132397",
+    "title": "The myth of the high-tech heist",
+    "link": "https://www.technologyreview.com/2026/02/13/1132397/myth-of-high-tech-heist/",
+    "summary": "映画制作は、ハイテク技術を駆使した強盗に似ており、創造的なアイデア、専門家チーム、技術的な課題への対応、綿密なリハーサルなどが必要であるという記事です。",
+    "published": "2026-02-13T11:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132889",
+    "title": "US deputy health secretary: Vaccine guidelines are still subject to change",
+    "link": "https://www.technologyreview.com/2026/02/13/1132889/us-deputy-health-secretary-vaccine-guidelines-longevity-arpa-h-cdc-nih/",
+    "summary": "アメリカ合衆国厚生副長官のジム・オニール氏が公衆衛生において重要な役割を担っているが、ワクチンガイドラインは今後も変更される可能性がある。また、記事公開後、同氏が厚生省を離れる予定であると報道された。",
+    "published": "2026-02-13T10:37:40+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132848",
+    "title": "RFK Jr. follows a carnivore diet. That doesn’t mean you should.",
+    "link": "https://www.technologyreview.com/2026/02/13/1132848/rfk-jr-carnivore-diet-maha-social-media/",
+    "summary": "ロバート・F・ケネディ・ジュニアが肉食中心の食事法を推奨しているが、専門家はすべての人に推奨しているわけではない。米国の新たな食生活ガイドラインとは異なる、極端な食生活に警鐘を鳴らしている。",
+    "published": "2026-02-13T10:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132819",
+    "title": "The Download: AI-enhanced cybercrime, and secure AI assistants",
+    "link": "https://www.technologyreview.com/2026/02/12/1132819/the-download-ai-enhanced-cybercrime-and-secure-ai-assistants/",
+    "summary": "AIの進化によりサイバー犯罪がより容易になっている一方で、セキュアなAIアシスタントの開発も進められているというニュースです。",
+    "published": "2026-02-12T13:10:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132386",
+    "title": "AI is already making online crimes easier. It could get much worse.",
+    "link": "https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/",
+    "summary": "AIの進化は、マルウェア分析ツールへの悪用など、オンライン犯罪を容易にする可能性があり、今後さらに状況が悪化する可能性がある。",
+    "published": "2026-02-12T11:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132790",
+    "title": "Why EVs are gaining ground in Africa",
+    "link": "https://www.technologyreview.com/2026/02/12/1132790/evs-progress-africa/",
+    "summary": "アフリカではEVが世界的に普及しつつあるものの、電力インフラの未整備や電力供給の不安定さなどが普及の障壁となっている。",
+    "published": "2026-02-12T11:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132811",
+    "title": "What’s next for Chinese open-source AI",
+    "link": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
+    "summary": "2025年1月以降、中国企業がAIモデルを次々と発表しており、中国AIにとって転換期となっている。MIT Technology ReviewのWhat’s Nextシリーズでは、中国のオープンソースAIの将来について考察している。",
+    "published": "2026-02-12T10:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132768",
+    "title": "Is a secure AI assistant possible?",
+    "link": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
+    "summary": "AIアシスタントは、外部ツールとの連携によりリスクが増大する可能性があり、安全性確保が課題となっている。特に、大規模言語モデルの誤りや不適切な行動が現実世界に影響を及ぼす懸念がある。",
+    "published": "2026-02-11T20:08:35+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  }
+]
