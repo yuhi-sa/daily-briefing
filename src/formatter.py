@@ -24,12 +24,12 @@ def format_digest(
     lines: list[str] = []
 
     # Header
-    lines.append(f"# デイリーニュースダイジェスト")
+    lines.append(f"# Daily News Digest / デイリーニュースダイジェスト")
     lines.append(f"## {date_str}")
     lines.append("")
 
     if not articles:
-        lines.append("本日の新着記事はありません。")
+        lines.append("No new articles today. / 本日の新着記事はありません。")
         lines.append("")
         return "\n".join(lines)
 
@@ -41,32 +41,35 @@ def format_digest(
     # Render each category
     for category, cat_articles in by_category.items():
         cat_ja = cat_articles[0].category_ja
-        lines.append(f"## {cat_ja}")
+        lines.append(f"## {category} / {cat_ja}")
         lines.append("")
 
         for i, article in enumerate(cat_articles, 1):
             lines.append(f"### {i}. {article.title}")
-            lines.append(f"- **ソース**: {article.source_name}")
-            lines.append(f"- **公開日時**: {article.published.strftime('%Y-%m-%d %H:%M UTC')}")
-            lines.append(f"- **リンク**: {article.link}")
+            lines.append(f"- **Source**: {article.source_name}")
+            lines.append(f"- **Published**: {article.published.strftime('%Y-%m-%d %H:%M UTC')}")
+            lines.append(f"- **Link**: {article.link}")
             if article.summary:
-                lines.append(f"- **概要**: {article.summary}")
+                lines.append(f"- **Summary**: {article.summary}")
             lines.append("")
 
     # Footer
     total = len(articles)
     cat_count = len(by_category)
     lines.append("---")
-    lines.append(f"*{total}件の記事、{cat_count}カテゴリ*")
+    lines.append(
+        f"*{total} articles from {cat_count} categories / "
+        f"{total}件の記事、{cat_count}カテゴリ*"
+    )
 
     # Feed status
     if feed_stats:
         ok = sum(1 for v in feed_stats.values() if v)
         fail = sum(1 for v in feed_stats.values() if not v)
-        lines.append(f"*フィード: {ok}件 成功、{fail}件 失敗*")
+        lines.append(f"*Feeds: {ok} succeeded, {fail} failed*")
         if fail > 0:
             failed_names = [k for k, v in feed_stats.items() if not v]
-            lines.append(f"*失敗フィード: {', '.join(failed_names)}*")
+            lines.append(f"*Failed feeds: {', '.join(failed_names)}*")
 
     lines.append("")
     return "\n".join(lines)

@@ -35,4 +35,5 @@ jobs:
       - name: Generate digest and create PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUMMARIZER_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -m src.main

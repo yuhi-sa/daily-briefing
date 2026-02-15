@@ -2,12 +2,22 @@
 
 from __future__ import annotations
 
+import json
 import logging
+import urllib.request
 from abc import ABC, abstractmethod
+from dataclasses import replace
 
 from .parser import Article
 
 logger = logging.getLogger(__name__)
+
+_PROMPT_TEMPLATE = (
+    "以下のニュース記事のタイトルと概要を読んで、日本語で1〜2文の簡潔な要約を書いてください。"
+    "要約のみを返してください。\n\n"
+    "タイトル: {title}\n"
+    "概要: {summary}"
+)
 
 
 class Summarizer(ABC):
@@ -26,29 +36,52 @@ class PassthroughSummarizer(Summarizer):
         return articles
 
 
-class LLMSummarizer(Summarizer):
-    """Placeholder for LLM-based summarization (e.g., Google Gemini free tier).
+class GeminiSummarizer(Summarizer):
+    """Summarizes articles in Japanese using Google Gemini API (free tier)."""
 
-    To enable, set SUMMARIZER_API_KEY environment variable and configure
-    the endpoint. Falls back to passthrough on failure.
-    """
+    ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
-    def __init__(self, api_key: str | None = None, endpoint: str | None = None):
+    def __init__(self, api_key: str):
         self.api_key = api_key
-        self.endpoint = endpoint
+
+    def _call_gemini(self, prompt: str) -> str | None:
+        """Call Gemini API and return the generated text."""
+        url = f"{self.ENDPOINT}?key={self.api_key}"
+        payload = json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            url,
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        except Exception:
+            logger.exception("Gemini API call failed")
+            return None
 
     def summarize(self, articles: list[Article]) -> list[Article]:
-        if not self.api_key:
-            logger.warning("LLMSummarizer: no API key, falling back to passthrough")
-            return articles
-
-        # Placeholder: implement actual LLM API call here
-        logger.info("LLMSummarizer: would summarize %d articles (not yet implemented)", len(articles))
-        return articles
+        logger.info("GeminiSummarizer: summarizing %d articles in Japanese", len(articles))
+        results: list[Article] = []
+        for article in articles:
+            prompt = _PROMPT_TEMPLATE.format(title=article.title, summary=article.summary)
+            ja_summary = self._call_gemini(prompt)
+            if ja_summary:
+                results.append(replace(article, summary=ja_summary))
+            else:
+                logger.warning("Fallback to original summary for: %s", article.title)
+                results.append(article)
+        return results
 
 
 def get_summarizer(api_key: str | None = None) -> Summarizer:
-    """Factory: returns LLMSummarizer if API key is available, else Passthrough."""
+    """Factory: returns GeminiSummarizer if API key is available, else Passthrough."""
     if api_key:
-        return LLMSummarizer(api_key=api_key)
+        return GeminiSummarizer(api_key=api_key)
     return PassthroughSummarizer()
