@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import logging
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from time import mktime
@@ -93,3 +94,35 @@ def fetch_articles(source: FeedSource, max_articles: int = 10) -> list[Article]:
     except Exception:
         logger.exception("Failed to fetch feed: %s", source.name)
         return []
+
+
+def fetch_all_articles(
+    sources: list[FeedSource],
+    max_articles: int = 10,
+    max_workers: int = 8,
+) -> tuple[list[Article], dict[str, bool]]:
+    """Fetch articles from all feeds in parallel using a thread pool.
+
+    Returns a tuple of (all_articles, feed_stats) where feed_stats maps
+    each feed name to whether it succeeded (had at least one article).
+    """
+    all_articles: list[Article] = []
+    feed_stats: dict[str, bool] = {}
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_source = {
+            executor.submit(fetch_articles, source, max_articles): source
+            for source in sources
+        }
+
+        for future in as_completed(future_to_source):
+            source = future_to_source[future]
+            try:
+                articles = future.result()
+                feed_stats[source.name] = len(articles) > 0
+                all_articles.extend(articles)
+            except Exception:
+                logger.exception("Unexpected error fetching %s", source.name)
+                feed_stats[source.name] = False
+
+    return all_articles, feed_stats

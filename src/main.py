@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from .dedup import Deduplicator
 from .feeds import load_config
 from .formatter import format_digest
-from .parser import Article, fetch_articles
+from .parser import Article, fetch_all_articles, fetch_articles
 from .pr_creator import create_pr
 from .summarizer import generate_briefing, get_summarizer
 
@@ -85,14 +85,10 @@ def run_collect(verbose: bool = False) -> None:
     config = load_config()
     logger.info("Loaded %d feeds from config", len(config.feeds))
 
-    # 2. Fetch articles
-    all_articles: list[Article] = []
-    feed_stats: dict[str, bool] = {}
-
-    for source in config.feeds:
-        articles = fetch_articles(source, max_articles=config.max_articles_per_feed)
-        feed_stats[source.name] = len(articles) > 0
-        all_articles.extend(articles)
+    # 2. Fetch articles (parallel)
+    all_articles, feed_stats = fetch_all_articles(
+        config.feeds, max_articles=config.max_articles_per_feed,
+    )
 
     logger.info("Fetched %d total articles from %d feeds", len(all_articles), len(config.feeds))
 
