@@ -3568,5 +3568,805 @@
     "source_name": "Vercel Blog",
     "category": "Languages & Frameworks",
     "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://arstechnica.com/science/2026/02/ancient-mars-was-warm-and-wet-not-cold-and-icy/",
+    "title": "Ancient Mars was warm and wet, not cold and icy",
+    "link": "https://arstechnica.com/science/2026/02/ancient-mars-was-warm-and-wet-not-cold-and-icy/",
+    "summary": "古代の火星は寒く凍り付いた星ではなく、暖かく湿った環境だったことを示す証拠が見つかった。",
+    "published": "2026-02-15T20:14:16+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/",
+    "title": "Editor’s Note: Retraction of article containing fabricated quotations",
+    "link": "https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/",
+    "summary": "捏造された引用を含む記事の取り下げを受け、編集基準を強化する。",
+    "published": "2026-02-15T18:09:09+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/science/2026/02/it-aint-no-unicorn-these-researchers-have-interviewed-130-bigfoot-hunters/",
+    "title": "\"It ain't no unicorn\": These researchers have interviewed 130 Bigfoot hunters",
+    "link": "https://arstechnica.com/science/2026/02/it-aint-no-unicorn-these-researchers-have-interviewed-130-bigfoot-hunters/",
+    "summary": "研究者らは、存在しない可能性が高いビッグフットを探す人々の動機を調査した。",
+    "published": "2026-02-15T17:20:12+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47025624",
+    "title": "Palantir Gets Millions of Dollars from New York City's Public Hospitals",
+    "link": "https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/",
+    "summary": "Palantir社がニューヨーク市の公立病院から数百万ドルの契約を獲得した。",
+    "published": "2026-02-15T17:37:10+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47025399",
+    "title": "LT6502: A 6502-based homebrew laptop",
+    "link": "https://github.com/TechPaula/LT6502",
+    "summary": "6502プロセッサをベースにした自作ラップトップ「LT6502」が開発された。",
+    "published": "2026-02-15T17:12:35+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47025378",
+    "title": "EU bans the destruction of unsold apparel, clothing, accessories and footwear",
+    "link": "https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en",
+    "summary": "EUは、売れ残り衣料品、アクセサリー、靴の廃棄を禁止する新規則を導入しました。",
+    "published": "2026-02-15T17:10:18+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47025188",
+    "title": "Palantir vs. the \"Republik\": US analytics firm takes magazine to court",
+    "link": "https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html",
+    "summary": "米国の分析会社パランティアが、雑誌「Republik」を訴訟で訴えました。",
+    "published": "2026-02-15T16:51:17+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47024907",
+    "title": "Hideki Sato, designer of all Sega's consoles, has died",
+    "link": "https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/",
+    "summary": "セガの全コンソールを設計した佐藤秀樹氏が死去しました（享年75歳）。",
+    "published": "2026-02-15T16:19:51+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47024506",
+    "title": "Gwtar: A static efficient single-file HTML format",
+    "link": "https://gwern.net/gwtar",
+    "summary": "Gwtarは、静的で効率的な単一ファイルのHTMLフォーマットです。",
+    "published": "2026-02-15T15:37:06+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47023238",
+    "title": "Amazon, Google Unwittingly Reveal the Severity of the U.S. Surveillance State",
+    "link": "https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly",
+    "summary": "AmazonとGoogleは、米国の監視国家の深刻さを意図せず明らかにしてしまいました。",
+    "published": "2026-02-15T12:42:17+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47022891",
+    "title": "I Fixed Windows Native Development",
+    "link": "https://marler8997.github.io/blog/fixed-windows/",
+    "summary": "Windowsネイティブ開発の問題点を修正したとする記事が公開され、議論を呼んでいる。",
+    "published": "2026-02-15T11:25:26+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47021980",
+    "title": "Oat – Ultra-lightweight, zero dependency, semantic HTML, CSS, JS UI library",
+    "link": "https://oat.ink/",
+    "summary": "超軽量で依存関係のないHTML/CSS/JS UIライブラリ「Oat」がGitHubで公開された。",
+    "published": "2026-02-15T08:17:05+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47021354",
+    "title": "Flashpoint Archive – Over 200k web games and animations preserved",
+    "link": "https://flashpointarchive.org",
+    "summary": "20万以上のウェブゲームやアニメーションを保存した「Flashpoint Archive」が公開された。",
+    "published": "2026-02-15T05:43:59+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/perseverance-rover-nasa-anthropic-ai",
+    "title": "NASA Let AI Drive the Perseverance Rover",
+    "link": "https://spectrum.ieee.org/perseverance-rover-nasa-anthropic-ai",
+    "summary": "NASAはAIを用いてPerseveranceローバーの経路生成を試験的に行い、456mの自律走行に成功した。",
+    "published": "2026-02-15T14:00:02+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "CBMigwJBVV95cUxQWFAtcG02SmFCQ1FzVWVzbzF0c0twTVgyRzBHSUs2VW5INVpRWWV0R1U5ck5YLXBQRnF4V1FmcUlaY091U19RRnJSOU9MTWZpSzBmOGszSkdZcDNqdDlOWXlXUV8zbHcwdlp1dUQxUnBENDhCWnY2cTJ5MVNFamJvYjhuYkdIcmVSNTA1STBLTlA3RkNCVnBYaUdBM1pTUjh0eUR1dG1nbnIzdFFvdHpqckVveUdUNTZ4RW1jVndkNk01cHhfdmVQNzVadFlyNjVLMVl0MWRKYlBsX3BuYURvUW85dWtyTV9PVWJiZkYzTzBKVDdnQkVPWG44NGNudkQtdnBn",
+    "title": "Lineup adjustments spark early offense for Mizzou baseball’s first win of 2026 - The Prescott Times Media",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWFAtcG02SmFCQ1FzVWVzbzF0c0twTVgyRzBHSUs2VW5INVpRWWV0R1U5ck5YLXBQRnF4V1FmcUlaY091U19RRnJSOU9MTWZpSzBmOGszSkdZcDNqdDlOWXlXUV8zbHcwdlp1dUQxUnBENDhCWnY2cTJ5MVNFamJvYjhuYkdIcmVSNTA1STBLTlA3RkNCVnBYaUdBM1pTUjh0eUR1dG1nbnIzdFFvdHpqckVveUdUNTZ4RW1jVndkNk01cHhfdmVQNzVadFlyNjVLMVl0MWRKYlBsX3BuYURvUW85dWtyTV9PVWJiZkYzTzBKVDdnQkVPWG44NGNudkQtdnBn?oc=5",
+    "summary": "ミズーリ大学の野球チームは、打順の調整によって2026年初勝利を挙げた。",
+    "published": "2026-02-15T02:38:00+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMidEFVX3lxTE1rTm9PSmp1RW8zTF9GNktwVHlqYWNTa09wQlhxTGpjZlNZaU9wUXVZMmtZRGVFUmJBMGthS1E3V1ZxV3V4YWR5Yk9GaVBJTVJOd2UxWHIzcWgxVGh0SWVvc0FLMld5anNsTjNTb05SSWVJZGpm",
+    "title": "How monday.com migrated Cassandra to new EKS clusters with zero downtime - thestack.technology",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rTm9PSmp1RW8zTF9GNktwVHlqYWNTa09wQlhxTGpjZlNZaU9wUXVZMmtZRGVFUmJBMGthS1E3V1ZxV3V4YWR5Yk9GaVBJTVJOd2UxWHIzcWgxVGh0SWVvc0FLMld5anNsTjNTb05SSWVJZGpm?oc=5",
+    "summary": "monday.comは、ダウンタイムなしでCassandraを新しいEKSクラスターに移行した。",
+    "published": "2026-02-11T14:09:01+00:00",
+    "source_name": "Google News Cassandra",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608389",
+    "title": "A beginner’s guide to Tmux: a multitasking superpower for your terminal",
+    "link": "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
+    "summary": "Tmuxはターミナルを分割し、マルチタスクを可能にするツールである。",
+    "published": "2026-02-15T11:50:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/",
+    "title": "CTM360: Lumma Stealer and Ninja Browser malware campaign abusing Google Groups",
+    "link": "https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/",
+    "summary": "CTM360の報告によると、Lumma Stealerマルウェアとトロイの木馬化されたNinja Browserを拡散するために、4,000以上の悪意のあるGoogleグループと3,500以上のGoogleホストURLが使用されている。",
+    "published": "2026-02-15T16:30:41+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
+    "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
+    "link": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
+    "summary": "Pastebinのコメントが悪用され、ClickFixスタイルの攻撃により暗号通貨ユーザーがJavaScriptを実行させられ、攻撃者がBitcoinスワップ取引を乗っ取り資金をリダイレクトする。",
+    "published": "2026-02-15T15:17:27+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html",
+    "title": "Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging",
+    "link": "https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html",
+    "summary": "Microsoftは、DNSルックアップを利用してマルウェアをステージングする新しいClickFix攻撃の詳細を公開した。",
+    "published": "2026-02-15T14:10:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/indonesia-president-prabowo-fired-financial-regulators-after-stock-market-plunge",
+    "title": "Prabowo Fury on Market Rout Shows Growing Divisions in Indonesia",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/indonesia-president-prabowo-fired-financial-regulators-after-stock-market-plunge",
+    "summary": "インドネシア大統領は、MSCIの懸念に関する警告が無視された後、規制当局の解任を命じ、国内の亀裂が拡大している。",
+    "published": "2026-02-15T21:00:03+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/trump-sanctions-chief-poised-to-leave-after-tension-with-bessent",
+    "title": "Trump Sanctions Chief Poised to Leave After Bessent Tension",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/trump-sanctions-chief-poised-to-leave-after-tension-with-bessent",
+    "summary": "トランプ政権の制裁担当トップであるジョン・ハーレー氏が、スコット・ベセント財務長官との摩擦により辞任する見込みである。",
+    "published": "2026-02-15T17:45:16+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/ecb-s-lagarde-pushes-back-against-taxes-to-stop-capital-outflows",
+    "title": "ECB’s Lagarde Pushes Back Against Taxes to Stop Capital Outflows",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/ecb-s-lagarde-pushes-back-against-taxes-to-stop-capital-outflows",
+    "summary": "欧州中央銀行のラガルド総裁は、資本流出を防ぐための課税よりも、ヨーロッパへの投資を促すインセンティブを作る方が有効だと述べた。",
+    "published": "2026-02-15T11:38:16+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/xi-touts-china-s-super-large-market-as-key-to-boost-local-demand",
+    "title": "Xi Touts China’s Super-Large Market as Key to Boost Local Demand",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/xi-touts-china-s-super-large-market-as-key-to-boost-local-demand",
+    "summary": "習近平国家主席は、国内需要を促進するための鍵として、中国の巨大市場をアピールした。",
+    "published": "2026-02-15T10:01:56+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/boe-s-mann-says-uk-consumers-have-been-scarred-by-inflation",
+    "title": "BOE’s Mann Says UK Consumers Have Been ‘Scarred’ by Inflation",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/boe-s-mann-says-uk-consumers-have-been-scarred-by-inflation",
+    "summary": "イングランド銀行のマン氏は、英国経済は低迷しており、高インフレによって消費者が打撃を受け、支出が減少していると述べた。",
+    "published": "2026-02-15T08:16:17+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMi2AFBVV95cUxOQXE0c1k1VF9DbjkyMnZaLXI1b3BPa0hqckMwVVJhZFNrdGtWdks1THB0cnRqWlZlRUsydGVxdHFPYkVOYzVZQ1JLZnZ6THVmSHF5SjNSSlZpdkJaTnQ3ZWcwUDJ3MzAzZjMyX19zODV6bWpERURINTZtT3pqTlp5bC1SWThpSG5zZE9ZbFpwMTNlek9KMm1aWkhBTnBZSHl2SVRYRFRaLW4zVnp4ZVV0VFBBRDhvcEhjV0VKaEZRODNuR29fUFBJMXBFenBKUXQtTFUtWHdTbEs",
+    "title": "Peru's economy grew 3.4% in 2025, the government's statistics agency says - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQXE0c1k1VF9DbjkyMnZaLXI1b3BPa0hqckMwVVJhZFNrdGtWdks1THB0cnRqWlZlRUsydGVxdHFPYkVOYzVZQ1JLZnZ6THVmSHF5SjNSSlZpdkJaTnQ3ZWcwUDJ3MzAzZjMyX19zODV6bWpERURINTZtT3pqTlp5bC1SWThpSG5zZE9ZbFpwMTNlek9KMm1aWkhBTnBZSHl2SVRYRFRaLW4zVnp4ZVV0VFBBRDhvcEhjV0VKaEZRODNuR29fUFBJMXBFenBKUXQtTFUtWHdTbEs?oc=5",
+    "summary": "ペルーの政府統計機関によると、2025年のペルー経済成長率は3.4%だった。",
+    "published": "2026-02-15T15:57:29+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/a2-milk-lifts-revenue-guidance-as-china-formula-sales-increase",
+    "title": "a2 Milk Lifts Revenue Guidance as China Formula Sales Increase",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/a2-milk-lifts-revenue-guidance-as-china-formula-sales-increase",
+    "summary": "a2 Milkは、中国での粉ミルク販売が好調なため、上半期の収益が向上し、通年の収益見通しを引き上げた。",
+    "published": "2026-02-15T20:19:01+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/bond-traders-look-to-jobs-data-stocks-for-gut-check-on-rally",
+    "title": "Bond Traders Look to Jobs Data, Stocks for Gut Check on Rally",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/bond-traders-look-to-jobs-data-stocks-for-gut-check-on-rally",
+    "summary": "米国の債券トレーダーは、今週の株式市場の動向と雇用統計などの経済指標を注視し、米国債のラリーが続くかどうかを見極めようとしている。",
+    "published": "2026-02-15T20:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting",
+    "title": "Rich World’s Growing Civil Unrest Comes With an Insurance Sting",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting",
+    "summary": "先進国での社会不安の増加に伴い、以前はほとんど存在しなかった保険リスクが、保険業界にとって大きな損失の原因となっている。",
+    "published": "2026-02-15T09:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/hungary-seeks-russian-crude-shipments-via-croatia-minister-says",
+    "title": "Hungary Seeks Russian Crude Shipments Via Croatia, Minister Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/hungary-seeks-russian-crude-shipments-via-croatia-minister-says",
+    "summary": "ハンガリーは、ウクライナを経由する主要ルートが閉鎖されている間、クロアチアにアドリア海パイプライン経由でのロシア産原油の輸送を許可するよう要請した。",
+    "published": "2026-02-15T18:18:08+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/gasoline-starved-california-is-turning-to-fuel-from-the-bahamas",
+    "title": "Gasoline-Starved California Is Turning to Fuel From the Bahamas",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/gasoline-starved-california-is-turning-to-fuel-from-the-bahamas",
+    "summary": "ガソリン精製能力の低下と高価格に苦しむカリフォルニア州が、バハマを経由して米国からガソリンを輸入している。",
+    "published": "2026-02-15T16:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-15/why-wall-e-is-the-good-scenario-from-ai-disruption-video",
+    "title": "Why WALL-E is 'The Good Scenario' from AI Disruption",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-15/why-wall-e-is-the-good-scenario-from-ai-disruption-video",
+    "summary": "AIが人間の専門性の価値を再構築しているが、その影響は決定的ではなく、AIが賃金や生産性を向上させる場合もあれば、競争を激化させ、給与を圧縮する場合もある。",
+    "published": "2026-02-15T15:03:26+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/options-exchanges-want-to-scrap-fee-model-that-makes-no-sense",
+    "title": "Options Exchanges Want to Scrap Fee Model That Makes ‘No Sense’",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/options-exchanges-want-to-scrap-fee-model-that-makes-no-sense",
+    "summary": "米国の株式オプション取引所は、競合取引所で行われた取引に対する手数料を徴収できる長年の慣行を廃止しようとしている。",
+    "published": "2026-02-15T15:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/a-stock-market-doom-loop-is-hitting-everything-that-touches-ai",
+    "title": "A Stock Market Doom Loop Is Hitting Everything That Touches AI",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/a-stock-market-doom-loop-is-hitting-everything-that-touches-ai",
+    "summary": "人工知能業界によって引き起こされた株式市場の混乱は、相容れない2つの恐怖を反映している。",
+    "published": "2026-02-15T14:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/carry-trade-commodities-make-em-currencies-more-stable-than-g-7",
+    "title": "Carry Trade, Commodities Make EM Currencies More Stable Than G-7",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/carry-trade-commodities-make-em-currencies-more-stable-than-g-7",
+    "summary": "新興国通貨は先進国通貨よりも安定しており、一部の投資家はこれが20年以上で最長になる可能性があると述べている。",
+    "published": "2026-02-15T13:30:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552226-u-s-stocks-now-40-percent-more-expensive-than-rest-of-world?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "U.S. stocks now 40% more expensive than rest of world",
+    "link": "https://seekingalpha.com/news/4552226-u-s-stocks-now-40-percent-more-expensive-than-rest-of-world?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "米国株は他の国の株式と比較して40%も割高になっている。",
+    "published": "2026-02-15T19:18:26+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552118-sa-asks-which-financial-stocks-could-be-hit-hard-by-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "SA Asks: Which financial stocks could be hit hard by AI?",
+    "link": "https://seekingalpha.com/news/4552118-sa-asks-which-financial-stocks-could-be-hit-hard-by-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "AIの導入によって大きな打撃を受ける可能性のある金融株に関する議論が行われている。",
+    "published": "2026-02-15T19:00:32+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552225-mag-7-will-continue-to-trail-equal-weight-s-and-p-this-year-goldman?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Mag 7 will continue to trail equal-weight S&P this year - Goldman",
+    "link": "https://seekingalpha.com/news/4552225-mag-7-will-continue-to-trail-equal-weight-s-and-p-this-year-goldman?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "ゴールドマン・サックスは、今年のS&P500の均等加重指数に対して、マグニフィセント・セブン（Mag 7）のパフォーマンスが引き続き劣ると予測している。",
+    "published": "2026-02-15T18:46:39+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552218-six-of-the-eight-sp-500-utilities-companies-beat-results-this-week?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Six of the eight S&P 500 utilities companies beat results this week",
+    "link": "https://seekingalpha.com/news/4552218-six-of-the-eight-sp-500-utilities-companies-beat-results-this-week?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "今週、S&P500の公益事業セクターの8社のうち6社が市場予想を上回る業績を上げた。",
+    "published": "2026-02-15T18:05:16+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552091-sa-asks-which-financial-stocks-are-best-positioned-for-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "SA Asks: Which financial stocks are best positioned for AI?",
+    "link": "https://seekingalpha.com/news/4552091-sa-asks-which-financial-stocks-are-best-positioned-for-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "AIの導入で最も有利な立場にある金融株に関する議論が行われている。",
+    "published": "2026-02-15T17:00:27+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552223-odds-near-one-in-four-supreme-court-rules-in-favor-of-trumps-tariffs?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Odds near one in four Supreme Court rules in favor of Trump's tariffs",
+    "link": "https://seekingalpha.com/news/4552223-odds-near-one-in-four-supreme-court-rules-in-favor-of-trumps-tariffs?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "最高裁判所がトランプ政権の関税を支持する確率は約4分の1である。",
+    "published": "2026-02-15T15:18:30+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552219-chinese-new-year-macau-bets-and-new-ai-models-launch-the-year-of-the-horse?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Chinese New Year: Macau bets and new AI models launch the Year of the Horse",
+    "link": "https://seekingalpha.com/news/4552219-chinese-new-year-macau-bets-and-new-ai-models-launch-the-year-of-the-horse?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "マカオは旧正月（午年）に賭けを行い、新たなAIモデルを発表した。",
+    "published": "2026-02-15T14:10:32+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870492",
+    "title": "Nomura Mid Cap Growth Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4870492-nomura-mid-cap-growth-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "野村ミッドキャップ成長ファンドは、2025年第4四半期の状況について解説している。",
+    "published": "2026-02-15T19:27:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870491",
+    "title": "Lazard Enhanced Opportunities Portfolio Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4870491-lazard-enhanced-opportunities-portfolio-q4-2025-commentary?source=feed_all_articles",
+    "summary": "ラザード・エンハンスト・オポチュニティーズ・ポートフォリオは、2025年第4四半期の状況について解説している。",
+    "published": "2026-02-15T19:18:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870490",
+    "title": "Diamond Hill Select Strategy Q4 2025 Portfolio Review",
+    "link": "https://seekingalpha.com/article/4870490-diamond-hill-select-strategy-q4-2025-portfolio-review?source=feed_all_articles",
+    "summary": "ダイヤモンドヒル・セレクト・ストラテジーは、2025年第4四半期のポートフォリオレビューを行っている。",
+    "published": "2026-02-15T19:07:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870478",
+    "title": "Nebius: AI Discount Bin",
+    "link": "https://seekingalpha.com/article/4870478-nebius-ai-discount-bin?source=feed_all_articles",
+    "summary": "NebiusはAI関連のサービスを割引価格で提供している。",
+    "published": "2026-02-15T19:00:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870489",
+    "title": "Diamond Hill Select Strategy Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4870489-diamond-hill-select-strategy-q4-2025-commentary?source=feed_all_articles",
+    "summary": "Diamond Hill Select Strategyの2025年第4四半期の市場に関する見解が示されている。",
+    "published": "2026-02-15T18:56:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870488",
+    "title": "BlackRock Global Equity Market Neutral Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4870488-blackrock-global-equity-market-neutral-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "BlackRock Global Equity Market Neutral Fundの2025年第4四半期の市場に関する見解が示されている。",
+    "published": "2026-02-15T18:46:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870487",
+    "title": "Northern Bond Index Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4870487-northern-bond-index-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "Northern Bond Index Fundの2025年第4四半期の市場に関する見解が示されている。",
+    "published": "2026-02-15T18:40:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870486",
+    "title": "Touchstone Dividend Equity Fund Q4 2025 Portfolio Review",
+    "link": "https://seekingalpha.com/article/4870486-touchstone-dividend-equity-fund-q4-2025-portfolio-review?source=feed_all_articles",
+    "summary": "Touchstone Dividend Equity Fundの2025年第4四半期のポートフォリオレビューが公開された。",
+    "published": "2026-02-15T18:33:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870485",
+    "title": "Touchstone Dividend Equity Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4870485-touchstone-dividend-equity-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "Touchstone Dividend Equity Fundの2025年第4四半期の状況に関するレポート。",
+    "published": "2026-02-15T18:23:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870483",
+    "title": "Wall Street Brunch: Walmart Weighs In As Q4 GDP Hits",
+    "link": "https://seekingalpha.com/article/4870483-wall-street-brunch-walmart-weighs-in-as-q4-gdp-hits?source=feed_all_articles",
+    "summary": "ウォール街のまとめ記事で、第4四半期のGDPに言及しつつ、ウォルマートの動向についても触れている。",
+    "published": "2026-02-15T18:12:47+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/uk-minimum-wage-is-raising-youth-unemployment-bank-of-englands-mann-says-4507281",
+    "title": "UK minimum wage is raising youth unemployment, Bank of England’s Mann says",
+    "link": "https://www.investing.com/news/economy-news/uk-minimum-wage-is-raising-youth-unemployment-bank-of-englands-mann-says-4507281",
+    "summary": "イギリスの最低賃金引き上げが若年層の失業率上昇につながっているとイングランド銀行のマン氏が指摘。",
+    "published": "2026-02-15T11:18:28+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/bofa-flags-downside-risks-to-us-dollar-with-affordability-fears-in-focus-4503451",
+    "title": "BofA flags downside risks to U.S. dollar with affordability fears in focus",
+    "link": "https://www.investing.com/news/economy-news/bofa-flags-downside-risks-to-us-dollar-with-affordability-fears-in-focus-4503451",
+    "summary": "BofAは、米ドルの割高感から下落リスクがあると警告している。",
+    "published": "2026-02-15T09:00:04+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/why-this-analyst-says-the-yen-carry-trade-is-a-ticking-time-bomb-4499710",
+    "title": "Why this analyst says the yen carry trade is \"a ticking time bomb\"",
+    "link": "https://www.investing.com/news/economy-news/why-this-analyst-says-the-yen-carry-trade-is-a-ticking-time-bomb-4499710",
+    "summary": "あるアナリストは、円キャリートレードが「時限爆弾」であると警告している。",
+    "published": "2026-02-15T08:00:04+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=73186",
+    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+    "summary": "Kimwolfボットネットが、匿名化ネットワークI2Pを攻撃し、通信を妨害している。",
+    "published": "2026-02-11T16:08:11+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=73145",
+    "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+    "summary": "Scattered Lapsus ShinyHunters (SLSH) は、被害企業の幹部やその家族を脅迫し、情報をリークするなどして、金銭を要求するデータリークグループである。",
+    "published": "2026-02-02T16:15:16+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=73071",
+    "title": "Who Operates the Badbox 2.0 Botnet?",
+    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
+    "summary": "KimwolfのオペレーターがBadbox 2.0のコントロールパネルを侵害したスクリーンショットを公開し、FBIとGoogleが追跡中のBadbox 2.0の背後関係者の手がかりとなった。",
+    "published": "2026-01-26T16:11:38+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "compass-stock-buy-barrier-capital-204242189.html",
+    "title": "Is Compass Stock a Buy After Barrier Capital Initiated a Position Worth Over $10 Million?",
+    "link": "https://finance.yahoo.com/news/compass-stock-buy-barrier-capital-204242189.html",
+    "summary": "（情報なし）",
+    "published": "2026-02-15T20:42:42+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "don-t-look-might-brink-200521050.html",
+    "title": "Don’t Look – But We Might Be on the Brink of a Market Breakout",
+    "link": "https://finance.yahoo.com/news/don-t-look-might-brink-200521050.html",
+    "summary": "市場はブレイクアウトの瀬戸際にある可能性がある。",
+    "published": "2026-02-15T20:05:21+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "more-couples-are-ditching-joint-bank-accounts-and-experts-see-a-benefit-192326210.html",
+    "title": "More couples are ditching joint bank accounts, and experts see a benefit",
+    "link": "https://finance.yahoo.com/personal-finance/banking/article/more-couples-are-ditching-joint-bank-accounts-and-experts-see-a-benefit-192326210.html",
+    "summary": "共同銀行口座をやめるカップルが増加しており、専門家はそのメリットを指摘している。",
+    "published": "2026-02-10T19:23:26+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "warner-bros-weighs-reopening-sale-195058251.html",
+    "title": "Warner Bros weighs reopening sale talks with Paramount, Bloomberg News reports",
+    "link": "https://finance.yahoo.com/news/warner-bros-weighs-reopening-sale-195058251.html",
+    "summary": "ワーナー・ブラザースがパラマウントとの売却交渉再開を検討しているとブルームバーグが報じた。",
+    "published": "2026-02-15T19:50:58+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "walmart-earnings-spending-data-and-more-ai-disruptions-what-to-watch-this-week-125712762.html",
+    "title": "Walmart earnings, spending data, and more AI disruptions: What to watch this week",
+    "link": "https://finance.yahoo.com/news/walmart-earnings-spending-data-and-more-ai-disruptions-what-to-watch-this-week-125712762.html",
+    "summary": "今週はウォルマートの収益、支出データ、そしてAIによるさらなる破壊的変化に注目が集まる。",
+    "published": "2026-02-15T12:57:12+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "does-riot-platforms-5-3-203647628.html",
+    "title": "Does Riot Platforms' 5.3% Gain This Past Week Signal a Recovery Is Underway?",
+    "link": "https://finance.yahoo.com/news/does-riot-platforms-5-3-203647628.html",
+    "summary": "ライオット・プラットフォームズの過去1週間の5.3%の増加は、回復の兆候を示している可能性がある。",
+    "published": "2026-02-15T20:36:47+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "the-dark-side-of-ai-wall-street-weighs-recent-stock-sell-off-over-disruption-fears-160054016.html",
+    "title": "'The dark side of AI': Wall Street weighs recent stock sell-off over disruption fears",
+    "link": "https://finance.yahoo.com/news/the-dark-side-of-ai-wall-street-weighs-recent-stock-sell-off-over-disruption-fears-160054016.html",
+    "summary": "AIの「暗黒面」として、ウォール街は破壊的変化への懸念から最近の株の売り出しについて検討している。",
+    "published": "2026-02-15T16:00:54+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "how-much-of-families-paychecks-go-toward-healthcare-costs-it-depends-on-the-state-150004908.html",
+    "title": "How much of families' paychecks go toward healthcare costs? It depends on the state.",
+    "link": "https://finance.yahoo.com/news/how-much-of-families-paychecks-go-toward-healthcare-costs-it-depends-on-the-state-150004908.html",
+    "summary": "医療費が家計に占める割合は州によって異なる。",
+    "published": "2026-02-15T15:05:33+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "warren-buffett-says-only-buy-174836431.html",
+    "title": "Warren Buffett Says Only Buy Stocks You’re Comfortable Holding For Ten Years, Otherwise Don’t Bother Even ‘Owning it for Ten Minutes’",
+    "link": "https://finance.yahoo.com/news/warren-buffett-says-only-buy-174836431.html",
+    "summary": "ウォーレン・バフェットは、10年間保有できる銘柄のみを買うべきだと述べている。",
+    "published": "2026-02-15T17:48:36+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "aurora-innovation-aur-reports-q4-171145595.html",
+    "title": "Aurora Innovation (AUR) Reports Q4 Loss",
+    "link": "https://finance.yahoo.com/news/aurora-innovation-aur-reports-q4-171145595.html",
+    "summary": "Aurora Innovation (AUR) は第4四半期に損失を計上した。",
+    "published": "2026-02-15T17:11:45+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004778911",
+    "title": "Rents are finally falling in some parts of the country. Here’s who is actually feeling the relief.",
+    "link": "https://www.marketwatch.com/story/rents-are-finally-falling-in-some-parts-of-the-country-heres-who-is-actually-feeling-the-relief-08d1a6dd?mod=mw_rss_topstories",
+    "summary": "一部の地域で家賃が下落しているが、過去数年間の急騰により依然として高水準である。",
+    "published": "2026-02-15T20:22:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004772996",
+    "title": "Is the stock market open tomorrow for Presidents Day? Will USPS, FedEx and UPS make deliveries?",
+    "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-presidents-day-will-usps-fedex-and-ups-make-deliveries-31d15912?mod=mw_rss_topstories",
+    "summary": "プレジデント・デーは祝日のため、株式市場は休場し、郵便サービスにも影響が出る。",
+    "published": "2026-02-15T17:25:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004778344",
+    "title": "Here are 7 charts guaranteed to stress you out about the stock market",
+    "link": "https://www.marketwatch.com/story/here-are-7-charts-guaranteed-to-stress-you-out-about-the-stock-market-085b23c1?mod=mw_rss_topstories",
+    "summary": "株式市場に関する7つのチャートが、マグニフィセント・セブン崩壊やディフェンシブ銘柄の好調、中間選挙のジンクスなど、投資家にストレスを与えている。",
+    "published": "2026-02-15T17:00:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004769159",
+    "title": "My elderly mother has dementia. My sister sold her house and has hidden the proceeds. What can we do?",
+    "link": "https://www.marketwatch.com/story/she-is-planning-to-move-out-of-state-my-sister-secretly-sold-our-elderly-mothers-house-what-can-i-do-e9a9f486?mod=mw_rss_topstories",
+    "summary": "認知症の母親の家を妹が売却し、その収益を隠している状況で、資金管理を巡る姉妹間の対立が深刻化している。",
+    "published": "2026-02-15T13:30:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004772174",
+    "title": "‘I’m a loner’: I’m 62 with a multimillion-dollar portfolio and no heirs. Should I find a wife for my twilight years?",
+    "link": "https://www.marketwatch.com/story/im-a-loner-im-62-with-a-multimillion-dollar-portfolio-and-no-heirs-should-i-find-a-wife-for-my-twilight-years-4f4f4408?mod=mw_rss_topstories",
+    "summary": "62歳で多額の資産を持つ独身男性が、相続人がいないため、老後の伴侶を探すべきか悩んでいる。",
+    "published": "2026-02-15T13:17:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiqgFBVV95cUxPVXdhVlg0TGw0d3YwY2tyUk1xMlNUdHZzVDRMc19DeFRteDhfTEl6b1NGTVRWTDZVNzNrRjI5aE5MejZhMzBYMVc4aV8yYXB2T2EwNUpFdDdXZjQyYTI4eXhFUVVYX0dzaU1RUU16NGE2MnRmRVQtbUpkRHFObkZfTUVTN0V4NGlJOVZ3Wkp5dkktd2d3TVhXU0s4c3QxckdWMVJaME55X0N3Z9IBrwFBVV95cUxNN3JaMkdncERHTndFTWRPRm9KLXhDQkFwSlJaa3g0TFNnSjNEbmV4S0NsUGpZbkdCX2tBdFFZQWJoU2U5RHBKR2tnTWJFWUZlTDJLZzdyOVl2RU1oVUhHZ0lUTnh5ZGxvT05ZREhpY3NzN29fWWc2VDdYejZkRWNUUTFZcExZZmZjOVdJU2laUW8wTk1pWXhaVWQ4WEpzNmV4TVJjWHMxZFU3UG5DcC00",
+    "title": "Top Wall Street analysts recommend these dividend stocks for consistent income - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVXdhVlg0TGw0d3YwY2tyUk1xMlNUdHZzVDRMc19DeFRteDhfTEl6b1NGTVRWTDZVNzNrRjI5aE5MejZhMzBYMVc4aV8yYXB2T2EwNUpFdDdXZjQyYTI4eXhFUVVYX0dzaU1RUU16NGE2MnRmRVQtbUpkRHFObkZfTUVTN0V4NGlJOVZ3Wkp5dkktd2d3TVhXU0s4c3QxckdWMVJaME55X0N3Z9IBrwFBVV95cUxNN3JaMkdncERHTndFTWRPRm9KLXhDQkFwSlJaa3g0TFNnSjNEbmV4S0NsUGpZbkdCX2tBdFFZQWJoU2U5RHBKR2tnTWJFWUZlTDJLZzdyOVl2RU1oVUhHZ0lUTnh5ZGxvT05ZREhpY3NzN29fWWc2VDdYejZkRWNUUTFZcExZZmZjOVdJU2laUW8wTk1pWXhaVWQ4WEpzNmV4TVJjWHMxZFU3UG5DcC00?oc=5",
+    "summary": "ウォール街のアナリストが、安定した収入を得るために推奨する高配当株を紹介している。",
+    "published": "2026-02-15T13:47:44+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMihAFBVV95cUxOT0xYTkxFTVhseUFxOXR0enhMVGZWVTlhNXpYVXJIWlh6RWFpLTd3VlRTU0hPeXFJd1BlVDVRd2ViV1NsZzlEakI5R3FvTlhiOWxVQlJmZkhWdjhPeUQ3X09VXzF0UEJlZDRDNG5CMDFrS2xuNDVSdWs3U3EwSEdsZzVCRm8",
+    "title": "A Look At ACM Research (ACMR) Valuation As Earnings Jitters Follow Recent Share Price Drop - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT0xYTkxFTVhseUFxOXR0enhMVGZWVTlhNXpYVXJIWlh6RWFpLTd3VlRTU0hPeXFJd1BlVDVRd2ViV1NsZzlEakI5R3FvTlhiOWxVQlJmZkhWdjhPeUQ3X09VXzF0UEJlZDRDNG5CMDFrS2xuNDVSdWs3U3EwSEdsZzVCRm8?oc=5",
+    "summary": "ACM Research（ACMR）の株価下落を受け、決算発表に対する不安が高まっており、株価評価について分析が行われている。",
+    "published": "2026-02-15T10:06:30+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMixAFBVV95cUxPUVdYX0xTdVc5aVFpUDF3S09GN09uSFBUMGV1aWVYdEFuYkxTdkhLaXBxN3plNEZ5aVNwYkh2cDJGNng4MHk3RzZvVjdISWxtWnBVZGVKZnhreHpMTjVMYVZCNjFxYm52cVY3WnA4ZHNLdVpBQjdJVndoS18tTXJHdlVZb1BLeDhTYUJraGYwSzhkM2hfeWdWUVpJdF9ibk9GdVByMndYTmJOUkpOWjE4djJlSmdCQjNEbzlpTEtRRFFMRy1r",
+    "title": "Coinbase Stock Surges 17% After Earnings, But Technical Analysis Suggests Downtrend May Resume - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUVdYX0xTdVc5aVFpUDF3S09GN09uSFBUMGV1aWVYdEFuYkxTdkhLaXBxN3plNEZ5aVNwYkh2cDJGNng4MHk3RzZvVjdISWxtWnBVZGVKZnhreHpMTjVMYVZCNjFxYm52cVY3WnA4ZHNLdVpBQjdJVndoS18tTXJHdlVZb1BLeDhTYUJraGYwSzhkM2hfeWdWUVpJdF9ibk9GdVByMndYTmJOUkpOWjE4djJlSmdCQjNEbzlpTEtRRFFMRy1r?oc=5",
+    "summary": "Coinbaseの株価は決算発表後に17%上昇したが、テクニカル分析では下降トレンドが再開する可能性が示唆されている。",
+    "published": "2026-02-15T15:14:11+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMipgFBVV95cUxQRV80YjF1Vl9xcXc5V0lBQU5RREFiUzFpYWdObWwzS2cyYk9FZ0pzSEJjMVpublQ2MzVQeDkwWGlPcFV2THJ0MjFMektUVjZHdnNydVBoTXN1NzZJMDRqZ19QdjVvalRWeVZobzhTUTR0M0FfVUFWeVdMX3RGblNOSTN0TWV0MUc4WWJGUGhvX05xNnc5UklNNGpoUm5XeWl2Q1hzR3VR",
+    "title": "Coinbase (COIN) Stock: Analysts Cut Price Targets Following Q4 2025 Earnings Miss - CoinCentral",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRV80YjF1Vl9xcXc5V0lBQU5RREFiUzFpYWdObWwzS2cyYk9FZ0pzSEJjMVpublQ2MzVQeDkwWGlPcFV2THJ0MjFMektUVjZHdnNydVBoTXN1NzZJMDRqZ19QdjVvalRWeVZobzhTUTR0M0FfVUFWeVdMX3RGblNOSTN0TWV0MUc4WWJGUGhvX05xNnc5UklNNGpoUm5XeWl2Q1hzR3VR?oc=5",
+    "summary": "Coinbaseの株価は、2025年第4四半期の決算不調を受けて、アナリストによって目標株価が引き下げられた。",
+    "published": "2026-02-15T08:39:31+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMihgFBVV95cUxNa2NhSHRrSmc0eGFZNmNjX2tsaFVaRHJad2ZXUHV3eHBJTzBCRzNEcjJCenNyLU1EQjJHLUFFU3VDS3NZN2NNLVZmNTFGZEFYc2JyWUlPUWZiOHZWcEtiM0tDVmg0UVRoTXlZaHl2U3ZHaWZfVW5lV2d4c1dGeWNiaEtZWXdDUQ",
+    "title": "How interest rate cuts could boost Gartner Inc. stock - Earnings Growth Summary & AI Driven Stock Reports - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa2NhSHRrSmc0eGFZNmNjX2tsaFVaRHJad2ZXUHV3eHBJTzBCRzNEcjJCenNyLU1EQjJHLUFFU3VDS3NZN2NNLVZmNTFGZEFYc2JyWUlPUWZiOHZWcEtiM0tDVmg0UVRoTXlZaHl2U3ZHaWZfVW5lV2d4c1dGeWNiaEtZWXdDUQ?oc=5",
+    "summary": "金利引き下げがGartner Inc.の株価を押し上げる可能性がある。",
+    "published": "2026-02-15T16:11:52+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMi0wFBVV95cUxOcnZnc1ljaWJtenFINEppeU5saDFPTGlTS3FQd0VjOGdpTi1CSWo4MTR2T2p5ajJxNDBweGNLcUloMEZWbVExN2VONlg5Sm9VZ1lILWNwYUZxRUhmOXpXd1BJSzdGTHhQcjE2WDZmdUNhWXhZaVFsRU5hVG9LQkVHUjdnUmI3REI0WDdtMlZyMDFuRHpRWFUwWmZhZ0VkaVZMZWkwTW9wajNoeXhGVXVUZUNQTUlVSHBobThEeGZqUXVUVEJJY1ZEczJRRXZlVV93SzdJ",
+    "title": "Navan (NAVN) Stock Sinks on Q3 Earnings and CFO Exit: Guidance, Analyst Price Targets, and Forecasts for 2026 (Dec. 16, 2025) - TechStock²",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcnZnc1ljaWJtenFINEppeU5saDFPTGlTS3FQd0VjOGdpTi1CSWo4MTR2T2p5ajJxNDBweGNLcUloMEZWbVExN2VONlg5Sm9VZ1lILWNwYUZxRUhmOXpXd1BJSzdGTHhQcjE2WDZmdUNhWXhZaVFsRU5hVG9LQkVHUjdnUmI3REI0WDdtMlZyMDFuRHpRWFUwWmZhZ0VkaVZMZWkwTW9wajNoeXhGVXVUZUNQTUlVSHBobThEeGZqUXVUVEJJY1ZEczJRRXZlVV93SzdJ?oc=5",
+    "summary": "Navan (NAVN) の株価は、第3四半期の決算とCFOの退任を受けて下落した。",
+    "published": "2026-02-14T21:34:04+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMikAFBVV95cUxQbGZxcW4wUnRvUWlweHFRX1ljX0RXSmVaV3BRaVhabVpKOWlpbUhWMm8xWkg4T090TzIwWm1xdG9vZ3lsTEI0TWJrYkVrVDE0Q3hfTXJ0WW5jNUtHR042Ry1iWXZHUzdCM2t0RkFTaFRETEVQSmZldHk3M2Zqalp3MjM0dHMzdDdKSFRZVDlncl8",
+    "title": "Is United Security Bancshares stock undervalued right now - Earnings Summary Report & Weekly Sector Rotation Insights - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbGZxcW4wUnRvUWlweHFRX1ljX0RXSmVaV3BRaVhabVpKOWlpbUhWMm8xWkg4T090TzIwWm1xdG9vZ3lsTEI0TWJrYkVrVDE0Q3hfTXJ0WW5jNUtHR042Ry1iWXZHUzdCM2t0RkFTaFRETEVQSmZldHk3M2Zqalp3MjM0dHMzdDdKSFRZVDlncl8?oc=5",
+    "summary": "United Security Bancsharesの株価は現在過小評価されている可能性がある。",
+    "published": "2026-02-15T00:09:27+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
   }
 ]
