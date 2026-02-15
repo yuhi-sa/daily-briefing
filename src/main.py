@@ -134,44 +134,41 @@ def run_collect(verbose: bool = False) -> None:
     logger.info("Daily collection complete: %d new articles saved", len(summarized))
 
 
-def run_weekly(dry_run: bool = False, verbose: bool = False) -> None:
-    """Weekly digest: generate briefing from accumulated articles, create PR."""
+def run_digest(dry_run: bool = False, verbose: bool = False) -> None:
+    """Daily digest: generate briefing from accumulated articles, create PR."""
     setup_logging(verbose)
-    logger.info("Starting weekly digest PR creation")
+    logger.info("Starting daily digest PR creation")
 
-    # 1. Load weekly buffer
+    # 1. Load article buffer
     buffer = _load_weekly_buffer()
     if not buffer:
-        logger.info("No articles in weekly buffer, skipping")
+        logger.info("No articles in buffer, skipping")
         return
 
     articles = [_dict_to_article(d) for d in buffer]
-    logger.info("Loaded %d articles from weekly buffer", len(articles))
+    logger.info("Loaded %d articles from buffer", len(articles))
 
     # 2. Generate briefing
     api_key = os.environ.get("SUMMARIZER_API_KEY")
     briefing = generate_briefing(articles, api_key)
     if briefing:
-        logger.info("Weekly briefing generated (%d chars)", len(briefing))
+        logger.info("Daily briefing generated (%d chars)", len(briefing))
     else:
         logger.info("No briefing generated (no API key or failure)")
 
-    # 3. Determine week range
+    # 3. Date label
     now = datetime.now(timezone.utc)
-    dates = sorted(set(a.published.strftime("%Y-%m-%d") for a in articles))
-    week_start = dates[0]
-    week_end = dates[-1] if len(dates) > 1 else week_start
-    week_label = f"{week_start}_{week_end}"
+    date_label = now.strftime("%Y-%m-%d")
 
     # 4. Write briefing file (this is the new content for the PR branch)
-    briefing_path = PROJECT_ROOT / "digests" / f"briefing-{week_label}.md"
+    briefing_path = PROJECT_ROOT / "digests" / f"briefing-{date_label}.md"
     briefing_path.write_text(briefing or "(No briefing generated)", encoding="utf-8")
     logger.info("Briefing file written to %s", briefing_path)
 
     if dry_run:
         logger.info("Dry run mode - skipping PR creation")
         print(f"\n{'='*60}")
-        print(f"WEEKLY BRIEFING ({week_label})")
+        print(f"DAILY BRIEFING ({date_label})")
         print(f"{'='*60}\n")
         print(briefing or "(no briefing)")
         return
@@ -179,17 +176,17 @@ def run_weekly(dry_run: bool = False, verbose: bool = False) -> None:
     # 5. Create PR
     pr_url = create_pr(
         briefing_path=briefing_path,
-        week_label=week_label,
+        date_label=date_label,
         article_count=len(articles),
         repo_root=PROJECT_ROOT,
         briefing=briefing or "",
     )
 
     if pr_url:
-        # 6. Clear weekly buffer (committed in PR branch, main keeps it until merged)
+        # 6. Clear buffer
         _save_weekly_buffer([])
-        logger.info("Weekly buffer cleared")
-        logger.info("Weekly digest PR created: %s", pr_url)
+        logger.info("Article buffer cleared")
+        logger.info("Daily digest PR created: %s", pr_url)
     else:
         logger.warning("PR creation failed or was skipped")
 
@@ -202,17 +199,17 @@ def main() -> None:
     collect_parser = subparsers.add_parser("collect", help="Daily article collection")
     collect_parser.add_argument("--verbose", "-v", action="store_true")
 
-    # weekly subcommand
-    weekly_parser = subparsers.add_parser("weekly", help="Create weekly digest PR")
-    weekly_parser.add_argument("--dry-run", action="store_true")
-    weekly_parser.add_argument("--verbose", "-v", action="store_true")
+    # digest subcommand
+    digest_parser = subparsers.add_parser("digest", help="Create daily digest PR")
+    digest_parser.add_argument("--dry-run", action="store_true")
+    digest_parser.add_argument("--verbose", "-v", action="store_true")
 
     args = parser.parse_args()
 
     if args.command == "collect":
         run_collect(verbose=args.verbose)
-    elif args.command == "weekly":
-        run_weekly(dry_run=args.dry_run, verbose=args.verbose)
+    elif args.command == "digest":
+        run_digest(dry_run=args.dry_run, verbose=args.verbose)
 
 
 if __name__ == "__main__":

@@ -1,8 +1,8 @@
-name: Weekly Digest PR
+name: Daily Digest PR
 
 on:
   schedule:
-    - cron: '30 22 * * 0'  # 07:30 JST every Monday
+    - cron: '0 22 * * *'  # 07:00 JST every day
   workflow_dispatch: {}
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  digest:
+  daily-digest:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -32,8 +32,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Create weekly digest PR
+      - name: Create daily digest PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SUMMARIZER_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -m src.main weekly
+        run: python -m src.main digest
