@@ -21,12 +21,14 @@ def create_pr(
     article_count: int = 0,
     repo_root: str | pathlib.Path | None = None,
     briefing: str = "",
+    title_prefix: str = "Daily Digest",
 ) -> str | None:
     """Create a branch, commit the briefing file, and open a PR.
 
     Returns the PR URL on success, None on failure.
     """
-    branch_name = f"digest/{date_label}"
+    prefix_slug = title_prefix.lower().replace(" ", "-")
+    branch_name = f"{prefix_slug}/{date_label}"
     cwd = str(repo_root) if repo_root else None
 
     # Check if branch already exists on remote
@@ -65,7 +67,7 @@ def create_pr(
         result = _run(
             [
                 "gh", "pr", "create",
-                "--title", f"Daily Digest: {date_label}",
+                "--title", f"{title_prefix}: {date_label}",
                 "--body", pr_body,
                 "--base", "main",
                 "--reviewer", "yuhi-sa",

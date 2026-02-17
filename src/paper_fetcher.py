@@ -1,0 +1,203 @@
+"""Semantic Scholar API client for fetching classic CS papers."""
+
+from __future__ import annotations
+
+import json
+import logging
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from dataclasses import dataclass
+
+logger = logging.getLogger(__name__)
+
+SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper/search"
+
+PAPER_CATEGORIES: dict[str, dict] = {
+    "distributed_systems": {
+        "name_ja": "大規模分散処理",
+        "queries": [
+            "MapReduce distributed computing",
+            "Raft Paxos consensus",
+            "Spanner distributed database",
+            "Dynamo distributed key-value store",
+            "GFS distributed file system",
+            "Spark resilient distributed datasets",
+        ],
+    },
+    "security": {
+        "name_ja": "セキュリティ",
+        "queries": [
+            "TLS transport layer security",
+            "zero-knowledge proof",
+            "differential privacy",
+            "secure multi-party computation",
+            "public key cryptography RSA",
+            "Byzantine fault tolerance",
+        ],
+    },
+    "ai": {
+        "name_ja": "AI",
+        "queries": [
+            "Transformer attention mechanism",
+            "GPT large language model",
+            "BERT pre-training",
+            "reinforcement learning deep Q-network",
+            "generative adversarial network",
+            "convolutional neural network ImageNet",
+        ],
+    },
+    "cloud": {
+        "name_ja": "クラウド",
+        "queries": [
+            "serverless computing cloud",
+            "microservices architecture",
+            "container orchestration Kubernetes",
+            "cloud auto-scaling elasticity",
+            "infrastructure as code DevOps",
+            "service mesh distributed tracing",
+        ],
+    },
+}
+
+CATEGORY_ORDER = ["distributed_systems", "security", "ai", "cloud"]
+
+
+@dataclass
+class Paper:
+    """A research paper from Semantic Scholar."""
+
+    paper_id: str
+    title: str
+    abstract: str
+    authors: list[str]
+    year: int | None
+    citation_count: int
+    url: str
+    pdf_url: str | None
+    category: str
+    category_ja: str
+
+
+def get_todays_category(date) -> str:
+    """Determine today's paper category based on day of year.
+
+    Rotates through 4 categories: distributed_systems → security → ai → cloud.
+    """
+    day_of_year = date.timetuple().tm_yday
+    index = day_of_year % 4
+    return CATEGORY_ORDER[index]
+
+
+def search_papers(query: str, min_citations: int = 200, max_retries: int = 3) -> list[Paper]:
+    """Search Semantic Scholar for papers matching the query.
+
+    Returns papers with at least min_citations citations.
+    Retries with exponential backoff on 429 rate limit errors.
+    """
+    params = urllib.parse.urlencode({
+        "query": query,
+        "limit": 20,
+        "fields": "paperId,title,abstract,authors,year,citationCount,url,openAccessPdf",
+    })
+    url = f"{SEMANTIC_SCHOLAR_API}?{params}"
+
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "NewsDigestBot/1.0"},
+    )
+
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < max_retries - 1:
+                wait = 3 * (attempt + 1)
+                logger.info("Rate limited, retrying in %ds (attempt %d/%d)", wait, attempt + 1, max_retries)
+                time.sleep(wait)
+                continue
+            logger.warning("Semantic Scholar API failed for query: %s (%s)", query, e)
+            return []
+        except Exception:
+            logger.warning("Semantic Scholar API failed for query: %s", query)
+            return []
+
+    papers: list[Paper] = []
+    for item in data.get("data", []):
+        citation_count = item.get("citationCount") or 0
+        if citation_count < min_citations:
+            continue
+
+        abstract = item.get("abstract") or ""
+        authors = [a.get("name", "") for a in (item.get("authors") or [])]
+        pdf_info = item.get("openAccessPdf") or {}
+        pdf_url = pdf_info.get("url")
+
+        papers.append(Paper(
+            paper_id=item["paperId"],
+            title=item.get("title", ""),
+            abstract=abstract,
+            authors=authors,
+            year=item.get("year"),
+            citation_count=citation_count,
+            url=item.get("url", f"https://www.semanticscholar.org/paper/{item['paperId']}"),
+            pdf_url=pdf_url,
+            category="",
+            category_ja="",
+        ))
+
+    return papers
+
+
+def fetch_papers_for_category(category: str) -> list[Paper]:
+    """Fetch candidate papers for a given category.
+
+    Runs all queries for the category, deduplicates by paperId,
+    and sorts by citation count descending.
+    """
+    cat_info = PAPER_CATEGORIES[category]
+    category_ja = cat_info["name_ja"]
+    seen_ids: set[str] = set()
+    all_papers: list[Paper] = []
+
+    for i, query in enumerate(cat_info["queries"]):
+        if i > 0:
+            time.sleep(3)  # Rate limit: 3s between requests
+
+        logger.info("Searching: %s", query)
+        results = search_papers(query)
+
+        for paper in results:
+            if paper.paper_id not in seen_ids:
+                seen_ids.add(paper.paper_id)
+                all_papers.append(Paper(
+                    paper_id=paper.paper_id,
+                    title=paper.title,
+                    abstract=paper.abstract,
+                    authors=paper.authors,
+                    year=paper.year,
+                    citation_count=paper.citation_count,
+                    url=paper.url,
+                    pdf_url=paper.pdf_url,
+                    category=category,
+                    category_ja=category_ja,
+                ))
+
+    all_papers.sort(key=lambda p: p.citation_count, reverse=True)
+    logger.info("Found %d unique papers for category %s", len(all_papers), category)
+    return all_papers
+
+
+def select_paper(papers: list[Paper], seen_ids: set[str]) -> Paper | None:
+    """Select the highest-cited unseen paper.
+
+    Returns None if all papers have been seen.
+    """
+    for paper in papers:
+        if paper.paper_id not in seen_ids:
+            return paper
+    logger.warning("All candidate papers have been seen")
+    return None

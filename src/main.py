@@ -13,6 +13,10 @@ from datetime import datetime, timezone
 from .dedup import Deduplicator
 from .feeds import load_config
 from .formatter import format_digest
+from .paper_dedup import PaperDeduplicator
+from .paper_fetcher import fetch_papers_for_category, get_todays_category, select_paper
+from .paper_formatter import format_paper_pr_body
+from .paper_summarizer import summarize_paper
 from .parser import Article, fetch_all_articles, fetch_articles
 from .pr_creator import create_pr
 from .summarizer import generate_briefing, get_summarizer
@@ -191,6 +195,79 @@ def run_digest(dry_run: bool = False, verbose: bool = False) -> None:
         logger.warning("PR creation failed or was skipped")
 
 
+def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
+    """Daily paper digest: select a classic CS paper, summarize, create PR."""
+    setup_logging(verbose)
+    logger.info("Starting paper digest")
+
+    now = datetime.now(timezone.utc)
+    date_label = now.strftime("%Y-%m-%d")
+
+    # 1. Determine today's category
+    category = get_todays_category(now)
+    from .paper_fetcher import PAPER_CATEGORIES
+    category_ja = PAPER_CATEGORIES[category]["name_ja"]
+    logger.info("Today's category: %s (%s)", category, category_ja)
+
+    # 2. Fetch candidate papers
+    papers = fetch_papers_for_category(category)
+    if not papers:
+        logger.error("No papers found for category %s", category)
+        sys.exit(1)
+
+    # 3. Select paper (dedup check)
+    dedup = PaperDeduplicator()
+    dedup.prune(window_days=90)
+    seen_ids = dedup.get_seen_ids()
+
+    paper = select_paper(papers, seen_ids)
+    if paper is None:
+        logger.error("All candidate papers have been seen, no paper to feature")
+        sys.exit(1)
+
+    logger.info("Selected paper: %s (citations: %d)", paper.title, paper.citation_count)
+
+    # 4. Summarize
+    api_key = os.environ.get("SUMMARIZER_API_KEY")
+    summary = summarize_paper(paper, api_key)
+    logger.info("Summary generated (%d chars)", len(summary))
+
+    # 5. Format PR body
+    pr_body = format_paper_pr_body(paper, summary, date_label)
+
+    # 6. Write digest file
+    digest_path = PROJECT_ROOT / "digests" / f"paper-{date_label}.md"
+    digest_path.parent.mkdir(parents=True, exist_ok=True)
+    digest_path.write_text(pr_body, encoding="utf-8")
+    logger.info("Paper digest written to %s", digest_path)
+
+    # 7. Mark as seen and save
+    dedup.mark_seen(paper.paper_id, paper.title)
+    dedup.save()
+
+    if dry_run:
+        logger.info("Dry run mode - skipping PR creation")
+        print(f"\n{'='*60}")
+        print(f"PAPER DIGEST ({date_label}) - {category_ja}")
+        print(f"{'='*60}\n")
+        print(pr_body)
+        return
+
+    # 8. Create PR
+    pr_url = create_pr(
+        briefing_path=digest_path,
+        date_label=date_label,
+        repo_root=PROJECT_ROOT,
+        briefing=pr_body,
+        title_prefix="Paper Digest",
+    )
+
+    if pr_url:
+        logger.info("Paper digest PR created: %s", pr_url)
+    else:
+        logger.warning("PR creation failed or was skipped")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Daily News Digest Generator")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -204,12 +281,19 @@ def main() -> None:
     digest_parser.add_argument("--dry-run", action="store_true")
     digest_parser.add_argument("--verbose", "-v", action="store_true")
 
+    # paper subcommand
+    paper_parser = subparsers.add_parser("paper", help="Create paper digest PR")
+    paper_parser.add_argument("--dry-run", action="store_true")
+    paper_parser.add_argument("--verbose", "-v", action="store_true")
+
     args = parser.parse_args()
 
     if args.command == "collect":
         run_collect(verbose=args.verbose)
     elif args.command == "digest":
         run_digest(dry_run=args.dry_run, verbose=args.verbose)
+    elif args.command == "paper":
+        run_paper(dry_run=args.dry_run, verbose=args.verbose)
 
 
 if __name__ == "__main__":

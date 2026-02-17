@@ -90,35 +90,43 @@ class PassthroughSummarizer(Summarizer):
         return articles
 
 
+GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+
+
+def call_gemini(prompt: str, api_key: str) -> str | None:
+    """Call Gemini API and return the generated text."""
+    url = f"{GEMINI_ENDPOINT}?key={api_key}"
+    payload = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    except Exception:
+        logger.exception("Gemini API call failed")
+        return None
+
+
 class GeminiSummarizer(Summarizer):
     """Summarizes articles in Japanese using Google Gemini API (free tier)."""
 
-    ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+    ENDPOINT = GEMINI_ENDPOINT
 
     def __init__(self, api_key: str):
         self.api_key = api_key
 
     def _call_gemini(self, prompt: str) -> str | None:
         """Call Gemini API and return the generated text."""
-        url = f"{self.ENDPOINT}?key={self.api_key}"
-        payload = json.dumps({
-            "contents": [{"parts": [{"text": prompt}]}],
-        }).encode("utf-8")
-
-        req = urllib.request.Request(
-            url,
-            data=payload,
-            headers={"Content-Type": "application/json"},
-            method="POST",
-        )
-
-        try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-            return data["candidates"][0]["content"]["parts"][0]["text"].strip()
-        except Exception:
-            logger.exception("Gemini API call failed")
-            return None
+        return call_gemini(prompt, self.api_key)
 
     def _summarize_single(self, article: Article) -> Article:
         """Summarize a single article via Gemini API."""
