@@ -13,7 +13,7 @@ from dataclasses import dataclass
 
 logger = logging.getLogger(__name__)
 
-ARXIV_API = "http://export.arxiv.org/api/query"
+ARXIV_API = "https://export.arxiv.org/api/query"
 
 PAPER_CATEGORIES: dict[str, dict] = {
     "distributed_systems": {
