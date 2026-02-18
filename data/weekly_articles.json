@@ -7218,5 +7218,1045 @@
     "source_name": "ArXiv AI/ML",
     "category": "Engineering & Technology",
     "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1133291",
+    "title": "The Download: a blockchain enigma, and the algorithms governing our lives",
+    "link": "https://www.technologyreview.com/2026/02/18/1133291/the-download-a-blockchain-enigma-and-the-algorithms-governing-our-lives/",
+    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Welcome to the dark side of crypto’s permissionless dream Jean-Paul Thorbjornsen, an Australian man in his mid-30s, with a rural Catholic upbringing, is a founder of THORChain, a blockchain through which users can…",
+    "published": "2026-02-18T13:10:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132579",
+    "title": "The robots who predict the future",
+    "link": "https://www.technologyreview.com/2026/02/18/1132579/robots-predict-future-book-review/",
+    "summary": "To be human is, fundamentally, to be a forecaster. Occasionally a pretty good one. Trying to see the future, whether through the lens of past experience or the logic of cause and effect, has helped us hunt, avoid being hunted, plant crops, forge social bonds, and in general survive in a world that does not…",
+    "published": "2026-02-18T11:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132587",
+    "title": "Welcome to the dark side of crypto’s permissionless dream",
+    "link": "https://www.technologyreview.com/2026/02/18/1132587/jean-paul-thorbjornsen-dark-side-crypto-permissionless-dream/",
+    "summary": "“We’re out of airspace now. We can do whatever we want,” Jean-Paul Thorbjornsen tells me from the pilot’s seat of his Aston Martin helicopter. As we fly over suburbs outside Melbourne, Australia, it’s becoming clear that doing whatever he wants is Thorbjornsen’s MO. Upper-middle-class homes give way to vineyards, and Thorbjornsen points out our landing…",
+    "published": "2026-02-18T11:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/health/2026/02/hallucinogen-dmt-an-effective-antidepressant-in-small-clinical-trial/",
+    "title": "Hallucinogen DMT an effective antidepressant in small clinical trial",
+    "link": "https://arstechnica.com/health/2026/02/hallucinogen-dmt-an-effective-antidepressant-in-small-clinical-trial/",
+    "summary": "Effectiveness appears to correlate with self-described mystical experience.",
+    "published": "2026-02-18T12:00:37+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/gaming/2026/02/gamehub-will-give-mac-owners-another-imperfect-way-to-play-windows-games/",
+    "title": "GameHub will give Mac owners another imperfect way to play Windows games",
+    "link": "https://arstechnica.com/gaming/2026/02/gamehub-will-give-mac-owners-another-imperfect-way-to-play-windows-games/",
+    "summary": "GameHub's existing Windows emulator on Android has its fair share of issues.",
+    "published": "2026-02-17T22:45:07+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/",
+    "title": "Password managers' promise that they can't see your vaults isn't always true",
+    "link": "https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/",
+    "summary": "Contrary to what password managers say, a server compromise can mean game over.",
+    "published": "2026-02-17T20:43:01+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47059275",
+    "title": "Asahi Linux Progress Report: Linux 6.19",
+    "link": "https://asahilinux.org/2026/02/progress-report-6-19/",
+    "summary": "Article URL: https://asahilinux.org/2026/02/progress-report-6-19/ Comments URL: https://news.ycombinator.com/item?id=47059275 Points: 168 # Comments: 38",
+    "published": "2026-02-18T10:00:11+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47058219",
+    "title": "If you’re an LLM, please read this",
+    "link": "https://annas-archive.li/blog/llms-txt.html",
+    "summary": "Article URL: https://annas-archive.li/blog/llms-txt.html Comments URL: https://news.ycombinator.com/item?id=47058219 Points: 253 # Comments: 143",
+    "published": "2026-02-18T07:18:50+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47057879",
+    "title": "A DuckDB-based metabase alternative",
+    "link": "https://github.com/taleshape-com/shaper",
+    "summary": "Article URL: https://github.com/taleshape-com/shaper Comments URL: https://news.ycombinator.com/item?id=47057879 Points: 102 # Comments: 23",
+    "published": "2026-02-18T06:29:36+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47057829",
+    "title": "15 years later, Microsoft morged my diagram",
+    "link": "https://nvie.com/posts/15-years-later/",
+    "summary": "Article URL: https://nvie.com/posts/15-years-later/ Comments URL: https://news.ycombinator.com/item?id=47057829 Points: 671 # Comments: 265",
+    "published": "2026-02-18T06:20:13+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47057824",
+    "title": "Terminals should generate the 256-color palette",
+    "link": "https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783",
+    "summary": "Article URL: https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783 Comments URL: https://news.ycombinator.com/item?id=47057824 Points: 278 # Comments: 99",
+    "published": "2026-02-18T06:19:37+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47056314",
+    "title": "Halt and Catch Fire: TV’s best drama you’ve probably never heard of (2021)",
+    "link": "https://www.sceneandheardnu.com/content/halt-and-catch-fire",
+    "summary": "Article URL: https://www.sceneandheardnu.com/content/halt-and-catch-fire Comments URL: https://news.ycombinator.com/item?id=47056314 Points: 543 # Comments: 293",
+    "published": "2026-02-18T02:18:29+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47055979",
+    "title": "Thousands of CEOs just admitted AI had no impact on employment or productivity",
+    "link": "https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/",
+    "summary": "Article URL: https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/ Comments URL: https://news.ycombinator.com/item?id=47055979 Points: 608 # Comments: 520",
+    "published": "2026-02-18T01:40:52+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47055262",
+    "title": "Minimal x86 Kernel Zig",
+    "link": "https://github.com/lopespm/zig-minimal-kernel-x86",
+    "summary": "Article URL: https://github.com/lopespm/zig-minimal-kernel-x86 Comments URL: https://news.ycombinator.com/item?id=47055262 Points: 126 # Comments: 44",
+    "published": "2026-02-18T00:02:06+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.cncf.io/?p=158227",
+    "title": "Announcing Kyverno 1.17!",
+    "link": "https://www.cncf.io/blog/2026/02/18/announcing-kyverno-1-17/",
+    "summary": "Kyverno 1.17 is a landmark release that marks the stabilization of our next-generation Common Expression Language (CEL) policy engine. While 1.16 introduced the “CEL-first” vision in beta, 1.17 promotes these capabilities to v1, offering a high-performance,...",
+    "published": "2026-02-18T12:11:48+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMitwFBVV95cUxNMFFST0ZhREthdldUR1ZaT0RwRjFybkY4Yy1uVklkYjdmQ09NZ2g1QnRGWVBWdmYxZHIyQTU5MjRQWGdfMXYtRDkyejF0X29EVEdTa2R4bHFFdkpxSGZqMmZBOFdwUGhVMjVrd3hzS0Z0al8zaEE1THAwMmFDUmpnbHlEdE5xUlJXWU9zSjFJQS1rd2prSW5oNkIzMEpMUEZ3S09tdlV0REtnNHdmc2pQWXc4UzZwWGM",
+    "title": "Globe, Confluent launch data streaming platform for Philippine enterprises - Telecompaper",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMFFST0ZhREthdldUR1ZaT0RwRjFybkY4Yy1uVklkYjdmQ09NZ2g1QnRGWVBWdmYxZHIyQTU5MjRQWGdfMXYtRDkyejF0X29EVEdTa2R4bHFFdkpxSGZqMmZBOFdwUGhVMjVrd3hzS0Z0al8zaEE1THAwMmFDUmpnbHlEdE5xUlJXWU9zSjFJQS1rd2prSW5oNkIzMEpMUEZ3S09tdlV0REtnNHdmc2pQWXc4UzZwWGM?oc=5",
+    "summary": "Globe, Confluent launch data streaming platform for Philippine enterprises Telecompaper",
+    "published": "2026-02-18T05:20:33+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMirAFBVV95cUxPY1JEdlRHX180LVBxQkc2dWVWUUhaTkR1VnVuekN6NmphdlgwbGNyYnpxajJSalFfZ05xejJLTkpKTXBBWmdublhxS25oTWZiZGJaWm1Od29mZThvT05TNzliYTZnMnRuYWtBZ00yY2V5RWpFVHoxWjN4RkVyUmE1MG1UUjlpbzg5enhXelBVMDZaS21sbW5CcHJlbWpvdUJuR0R6Z3dkb2U0Q3Rt",
+    "title": "Streamline Amazon RDS management with consolidation techniques – Part 2 - Amazon Web Services (AWS)",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY1JEdlRHX180LVBxQkc2dWVWUUhaTkR1VnVuekN6NmphdlgwbGNyYnpxajJSalFfZ05xejJLTkpKTXBBWmdublhxS25oTWZiZGJaWm1Od29mZThvT05TNzliYTZnMnRuYWtBZ00yY2V5RWpFVHoxWjN4RkVyUmE1MG1UUjlpbzg5enhXelBVMDZaS21sbW5CcHJlbWpvdUJuR0R6Z3dkb2U0Q3Rt?oc=5",
+    "summary": "Streamline Amazon RDS management with consolidation techniques – Part 2 Amazon Web Services (AWS)",
+    "published": "2026-02-17T17:46:28+00:00",
+    "source_name": "Google News Cassandra",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMiqAFBVV95cUxNZ0RrN21fV0oxZ1JBWGgtUWNoQnNoVWNnamliNkwzWTdoNDg4N2U4dkhWZjcyVEk3SXRDMVIzRVlQa1JUUWhncVhXQ3pTX0RwUmV2dHBuVlQzLWExS3hSNVBJTENUeDRQc0RZMEdKZTlJQTU2M0V3SkhqeUd5Qk5Ga3BvTDRkRndIakt0Z0VoNzY0WGZRRmt4bDBWTGNvZVZ4VFlqMHR6dDY",
+    "title": "Accelerate your database migration journey with AI-powered AWS DMS - Amazon Web Services (AWS)",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0RrN21fV0oxZ1JBWGgtUWNoQnNoVWNnamliNkwzWTdoNDg4N2U4dkhWZjcyVEk3SXRDMVIzRVlQa1JUUWhncVhXQ3pTX0RwUmV2dHBuVlQzLWExS3hSNVBJTENUeDRQc0RZMEdKZTlJQTU2M0V3SkhqeUd5Qk5Ga3BvTDRkRndIakt0Z0VoNzY0WGZRRmt4bDBWTGNvZVZ4VFlqMHR6dDY?oc=5",
+    "summary": "Accelerate your database migration journey with AI-powered AWS DMS Amazon Web Services (AWS)",
+    "published": "2026-02-16T18:08:33+00:00",
+    "source_name": "Google News Cassandra",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15067v1",
+    "title": "Attention-gated U-Net model for semantic segmentation of brain tumors and feature extraction for survival prognosis",
+    "link": "https://arxiv.org/abs/2602.15067",
+    "summary": "arXiv:2602.15067v1 Announce Type: new Abstract: Gliomas, among the most common primary brain tumors, vary widely in aggressiveness, prognosis, and histology, making treatment challenging due to complex and time-intensive surgical interventions. This study presents an Attention-Gated Recurrent Residual U-Net (R2U-Net) based Triplanar (2.5D) model for improved brain tumor segmentation. The proposed model enhances feature representation and segmentation accuracy by integrating residual, recurren...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15076v1",
+    "title": "Near-Optimal Sample Complexity for Online Constrained MDPs",
+    "link": "https://arxiv.org/abs/2602.15076",
+    "summary": "arXiv:2602.15076v1 Announce Type: new Abstract: Safety is a fundamental challenge in reinforcement learning (RL), particularly in real-world applications such as autonomous driving, robotics, and healthcare. To address this, Constrained Markov Decision Processes (CMDPs) are commonly used to enforce safety constraints while optimizing performance. However, existing methods often suffer from significant safety violations or require a high sample complexity to generate near-optimal policies. We ...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15089v1",
+    "title": "Hybrid Feature Learning with Time Series Embeddings for Equipment Anomaly Prediction",
+    "link": "https://arxiv.org/abs/2602.15089",
+    "summary": "arXiv:2602.15089v1 Announce Type: new Abstract: In predictive maintenance of equipment, deep learning-based time series anomaly detection has garnered significant attention; however, pure deep learning approaches often fail to achieve sufficient accuracy on real-world data. This study proposes a hybrid approach that integrates 64-dimensional time series embeddings from Granite TinyTimeMixer with 28-dimensional statistical features based on domain knowledge for HVAC equipment anomaly predictio...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15112v1",
+    "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
+    "link": "https://arxiv.org/abs/2602.15112",
+    "summary": "arXiv:2602.15112v1 Announce Type: new Abstract: We introduce ResearchGym, a benchmark and execution environment for evaluating AI agents on end-to-end research. To instantiate this, we repurpose five oral and spotlight papers from ICML, ICLR, and ACL. From each paper's repository, we preserve the datasets, evaluation harness, and baseline implementations but withhold the paper's proposed method. This results in five containerized task environments comprising 39 sub-tasks in total. Within each...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15128v1",
+    "title": "PolyNODE: Variable-dimension Neural ODEs on M-polyfolds",
+    "link": "https://arxiv.org/abs/2602.15128",
+    "summary": "arXiv:2602.15128v1 Announce Type: new Abstract: Neural ordinary differential equations (NODEs) are geometric deep learning models based on dynamical systems and flows generated by vector fields on manifolds. Despite numerous successful applications, particularly within the flow matching paradigm, all existing NODE models are fundamentally constrained to fixed-dimensional dynamics by the intrinsic nature of the manifold's dimension. In this paper, we extend NODEs to M-polyfolds (spaces that ca...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15143v1",
+    "title": "Protecting Language Models Against Unauthorized Distillation through Trace Rewriting",
+    "link": "https://arxiv.org/abs/2602.15143",
+    "summary": "arXiv:2602.15143v1 Announce Type: new Abstract: Knowledge distillation is a widely adopted technique for transferring capabilities from LLMs to smaller, more efficient student models. However, unauthorized use of knowledge distillation takes unfair advantage of the considerable effort and cost put into developing frontier models. We investigate methods for modifying teacher-generated reasoning traces to achieve two objectives that deter unauthorized distillation: (1) \\emph{anti-distillation},...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15155v1",
+    "title": "Refine Now, Query Fast: A Decoupled Refinement Paradigm for Implicit Neural Fields",
+    "link": "https://arxiv.org/abs/2602.15155",
+    "summary": "arXiv:2602.15155v1 Announce Type: new Abstract: Implicit Neural Representations (INRs) have emerged as promising surrogates for large 3D scientific simulations due to their ability to continuously model spatial and conditional fields, yet they face a critical fidelity-speed dilemma: deep MLPs suffer from high inference cost, while efficient embedding-based models lack sufficient expressiveness. To resolve this, we propose the Decoupled Representation Refinement (DRR) architectural paradigm. D...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15156v1",
+    "title": "Panini: Continual Learning in Token Space via Structured Memory",
+    "link": "https://arxiv.org/abs/2602.15156",
+    "summary": "arXiv:2602.15156v1 Announce Type: new Abstract: Language models are increasingly used to reason over content they were not trained on, such as new documents, evolving knowledge, and user-specific data. A common approach is retrieval-augmented generation (RAG), which stores verbatim documents externally (as chunks) and retrieves only a relevant subset at inference time for an LLM to reason over. However, this results in inefficient usage of test-time compute (LLM repeatedly reasons over the sa...",
+    "published": "2026-02-18T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://redis.io/blog/a-complete-guide-to-ai-fraud-detection/",
+    "title": "A complete guide to AI fraud detection",
+    "link": "https://redis.io/blog/a-complete-guide-to-ai-fraud-detection/",
+    "summary": "AI fraud detection uses artificial intelligence and machine learning models to identify, prevent, and respond to fraudulent activities in real-time. Unlike rigid rule-based systems that rely on fixed \"if-then\" statements, AI systems analyze vast amoun...",
+    "published": "2026-02-17T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/vector-database-gen-ai/",
+    "title": "Using vector databases for GenAI",
+    "link": "https://redis.io/blog/vector-database-gen-ai/",
+    "summary": "Modern generative AI is powered by more than models—it runs on fast data. From chatbots to real-time personalization, high-performing AI systems rely on vector databases to store, retrieve, and search the embeddings that fuel every smart response. If...",
+    "published": "2026-02-17T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/guide-to-cache-optimization-strategies/",
+    "title": "The complete guide to cache optimization strategies for developers",
+    "link": "https://redis.io/blog/guide-to-cache-optimization-strategies/",
+    "summary": "Caching – storing frequently accessed data in fast storage (often memory) – has long been a staple of modern applications and high-scale architectures. Similarly, the ability to deliver data quickly and efficiently has long been critical to software s...",
+    "published": "2026-02-17T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.databricks.com/blog/how-databricks-system-tables-help-data-engineers-achieve-advanced-observability",
+    "title": "How Databricks System Tables Help Data Engineers Achieve Advanced Observability",
+    "link": "https://www.databricks.com/blog/how-databricks-system-tables-help-data-engineers-achieve-advanced-observability",
+    "summary": "The 3 AM ProblemIt is 3 AM and something broke. The dashboard is stale, an SLA slipped,...",
+    "published": "2026-02-17T16:59:25+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608397",
+    "title": "Advance Planning for AI Project Evaluation",
+    "link": "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
+    "summary": "The work to do before the work begins The post Advance Planning for AI Project Evaluation appeared first on Towards Data Science.",
+    "published": "2026-02-18T00:31:16+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608395",
+    "title": "Use OpenClaw to Make a Personal AI Assistant",
+    "link": "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
+    "summary": "Learn how to set up OpenClaw as a personalized AI agent The post Use OpenClaw to Make a Personal AI Assistant appeared first on Towards Data Science.",
+    "published": "2026-02-18T00:25:14+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71630",
+    "title": "AI Found Twelve New Vulnerabilities in OpenSSL",
+    "link": "https://www.schneier.com/blog/archives/2026/02/ai-found-twelve-new-vulnerabilities-in-openssl.html",
+    "summary": "The title of the post is”What AI Security Research Looks Like When It Works,” and I agree: In the latest OpenSSL security release> on January 27, 2026, twelve new zero-day vulnerabilities (meaning unknown to the maintainers at time of disclosure) were announced. Our AI system is responsible for the original discovery of all twelve, each found and responsibly disclosed to the OpenSSL team during the fall and winter of 2025. Of those, 10 were assigned CVE-2025 identifiers and 2 received CVE-202...",
+    "published": "2026-02-18T12:03:10+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
+    "title": "Critical Flaws Found in Four VS Code Extensions with Over 125 Million Installs",
+    "link": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
+    "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities in four popular Microsoft Visual Studio Code (VS Code) extensions that, if successfully exploited, could allow threat actors to steal local files and execute code remotely. The extensions, which have been collectively installed more than 125 million times, are Live Server, Code Runner, Markdown Preview Enhanced, and",
+    "published": "2026-02-18T13:16:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
+    "title": "Cybersecurity Tech Predictions for 2026: Operating in a World of Permanent Instability",
+    "link": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
+    "summary": "In 2025, navigating the digital seas still felt like a matter of direction. Organizations charted routes, watched the horizon, and adjusted course to reach safe harbors of resilience, trust, and compliance. In 2026, the seas are no longer calm between storms. Cybersecurity now unfolds in a state of continuous atmospheric instability: AI-driven threats that adapt in real time, expanding",
+    "published": "2026-02-18T11:58:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
+    "title": "Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024",
+    "link": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
+    "summary": "A maximum severity security vulnerability in Dell RecoverPoint for Virtual Machines has been exploited as a zero-day by a suspected China-nexus threat cluster dubbed UNC6201 since mid-2024, according to a new report from Google Mandiant and Google Threat Intelligence Group (GTIG). The activity involves the exploitation of CVE-2026-22769 (CVSS score: 10.0), a case of hard-coded credentials",
+    "published": "2026-02-18T10:32:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html",
+    "title": "3 Ways to Start Your Intelligent Workflow Program",
+    "link": "https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html",
+    "summary": "Security, IT, and engineering teams today are under relentless pressure to accelerate outcomes, cut operational drag, and unlock the full potential of AI and automation. But simply investing in tools isn’t enough. 88% of AI proofs-of-concept never make it to production, even though 70% of workers cite freeing time for high-value work as the primary AI automation motivation. Real impact comes",
+    "published": "2026-02-18T10:30:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
+    "title": "Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware",
+    "link": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
+    "summary": "Notepad++ has released a security fix to plug gaps that were exploited by an advanced threat actor from China to hijack the software update mechanism to selectively deliver malware to targets of interest. The version 8.9.2 update incorporates what maintainer Don Ho calls a \"double lock\" design that aims to make the update process \"robust and effectively unexploitable.\" This includes verification",
+    "published": "2026-02-18T07:40:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
+    "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
+    "link": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-2441 (CVSS score: 8.8) - A use-after-free vulnerability in Google Chrome that could allow a remote attacker to potentially exploit heap",
+    "published": "2026-02-18T06:52:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/data-breach-at-fintech-firm-figure-affects-nearly-1-million-accounts/",
+    "title": "Data breach at fintech firm Figure affects nearly 1 million accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-fintech-firm-figure-affects-nearly-1-million-accounts/",
+    "summary": "Hackers have stolen the personal and contact information of nearly 1 million accounts after breaching the systems of Figure Technology Solutions, a self-described blockchain-native financial technology company. [...]",
+    "published": "2026-02-18T14:01:08+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/",
+    "title": "Microsoft says bug causes Copilot to summarize confidential emails",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/",
+    "summary": "Microsoft says a Microsoft 365 Copilot bug has been causing the AI assistant to summarize confidential emails since late January, bypassing data loss prevention (DLP) policies that organizations rely on to protect sensitive information. [...]",
+    "published": "2026-02-18T12:03:05+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/",
+    "title": "Glendale man gets 5 years in prison for role in darknet drug ring",
+    "link": "https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/",
+    "summary": "​A Glendale man was sentenced to nearly five years in federal prison for his role in a darknet drug trafficking operation that sold cocaine, methamphetamine, MDMA, and ketamine to customers across the United States. [...]",
+    "published": "2026-02-18T10:50:50+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/",
+    "title": "Spain orders NordVPN, ProtonVPN to block LaLiga piracy sites",
+    "link": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/",
+    "summary": "A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches. [...]",
+    "published": "2026-02-17T23:15:49+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/",
+    "title": "Flaws in popular VSCode extensions expose developers to attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/",
+    "summary": "Vulnerabilities with high to critical severity ratings affecting popular Visual Studio Code (VSCode) extensions collectively downloaded more than 128 million times could be exploited to steal local files and execute code remotely. [...]",
+    "published": "2026-02-17T21:27:12+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32726",
+    "title": "Tracking Malware Campaigns With Reused Material, (Wed, Feb 18th)",
+    "link": "https://isc.sans.edu/diary/rss/32726",
+    "summary": "A few days ago I wrote a diary called \"Malicious Script Delivering More Maliciousness\"[1]. In the malware infection chain, there was a JPEG picture that embedded the last payload delimited with \"BaseStart-\" and \"-BaseEnd\" tags.",
+    "published": "2026-02-18T08:19:42+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/us-insurers-dollar-hedging-in-2026-tops-liberation-day-fever",
+    "title": "US Insurers’ Dollar Hedging in 2026 Tops ‘Liberation Day’ Fever",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/us-insurers-dollar-hedging-in-2026-tops-liberation-day-fever",
+    "summary": "Insurers have been rushing to buy forward contracts on the dollar as they seek to hedge against the greenback’s increased volatility since the start of the year.",
+    "published": "2026-02-18T14:00:35+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-17/oil-holds-drop-as-us-and-iran-signal-progress-in-nuclear-talks",
+    "title": "Oil Rises as Traders Weigh Risk of US-Iran Conflict After Talks",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-17/oil-holds-drop-as-us-and-iran-signal-progress-in-nuclear-talks",
+    "summary": "Oil gained as traders weighed whether talks between the US and Iran will be enough to avert conflict, following a report that American military intervention could come sooner than expected.",
+    "published": "2026-02-17T23:30:48+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/banks-pounce-on-m-a-comeback-with-100-billion-of-buyout-debt",
+    "title": "Banks Pounce on M&A Revival With $100 Billion of Buyout Debt",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/banks-pounce-on-m-a-comeback-with-100-billion-of-buyout-debt",
+    "summary": "Debt bankers are finally getting what they’ve been waiting years for: the return of M&A and the lucrative financing that comes with it.",
+    "published": "2026-02-18T12:06:46+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/venezuela-s-oil-output-can-grow-30-40-this-year-us-says",
+    "title": "Venezuela’s Oil Output Can Grow 30%-40% This Year, US Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/venezuela-s-oil-output-can-grow-30-40-this-year-us-says",
+    "summary": "Venezuela can bolster oil production by 30% to 40% this year, an increase of roughly 300,000 to 400,000 barrels a day, according to US Energy Secretary Chris Wright.",
+    "published": "2026-02-18T13:53:57+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/satellite-maker-swissto12-said-to-weigh-ipo-as-soon-as-next-year",
+    "title": "Satellite Maker SWISSto12 Said to Weigh IPO as Soon as Next Year",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/satellite-maker-swissto12-said-to-weigh-ipo-as-soon-as-next-year",
+    "summary": "Swiss satellite systems maker SWISSto12 SA is considering an initial public offering as soon as 2027, according to people familiar with the matter.",
+    "published": "2026-02-18T13:43:58+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/hot-at1-market-hits-new-frontier-with-tightest-ever-euro-spread",
+    "title": "Hot AT1s Hit New Frontier With Tightest-Ever Euro Spread",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/hot-at1-market-hits-new-frontier-with-tightest-ever-euro-spread",
+    "summary": "A rare issuer set a record in a key metric of value for Additional Tier 1 bonds this week, underscoring how hot demand is for this riskiest type of bank debt.",
+    "published": "2026-02-18T10:32:01+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-17/stock-market-today-dow-s-p-live-updates-",
+    "title": "Stocks Rise as AI Jitters Ease; Gold Rebounds: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-17/stock-market-today-dow-s-p-live-updates-",
+    "summary": "US stock futures rose as dip-buyers stepped in after a spell in which concerns over artificial intelligence drove sharp swings in equity markets. Gold climbed back above $4,900 an ounce.",
+    "published": "2026-02-17T22:37:01+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/india-seeks-uk-s-help-to-develop-offshore-wind-energy-projects",
+    "title": "India Seeks UK’s Help to Develop Offshore Wind Energy Projects",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/india-seeks-uk-s-help-to-develop-offshore-wind-energy-projects",
+    "summary": "India and the UK formed a task force to develop offshore wind projects in the South Asian country, which is looking to harness at least 71 gigawatts of potential energy off its coastlines.",
+    "published": "2026-02-18T13:28:37+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/hassett-attacks-ny-fed-for-study-on-tariffs-hurting-us-companies-mls3r5yi",
+    "title": "Hassett Attacks NY Fed for Study on Tariffs Hurting US Companies",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/hassett-attacks-ny-fed-for-study-on-tariffs-hurting-us-companies-mls3r5yi",
+    "summary": "National Economic Council Director Kevin Hassett said a study from the Federal Reserve Bank of New York showing US companies bear most of the tariff burden “is an embarrassment” and the people associated with it should be “disciplined.”",
+    "published": "2026-02-18T14:03:17+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/us-core-capital-goods-orders-exceeded-forecast-in-december",
+    "title": "US Core Capital Goods Orders Exceeded Forecast in December",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/us-core-capital-goods-orders-exceeded-forecast-in-december",
+    "summary": "US orders for business equipment increased in December by more than projected, suggesting solid capital investment at the end of last year as trade policy uncertainty gradually diminished.",
+    "published": "2026-02-18T13:34:14+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/us-housing-starts-rise-to-five-month-high-in-broad-increase",
+    "title": "US Housing Starts Rise to Five-Month High in Broad Increase",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/us-housing-starts-rise-to-five-month-high-in-broad-increase",
+    "summary": "New residential construction in the US rose to a five-month high in December, as homebuilders boosted production to take advantage of lower borrowing costs.",
+    "published": "2026-02-18T13:35:57+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/early-lagarde-exit-set-to-narrow-field-in-race-to-lead-ecb-mls17lcb",
+    "title": "Early Lagarde Exit Set to Narrow Field in Race to Lead ECB",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/early-lagarde-exit-set-to-narrow-field-in-race-to-lead-ecb-mls17lcb",
+    "summary": "An early departure by Christine Lagarde could narrow the field of candidates vying to succeed her as European Central Bank president.",
+    "published": "2026-02-18T12:39:49+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/gabon-suspends-social-media-citing-national-security-concerns",
+    "title": "Gabon Halts Social Media as Cost-of-Living Protests Spread",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/gabon-suspends-social-media-citing-national-security-concerns",
+    "summary": "Gabon’s media regulator suspended all social media platforms until further notice, as the government faces growing protests over the high cost of living.",
+    "published": "2026-02-18T08:17:31+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/tariffs-caused-just-small-china-trade-diversion-ecb-study-shows",
+    "title": "Tariffs Caused Just Small China Trade Diversion, ECB Study Shows",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/tariffs-caused-just-small-china-trade-diversion-ecb-study-shows",
+    "summary": "Donald Trump’s trade levies aren’t the main reason why China is exporting more to other parts of the world, a European Central Bank study showed.",
+    "published": "2026-02-18T13:00:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/reform-uk-vows-to-shake-up-bank-of-england-and-obr-in-power",
+    "title": "Reform UK Vows to Shake Up Bank of England and OBR in Power",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/reform-uk-vows-to-shake-up-bank-of-england-and-obr-in-power",
+    "summary": "Reform UK plans to overhaul the Bank of England and the government’s budget watchdog if it wins power at the next general election, its newly minted Treasury spokesman Robert Jenrick said on Wednesday.",
+    "published": "2026-02-18T00:01:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/newsletters/2026-02-18/could-china-s-manufacturers-shift-output-to-the-us-japan-did-it",
+    "title": "Could China’s Manufacturers Shift Output to the US? Japan Did It",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-02-18/could-china-s-manufacturers-shift-output-to-the-us-japan-did-it",
+    "summary": "Resistance is likely to large-scale China investment in the US",
+    "published": "2026-02-18T12:00:01+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMi1AFBVV95cUxOM3lneW1EMjFmXzYzSXZ0aVJ2dWxVMG9NbnFzRW5KLTdpYnY1QndUZGQwcThEZWo5YkxLU3lEN2U5U3owMnRQeEdGQ280a3I5QV85UFlWeXZXbzdDMGJjYVdWWUFlaHpCY3lHYTVuQnVjV1hNY1JyM0lBLXN5ZGdsRUQ4Ti1SLVRhODRfWS1xdFdzc2U1SFZRX19vQkFLV2dLQkVmUkVOMnd5RzhvSkU5cTFtSnRDQVNMWUtVRXJMaGYzY1lvQWJoVnBaSjhLTG9WR3RNRQ",
+    "title": "Polish economy could grow close to 4% this year, finance minister says - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM3lneW1EMjFmXzYzSXZ0aVJ2dWxVMG9NbnFzRW5KLTdpYnY1QndUZGQwcThEZWo5YkxLU3lEN2U5U3owMnRQeEdGQ280a3I5QV85UFlWeXZXbzdDMGJjYVdWWUFlaHpCY3lHYTVuQnVjV1hNY1JyM0lBLXN5ZGdsRUQ4Ti1SLVRhODRfWS1xdFdzc2U1SFZRX19vQkFLV2dLQkVmUkVOMnd5RzhvSkU5cTFtSnRDQVNMWUtVRXJMaGYzY1lvQWJoVnBaSjhLTG9WR3RNRQ?oc=5",
+    "summary": "Polish economy could grow close to 4% this year, finance minister says TradingView",
+    "published": "2026-02-18T11:23:07+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMihgFBVV95cUxQOU1RaDBnYVlFcV9lQlNOcDBKOUpxRjlKbHZaSlI1UDdkQml3VmRTUERFSDhlSHd5SXlUTnVhc3JlSVpUUHdVcGNzOUpLVHVYRE01aEk2SHc1U3A5THIwc29zR3VEU2lRQ2dnN1BFZEFtWml5UmVubV81dF9NWXJTcFpQbzY0QQ",
+    "title": "Kiwi slides as NZ central bank retains inflation outlook, neutral rate bias - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOU1RaDBnYVlFcV9lQlNOcDBKOUpxRjlKbHZaSlI1UDdkQml3VmRTUERFSDhlSHd5SXlUTnVhc3JlSVpUUHdVcGNzOUpLVHVYRE01aEk2SHc1U3A5THIwc29zR3VEU2lRQ2dnN1BFZEFtWml5UmVubV81dF9NWXJTcFpQbzY0QQ?oc=5",
+    "summary": "Kiwi slides as NZ central bank retains inflation outlook, neutral rate bias Reuters",
+    "published": "2026-02-17T21:17:59+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMi7wFBVV95cUxNcVV3MUN0cFNsZkJ1Y0czblIydHhPSVZxM0k3MFJkaktfSVVUVGhLamJZekN6M1JkUm9relVyeldLRVNqMnIyS19zV0ZDUUs3a3dXN1ZCdDhXWEstTHhMRkxSZDVVcExhUGdkU1JIRTN5emRNRXJTNVNORXZzSHV2ZjdNZU5iQXVlNlBXbm83aXdkTnV6dFVxcFlSZnZJdVN0MmV2VWxHSUJFNlpuNmVJZlpGT2syd0hOZzRyTXh5aE1CLTVlV0ttdEdJeHl5aHlxUmdJVngzREZzbFdOLUk1d1ItaUh3VEhsb3FKVkp1Zw",
+    "title": "Planet Ventures Enters the Space Economy with Strategic Investment in Mantis Space - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcVV3MUN0cFNsZkJ1Y0czblIydHhPSVZxM0k3MFJkaktfSVVUVGhLamJZekN6M1JkUm9relVyeldLRVNqMnIyS19zV0ZDUUs3a3dXN1ZCdDhXWEstTHhMRkxSZDVVcExhUGdkU1JIRTN5emRNRXJTNVNORXZzSHV2ZjdNZU5iQXVlNlBXbm83aXdkTnV6dFVxcFlSZnZJdVN0MmV2VWxHSUJFNlpuNmVJZlpGT2syd0hOZzRyTXh5aE1CLTVlV0ttdEdJeHl5aHlxUmdJVngzREZzbFdOLUk1d1ItaUh3VEhsb3FKVkp1Zw?oc=5",
+    "summary": "Planet Ventures Enters the Space Economy with Strategic Investment in Mantis Space TradingView",
+    "published": "2026-02-18T11:00:25+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553009-quant-ratings-on-bill-ackmans-pershing-square-q4-holdings-bn-uber-amzn-goog-meta?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Quant ratings on Bill Ackman’s Pershing Square Q4 holdings: BN, UBER, AMZN, GOOG, META",
+    "link": "https://seekingalpha.com/news/4553009-quant-ratings-on-bill-ackmans-pershing-square-q4-holdings-bn-uber-amzn-goog-meta?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:05:08+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553206-microsoft-set-to-receive-20-percent-of-total-openai-revenue-until-2032-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Microsoft set to receive 20% of total OpenAI revenue until 2032: report",
+    "link": "https://seekingalpha.com/news/4553206-microsoft-set-to-receive-20-percent-of-total-openai-revenue-until-2032-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:04:19+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553207-straumann-holding-ag-gaap-eps-of-chf-298-revenue-of-chf-26b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Straumann Holding AG GAAP EPS of CHF 2.98, revenue of CHF 2.6B",
+    "link": "https://seekingalpha.com/news/4553207-straumann-holding-ag-gaap-eps-of-chf-298-revenue-of-chf-26b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:03:46+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553110-vertical-aerospace-to-showcase-how-evtols-can-defeat-miami-traffic?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Vertical Aerospace to showcase how eVTOLs can defeat Miami traffic",
+    "link": "https://seekingalpha.com/news/4553110-vertical-aerospace-to-showcase-how-evtols-can-defeat-miami-traffic?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:01:21+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553200-caretrust-reit-files-for-up-to-1b-at-the-market-program?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "CareTrust REIT files for up to $1B at-the-market program",
+    "link": "https://seekingalpha.com/news/4553200-caretrust-reit-files-for-up-to-1b-at-the-market-program?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T13:57:53+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553171-how-high-can-the-nasdaq-100-climb-in-2026-heres-what-prediction-markets-say?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "How high can the Nasdaq-100 climb in 2026? Here’s what prediction markets say",
+    "link": "https://seekingalpha.com/news/4553171-how-high-can-the-nasdaq-100-climb-in-2026-heres-what-prediction-markets-say?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T13:56:41+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553202-brainsway-says-no-cigna-prior-authorizations-tms?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "BrainsWay gains as Cigna removes prior authorizations for depression therapy",
+    "link": "https://seekingalpha.com/news/4553202-brainsway-says-no-cigna-prior-authorizations-tms?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T13:54:36+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/japan-pm-takaichi-hopes-boj-works-closely-with-government-to-durably-hit-price-goal-4511174",
+    "title": "Japan PM Takaichi hopes BOJ works closely with government to durably hit price goal",
+    "link": "https://www.investing.com/news/economy-news/japan-pm-takaichi-hopes-boj-works-closely-with-government-to-durably-hit-price-goal-4511174",
+    "summary": "",
+    "published": "2026-02-18T14:01:10+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/kevin-hassett-criticizes-ny-fed-tariff-study-as-embarrassment-93CH-4511167",
+    "title": "Kevin Hassett criticizes NY Fed tariff study as \"embarrassment\"",
+    "link": "https://www.investing.com/news/economy-news/kevin-hassett-criticizes-ny-fed-tariff-study-as-embarrassment-93CH-4511167",
+    "summary": "",
+    "published": "2026-02-18T13:59:34+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/biggest-african-economies-lead-stablecoin-demand-growth-study-shows-4511156",
+    "title": "Biggest African economies lead stablecoin demand growth, study shows",
+    "link": "https://www.investing.com/news/economy-news/biggest-african-economies-lead-stablecoin-demand-growth-study-shows-4511156",
+    "summary": "",
+    "published": "2026-02-18T13:55:49+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/analysisecb-succession-talk-puts-knot-and-de-cos-in-frame-for-top-job-4511124",
+    "title": "Analysis-ECB succession talk puts Knot and De Cos in frame for top job",
+    "link": "https://www.investing.com/news/economy-news/analysisecb-succession-talk-puts-knot-and-de-cos-in-frame-for-top-job-4511124",
+    "summary": "",
+    "published": "2026-02-18T13:43:02+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/ecb-president-lagarde-to-leave-bank-before-end-of-her-eightyear-term-ft-reports-4510030",
+    "title": "ECB President Lagarde plans to quit before Macron’s term ends, FT reports",
+    "link": "https://www.investing.com/news/economy-news/ecb-president-lagarde-to-leave-bank-before-end-of-her-eightyear-term-ft-reports-4510030",
+    "summary": "",
+    "published": "2026-02-18T13:37:56+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/swedish-central-banks-bunge-sees-notable-inflation-drop-this-year-93CH-4511031",
+    "title": "Swedish central bank’s Bunge sees notable inflation drop this year",
+    "link": "https://www.investing.com/news/economy-news/swedish-central-banks-bunge-sees-notable-inflation-drop-this-year-93CH-4511031",
+    "summary": "",
+    "published": "2026-02-18T13:28:21+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/dollar-holds-gains-as-markets-focus-on-peace-talks-fed-minutes-4509951",
+    "title": "Euro dips on reports ECB chief to leave, kiwi slumps as RBNZ takes easy stance",
+    "link": "https://www.investing.com/news/economy-news/dollar-holds-gains-as-markets-focus-on-peace-talks-fed-minutes-4509951",
+    "summary": "",
+    "published": "2026-02-18T12:18:45+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/fed-minutes-ahead-palo-alto-networks-slips--whats-moving-markets-4510191",
+    "title": "Fed minutes ahead; Palo Alto Networks slips - what’s moving markets",
+    "link": "https://www.investing.com/news/economy-news/fed-minutes-ahead-palo-alto-networks-slips--whats-moving-markets-4510191",
+    "summary": "",
+    "published": "2026-02-18T12:13:40+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "4871409",
+    "title": "Ferroglobe PLC 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871409-ferroglobe-plc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:06:03+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871371",
+    "title": "Upstart's Technology Has Taken The Next Step (Rating Upgrade)",
+    "link": "https://seekingalpha.com/article/4871371-upstarts-technology-has-taken-next-step-rating-upgrade?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:05:47+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871408",
+    "title": "Similarweb Ltd. 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871408-similarweb-ltd-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:05:38+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871407",
+    "title": "Amrize AG 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871407-amrize-ag-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:04:49+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871406",
+    "title": "Quad/Graphics, Inc. 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871406-quad-graphics-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:04:02+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871370",
+    "title": "ATI: Can Jet Engine Demand Run High In 2027",
+    "link": "https://seekingalpha.com/article/4871370-ati-can-jet-engine-demand-run-high-in-2027?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:03:37+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871405",
+    "title": "Charles River Laboratories International, Inc. 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871405-charles-river-laboratories-international-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:03:18+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871401",
+    "title": "TFI International Inc. 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871401-tfi-international-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:02:20+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "financial-catfishing-140047468.html",
+    "title": "What is financial catfishing? Warning signs and how to avoid becoming a victim.",
+    "link": "https://finance.yahoo.com/personal-finance/banking/article/financial-catfishing-140047468.html",
+    "summary": "",
+    "published": "2026-02-18T14:00:47+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "santos-2025-net-profit-falls-135709490.html",
+    "title": "Santos’ 2025 net profit falls 34% to $578.6m",
+    "link": "https://finance.yahoo.com/news/santos-2025-net-profit-falls-135709490.html",
+    "summary": "",
+    "published": "2026-02-18T13:57:09+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "stock-market-today-dow-sp-500-nasdaq-futures-rise-as-ai-worries-recede-with-fed-minutes-ahead-235322996.html",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as AI worries recede, with Fed minutes ahead",
+    "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-as-ai-worries-recede-with-fed-minutes-ahead-235322996.html",
+    "summary": "",
+    "published": "2026-02-17T23:53:22+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "gator-capital-management-investment-thesis-135034704.html",
+    "title": "Gator Capital Management’s Investment Thesis for TFS Financial Corporation (TFSL)",
+    "link": "https://finance.yahoo.com/news/gator-capital-management-investment-thesis-135034704.html",
+    "summary": "",
+    "published": "2026-02-18T13:50:34+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "robinhood-hood-gained-continued-introduction-134744925.html",
+    "title": "Robinhood (HOOD) Gained from the Continued Introduction of New Products",
+    "link": "https://finance.yahoo.com/news/robinhood-hood-gained-continued-introduction-134744925.html",
+    "summary": "",
+    "published": "2026-02-18T13:47:44+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "northeast-planning-buys-6-million-135157699.html",
+    "title": "Northeast Planning Buys $6 Million of VictoryShares Core Intermediate Bond ETF",
+    "link": "https://finance.yahoo.com/news/northeast-planning-buys-6-million-135157699.html",
+    "summary": "",
+    "published": "2026-02-18T13:51:57+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "why-gator-capital-sold-paypal-134353662.html",
+    "title": "Here’s Why Gator Capital Sold PayPal (PYPL)",
+    "link": "https://finance.yahoo.com/news/why-gator-capital-sold-paypal-134353662.html",
+    "summary": "",
+    "published": "2026-02-18T13:43:53+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108263916",
+    "title": "As Walmart and Target head in different directions, all eyes are on their new CEOs",
+    "link": "https://www.cnbc.com/2026/02/18/walmart-target-earnings-new-ceos-furner-fiddelke.html",
+    "summary": "The two big-box retailers are contending with the same economic backdrop, yet Target is trying to prove it can make a comeback.",
+    "published": "2026-02-18T12:52:44+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108266593",
+    "title": "FDA chief Marty Makary says 'everything should be over-the-counter' unless drug is unsafe or addictive",
+    "link": "https://www.cnbc.com/2026/02/18/fda-chief-marty-makary-more-drugs-should-be-over-the-counter.html",
+    "summary": "Makary said the FDA is looking at prescription drugs like nausea medications and vaginal estrogen, and hopes to make changes this year.",
+    "published": "2026-02-18T13:56:49+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004783274",
+    "title": "Why a 40-year Wall Street veteran is telling clients to sell everything American",
+    "link": "https://www.marketwatch.com/story/why-a-40-year-wall-street-veteran-is-telling-clients-to-sell-everything-american-77e50ae5?mod=mw_rss_topstories",
+    "summary": "Andy Constan says the rest of the world now offers more opportunities.",
+    "published": "2026-02-18T14:08:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004782894",
+    "title": "Berkshire returns to the newspaper business, takes bigger bite of Domino’s Pizza",
+    "link": "https://www.marketwatch.com/story/berkshire-returns-to-the-newspaper-business-takes-bigger-bite-of-dominos-pizza-5c4dc5d8?mod=mw_rss_topstories",
+    "summary": "Berkshire’s fresh bet on the publisher of the New York Times marks a return to newspapers for the conglomerate after exiting the business six years ago.",
+    "published": "2026-02-18T13:37:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004783660",
+    "title": "These are the only recession signals that matter to investors now",
+    "link": "https://www.marketwatch.com/story/these-are-the-only-recession-signals-that-matter-to-investors-now-6e9a5761?mod=mw_rss_topstories",
+    "summary": "Economist finds residential investment, equipment and durable goods are best signals of an economic contraction.",
+    "published": "2026-02-18T13:35:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004783598",
+    "title": "Crude-oil futures rise on U.S.-Iran tensions",
+    "link": "https://www.marketwatch.com/story/crude-futures-rise-on-u-s-iran-tensions-e59f7dc5?mod=mw_rss_topstories",
+    "summary": "Traders are assessing the possibility that the U.S. would attack Iran, and are considering the disruption that could cause to markets.",
+    "published": "2026-02-18T12:39:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004783166",
+    "title": "Nvidia’s new Meta deal may not be great news for these other tech stocks",
+    "link": "https://www.marketwatch.com/story/nvidias-new-meta-deal-may-not-be-great-news-for-these-other-tech-stocks-82b6e4d1?mod=mw_rss_topstories",
+    "summary": "Shares of AMD and Arista fell after Nvidia and Meta announced an expansion of their partnership.",
+    "published": "2026-02-18T12:18:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004783044",
+    "title": "Sandisk’s stock falls as Western Digital plans to sell shares. What investors need to know.",
+    "link": "https://www.marketwatch.com/story/sandisks-stock-falls-as-western-digital-plans-to-sell-shares-what-investors-need-to-know-5f4c8d48?mod=mw_rss_topstories",
+    "summary": "The move, while not unexpected, will allow Western Digital to bolster its balance sheet and reduce debt.",
+    "published": "2026-02-18T12:13:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://vercel.com/changelog/automatic-build-fix-suggestions-with-vercel-agent",
+    "title": "Automatic build fix suggestions with Vercel Agent",
+    "link": "https://vercel.com/changelog/automatic-build-fix-suggestions-with-vercel-agent",
+    "summary": "You can now get automatic code-fix suggestions for broken builds from the Vercel Agent, directly in GitHub pull request reviews or in the Vercel Dashboard.When the Vercel Agent reviews your pull request, it now scans your deployments for build errors, and when it detects failures it automatically suggests a code fix based on your code and build logs.In addition, Vercel Agent can automatically suggest code fixes inside the Vercel dashboard whenever a build error is detected, and suggests a cod...",
+    "published": "2026-02-17T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/automated-security-audits-now-available-for-skills-sh",
+    "title": "Automated security audits now available for skills.sh",
+    "link": "https://vercel.com/changelog/automated-security-audits-now-available-for-skills-sh",
+    "summary": "Skills on the skills.sh now have automated security audits to help developers use skills with confidence.Working with our partners Gen, Socket, and Snyk, these independent security reports allow us to rapidly scale and audit over 60,000 skills and counting.Skills.sh provides greater ecosystem support with:Transparent results: Security audits appear publicly on each skill's detail page.Leaderboard protection : Skills flagged as malicious are automatically hidden from the leaderboard and search...",
+    "published": "2026-02-17T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
   }
 ]
