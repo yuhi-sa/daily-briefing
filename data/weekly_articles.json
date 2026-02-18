@@ -8258,5 +8258,385 @@
     "source_name": "Vercel Blog",
     "category": "Languages & Frameworks",
     "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/us-industrial-production-increases-by-most-in-nearly-a-year",
+    "title": "US Industrial Production Increases by Most in Nearly a Year",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/us-industrial-production-increases-by-most-in-nearly-a-year",
+    "summary": "US industrial production rose in January by the most in nearly a year, fueled by a broad increase in manufacturing and another healthy advance in utility output.",
+    "published": "2026-02-18T14:20:12+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/takaichi-formally-elected-pm-eyes-expedited-budget-deliberation",
+    "title": "Japan’s Takaichi Formally Elected PM, Eyes Swift Budget Passage",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/takaichi-formally-elected-pm-eyes-expedited-budget-deliberation",
+    "summary": "Sanae Takaichi was reappointed as Japan’s Prime Minister following her resounding electoral win, a formality that allows her to turn her attention to expediting passage of the annual budget and implementing a trade deal agreed with US President Donald Trump.",
+    "published": "2026-02-18T06:04:28+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/s-p-500-climbs-after-bout-of-ai-caution-as-traders-seek-winners",
+    "title": "S&P 500 Climbs After Bout of AI Caution as Traders Seek Winners",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/s-p-500-climbs-after-bout-of-ai-caution-as-traders-seek-winners",
+    "summary": "US equities edged higher on Wednesday as investors hunted for beaten-down stocks following a stretch of choppy trading driven by concern about the potential disruption that artificial intelligence poses to a bevy of sectors.",
+    "published": "2026-02-18T14:40:43+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/kazakhstan-unable-to-switch-from-cpc-oil-pipe-january-data-show",
+    "title": "Kazakhstan Unable to Switch From CPC Oil Pipe, January Data Show",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/kazakhstan-unable-to-switch-from-cpc-oil-pipe-january-data-show",
+    "summary": "Kazakhstan was able to divert only a small fraction of the crude it could not ship through the CPC pipeline to the Black Sea in January, contributing to a sharp drop in production.",
+    "published": "2026-02-18T14:37:53+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/us-natural-gas-falls-as-traders-eye-end-of-winter-heating-season",
+    "title": "US Natural Gas Falls as Traders Eye End of Winter Heating Season",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/us-natural-gas-falls-as-traders-eye-end-of-winter-heating-season",
+    "summary": "US natural gas futures declined as traders weigh warming outlooks stretching through the end of the month, decreasing the chance for a shot of cold weather to materialize and push up demand for the heating fuel.",
+    "published": "2026-02-18T14:33:50+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/bnp-eyes-risk-transfers-tied-to-buyout-financing-lombard-loans",
+    "title": "BNP Eyes Risk Transfers Tied to Buyout Financing, Lombard Loans",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/bnp-eyes-risk-transfers-tied-to-buyout-financing-lombard-loans",
+    "summary": "BNP Paribas SA is sounding out investors for two significant risk transfers tied to loans for wealthy clients and leveraged buyout financing.",
+    "published": "2026-02-18T14:25:07+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/trader-alkagesta-to-supply-jet-fuel-via-europe-s-nato-pipeline",
+    "title": "Trader Alkagesta to Supply Jet Fuel Via Europe’s NATO Pipeline",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/trader-alkagesta-to-supply-jet-fuel-via-europe-s-nato-pipeline",
+    "summary": "Commodity trader Alkagesta will start delivering aviation fuel through one of Europe’s most important energy pipeline networks as part of a supply agreement.",
+    "published": "2026-02-18T14:21:31+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-17/openai-anthropic-deals-power-abu-dhabi-s-100-billion-ai-bet",
+    "title": "OpenAI, Anthropic Deals Power Abu Dhabi’s $100 Billion AI Bet",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-17/openai-anthropic-deals-power-abu-dhabi-s-100-billion-ai-bet",
+    "summary": "Government-backed AI investor MGX has a bullish plan to spend up to $10 billion annually over the next few years.",
+    "published": "2026-02-17T22:00:04+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/italy-s-plan-to-strip-carbon-cost-from-power-bills-jolts-markets",
+    "title": "Italy’s Plan to Strip Carbon Cost From Power Bills Jolts Markets",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/italy-s-plan-to-strip-carbon-cost-from-power-bills-jolts-markets",
+    "summary": "Italy is preparing a sweeping overhaul of its electricity market that would strip carbon costs from power bills — a move that has sent shock waves through energy markets and driven a sharp selloff in forward prices.",
+    "published": "2026-02-18T14:04:12+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/lagardes-possible-early-departure-leaves-investors-pondering-replacements-4511253",
+    "title": "Lagarde’s possible early departure leaves investors pondering replacements",
+    "link": "https://www.investing.com/news/economy-news/lagardes-possible-early-departure-leaves-investors-pondering-replacements-4511253",
+    "summary": "",
+    "published": "2026-02-18T14:19:50+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553254-td-active-global-enhanced-dividend-etf-usd-declares-0_07-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "TD Active Global Enhanced Dividend ETF USD declares $0.07 dividend",
+    "link": "https://seekingalpha.com/news/4553254-td-active-global-enhanced-dividend-etf-usd-declares-0_07-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:41:46+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553253-td-active-global-income-etf-declares-cad-0_08-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "TD Active Global Income ETF declares CAD 0.08 dividend",
+    "link": "https://seekingalpha.com/news/4553253-td-active-global-income-etf-declares-cad-0_08-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:41:30+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553252-td-active-global-real-estate-equity-etf-declares-cad-0_063-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "TD Active Global Real Estate Equity ETF declares CAD 0.063 dividend",
+    "link": "https://seekingalpha.com/news/4553252-td-active-global-real-estate-equity-etf-declares-cad-0_063-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:41:16+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553251-castellum-ab-publ-gaap-eps-of-sek191-revenue-of-sek96b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Castellum AB (publ) GAAP EPS of SEK1.91, revenue of SEK9.6B",
+    "link": "https://seekingalpha.com/news/4553251-castellum-ab-publ-gaap-eps-of-sek191-revenue-of-sek96b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:41:07+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553250-ferroglobe-raises-dividend-by-71-to-0015?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Ferroglobe raises dividend by 7.1% to $0.015",
+    "link": "https://seekingalpha.com/news/4553250-ferroglobe-raises-dividend-by-71-to-0015?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:41:03+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4553249-td-target-2026-investment-grade-bond-etf-declares-cad-0_037-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "TD Target 2026 Investment Grade Bond ETF declares CAD 0.037 dividend",
+    "link": "https://seekingalpha.com/news/4553249-td-target-2026-investment-grade-bond-etf-declares-cad-0_037-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-18T14:41:01+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMivwFBVV95cUxOS3pKbG1SbVJrVEJjOGRkNjczTXBRZUxfZTduSlBCelF2NFRibXVRVDJ6SVVqbFFsWHA5WEJZbHJ1bkl2bDhSQmlLSVVQUW1NRThEYnBRVzB6SVoyT1BmaTE2d0ROSXVKdEV0R1JGMVVzQkhGNjdHOXJKd0Y4ZkRTd2JFOVhDeThvMUNCOTV4NU55bUlzaU9vc1d5XzBrd1RLRmRBbW9JVnBuSXF2TDA4WHRNMVd3SkgyemdxbmtlZw",
+    "title": "Trump rescinding rule incentivizing EV production to meet fuel economy requirements - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS3pKbG1SbVJrVEJjOGRkNjczTXBRZUxfZTduSlBCelF2NFRibXVRVDJ6SVVqbFFsWHA5WEJZbHJ1bkl2bDhSQmlLSVVQUW1NRThEYnBRVzB6SVoyT1BmaTE2d0ROSXVKdEV0R1JGMVVzQkhGNjdHOXJKd0Y4ZkRTd2JFOVhDeThvMUNCOTV4NU55bUlzaU9vc1d5XzBrd1RLRmRBbW9JVnBuSXF2TDA4WHRNMVd3SkgyemdxbmtlZw?oc=5",
+    "summary": "Trump rescinding rule incentivizing EV production to meet fuel economy requirements Reuters",
+    "published": "2026-02-18T14:19:20+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMi5gFBVV95cUxNU3B1NllWOWV0ZzlHN2thT1dIOTBkNm1kTVVDMDUwejBWdEE5Z0JDSHdtczFlbUhpOTFERmt3eTVPMDdFU2hGR3NMeHVfcWZ0djhMMVVHSnJhemJac1pkUlEwd2d5bFJ6Z0NoeEtMRzgzSTBXNXVLUnBEWnhYRzlmUE5UOWZ4X2dFR0tyMjlsWFFRZlg2aU9JZE9IQUFNWTBRVFRvYk4zWGsyYzVoOFZuQTBDNjJFUmNjWkNnYncwa2Q1REMxRURVdkN2X0VFR19abXZETm92MVBMT3V2ckxsWDgtcXhzUQ",
+    "title": "ZAWYA-PRESSR: Destream expands to the GCC to support growing creator economy - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU3B1NllWOWV0ZzlHN2thT1dIOTBkNm1kTVVDMDUwejBWdEE5Z0JDSHdtczFlbUhpOTFERmt3eTVPMDdFU2hGR3NMeHVfcWZ0djhMMVVHSnJhemJac1pkUlEwd2d5bFJ6Z0NoeEtMRzgzSTBXNXVLUnBEWnhYRzlmUE5UOWZ4X2dFR0tyMjlsWFFRZlg2aU9JZE9IQUFNWTBRVFRvYk4zWGsyYzVoOFZuQTBDNjJFUmNjWkNnYncwa2Q1REMxRURVdkN2X0VFR19abXZETm92MVBMT3V2ckxsWDgtcXhzUQ?oc=5",
+    "summary": "ZAWYA-PRESSR: Destream expands to the GCC to support growing creator economy TradingView",
+    "published": "2026-02-18T13:16:11+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "4871389",
+    "title": "Micron's New SSDs Are Gamechangers For AI",
+    "link": "https://seekingalpha.com/article/4871389-microns-new-ssds-are-gamechangers-for-ai?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:38:27+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871387",
+    "title": "Plains All American Pipeline: 8%+ Yield, 10% Dividend Growth",
+    "link": "https://seekingalpha.com/article/4871387-plains-all-american-pipeline-8-percent-plus-yield-10-percent-dividend-growth?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:36:19+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871429",
+    "title": "Why More Investors Are Leaning Into Private Markets",
+    "link": "https://seekingalpha.com/article/4871429-why-more-investors-leaning-into-private-markets?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:35:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871439",
+    "title": "Tax-Exempt Yield In 2026: Our Playbook",
+    "link": "https://seekingalpha.com/article/4871439-tax-exempt-yield-2026-playbook?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:35:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871450",
+    "title": "Eregli Demir ve Çelik Fabrikalari T.A.S. 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871450-eregli-demir-ve-celik-fabrikalari-t-a-s-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:34:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871449",
+    "title": "Expand Energy Corporation 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871449-expand-energy-corporation-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:33:41+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871448",
+    "title": "TPG RE Finance Trust, Inc. 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871448-tpg-re-finance-trust-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:33:02+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4871447",
+    "title": "ProPetro Holding Corp. 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4871447-propetro-holding-corp-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-18T14:32:34+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "where-ionq-1-144000008.html",
+    "title": "Where Will IonQ Be in 1 Year?",
+    "link": "https://finance.yahoo.com/news/where-ionq-1-144000008.html",
+    "summary": "",
+    "published": "2026-02-18T14:40:00+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "AI Stealth Play Receives Bullish Initiation; Data Center Revenue Expected To Grow 64%",
+    "link": "https://www.investors.com/news/ai-stealth-play-modine-receives-bullish-initiation-data-center/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published": "2026-02-18T14:33:22+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "susquehanna-highlights-zillow-z-effective-060557065.html",
+    "title": "Susquehanna Highlights Zillow’s (Z) Effective Execution, Long-Term Growth Initiatives",
+    "link": "https://finance.yahoo.com/news/susquehanna-highlights-zillow-z-effective-060557065.html",
+    "summary": "",
+    "published": "2026-02-18T14:28:57+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "deutsche-bank-raises-centene-cnc-142852120.html",
+    "title": "Deutsche Bank Raises Centene (CNC) PT to $39 While Maintaining Hold Rating",
+    "link": "https://finance.yahoo.com/news/deutsche-bank-raises-centene-cnc-142852120.html",
+    "summary": "",
+    "published": "2026-02-18T14:28:52+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "tom-lee-forecasts-end-crypto-143109506.html",
+    "title": "Tom Lee Forecasts End Of Crypto Winter By This Month, Says Bitcoin, Ethereum May Find Support At These Levels",
+    "link": "https://finance.yahoo.com/news/tom-lee-forecasts-end-crypto-143109506.html",
+    "summary": "",
+    "published": "2026-02-18T14:31:09+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "truist-lowers-paypal-pypl-estimates-060623299.html",
+    "title": "Truist Lowers PayPal (PYPL) Estimates Due to Slower Volume, Take Rate Compression",
+    "link": "https://finance.yahoo.com/news/truist-lowers-paypal-pypl-estimates-060623299.html",
+    "summary": "",
+    "published": "2026-02-18T14:28:23+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "deutsche-bank-lowers-unity-software-060423921.html",
+    "title": "Deutsche Bank Lowers Unity Software (U) PT to $30 While Maintaining Hold Rating",
+    "link": "https://finance.yahoo.com/news/deutsche-bank-lowers-unity-software-060423921.html",
+    "summary": "",
+    "published": "2026-02-18T14:28:23+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004782667",
+    "title": "‘This is stressful’: My siblings are financial horrors. Should my parents cut them out of their will?",
+    "link": "https://www.marketwatch.com/story/this-is-stressful-my-two-siblings-are-financial-horrors-how-can-i-make-sure-their-estate-goes-to-the-right-people-4842a5a7?mod=mw_rss_topstories",
+    "summary": "“My parents have asked me to help them secure their assets when they pass on.”",
+    "published": "2026-02-18T14:30:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004783733",
+    "title": "The surprising reason the U.S. economy is growing so fast",
+    "link": "https://www.marketwatch.com/story/the-u-s-economy-is-growing-surprisingly-fast-and-heres-the-surprising-reason-why-8b2698a9?mod=mw_rss_topstories",
+    "summary": "Business investment – think AI – is primed to help the U.S. economy expand for a sixth straight year.",
+    "published": "2026-02-18T14:30:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004783601",
+    "title": "Palantir’s stock is winning over Wall Street. Another analyst just turned bullish.",
+    "link": "https://www.marketwatch.com/story/palantirs-stock-is-winning-over-wall-street-another-analyst-just-turned-bullish-4fc7c071?mod=mw_rss_topstories",
+    "summary": "A recent “unjustifiable” selloff has led analysts to take a second look at Palantir’s business and AI advantage.",
+    "published": "2026-02-18T14:25:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004782624",
+    "title": "‘She spent over $1,000 a month on weight-loss drugs’: My son wrecked his finances after meeting his girlfriend. Who’s to blame?",
+    "link": "https://www.marketwatch.com/story/his-credit-rating-is-wrecked-my-son-and-his-girlfriend-mingled-their-finances-big-mistake-b5273119?mod=mw_rss_topstories",
+    "summary": "“My son is smart — he really is — but he was in love.”",
+    "published": "2026-02-18T14:23:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004782947",
+    "title": "I’m 72 and started claiming Social Security at 69. Will I get more money if I work part-time?",
+    "link": "https://www.marketwatch.com/story/im-72-and-started-claiming-social-security-at-69-will-i-get-more-money-if-i-work-part-time-71288018?mod=mw_rss_topstories",
+    "summary": "The Social Security Administration requires 40 credits to qualify for benefits and calculates your benefit using your highest 35 years of earnings.",
+    "published": "2026-02-18T14:16:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
   }
 ]
