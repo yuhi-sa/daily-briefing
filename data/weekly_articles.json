@@ -9438,5 +9438,1515 @@
     "source_name": "Vercel Blog",
     "category": "Languages & Frameworks",
     "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1133360",
+    "title": "Microsoft has a new plan to prove what’s real and what’s AI online",
+    "link": "https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/",
+    "summary": "AI-enabled deception now permeates our online lives. There are the high-profile cases you may easily spot, like when White House officials recently shared a manipulated image of a protester in Minnesota and then mocked those asking about it. Other times, it slips quietly into social media feeds and racks up views, like the videos that…",
+    "published": "2026-02-19T16:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1133339",
+    "title": "The Download: autonomous narco submarines, and virtue signaling chatbots",
+    "link": "https://www.technologyreview.com/2026/02/19/1133339/the-download-autonomous-narco-submarines-and-virtue-signaling-chatbots/",
+    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How uncrewed narco subs could transform the Colombian drug trade For decades, handmade narco subs have been some of the cocaine trade’s most elusive and productive workhorses, ferrying multi-ton loads of illicit drugs…",
+    "published": "2026-02-19T13:10:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132619",
+    "title": "How uncrewed narco subs could transform the Colombian drug trade",
+    "link": "https://www.technologyreview.com/2026/02/19/1132619/uncrewed-narco-subs-transform-columbian-drug-trade/",
+    "summary": "On a bright morning last April, a surveillance plane operated by the Colombian military spotted a 40-foot-long shark-like silhouette idling in the ocean just off Tayrona National Park. It was, unmistakably, a “narco sub,” a stealthy fiberglass vessel that sails with its hull almost entirely underwater, used by drug cartels to move cocaine north. The…",
+    "published": "2026-02-19T11:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1132877",
+    "title": "The building legal case for global climate justice",
+    "link": "https://www.technologyreview.com/2026/02/19/1132877/legal-climate-justice/",
+    "summary": "The United States and the European Union grew into economic superpowers by committing climate atrocities. They have burned a wildly disproportionate share of the world’s oil and gas, planting carbon time bombs that will detonate first in the poorest, hottest parts of the globe. Meanwhile, places like the Solomon Islands and Chad—low-lying or just plain…",
+    "published": "2026-02-19T11:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1133324",
+    "title": "What it takes to make agentic AI work in retail",
+    "link": "https://www.technologyreview.com/2026/02/19/1133324/what-it-takes-to-make-agentic-ai-work-in-retail/",
+    "summary": "Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Prasad Banala, director of software engineering at a large US-based retail organization, about operationalizing agentic AI across the software development lifecycle. Prasad explains how his team applies AI to validate requirements, generate…",
+    "published": "2026-02-19T08:54:41+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1133320",
+    "title": "From integration chaos to digital clarity: Nutrien Ag Solutions’ post-acquisition reset",
+    "link": "https://www.technologyreview.com/2026/02/19/1133320/from-integration-chaos-to-digital-clarity-nutrien-ag-solutions-post-acquisition-reset/",
+    "summary": "Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Sriram Kalyan, head of applications and data at Nutrien Ag Solutions, Australia, about turning a high-risk post-acquisition IT landscape into a scalable digital foundation. Sriram shares how the merger of two major…",
+    "published": "2026-02-19T08:48:53+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/cars/2026/02/f1-preseason-tests-shows-how-different-2026-will-be/",
+    "title": "F1: Preseason tests shows how different 2026 will be",
+    "link": "https://arstechnica.com/cars/2026/02/f1-preseason-tests-shows-how-different-2026-will-be/",
+    "summary": "Everyone's trying to get mileage as F1 undergoes huge technical changes.",
+    "published": "2026-02-19T18:22:29+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/google/2026/02/google-announces-gemini-3-1-pro-says-its-better-at-complex-problem-solving/",
+    "title": "Google announces Gemini 3.1 Pro, says it's better at complex problem-solving",
+    "link": "https://arstechnica.com/google/2026/02/google-announces-gemini-3-1-pro-says-its-better-at-complex-problem-solving/",
+    "summary": "Google says 3.1 Pro is ready for \"your hardest challenges.\"",
+    "published": "2026-02-19T17:42:14+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/cars/2026/02/zero-grip-maximum-fun-a-practical-guide-to-getting-into-amateur-ice-racing/",
+    "title": "Zero grip, maximum fun: A practical guide to getting into amateur ice racing",
+    "link": "https://arstechnica.com/cars/2026/02/zero-grip-maximum-fun-a-practical-guide-to-getting-into-amateur-ice-racing/",
+    "summary": "Where we're racing, we don't need roads.",
+    "published": "2026-02-19T16:26:34+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/ai/2026/02/openclaw-security-fears-lead-meta-other-ai-firms-to-restrict-its-use/",
+    "title": "OpenClaw security fears lead Meta, other AI firms to restrict its use",
+    "link": "https://arstechnica.com/ai/2026/02/openclaw-security-fears-lead-meta-other-ai-firms-to-restrict-its-use/",
+    "summary": "The viral agentic AI tool is known for being highly capable but also wildly unpredictable.",
+    "published": "2026-02-19T14:11:55+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/science/2026/02/rare-gifted-word-learner-dogs-like-to-share-their-toys/",
+    "title": "Rare gifted word-learner dogs like to share their toys",
+    "link": "https://arstechnica.com/science/2026/02/rare-gifted-word-learner-dogs-like-to-share-their-toys/",
+    "summary": "\"It raises the possibility that social motivation plays a role in why some dogs end up learning object names.\"",
+    "published": "2026-02-19T13:32:52+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/tech-policy/2026/02/verizon-might-drop-its-annoying-35-day-wait-for-unlocking-paid-off-phones/",
+    "title": "Verizon acknowledges \"pain\" of new unlock policy, suggests change is coming",
+    "link": "https://arstechnica.com/tech-policy/2026/02/verizon-might-drop-its-annoying-35-day-wait-for-unlocking-paid-off-phones/",
+    "summary": "Report: Verizon's goal is \"immediate unlock for all payment methods really soon.\"",
+    "published": "2026-02-18T20:58:34+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/cars/2026/02/chevy-bolt-bmw-i3-or-something-else-at-10k-you-have-lots-of-ev-options/",
+    "title": "Chevy Bolt, BMW i3, or something else? At $10K, you have lots of EV options",
+    "link": "https://arstechnica.com/cars/2026/02/chevy-bolt-bmw-i3-or-something-else-at-10k-you-have-lots-of-ev-options/",
+    "summary": "Two of Ars' favorite electric vehicles are now available for not very much money.",
+    "published": "2026-02-18T20:22:03+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/tech-policy/2026/02/lawsuit-epa-revoking-greenhouse-gas-finding-risks-thousands-of-avoidable-deaths/",
+    "title": "Lawsuit: EPA revoking greenhouse gas finding risks “thousands of avoidable deaths”",
+    "link": "https://arstechnica.com/tech-policy/2026/02/lawsuit-epa-revoking-greenhouse-gas-finding-risks-thousands-of-avoidable-deaths/",
+    "summary": "EPA sued for abandoning its mission to protect public health.",
+    "published": "2026-02-18T19:48:06+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://spectrum.ieee.org/us-china-ai",
+    "title": "The U.S. and China Are Pursuing Different AI Futures",
+    "link": "https://spectrum.ieee.org/us-china-ai",
+    "summary": "More money has been invested in AI than it took to land on the moon. Spending on the technology this year is projected to reach up to $700 billion, almost double last year’s spending. Part of the impetus for this frantic outlay is a conviction among investors and policymakers in the United States that it needs to “beat China.” Indeed, headlines have long cast AI development as a zero-sum rivalry between the U.S. and China, framing the technology’s advance as an arms race with a defined finish...",
+    "published": "2026-02-19T17:03:24+00:00",
+    "source_name": "IEEE Spectrum AI",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47077849",
+    "title": "IRS lost 40% of IT staff, 80% of tech leaders in 'efficiency' shakeup",
+    "link": "https://www.theregister.com/2026/02/19/irs_job_cuts/",
+    "summary": "Article URL: https://www.theregister.com/2026/02/19/irs_job_cuts/ Comments URL: https://news.ycombinator.com/item?id=47077849 Points: 150 # Comments: 84",
+    "published": "2026-02-19T19:16:33+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47077844",
+    "title": "California's new bill requires DOJ-approved 3D printers that report themselves",
+    "link": "https://blog.adafruit.com/2026/02/19/californias-new-bill-requires-doj-approved-3d-printers-that-report-on-themselves/",
+    "summary": "Article URL: https://blog.adafruit.com/2026/02/19/californias-new-bill-requires-doj-approved-3d-printers-that-report-on-themselves/ Comments URL: https://news.ycombinator.com/item?id=47077844 Points: 150 # Comments: 126",
+    "published": "2026-02-19T19:16:12+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47076966",
+    "title": "AI makes you boring",
+    "link": "https://www.marginalia.nu/log/a_132_ai_bores/",
+    "summary": "Article URL: https://www.marginalia.nu/log/a_132_ai_bores/ Comments URL: https://news.ycombinator.com/item?id=47076966 Points: 367 # Comments: 229",
+    "published": "2026-02-19T18:12:16+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47075245",
+    "title": "Mark Zuckerberg Grilled on Usage Goals and Underage Users at California Trial",
+    "link": "https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0",
+    "summary": "Article URL: https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0 Comments URL: https://news.ycombinator.com/item?id=47075245 Points: 101 # Comments: 52",
+    "published": "2026-02-19T16:07:14+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47075124",
+    "title": "Show HN: Micasa – track your house from the terminal",
+    "link": "https://micasa.dev",
+    "summary": "micasa is a terminal UI that helps you track home stuff, in a single SQLite file. No cloud, no account, no subscription. Backup with cp.I built it because I was tired of losing track of everything in notes apps, and \"I'll remember that\"s. When do I need to clean the dishwasher filter? What's the best quote for a complete overhaul of the backyard. Oops, found some mold behind the trim, need to address that ASAP. That sort of stuff.Another reason I made micasa was to build a (hopefully useful) ...",
+    "published": "2026-02-19T15:54:14+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47074735",
+    "title": "Gemini 3.1 Pro",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+    "summary": "Preview: https://console.cloud.google.com/vertex-ai/publishers/google...Card: https://deepmind.google/models/model-cards/gemini-3-1-pro/ Comments URL: https://news.ycombinator.com/item?id=47074735 Points: 188 # Comments: 496",
+    "published": "2026-02-19T15:19:57+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47073112",
+    "title": "Pebble Production: February Update",
+    "link": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+    "summary": "Article URL: https://repebble.com/blog/february-pebble-production-and-software-updates Comments URL: https://news.ycombinator.com/item?id=47073112 Points: 232 # Comments: 109",
+    "published": "2026-02-19T12:36:00+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47072968",
+    "title": "Paged Out Issue #8 [pdf]",
+    "link": "https://pagedout.institute/download/PagedOut_008.pdf",
+    "summary": "Article URL: https://pagedout.institute/download/PagedOut_008.pdf Comments URL: https://news.ycombinator.com/item?id=47072968 Points: 241 # Comments: 43",
+    "published": "2026-02-19T12:13:44+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/",
+    "title": "Turn creative prompts into interactive XR experiences with Gemini",
+    "link": "https://developers.googleblog.com/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/",
+    "summary": "The Android XR team is using Gemini's Canvas feature to make creating immersive extended reality (XR) experiences more accessible. This allows developers to rapidly prototype interactive 3D environments and models on a Samsung Galaxy XR headset using simple creative prompts.",
+    "published": "2026-02-19T21:07:59.273514+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15834v1",
+    "title": "A Koopman-Bayesian Framework for High-Fidelity, Perceptually Optimized Haptic Surgical Simulation",
+    "link": "https://arxiv.org/abs/2602.15834",
+    "summary": "arXiv:2602.15834v1 Announce Type: new Abstract: We introduce a unified framework that combines nonlinear dynamics, perceptual psychophysics and high frequency haptic rendering to enhance realism in surgical simulation. The interaction of the surgical device with soft tissue is elevated to an augmented state space with a Koopman operator formulation, allowing linear prediction and control of the dynamics that are nonlinear by nature. To make the rendered forces consistent with human perceptual...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15842v1",
+    "title": "Memes-as-Replies: Can Models Select Humorous Manga Panel Responses?",
+    "link": "https://arxiv.org/abs/2602.15842",
+    "summary": "arXiv:2602.15842v1 Announce Type: new Abstract: Memes are a popular element of modern web communication, used not only as static artifacts but also as interactive replies within conversations. While computational research has focused on analyzing the intrinsic properties of memes, the dynamic and contextual use of memes to create humor remains an understudied area of web science. To address this gap, we introduce the Meme Reply Selection task and present MaMe-Re (Manga Meme Reply Benchmark), ...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15855v1",
+    "title": "Kalman-Inspired Runtime Stability and Recovery in Hybrid Reasoning Systems",
+    "link": "https://arxiv.org/abs/2602.15855",
+    "summary": "arXiv:2602.15855v1 Announce Type: new Abstract: Hybrid reasoning systems that combine learned components with model-based inference are increasingly deployed in tool-augmented decision loops, yet their runtime behavior under partial observability and sustained evidence mismatch remains poorly understood. In practice, failures often arise as gradual divergence of internal reasoning dynamics rather than as isolated prediction errors. This work studies runtime stability in hybrid reasoning syste...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15877v1",
+    "title": "Genetic Generalized Additive Models",
+    "link": "https://arxiv.org/abs/2602.15877",
+    "summary": "arXiv:2602.15877v1 Announce Type: new Abstract: Generalized Additive Models (GAMs) balance predictive accuracy and interpretability, but manually configuring their structure is challenging. We propose using the multi-objective genetic algorithm NSGA-II to automatically optimize GAMs, jointly minimizing prediction error (RMSE) and a Complexity Penalty that captures sparsity, smoothness, and uncertainty. Experiments on the California Housing dataset show that NSGA-II discovers GAMs that outperf...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15878v1",
+    "title": "IT-OSE: Exploring Optimal Sample Size for Industrial Data Augmentation",
+    "link": "https://arxiv.org/abs/2602.15878",
+    "summary": "arXiv:2602.15878v1 Announce Type: new Abstract: In industrial scenarios, data augmentation is an effective approach to improve model performance. However, its benefits are not unidirectionally beneficial. There is no theoretical research or established estimation for the optimal sample size (OSS) in augmentation, nor is there an established metric to evaluate the accuracy of OSS or its deviation from the ground truth. To address these issues, we propose an information-theoretic optimal sample...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15879v1",
+    "title": "BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation",
+    "link": "https://arxiv.org/abs/2602.15879",
+    "summary": "arXiv:2602.15879v1 Announce Type: new Abstract: Exercise recommendation focuses on personalized exercise selection conditioned on students' learning history, personal interests, and other individualized characteristics. Despite notable progress, most existing methods represent student learning solely as exercise sequences, overlooking rich behavioral interaction information. This limited representation often leads to biased and unreliable estimates of learning progress. Moreover, fixed-length...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15883v1",
+    "title": "Distributed physics-informed neural networks via domain decomposition for fast flow reconstruction",
+    "link": "https://arxiv.org/abs/2602.15883",
+    "summary": "arXiv:2602.15883v1 Announce Type: new Abstract: Physics-Informed Neural Networks (PINNs) offer a powerful paradigm for flow reconstruction, seamlessly integrating sparse velocity measurements with the governing Navier-Stokes equations to recover complete velocity and latent pressure fields. However, scaling such models to large spatiotemporal domains is hindered by computational bottlenecks and optimization instabilities. In this work, we propose a robust distributed PINNs framework designed ...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "oai:arXiv.org:2602.15955v1",
+    "title": "Adaptive Semi-Supervised Training of P300 ERP-BCI Speller System with Minimum Calibration Effort",
+    "link": "https://arxiv.org/abs/2602.15955",
+    "summary": "arXiv:2602.15955v1 Announce Type: new Abstract: A P300 ERP-based Brain-Computer Interface (BCI) speller is an assistive communication tool. It searches for the P300 event-related potential (ERP) elicited by target stimuli, distinguishing it from the neural responses to non-target stimuli embedded in electroencephalogram (EEG) signals. Conventional methods require a lengthy calibration procedure to construct the binary classifier, which reduced overall efficiency. Thus, we proposed a unified f...",
+    "published": "2026-02-19T05:00:00+00:00",
+    "source_name": "ArXiv AI/ML",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://redis.io/blog/zero-downtime-redis-migration-from-aws-to-redis-cloud-with-eden/",
+    "title": "Zero-downtime Redis migration from AWS to Redis Cloud with Eden",
+    "link": "https://redis.io/blog/zero-downtime-redis-migration-from-aws-to-redis-cloud-with-eden/",
+    "summary": "Redis migrations can suck. Whether you’re switching cloud providers, moving off self-managed Redis, or consolidating clusters, the usual playbook involves maintenance windows, write freezes, connection string swaps, and a healthy amount of stress. Ev...",
+    "published": "2026-02-19T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/llm-token-optimization-speed-up-apps/",
+    "title": "How to cut LLM token costs & speed up AI apps",
+    "link": "https://redis.io/blog/llm-token-optimization-speed-up-apps/",
+    "summary": "You've probably noticed your Large Language Model (LLM) bill creeping up faster than your user growth. Or maybe you're watching users abandon your AI app because responses take too long. Both problems often trace back to the same issue: wasted tokens....",
+    "published": "2026-02-19T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/agentic-ai-financial-services-infrastructure-guide/",
+    "title": "Agentic AI in financial services: What you need to know before building",
+    "link": "https://redis.io/blog/agentic-ai-financial-services-infrastructure-guide/",
+    "summary": "Many financial institutions use AI somewhere: fraud detection, chatbots, document processing. The list goes on, and the investments are growing. But fewer institutions capture real value from these investments. Many generative AI projects don't make ...",
+    "published": "2026-02-18T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/active-active-architecture/",
+    "title": "Active-active architecture: How a different system configuration can unlock new levels of reliability",
+    "link": "https://redis.io/blog/active-active-architecture/",
+    "summary": "An active-active architecture is a system configuration in which multiple identical nodes are simultaneously active and serve requests concurrently. Instead of relying on a single, primary node, all nodes in an active-active architecture run in parall...",
+    "published": "2026-02-18T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/real-time-ai-recommendation-systems/",
+    "title": "AI recommendation systems: Real-time infrastructure for personalized experiences",
+    "link": "https://redis.io/blog/real-time-ai-recommendation-systems/",
+    "summary": "Recommendation systems are everywhere: Netflix suggesting your next binge, Amazon predicting what you'll buy, Spotify curating your weekly playlist. Under the hood, they're machine learning pipelines processing millions of interactions to deliver pers...",
+    "published": "2026-02-17T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=158303",
+    "title": "State of cloud native 2026: CNCF CTO’s insights and predictions",
+    "link": "https://www.cncf.io/blog/2026/02/19/state-of-cloud-native-2026-cncf-ctos-insights-and-predictions/",
+    "summary": "We’ve just celebrated the 10th anniversary of the Cloud Native Computing Foundation (CNCF), the foundation behind Kubernetes and so many other successful open source projects we all rely on. That alone was a good reason to...",
+    "published": "2026-02-19T15:34:46+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMimAFBVV95cUxPd21nVU95UnFxdVAxcWRucnRmNjFWWGZUUkp5b05qOEpvcFpFc2FiT0N5Zm5XUlhzMlB6S1FVbEFKanh1U2NaQzRQYzlJbEVwVzRhamZTQTJLUGJYVzZLV0U2SmwwQTdnQ25WRTY3LVJ6REtsY05Bb2w3Vnd1SjlfUVlhc1J6SVVTTUR3ci1ha1Ayb0xOUWlTSw",
+    "title": "Cassandra Query Language (CQL) APIs on Spanner - Google Cloud",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd21nVU95UnFxdVAxcWRucnRmNjFWWGZUUkp5b05qOEpvcFpFc2FiT0N5Zm5XUlhzMlB6S1FVbEFKanh1U2NaQzRQYzlJbEVwVzRhamZTQTJLUGJYVzZLV0U2SmwwQTdnQ25WRTY3LVJ6REtsY05Bb2w3Vnd1SjlfUVlhc1J6SVVTTUR3ci1ha1Ayb0xOUWlTSw?oc=5",
+    "summary": "Cassandra Query Language (CQL) APIs on Spanner Google Cloud",
+    "published": "2026-02-19T17:22:01+00:00",
+    "source_name": "Google News Cassandra",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.databricks.com/blog/access-genie-everywhere",
+    "title": "Use Genie Everywhere with Enterprise OAuth",
+    "link": "https://www.databricks.com/blog/access-genie-everywhere",
+    "summary": "IntroDemocratizing data starts with making insights easy and secure to access. With...",
+    "published": "2026-02-19T18:50:00+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/flexible-node-types-are-now-generally-available",
+    "title": "Flexible Node Types Are Now Generally Available",
+    "link": "https://www.databricks.com/blog/flexible-node-types-are-now-generally-available",
+    "summary": "Securing specific compute capacity can be challenging, especially during high-traffic...",
+    "published": "2026-02-18T22:30:00+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608416",
+    "title": "The Missing Curriculum: Essential Concepts For Data Scientists in the Age of AI Coding Agents",
+    "link": "https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/",
+    "summary": "AI can write the code, but you have to steer the ship. Master the knowledge to keep you relevant in the age of AI. The post The Missing Curriculum: Essential Concepts For Data Scientists in the Age of AI Coding Agents appeared first on Towards Data Science.",
+    "published": "2026-02-19T20:16:51+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608414",
+    "title": "Understanding the Chi-Square Test Beyond the Formula",
+    "link": "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
+    "summary": "How categorical data becomes statistical evidence. The post Understanding the Chi-Square Test Beyond the Formula appeared first on Towards Data Science.",
+    "published": "2026-02-19T18:28:26+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608412",
+    "title": "AlpamayoR1: Large Causal Reasoning Models for Autonomous Driving",
+    "link": "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
+    "summary": "All you need to know about Chain of Causation reasoning and the current state of Autonomous Driving! The post AlpamayoR1: Large Causal Reasoning Models for Autonomous Driving appeared first on Towards Data Science.",
+    "published": "2026-02-19T13:30:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608410",
+    "title": "AI in Multiple GPUs: How GPUs Communicate",
+    "link": "https://towardsdatascience.com/how-gpus-communicate/",
+    "summary": "A deep dive into the hardware infrastructure that enables multi-GPU communication for AI workloads The post AI in Multiple GPUs: How GPUs Communicate appeared first on Towards Data Science.",
+    "published": "2026-02-19T12:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71636",
+    "title": "Malicious AI",
+    "link": "https://www.schneier.com/blog/archives/2026/02/malicious-ai.html",
+    "summary": "Interesting: Summary: An AI agent of unknown ownership autonomously wrote and published a personalized hit piece about me after I rejected its code, attempting to damage my reputation and shame me into accepting its changes into a mainstream python library. This represents a first-of-its-kind case study of misaligned AI behavior in the wild, and raises serious concerns about currently deployed AI agents executing blackmail threats. Part 2 of the story. And a Wall Street Journal article.",
+    "published": "2026-02-19T12:05:39+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html",
+    "title": "PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence",
+    "link": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html",
+    "summary": "Cybersecurity researchers have discovered what they say is the first Android malware that abuses Gemini, Google's generative artificial intelligence (AI) chatbot, as part of its execution flow and achieves persistence. The malware has been codenamed PromptSpy by ESET. The malware is equipped to capture lockscreen data, block uninstallation efforts, gather device information, take screenshots,",
+    "published": "2026-02-19T17:52:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html",
+    "title": "INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown",
+    "link": "https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html",
+    "summary": "An international cybercrime operation against online scams has led to 651 arrests and recovered more than $4.3 million as part of an effort led by law enforcement agencies from 16 African countries. The initiative, codenamed Operation Red Card 2.0, took place between December 8, 2025 and January 30, 2026, according to INTERPOL. It targeted infrastructure and actors behind high-yield investment",
+    "published": "2026-02-19T17:50:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+    "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
+    "link": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+    "summary": "Microsoft has disclosed a now-patched security flaw in Windows Admin Center that could allow an attacker to escalate their privileges. Windows Admin Center is a locally deployed, browser-based management tool set that lets users manage their Windows Clients, Servers, and Clusters without the need for connecting to the cloud. The high-severity vulnerability, tracked as CVE-2026-26119, carries a",
+    "published": "2026-02-19T17:40:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
+    "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
+    "summary": "The cyber threat space doesn’t pause, and this week makes that clear. New risks, new tactics, and new security gaps are showing up across platforms, tools, and industries — often all at the same time. Some developments are headline-level. Others sit in the background but carry long-term impact. Together, they shape how defenders need to think about exposure, response, and preparedness right now",
+    "published": "2026-02-19T14:35:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html",
+    "title": "From Exposure to Exploitation: How AI Collapses Your Response Window",
+    "link": "https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html",
+    "summary": "We’ve all seen this before: a developer deploys a new cloud workload and grants overly broad permissions just to keep the sprint moving. An engineer generates a \"temporary\" API key for testing and forgets to revoke it. In the past, these were minor operational risks, debts you’d eventually pay down during a slower cycle. In 2026, “Eventually” is Now But today, within minutes, AI-powered",
+    "published": "2026-02-19T11:55:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html",
+    "title": "Fake IPTV Apps Spread Massiv Android Malware Targeting Mobile Banking Users",
+    "link": "https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html",
+    "summary": "Cybersecurity researchers have disclosed details of a new Android trojan called Massiv that's designed to facilitate device takeover (DTO) attacks for financial theft. The malware, according to ThreatFabric, masquerades as seemingly harmless IPTV apps to deceive victims, indicating that the activity is primarily singling out users looking for the online TV applications. \"This new threat, while",
+    "published": "2026-02-19T10:24:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html",
+    "title": "CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware",
+    "link": "https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html",
+    "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed CRESCENTHARVEST, likely targeting supporters of Iran's ongoing protests to conduct information theft and long-term espionage. The Acronis Threat Research Unit (TRU) said it observed the activity after January 9, with the attacks designed to deliver a malicious payload that serves as a remote access trojan (RAT) and",
+    "published": "2026-02-19T08:13:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24568",
+    "title": "EnOcean SmartServer IoT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-01",
+    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely execute arbitrary code and bypass ASLR. The following versions of EnOcean SmartServer IoT are affected: SmartServer IoT <=4.60.009 (CVE-2026-20761, CVE-2026-22885) CVSS Vendor Equipment Vulnerabilities v3 8.1 EnOcean Edge Inc EnOcean SmartServer IoT Improper Neutralization of Special Elements used in a Command ('Command Injection'), Out-of-bounds Read Background Critical Infrastructure Secto...",
+    "published": "2026-02-19T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24571",
+    "title": "Welker OdorEyes EcoSystem Pulse Bypass System with XL4 Controller",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-04",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in an over- or under-odorization event. The following versions of Welker OdorEyes EcoSystem Pulse Bypass System with XL4 Controller are affected: OdorEyes EcoSystem Pulse Bypass System with XL4 Controller vers:all/* (CVE-2026-24790) CVSS Vendor Equipment Vulnerabilities v3 8.2 Welker Welker OdorEyes EcoSystem Pulse Bypass System with XL4 Controller Missing Authentication for Critical Function Background Critical Infr...",
+    "published": "2026-02-19T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24570",
+    "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-03",
+    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could result in authentication being disabled, a denial-of-service condition, or an attacker stealing valid user credentials, including administrator credentials. The following versions of Jinan USR IOT Technology Limited (PUSR) USR-W610 are affected: USR-W610 <=3.1.1.0 (CVE-2026-25715, CVE-2026-24455, CVE-2026-26049, CVE-2026-26048) CVSS Vendor Equipment Vulnerabilities v3 9.8 Jinan USR IOT Technology Limited (PUSR) Jinan USR...",
+    "published": "2026-02-19T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24569",
+    "title": "Valmet DNA Engineering Web Tools",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-02",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to manipulate the web maintenance services URL to achieve arbitrary file read access. The following versions of Valmet DNA Engineering Web Tools are affected: Valmet DNA Engineering Web Tools <=C2022 (CVE-2025-15577) CVSS Vendor Equipment Vulnerabilities v3 8.6 Valmet Valmet DNA Engineering Web Tools Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') Background C...",
+    "published": "2026-02-19T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
+    "title": "Flaw in Grandstream VoIP phones allows stealthy eavesdropping",
+    "link": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
+    "summary": "A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]",
+    "published": "2026-02-19T17:16:32+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/",
+    "title": "Google blocked over 1.75 million Play Store app submissions in 2025",
+    "link": "https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/",
+    "summary": "Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]",
+    "published": "2026-02-19T17:00:00+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-dell-flaw-within-3-days/",
+    "title": "CISA orders feds to patch actively exploited Dell flaw within 3 days",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-dell-flaw-within-3-days/",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their systems within three days against a maximum-severity Dell vulnerability that has been under active exploitation since mid-2024. [...]",
+    "published": "2026-02-19T15:30:37+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/how-infostealers-turn-stolen-credentials-into-real-identities/",
+    "title": "How infostealers turn stolen credentials into real identities",
+    "link": "https://www.bleepingcomputer.com/news/security/how-infostealers-turn-stolen-credentials-into-real-identities/",
+    "summary": "Infostealer dumps increasingly tie stolen credentials to real identities, linking usernames, cookies, and behavior across personal and enterprise accounts. Specops explains how analyzing 90,000 dumps shows reuse fuels enterprise risk and how continuous AD scanning disrupts that cycle. [...]",
+    "published": "2026-02-19T15:05:15+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/nigerian-man-gets-eight-years-in-prison-for-hacking-tax-firms/",
+    "title": "Nigerian man gets eight years in prison for hacking tax firms",
+    "link": "https://www.bleepingcomputer.com/news/security/nigerian-man-gets-eight-years-in-prison-for-hacking-tax-firms/",
+    "summary": "A Nigerian national was sentenced to eight years in prison for hacking multiple tax preparation firms in Massachusetts and filing fraudulent tax returns seeking over $8.1 million in refunds. [...]",
+    "published": "2026-02-19T13:51:49+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/texas-sues-tp-link-over-chinese-hacking-risks-user-deception/",
+    "title": "Texas sues TP-Link over Chinese hacking risks, user deception",
+    "link": "https://www.bleepingcomputer.com/news/security/texas-sues-tp-link-over-chinese-hacking-risks-user-deception/",
+    "summary": "Texas sued networking giant TP-Link Systems, accusing the company of deceptively marketing its routers as secure while allowing Chinese state-backed hackers to exploit firmware vulnerabilities and access users' devices. [...]",
+    "published": "2026-02-19T12:36:51+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/",
+    "title": "Hackers target Microsoft Entra accounts in device code vishing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/",
+    "summary": "Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]",
+    "published": "2026-02-19T12:30:37+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/",
+    "title": "Police arrests 651 suspects in African cybercrime crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/",
+    "summary": "African authorities arrested 651 suspects and recovered over $4.3 million in a joint operation targeting investment fraud, mobile money scams, and fake loan applications. [...]",
+    "published": "2026-02-19T11:24:17+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32730",
+    "title": "Under the Hood of DynoWiper, (Thu, Feb 19th)",
+    "link": "https://isc.sans.edu/diary/rss/32730",
+    "summary": "[This is a Guest Diary contributed by John Moutos]",
+    "published": "2026-02-19T19:43:30+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-19/trump-secures-17-billion-in-pledged-aid-for-gaza",
+    "title": "Trump Secures $17 Billion in Pledged Aid for Gaza",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-19/trump-secures-17-billion-in-pledged-aid-for-gaza",
+    "summary": "President Donald Trump said his Board of Peace received about $17 billion in pledges that will be used to help rebuild Gaza. He made the announcement this morning as the group met in Washington. Skylar Woodhouse reports from the White House. (Source: Bloomberg)",
+    "published": "2026-02-19T19:44:05+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/farmers-to-bet-on-soy-with-more-us-planting-tied-to-china-demand",
+    "title": "Farmers Bet on Soy With More Planting Tied to China Demand",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/farmers-to-bet-on-soy-with-more-us-planting-tied-to-china-demand",
+    "summary": "US growers will boost soybean plantings this spring and scale back on corn, the most widely grown American crop, after the revival of stalled exports of the beans to China.",
+    "published": "2026-02-19T13:07:52+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/walmart-cites-worrying-economic-indicators-in-cautious-forecast",
+    "title": "Walmart Cites Worrying Economic Indicators in Cautious Forecast",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/walmart-cites-worrying-economic-indicators-in-cautious-forecast",
+    "summary": "Walmart Inc., a bellwether of consumer spending, cited a “hiring recession” and pressures on shoppers as it forecast less growth in earnings this year than Wall Street was expecting.",
+    "published": "2026-02-19T18:35:16+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/banxico-cites-uncertainty-over-mexican-tariffs-on-asian-goods",
+    "title": "Banxico Cites Uncertainty Over Mexican Tariffs on Asian Goods",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/banxico-cites-uncertainty-over-mexican-tariffs-on-asian-goods",
+    "summary": "The majority of Mexico’s central bank board acknowledges lingering uncertainty on price pressures from tariffs the Mexican government recently imposed on Asian imports, though it described the potential inflationary hit as “temporary and limited.”",
+    "published": "2026-02-19T17:19:32+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/trump-s-tariffs-send-us-trade-deficit-with-china-to-21-year-low",
+    "title": "Trump’s Tariffs Send US Trade Deficit With China to 21-Year Low",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/trump-s-tariffs-send-us-trade-deficit-with-china-to-21-year-low",
+    "summary": "The US annual trade deficit with China shrank in 2025 to the smallest in more than two decades — and widened to record levels with Mexico and Vietnam — as President Donald Trump’s sweeping tariffs reordered global trade.",
+    "published": "2026-02-19T17:00:34+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/us-mortgage-rates-fall-to-lowest-level-in-more-than-three-years",
+    "title": "US Mortgage Rates Fall to Lowest Level in More Than Three Years",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/us-mortgage-rates-fall-to-lowest-level-in-more-than-three-years",
+    "summary": "US mortgage rates fell to the lowest level since September 2022 as affordability slowly improves.",
+    "published": "2026-02-19T17:00:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/us-trade-deficit-widens-capping-one-of-biggest-gaps-since-1960",
+    "title": "US Notches One of Its Biggest Annual Trade Gaps Since 1960",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/us-trade-deficit-widens-capping-one-of-biggest-gaps-since-1960",
+    "summary": "The US trade deficit widened in December, capping a turbulent year of erratic tariff policy.",
+    "published": "2026-02-19T13:33:41+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/kashkari-rips-hassett-criticism-of-new-york-fed-tariff-analysis",
+    "title": "Kashkari Rips Hassett Criticism of NY Fed Tariff Analysis",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/kashkari-rips-hassett-criticism-of-new-york-fed-tariff-analysis",
+    "summary": "Federal Reserve Bank of Minneapolis President Neel Kashkari said recent comments by National Economic Council Director Kevin Hassett critical of a New York Fed study on tariffs undermine the central bank’s independence.",
+    "published": "2026-02-19T14:34:17+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/asian-stocks-to-climb-as-tech-lifts-us-equities-markets-wrap",
+    "title": "Stocks Decline as US-Iran Risks Spur Rally in Oil: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/asian-stocks-to-climb-as-tech-lifts-us-equities-markets-wrap",
+    "summary": "Heightened geopolitical worries sent stocks lower while extending a surge in oil and keeping a lid on bonds amid perceived inflation risks. Gold hovered near $5,000, while selling shook alternative asset managers after a private credit fund halted redemptions.",
+    "published": "2026-02-18T22:25:25+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-19/oil-spikes-as-threat-of-us-conflict-with-iran-increases-video",
+    "title": "Oil Spikes as Threat of US Conflict With Iran Increases",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-19/oil-spikes-as-threat-of-us-conflict-with-iran-increases-video",
+    "summary": "Crude oil rises on fears of a US conflict with Iran. Prices settled at their highest level since August. Mike McGlone reports. (Source: Bloomberg)",
+    "published": "2026-02-19T20:52:10+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/broker-clear-street-withdraws-ipo-filing-after-postponing-deal",
+    "title": "Broker Clear Street Withdraws IPO Filing After Postponing Deal",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/broker-clear-street-withdraws-ipo-filing-after-postponing-deal",
+    "summary": "Clear Street Group Inc., a Wall Street broker built on cloud computing technology, withdrew its IPO filing after postponing plans to go public.",
+    "published": "2026-02-19T20:43:37+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-19/big-tech-bets-get-a-reset-in-latest-13fs-video",
+    "title": "Big Tech Bets Get a Reset in Latest 13Fs",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-19/big-tech-bets-get-a-reset-in-latest-13fs-video",
+    "summary": "From Warren Buffett to Bill Ackman, Bloomberg’s Hema Parmar breaks down what the latest 13F filings reveal about where big money managers are placing their bets — and what it means for Big Tech. Interview occurred on February 18, 2026. (Source: Bloomberg)",
+    "published": "2026-02-19T20:42:15+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/latest-oil-market-news-and-analysis-for-feb-19",
+    "title": "Oil Rises to Highest Since August on Iran Conflict Concerns",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/latest-oil-market-news-and-analysis-for-feb-19",
+    "summary": "Oil settled at its highest level since August on concerns that the US and Iran are inching closer to a fresh conflict.",
+    "published": "2026-02-18T23:20:10+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-19/treasuries-head-for-worst-run-in-a-month-on-inflation-fears",
+    "title": "Treasuries Edge Higher on Haven Demand Amid Geopolitical Risks",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-19/treasuries-head-for-worst-run-in-a-month-on-inflation-fears",
+    "summary": "Treasuries ticked higher in choppy trading, ending a two-day selloff, amid heightened geopolitical tensions and ongoing concerns about the outlook for inflation.",
+    "published": "2026-02-19T10:48:11+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-18/gold-steadies-in-thin-trading-as-focus-turns-to-fed-rate-plans",
+    "title": "Gold Wavers Near $5,000 as Traders Assess Geopolitics, Fed Rate",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-18/gold-steadies-in-thin-trading-as-focus-turns-to-fed-rate-plans",
+    "summary": "Gold hovered around $5,000 an ounce as traders assessed the latest flareup in geopolitics and the Federal Reserve’s next move on interest rates.",
+    "published": "2026-02-18T23:31:13+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-19/air-france-klm-ceo-speaks-to-bloomberg-tv-after-earnings-video",
+    "title": "Air France-KLM CEO Is Upbeat About Transatlantic Routes",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-19/air-france-klm-ceo-speaks-to-bloomberg-tv-after-earnings-video",
+    "summary": "Air France-KLM CEO Ben Smith speaks exclusively to Bloomberg News after they reported better-than-expected earnings in the fourth quarter and remains upbeat about the North Atlantic routes despite heightened geopolitical tensions. (Source: Bloomberg)",
+    "published": "2026-02-19T09:04:14+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMirwFBVV95cUxQQ0hTMmp0QzNyLWVlME1SSHA3c3pHdEZCalZ3QXRkV2t5NVptdUcxTlFFeDRlZzFHWWJhSnBKdGFmSllpM19nUlJMTE5ycF9CaFNqN1VRT0tfSHFxWGpoenQ4MmtadVRhTWZzWmJEcFV2OW1XVFRYSlVkc3dHNkVMSU84TWE2dEtoUThYQmtKYWN0WmZZWm10bmVLc2tYeGdFZE1adUJXRVdqQ19iOWow",
+    "title": "German economy faces weak Q1 but rebound still coming, Bundesbank says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ0hTMmp0QzNyLWVlME1SSHA3c3pHdEZCalZ3QXRkV2t5NVptdUcxTlFFeDRlZzFHWWJhSnBKdGFmSllpM19nUlJMTE5ycF9CaFNqN1VRT0tfSHFxWGpoenQ4MmtadVRhTWZzWmJEcFV2OW1XVFRYSlVkc3dHNkVMSU84TWE2dEtoUThYQmtKYWN0WmZZWm10bmVLc2tYeGdFZE1adUJXRVdqQ19iOWow?oc=5",
+    "summary": "German economy faces weak Q1 but rebound still coming, Bundesbank says Reuters",
+    "published": "2026-02-19T11:06:51+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMiuwFBVV95cUxQelNEb0E3dHVWZ1BZdTd5VG5kbTV2QW1kTlRGOHN4cERRaVJQTU5LMzFjSnMydGcyeVJGMWhFSkh5T3BXWTd0SU4tMjhKOGhyV1pWSlNKeTkxRE83ekctblZKU041emNhMXZSX2lZSkQtWVQ2OTFxVkY2STFMUV9FUzBzRi1IZm9SWS1YR3pCRXFzT3A1YWxOQnVyaHQtbWVSVnhOcGNVSzdjYlFQeGd5M2dIM2FuUHBfNENJ",
+    "title": "Dollar advances after data implies stable economy - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQelNEb0E3dHVWZ1BZdTd5VG5kbTV2QW1kTlRGOHN4cERRaVJQTU5LMzFjSnMydGcyeVJGMWhFSkh5T3BXWTd0SU4tMjhKOGhyV1pWSlNKeTkxRE83ekctblZKU041emNhMXZSX2lZSkQtWVQ2OTFxVkY2STFMUV9FUzBzRi1IZm9SWS1YR3pCRXFzT3A1YWxOQnVyaHQtbWVSVnhOcGNVSzdjYlFQeGd5M2dIM2FuUHBfNENJ?oc=5",
+    "summary": "Dollar advances after data implies stable economy TradingView",
+    "published": "2026-02-19T17:03:47+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMiqgJBVV95cUxQOTlRRExDdXlXQ283N3pfeXVWbUJ0QmlVal8xcTJfQUFNTlRLRFQ2WGVYS2ZSR3E1Y3BaaWxaSFdPdU42V1c4R1pOMDlfdFlfU0taUDEtZm45RUljTXdiNEd2S0l3R0Q3NXNmTHZBNDUxSFNaVEFqN3JlQVhubmFNMmo5Rk10TkhxTE1GMlJPcnRIVVFLZ2FFYlhKVHh0OW5BZl9fRWRaaEpkalZSbmNwSl94WVpZRDBpOGItSVdzT2U2R2I0MExzNWF0WGNLVjN5M19uZ3pLcnBJeXZZbTZzVEVCSFFrTEhacllCMlFnN3dnRjh2cFRjN2FaNm5qbWpJaWwyTGtsVzFOS0plM1dKbWFiUXBpNHoxZjJHSmdpZXRWTnhqNUU3OXB3",
+    "title": "ZAWYA-PRESSR: DCO launches global “Ctrl+Alt+Delete” campaign to combat online misinformation and enhance trust in digital economy - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQOTlRRExDdXlXQ283N3pfeXVWbUJ0QmlVal8xcTJfQUFNTlRLRFQ2WGVYS2ZSR3E1Y3BaaWxaSFdPdU42V1c4R1pOMDlfdFlfU0taUDEtZm45RUljTXdiNEd2S0l3R0Q3NXNmTHZBNDUxSFNaVEFqN3JlQVhubmFNMmo5Rk10TkhxTE1GMlJPcnRIVVFLZ2FFYlhKVHh0OW5BZl9fRWRaaEpkalZSbmNwSl94WVpZRDBpOGItSVdzT2U2R2I0MExzNWF0WGNLVjN5M19uZ3pLcnBJeXZZbTZzVEVCSFFrTEhacllCMlFnN3dnRjh2cFRjN2FaNm5qbWpJaWwyTGtsVzFOS0plM1dKbWFiUXBpNHoxZjJHSmdpZXRWTnhqNUU3OXB3?oc=5",
+    "summary": "ZAWYA-PRESSR: DCO launches global “Ctrl+Alt+Delete” campaign to combat online misinformation and enhance trust in digital economy TradingView",
+    "published": "2026-02-19T13:32:54+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554246-dropbox-non-gaap-eps-of-0_68-beats-by-0_01-revenue-of-6363_2m-beats-by-5_74b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Dropbox Non-GAAP EPS of $0.68 beats by $0.01, revenue of $6363.2M beats by $5.74B",
+    "link": "https://seekingalpha.com/news/4554246-dropbox-non-gaap-eps-of-0_68-beats-by-0_01-revenue-of-6363_2m-beats-by-5_74b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-19T21:06:20+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554249-alarm-com-non-gaap-eps-of-0_72-beats-by-0_08-revenue-of-261_7m-beats-by-10_95m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Alarm.com Non-GAAP EPS of $0.72 beats by $0.08, revenue of $261.7M beats by $10.95M",
+    "link": "https://seekingalpha.com/news/4554249-alarm-com-non-gaap-eps-of-0_72-beats-by-0_08-revenue-of-261_7m-beats-by-10_95m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-19T21:06:10+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554248-technipfmc-outlines-10b-subsea-inbound-target-and-raises-2026-margin-guidance-as-portfolio?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "TechnipFMC outlines $10B Subsea inbound target and raises 2026 margin guidance as portfolio approach gains traction",
+    "link": "https://seekingalpha.com/news/4554248-technipfmc-outlines-10b-subsea-inbound-target-and-raises-2026-margin-guidance-as-portfolio?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-19T21:05:59+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554247-wayfair-outlines-mid-single-digit-q1-revenue-growth-while-expanding-physical-retail-and?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Wayfair outlines mid-single-digit Q1 revenue growth while expanding physical retail and loyalty programs",
+    "link": "https://seekingalpha.com/news/4554247-wayfair-outlines-mid-single-digit-q1-revenue-growth-while-expanding-physical-retail-and?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-19T21:05:50+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554245-texas-roadhouse-gaap-eps-of-1_28-misses-by-0_21-revenue-of-1_48b-misses-by-20m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Texas Roadhouse GAAP EPS of $1.28 misses by $0.21, revenue of $1.48B misses by $20M",
+    "link": "https://seekingalpha.com/news/4554245-texas-roadhouse-gaap-eps-of-1_28-misses-by-0_21-revenue-of-1_48b-misses-by-20m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-19T21:05:16+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554108-quantumscape-shares-fell-for-seven-consecutive-sessions-following-unimpressive-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "QuantumScape shares fell for seven consecutive sessions following unimpressive results",
+    "link": "https://seekingalpha.com/news/4554108-quantumscape-shares-fell-for-seven-consecutive-sessions-following-unimpressive-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-19T21:05:15+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554243-sprouts-farmers-market-gaap-eps-of-0_92-beats-by-0_03-revenue-of-2_1b-misses-by-50m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Sprouts Farmers Market GAAP EPS of $0.92 beats by $0.03, revenue of $2.1B misses by $50M",
+    "link": "https://seekingalpha.com/news/4554243-sprouts-farmers-market-gaap-eps-of-0_92-beats-by-0_03-revenue-of-2_1b-misses-by-50m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-19T21:05:10+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/top-us-airline-lobbyist-says-capping-credit-card-interest-rates-at-10-could-harm-industry-4514719",
+    "title": "Top US airline lobbyist says capping credit card interest rates at 10% could harm industry",
+    "link": "https://www.investing.com/news/economy-news/top-us-airline-lobbyist-says-capping-credit-card-interest-rates-at-10-could-harm-industry-4514719",
+    "summary": "",
+    "published": "2026-02-19T20:49:33+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/canadian-housing-prices-are-too-high-to-buy-yet-too-low-to-build-says-cibc-4514689",
+    "title": "Canadian housing prices are too high to buy yet too low to build, says CIBC",
+    "link": "https://www.investing.com/news/economy-news/canadian-housing-prices-are-too-high-to-buy-yet-too-low-to-build-says-cibc-4514689",
+    "summary": "",
+    "published": "2026-02-19T20:14:09+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/ecb-fines-jpmorgans-european-arm-122-million-euros-for-misreporting-capital-requirements-4514677",
+    "title": "ECB fines JPMorgan’s European arm 12.2 million euros for misreporting capital requirements",
+    "link": "https://www.investing.com/news/economy-news/ecb-fines-jpmorgans-european-arm-122-million-euros-for-misreporting-capital-requirements-4514677",
+    "summary": "",
+    "published": "2026-02-19T20:00:53+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/us-stock-futures-slip-as-focus-turns-to-ai-worries-walmart-earnings-4512918",
+    "title": "Wall Street dips as Nvidia slides and private equity stocks sink",
+    "link": "https://www.investing.com/news/economy-news/us-stock-futures-slip-as-focus-turns-to-ai-worries-walmart-earnings-4512918",
+    "summary": "",
+    "published": "2026-02-19T19:37:08+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/imf-to-release-new-us-economic-policy-prescriptions-next-week-4514651",
+    "title": "IMF to release new US economic policy prescriptions next week",
+    "link": "https://www.investing.com/news/economy-news/imf-to-release-new-us-economic-policy-prescriptions-next-week-4514651",
+    "summary": "",
+    "published": "2026-02-19T19:12:52+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/us-unsecured-loan-balances-hit-record-high-on-demand-from-subprime-customers-4513659",
+    "title": "US unsecured loan balances hit record high on demand from subprime customers",
+    "link": "https://www.investing.com/news/economy-news/us-unsecured-loan-balances-hit-record-high-on-demand-from-subprime-customers-4513659",
+    "summary": "",
+    "published": "2026-02-19T19:00:58+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/imf-says-venezuelas-economic-humanitarian-situation-is-quite-fragile-4514626",
+    "title": "IMF says Venezuela’s economic, humanitarian situation is ’quite fragile’",
+    "link": "https://www.investing.com/news/economy-news/imf-says-venezuelas-economic-humanitarian-situation-is-quite-fragile-4514626",
+    "summary": "",
+    "published": "2026-02-19T18:54:33+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/us-ready-to-begin-war-on-iran-by-saturday-4513395",
+    "title": "US said ready to begin war with Iran; Trump warns ’bad things will happen’",
+    "link": "https://www.investing.com/news/economy-news/us-ready-to-begin-war-on-iran-by-saturday-4513395",
+    "summary": "",
+    "published": "2026-02-19T18:42:30+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "4872464",
+    "title": "Cengage Learning Holdings II, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4872464-cengage-learning-holdings-ii-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T21:02:13+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4872463",
+    "title": "Canadian Tire Corporation, Limited 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4872463-canadian-tire-corporation-limited-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T21:01:31+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4872462",
+    "title": "Lagardere SA 2025 Q4 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4872462-lagardere-sa-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T21:01:08+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4872422",
+    "title": "Wyndham Hotels & Resorts Gets An Upgrade With A View, A Bright One",
+    "link": "https://seekingalpha.com/article/4872422-wyndham-hotels-and-resorts-gets-an-upgrade-with-a-view-a-bright-one?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T20:58:54+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4872421",
+    "title": "SCHG: Recent Economic Data Shows Why This Is A Well-Positioned Fund",
+    "link": "https://seekingalpha.com/article/4872421-schg-recent-economic-data-shows-why-this-is-the-best-positioned-fund?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T20:55:42+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4872245",
+    "title": "BE Semiconductor Industries N.V. (BESIY) Q4 2025 Earnings Call Transcript",
+    "link": "https://seekingalpha.com/article/4872245-be-semiconductor-industries-n-v-besiy-q4-2025-earnings-call-transcript?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T20:55:09+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4872458",
+    "title": "Talkspace, Inc. (TALK) Q4 2025 Earnings Call Transcript",
+    "link": "https://seekingalpha.com/article/4872458-talkspace-inc-talk-q4-2025-earnings-call-transcript?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T20:55:08+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4872357",
+    "title": "Lemonade, Inc. (LMND) Q4 2025 Earnings Call Transcript",
+    "link": "https://seekingalpha.com/article/4872357-lemonade-inc-lmnd-q4-2025-earnings-call-transcript?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-19T20:55:06+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108267342",
+    "title": "Amazon surpasses Walmart in annual revenue for first time, as both chase AI-fueled growth",
+    "link": "https://www.cnbc.com/2026/02/19/amazon-revenue-passes-walmart-earnings-reports.html",
+    "summary": "The shuffle underscores the rivalry between the two retailers, particularly as Walmart expands its advertising and third-party marketplace businesses.",
+    "published": "2026-02-19T19:04:10+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108267450",
+    "title": "Famed director James Cameron sends scathing letter to antitrust lawmaker over Netflix-WBD deal",
+    "link": "https://www.cnbc.com/2026/02/19/netflix-wbd-james-cameron-sends-scathing-letter-to-antitrust-lawmaker.html",
+    "summary": "James Cameron, award-winning director known for \"Avatar\" and \"Titanic,\" calls Netflix's proposed acquisition of WBD assets \"disastrous\" for theater business.",
+    "published": "2026-02-19T19:48:50+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108266947",
+    "title": "Why New Balance's 'dad shoes' are beating Nike as sales surge 19%",
+    "link": "https://www.cnbc.com/2026/02/19/new-balance-2025-sales-jump-19percent-as-brand-takes-share-from-nike.html",
+    "summary": "New Balance grew sales 19% to $9.2 billion in 2025 as its emphasis on street-wear styles and performance resonate with a wide range of shoppers.",
+    "published": "2026-02-19T13:30:01+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108263852",
+    "title": "Small furniture retailers face existential tariff threat, regardless of Supreme Court ruling",
+    "link": "https://www.cnbc.com/2026/02/19/supreme-court-tariffs-furniture-retailers-threat.html",
+    "summary": "As retailers await a decision from the Supreme Court on the future of tariffs, small furniture businesses will see little relief as upholstery duties remain.",
+    "published": "2026-02-19T13:00:02+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108266343",
+    "title": "Ultra-rich families spend more on their private investment firms as their fortunes rise",
+    "link": "https://www.cnbc.com/2026/02/19/ultra-rich-families-private-investment-firms-costs-rise.html",
+    "summary": "Family offices with at least $1 billion in assets reported spending $6.6 million in annual operating costs on average, according to J.P. Morgan Private Bank.",
+    "published": "2026-02-19T15:31:24+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108266274",
+    "title": "United Airlines is paring back rewards for travelers who don't have its credit card in MileagePlus overhaul",
+    "link": "https://www.cnbc.com/2026/02/19/united-airlines-frequent-flyer-mileage-plus-program-credit-card.html",
+    "summary": "United Airlines is overhauling its MileagePlus loyalty program to reward customers who have the carrier's credit card over those without it.",
+    "published": "2026-02-19T12:55:53+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108264583",
+    "title": "Walmart reports strong holiday growth, but earnings outlook falls short of estimates",
+    "link": "https://www.cnbc.com/2026/02/19/walmart-wmt-q4-2026-earnings.html",
+    "summary": "It marks the first earnings report since new Walmart CEO John Furner took over in early February.",
+    "published": "2026-02-19T21:07:43+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108267094",
+    "title": "Wayfair posts first annual sales gain since 2020, outperforms overall furniture market",
+    "link": "https://www.cnbc.com/2026/02/19/wayfair-w-earnings-q4-2025.html",
+    "summary": "Wayfair's growth comes during a challenging time for the furniture industry as tariffs, high interest rates and sluggish home sales are weighing on demand.",
+    "published": "2026-02-19T15:39:11+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "arla-record-2025-sales-face-130900429.html",
+    "title": "Arla sales to face pressure from lower milk prices in 2026",
+    "link": "https://finance.yahoo.com/news/arla-record-2025-sales-face-130900429.html",
+    "summary": "",
+    "published": "2026-02-18T13:09:00+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "pets-may-feel-family-claim-130000936.html",
+    "title": "Your pets may feel like family, but can you claim them as dependents on your tax return?",
+    "link": "https://finance.yahoo.com/news/pets-may-feel-family-claim-130000936.html",
+    "summary": "",
+    "published": "2026-02-18T13:00:00+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "coherent-corp-cohr-benefit-transition-130541733.html",
+    "title": "Will Coherent Corp. (COHR) Benefit from Transition?",
+    "link": "https://finance.yahoo.com/news/coherent-corp-cohr-benefit-transition-130541733.html",
+    "summary": "",
+    "published": "2026-02-18T13:05:41+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "think-hims-hers-health-hims-130146616.html",
+    "title": "Do You Think Hims & Hers Health (HIMS) is Positioned for Long-Term Growth?",
+    "link": "https://finance.yahoo.com/news/think-hims-hers-health-hims-130146616.html",
+    "summary": "",
+    "published": "2026-02-18T13:01:46+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "Dow Jones Futures Rise; Nvidia Gains On Meta AI Deal, Rivals Fall",
+    "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-meta-deal-nvidia-ai-rivals/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published": "2026-02-18T12:59:59+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "rivian-stock-ev-recovery-play-130500398.html",
+    "title": "Rivian Stock: The EV Recovery Play to Watch​",
+    "link": "https://finance.yahoo.com/news/rivian-stock-ev-recovery-play-130500398.html",
+    "summary": "",
+    "published": "2026-02-18T13:05:00+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "verisk-quarterly-profit-beats-estimates-125647738.html",
+    "title": "Verisk downplays AI disruption fears as quarterly profit beats estimates",
+    "link": "https://finance.yahoo.com/news/verisk-quarterly-profit-beats-estimates-125647738.html",
+    "summary": "",
+    "published": "2026-02-18T12:56:47+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "Storage Technology: How To Find & Own America's Greatest Opportunities",
+    "link": "https://www.investors.com/how-to-invest/tech-stock-storage-technology-americas-greatest-opportunities/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published": "2026-02-18T13:00:43+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004788009",
+    "title": "This is the biggest weakness in most people’s budgets. Here’s how to fix it.",
+    "link": "https://www.marketwatch.com/story/this-is-the-biggest-weakness-in-most-peoples-budgets-heres-how-to-fix-it-9290b3f0?mod=mw_rss_topstories",
+    "summary": "“Most people don’t blow up their budget because they’re careless,” one financial planner said. It happens because they neglect this critical detail.",
+    "published": "2026-02-19T20:59:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004787672",
+    "title": "The U.S. economy has grown faster than anyone predicted. Here’s why.",
+    "link": "https://www.marketwatch.com/story/the-u-s-economy-has-grown-faster-than-anyone-predicted-heres-why-16ed905b?mod=mw_rss_topstories",
+    "summary": "The final report card for the U.S. economy in 2025 is likely show pretty good marks — and set the stage for even stronger performance this year.",
+    "published": "2026-02-19T20:37:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004765750",
+    "title": "Why your portfolio may face one last rate-hike surprise before May",
+    "link": "https://www.marketwatch.com/story/why-the-fed-could-deliver-one-final-sting-to-your-portfolio-before-powells-exit-in-may-de2e8f28?mod=mw_rss_topstories",
+    "summary": "Interest rates typically go up when a Fed chair steps down.",
+    "published": "2026-02-19T19:24:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004786694",
+    "title": "4 reasons cybersecurity stocks are primed for a turnaround",
+    "link": "https://www.marketwatch.com/story/4-reasons-why-cybersecurity-stocks-are-primed-for-a-turnaround-d9b17f85?mod=mw_rss_topstories",
+    "summary": "Shares of most of the cybersecurity companies Jefferies covers are trading at the lowest valuations seen over the past five years.",
+    "published": "2026-02-19T19:15:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004788013",
+    "title": "‘Many politicians work well into their 80s’: I’m 71 and earn $300K for a Fortune 200 company. Do I work until I’m 75?",
+    "link": "https://www.marketwatch.com/story/many-politicians-work-well-into-their-80s-im-71-and-earn-300k-for-a-fortune-200-company-do-i-work-until-im-75-6b5e6baf?mod=mw_rss_topstories",
+    "summary": "“My company is eager to retain me because of the 45 years of knowledge and experience I bring.”",
+    "published": "2026-02-19T19:15:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004786409",
+    "title": "This fund that now says it’ll never open up for withdrawals has El-Erian making Bear Stearns parallels",
+    "link": "https://www.marketwatch.com/story/fund-that-has-frozen-withdrawals-since-november-now-says-itll-never-open-up-75466c1f?mod=mw_rss_topstories",
+    "summary": "A $1.6 billion fund at the center of concerns over private debt is now abandoning plans to let investors withdraw their money.",
+    "published": "2026-02-19T19:03:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004786271",
+    "title": "My ex-wife took out a $100K Parent PLUS loan for our son. Am I morally or legally obliged to pay it off?",
+    "link": "https://www.marketwatch.com/story/my-ex-wife-took-out-a-100k-parent-plus-loan-for-our-son-am-i-morally-or-legally-obliged-to-pay-it-off-30510e58?mod=mw_rss_topstories",
+    "summary": "“Our son makes $45,000 a year and has no immediate prospects for significantly increasing his income.”",
+    "published": "2026-02-19T18:29:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004786803",
+    "title": "Microsoft’s stock is trading at a rare discount to Alphabet’s, as the ‘Magnificent Seven’ reshuffle intensifies",
+    "link": "https://www.marketwatch.com/story/microsofts-stock-is-trading-at-a-rare-discount-to-alphabets-as-the-magnificent-seven-reshuffle-intensifies-9c897c65?mod=mw_rss_topstories",
+    "summary": "The artificial-intelligence trade is upending the long-standing pecking order of Big Tech valuations as investors hunt for the next big winners and losers.",
+    "published": "2026-02-19T18:18:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiX0FVX3lxTE5oSWU3ZUtYb2J2YW9yMmlwdDNBbFh2RG1jUldFU0FiSW9EYmhxZEdQeGxFS3gwTDZIWFo4THEzSnpRZVZpWlk1ZlpEN21HNFRuMXRubkhGYjJqYzhka0lv",
+    "title": "2026年末の日本株見通しを日経平均株価60,000円に上方修正 総選挙結果と決算を反映 野村證券ストラテジストが解説 - nomura.co.jp",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oSWU3ZUtYb2J2YW9yMmlwdDNBbFh2RG1jUldFU0FiSW9EYmhxZEdQeGxFS3gwTDZIWFo4THEzSnpRZVZpWlk1ZlpEN21HNFRuMXRubkhGYjJqYzhka0lv?oc=5",
+    "summary": "2026年末の日本株見通しを日経平均株価60,000円に上方修正 総選挙結果と決算を反映 野村證券ストラテジストが解説 nomura.co.jp",
+    "published": "2026-02-19T17:18:56+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMibEFVX3lxTE1wUnlDaVlPSmI2VHNwM01yYU80c1gtVmxYRGxRN0wwZVIwZzBrNXhObnFGMEp0dlFKVTEzckNzVmhtWWJrQnNlMWZJcDFDa2RGcHBYYVlZOWtPQ0xITXN5NF9JMzBORTktT1VQag",
+    "title": "日経平均6万円時代に備える投資戦略 注目は「効率良く稼ぐ」銘柄 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wUnlDaVlPSmI2VHNwM01yYU80c1gtVmxYRGxRN0wwZVIwZzBrNXhObnFGMEp0dlFKVTEzckNzVmhtWWJrQnNlMWZJcDFDa2RGcHBYYVlZOWtPQ0xITXN5NF9JMzBORTktT1VQag?oc=5",
+    "summary": "日経平均6万円時代に備える投資戦略 注目は「効率良く稼ぐ」銘柄 日本経済新聞",
+    "published": "2026-02-19T19:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMibEFVX3lxTFA1M3E2dzUwNVNJVk5OVzZNWXJqNTBuYkIxbXlVbXlsdHZrazVlLUtUTXVtSEozaEMxMzdxSEVGdFJCWmExZlNVUXNzTG42N2tOT0xsX1RFNDFXbnhrd0d0WjE4TGM4QWE5UFhRSg",
+    "title": "日経平均、6月末に6万2000円 東海東京の岡本氏 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1M3E2dzUwNVNJVk5OVzZNWXJqNTBuYkIxbXlVbXlsdHZrazVlLUtUTXVtSEozaEMxMzdxSEVGdFJCWmExZlNVUXNzTG42N2tOT0xsX1RFNDFXbnhrd0d0WjE4TGM4QWE5UFhRSg?oc=5",
+    "summary": "日経平均、6月末に6万2000円 東海東京の岡本氏 日本経済新聞",
+    "published": "2026-02-19T19:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiqAFBVV95cUxPRjVXbHZCLXlYa1NuUXgwNVdvcVNKYXFUQTNnVzhlYWgzbTUwMkxScHRrVlpfRXdtUFFpb3plUjFhTXBtN1JGUHVXSHpFUzdRc2lHY1RaS2RyRUZLLU90dE5sZFBCWmdQS0xGV0ptV1c5OFM2S01ILVBEMVUtcHBzdnZUWnhQaldxX25QT3JJMDFpcW5vd21yVkNuazBPU3hwQUJVYkxVdTk",
+    "title": "条件・期限付き承認とは 細胞医薬の実用化後押し - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRjVXbHZCLXlYa1NuUXgwNVdvcVNKYXFUQTNnVzhlYWgzbTUwMkxScHRrVlpfRXdtUFFpb3plUjFhTXBtN1JGUHVXSHpFUzdRc2lHY1RaS2RyRUZLLU90dE5sZFBCWmdQS0xGV0ptV1c5OFM2S01ILVBEMVUtcHBzdnZUWnhQaldxX25QT3JJMDFpcW5vd21yVkNuazBPU3hwQUJVYkxVdTk?oc=5",
+    "summary": "条件・期限付き承認とは 細胞医薬の実用化後押し 日本経済新聞",
+    "published": "2026-02-19T17:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiqAFBVV95cUxPa2t1Z0lGTm9LYnhiS2JsNjgySlV0X29rU0d0MTdiX0VYaVhMUlphS3k0RXFsSldROEYwTm92WWdvTzdIOS1pWWtRRDhuQWtweVZ3dUNlN1ZGNmx2d2RmdHd0Z1VRblR0emFIRE1ET3IyRXFmZzFvSHAxWGFzUnhPeEI2dkR4dUNjMVFYcnZndWJzc3k4aXB6TjJKSGM2R1NFeHhvei1Odzc",
+    "title": "SBI、デジタル社債を初上場へ 大阪の専業市場に 個人も取引しやすく - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa2t1Z0lGTm9LYnhiS2JsNjgySlV0X29rU0d0MTdiX0VYaVhMUlphS3k0RXFsSldROEYwTm92WWdvTzdIOS1pWWtRRDhuQWtweVZ3dUNlN1ZGNmx2d2RmdHd0Z1VRblR0emFIRE1ET3IyRXFmZzFvSHAxWGFzUnhPeEI2dkR4dUNjMVFYcnZndWJzc3k4aXB6TjJKSGM2R1NFeHhvei1Odzc?oc=5",
+    "summary": "SBI、デジタル社債を初上場へ 大阪の専業市場に 個人も取引しやすく 日本経済新聞",
+    "published": "2026-02-19T17:37:13+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMimgFBVV95cUxPTEVuWC1WTzgyeGEtM2JOOEJHcDlVWGNsNFNIN2xta213bWpaR1F0cFBuSE90U2p3UnFBd3B1Skt4VW42UjlFX3JTVW9DbU5nTnJDM2stMUFkbk1YZFh5Y1dmS3RXTV9ZNEhncVhvUEdUWGZzdDh3UUx6a3o2ZjNIaVcwNldmMTZpLThfSDVZVnFfRnE5aDhNYlBB",
+    "title": "OpenAIアルトマン氏「インドがAIの未来握る」 テック企業CEO登壇 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTEVuWC1WTzgyeGEtM2JOOEJHcDlVWGNsNFNIN2xta213bWpaR1F0cFBuSE90U2p3UnFBd3B1Skt4VW42UjlFX3JTVW9DbU5nTnJDM2stMUFkbk1YZFh5Y1dmS3RXTV9ZNEhncVhvUEdUWGZzdDh3UUx6a3o2ZjNIaVcwNldmMTZpLThfSDVZVnFfRnE5aDhNYlBB?oc=5",
+    "summary": "OpenAIアルトマン氏「インドがAIの未来握る」 テック企業CEO登壇 日本経済新聞",
+    "published": "2026-02-19T20:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiqAFBVV95cUxNRi15aUw4RkZ5QV9ZZmlwRWtpTXNDeEhtaGF0cU5rX0J4dGtoVGl1R0NZZWRtTkQ4b3J3TWpLMmV0dWlQS3ZTU2F0enZEdjNfN1dwbXlxdzNLTUd3MkstQlU3TW1HOUhSTWtyWlc4ejBOWHJpOXBTWTV2Zmc1UTZuOW53U3BpU3FKZm9JSHZET2pCcDRHR1JLNldRTWNBcUFBTVBtV0ZOenU",
+    "title": "サイバー攻撃対策、長崎から全国へ 県が事業化支援や人材育成 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRi15aUw4RkZ5QV9ZZmlwRWtpTXNDeEhtaGF0cU5rX0J4dGtoVGl1R0NZZWRtTkQ4b3J3TWpLMmV0dWlQS3ZTU2F0enZEdjNfN1dwbXlxdzNLTUd3MkstQlU3TW1HOUhSTWtyWlc4ejBOWHJpOXBTWTV2Zmc1UTZuOW53U3BpU3FKZm9JSHZET2pCcDRHR1JLNldRTWNBcUFBTVBtV0ZOenU?oc=5",
+    "summary": "サイバー攻撃対策、長崎から全国へ 県が事業化支援や人材育成 日本経済新聞",
+    "published": "2026-02-19T20:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiX0FVX3lxTE1ScGVXWnd1cDNzYzNhLVh5dkszc2RJSUpPd0oxTldZcl85aTFVTFB4c01SNzZ2ZWE1ZjBQM3IyZlJBNTdfZGxLUzhJaUtFcWd0WDFOaTItLTRZRkRSZ1ZN",
+    "title": "「SaaSの死」は本当か？ AI本格普及後も収益拡大が期待できるソフトウェア企業の条件 野村證券・村山誠 - nomura.co.jp",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ScGVXWnd1cDNzYzNhLVh5dkszc2RJSUpPd0oxTldZcl85aTFVTFB4c01SNzZ2ZWE1ZjBQM3IyZlJBNTdfZGxLUzhJaUtFcWd0WDFOaTItLTRZRkRSZ1ZN?oc=5",
+    "summary": "「SaaSの死」は本当か？ AI本格普及後も収益拡大が期待できるソフトウェア企業の条件 野村證券・村山誠 nomura.co.jp",
+    "published": "2026-02-19T18:29:13+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiYkFVX3lxTE13MGo0NER5SWVId1J2OTEtdllrSWgzVFlFd2UzdDN2YTZaQjJUdWtGUWJ0eHJfekRxSEc3SVZVWHZqbTJWMUZIV1RMR2dRZjhGbVB0MjEySTdJTXRlY1o3ZUFn",
+    "title": "【材料】 ドイツ、Ｆ３５戦闘機の追加購入を検討＝米国株個別 - かぶたん",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13MGo0NER5SWVId1J2OTEtdllrSWgzVFlFd2UzdDN2YTZaQjJUdWtGUWJ0eHJfekRxSEc3SVZVWHZqbTJWMUZIV1RMR2dRZjhGbVB0MjEySTdJTXRlY1o3ZUFn?oc=5",
+    "summary": "【材料】 ドイツ、Ｆ３５戦闘機の追加購入を検討＝米国株個別 かぶたん",
+    "published": "2026-02-19T18:24:00+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMihwFBVV95cUxOUGlWRl9Ba0RrSEZpbUdyNVAwLVROVnhPRFlVREw4WVZncC1BOWxiNHFCZXlPaDVwalJpZmZacDlSM2h4RFFMamQtWVY5VDIwc3FJNkhiMmpudDE0cHEyQ2JlMktCQkFLbE1ncWwzV29fX0tKYW0zSktqbzcwaEhGcDRxOFhDTjA",
+    "title": "ドアダッシュ、決算受け上昇 マーケットプレイス受注額が好調＝米国株個別(株探ニュース) - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUGlWRl9Ba0RrSEZpbUdyNVAwLVROVnhPRFlVREw4WVZncC1BOWxiNHFCZXlPaDVwalJpZmZacDlSM2h4RFFMamQtWVY5VDIwc3FJNkhiMmpudDE0cHEyQ2JlMktCQkFLbE1ncWwzV29fX0tKYW0zSktqbzcwaEhGcDRxOFhDTjA?oc=5",
+    "summary": "ドアダッシュ、決算受け上昇 マーケットプレイス受注額が好調＝米国株個別(株探ニュース) Yahoo!ファイナンス",
+    "published": "2026-02-19T15:40:30+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMibEFVX3lxTE9pQjlGanUyanc1QWFLaTdkSW40OHB6S0lZRGF1cDJPelpaU0hqOUhJYkQ0eWMzenRleVFZTzRVN0NDZ0lZQVMtaU9HMUZTZ3oxN1lXOURydWc4MWlOa1ZTUTM4VTFrV1JQb1kzaw",
+    "title": "〈Market SCOPE〉米輸送株の伸び率、S&P500超え 「AIで代替困難」に買い - 日本経済新聞 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pQjlGanUyanc1QWFLaTdkSW40OHB6S0lZRGF1cDJPelpaU0hqOUhJYkQ0eWMzenRleVFZTzRVN0NDZ0lZQVMtaU9HMUZTZ3oxN1lXOURydWc4MWlOa1ZTUTM4VTFrV1JQb1kzaw?oc=5",
+    "summary": "〈Market SCOPE〉米輸送株の伸び率、S&P500超え 「AIで代替困難」に買い - 日本経済新聞 日本経済新聞",
+    "published": "2026-02-19T17:00:00+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiVEFVX3lxTFAzeGk2MTVLb04zRngySExvNEpwUlNpWUlEUkJXMXlmdVRBYXYtcmN1bVFTS3ZoN08yMzFtTXBpMHJWaGtqR1YxYWdTczlzNTlsT3l6RdIBV0FVX3lxTFBvMW0ycVg1b0FHdjdhS3J0THQtS0phMEpqcnNoOV9JMFJya0N3dU5nRkFwZHdWc3F6eUZ1NFA1aW5pNkN4WUllYUxUMzA2VE1BczZfbEVFMA",
+    "title": "【米国株動向】アマゾン［AMZN］、出版社向けのAIコンテンツ市場に参入 - マネクリ",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzeGk2MTVLb04zRngySExvNEpwUlNpWUlEUkJXMXlmdVRBYXYtcmN1bVFTS3ZoN08yMzFtTXBpMHJWaGtqR1YxYWdTczlzNTlsT3l6RdIBV0FVX3lxTFBvMW0ycVg1b0FHdjdhS3J0THQtS0phMEpqcnNoOV9JMFJya0N3dU5nRkFwZHdWc3F6eUZ1NFA1aW5pNkN4WUllYUxUMzA2VE1BczZfbEVFMA?oc=5",
+    "summary": "【米国株動向】アマゾン［AMZN］、出版社向けのAIコンテンツ市場に参入 マネクリ",
+    "published": "2026-02-19T08:00:00+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMihwFBVV95cUxPMmh3ZnBGaUlCLUFVLXFLYThPMUlMUldLUDJpUFZ5RlFWSEhIbW1LN0JfQVNfZFBwNVhNN0otX01XTVhfNTRYajNuTW1MMVhhNmozZ0VyeWY1YUk4RUN6LWZsOWhPRlpBd0tOS2R2VlEwSlo2R1J5VTNMM1lDdGplMUxick9ybGs",
+    "title": "グーグルとシー、エージェント型ＡＩツール開発で提携＝米国株個別(株探ニュース) - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMmh3ZnBGaUlCLUFVLXFLYThPMUlMUldLUDJpUFZ5RlFWSEhIbW1LN0JfQVNfZFBwNVhNN0otX01XTVhfNTRYajNuTW1MMVhhNmozZ0VyeWY1YUk4RUN6LWZsOWhPRlpBd0tOS2R2VlEwSlo2R1J5VTNMM1lDdGplMUxick9ybGs?oc=5",
+    "summary": "グーグルとシー、エージェント型ＡＩツール開発で提携＝米国株個別(株探ニュース) Yahoo!ファイナンス",
+    "published": "2026-02-19T17:17:45+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiZkFVX3lxTE41T3BoTUZFLUlDbDNrSnFfbjc4Z3ktNzk0NWNYSGtiejFJS2x1NHlXSHZpR3l6N041U2NmVVZJNXRxRTNzNk03QWFqRGZrUFBOdmVTNnFJcWFiT3ZrNGxZd1FTb0M4dw",
+    "title": "ダウ先物は反落 ウォルマートの冴えない見通しが圧迫＝米国株 - かぶたん",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41T3BoTUZFLUlDbDNrSnFfbjc4Z3ktNzk0NWNYSGtiejFJS2x1NHlXSHZpR3l6N041U2NmVVZJNXRxRTNzNk03QWFqRGZrUFBOdmVTNnFJcWFiT3ZrNGxZd1FTb0M4dw?oc=5",
+    "summary": "ダウ先物は反落 ウォルマートの冴えない見通しが圧迫＝米国株 かぶたん",
+    "published": "2026-02-19T12:39:00+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMihwFBVV95cUxQUFRCdkZ2WWdrRktoS0oyUHFhZFhkM0ljMGpwQUV4MkJpaEFrdVcxNkEzYURHWU1iU1N2azdGUWI0ekwydEt5WWtHYk42Z1J3c0RZN21ZRGVsT1BLb1FoWkhxS3IyX3BNVVRfM3pFaEVVMGZrcnk2b0tpMzdicUE2S09Sa1VmbE0",
+    "title": "レミットリー、決算受け大幅高 ＣＥＯ交代も発表＝米国株個別(株探ニュース) - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUFRCdkZ2WWdrRktoS0oyUHFhZFhkM0ljMGpwQUV4MkJpaEFrdVcxNkEzYURHWU1iU1N2azdGUWI0ekwydEt5WWtHYk42Z1J3c0RZN21ZRGVsT1BLb1FoWkhxS3IyX3BNVVRfM3pFaEVVMGZrcnk2b0tpMzdicUE2S09Sa1VmbE0?oc=5",
+    "summary": "レミットリー、決算受け大幅高 ＣＥＯ交代も発表＝米国株個別(株探ニュース) Yahoo!ファイナンス",
+    "published": "2026-02-19T16:20:47+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://vercel.com/changelog/access-billing-usage-cost-data-api",
+    "title": "Access billing usage and cost data via API",
+    "link": "https://vercel.com/changelog/access-billing-usage-cost-data-api",
+    "summary": "Vercel now supports programmatic access to billing usage and cost data through the API and CLI. The new /billing/charges endpoint returns data in the FOCUS v1.3 open-standard format, allowing teams to ingest cost data into FinOps tools without custom transformation logic.The endpoint supports 1-day granularity with a maximum date range of one year. Responses are streamed as newline-delimited JSON (JSONL) to handle large datasets efficiently.SDK usagecurl usageCLI usageFor quick introspection,...",
+    "published": "2026-02-19T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/streamdown-2-3",
+    "title": "Streamdown 2.3 — Refreshed design and interactive playground",
+    "link": "https://vercel.com/changelog/streamdown-2-3",
+    "summary": "Streamdown 2.3 enhances design consistency by applying a unified nested-card design to tables, code blocks, and Mermaid diagrams. Action buttons now remain sticky during scroll, and code blocks render plain text immediately to reduce perceived latency before syntax highlighting loads.To accelerate testing, the new interactive playground supports real-time execution with custom markdown and editable props. This enables faster experimentation with configuration changes without spinning up a loc...",
+    "published": "2026-02-19T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/gemini-3-1-pro-is-live-on-ai-gateway",
+    "title": "Gemini 3.1 Pro is live on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-3-1-pro-is-live-on-ai-gateway",
+    "summary": "Gemini 3.1 Pro Preview from Google is now available on AI Gateway.This model release brings quality improvements across software engineering and agentic workflows, with enhanced usability for real-world tasks in finance and spreadsheet applications. Gemini 3.1 Pro Preview introduces more efficient thinking across use cases, reducing token consumption while maintaining performance.To use this model, set model to google/gemini-3.1-pro-preview in the AI SDK. This model supports the medium thinki...",
+    "published": "2026-02-19T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/private-storage-for-vercel-blob-now-available-in-public-beta",
+    "title": "Private storage for Vercel Blob, now available in public beta",
+    "link": "https://vercel.com/changelog/private-storage-for-vercel-blob-now-available-in-public-beta",
+    "summary": "Vercel Blob now supports private storage for sensitive files like contracts, invoices, and internal reports. Private storage requires authentication for all operations, preventing exposure via public URLs.Public storage allows public reads for media assets, while private storage requires authentication.Create a private store via the Storage dashboard or with the CLI:CLI commandWhen created inside a linked Vercel project, the CLI prompts you to connect the store, automatically adding the BLOB_...",
+    "published": "2026-02-19T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
   }
 ]
