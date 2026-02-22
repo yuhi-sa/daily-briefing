@@ -13238,5 +13238,815 @@
     "source_name": "Google News US Market JP",
     "category": "Investment & Markets",
     "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://arstechnica.com/space/2026/02/study-shows-how-rocket-launches-pollute-the-atmosphere/",
+    "title": "Study shows how rocket launches pollute the atmosphere",
+    "link": "https://arstechnica.com/space/2026/02/study-shows-how-rocket-launches-pollute-the-atmosphere/",
+    "summary": "Is the global atmospheric commons destined to be an industrial waste dumping ground?",
+    "published": "2026-02-22T11:20:03+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/space/2026/02/nasa-says-it-needs-to-haul-the-artemis-ii-rocket-back-to-the-hangar-for-repairs/",
+    "title": "NASA says it needs to haul the Artemis II rocket back to the hangar for repairs",
+    "link": "https://arstechnica.com/space/2026/02/nasa-says-it-needs-to-haul-the-artemis-ii-rocket-back-to-the-hangar-for-repairs/",
+    "summary": "\"Accessing and remediating any of these issues can only be performed in the VAB.\"",
+    "published": "2026-02-21T23:54:38+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47110515",
+    "title": "Attention Media ≠ Social Networks",
+    "link": "https://susam.net/attention-media-vs-social-networks.html",
+    "summary": "Article URL: https://susam.net/attention-media-vs-social-networks.html Comments URL: https://news.ycombinator.com/item?id=47110515 Points: 150 # Comments: 59",
+    "published": "2026-02-22T12:36:46+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47108989",
+    "title": "Back to FreeBSD: Part 1",
+    "link": "https://hypha.pub/back-to-freebsd-part-1",
+    "summary": "Article URL: https://hypha.pub/back-to-freebsd-part-1 Comments URL: https://news.ycombinator.com/item?id=47108989 Points: 125 # Comments: 50",
+    "published": "2026-02-22T07:16:27+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47107781",
+    "title": "Japanese Woodblock Print Search",
+    "link": "https://ukiyo-e.org/",
+    "summary": "Article URL: https://ukiyo-e.org/ Comments URL: https://news.ycombinator.com/item?id=47107781 Points: 151 # Comments: 24",
+    "published": "2026-02-22T03:18:36+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47106985",
+    "title": "A Botnet Accidentally Destroyed I2P",
+    "link": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
+    "summary": "Article URL: https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/ Comments URL: https://news.ycombinator.com/item?id=47106985 Points: 134 # Comments: 82",
+    "published": "2026-02-22T01:08:17+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47106686",
+    "title": "How I use Claude Code: Separation of planning and execution",
+    "link": "https://boristane.com/blog/how-i-use-claude-code/",
+    "summary": "Article URL: https://boristane.com/blog/how-i-use-claude-code/ Comments URL: https://news.ycombinator.com/item?id=47106686 Points: 716 # Comments: 454",
+    "published": "2026-02-22T00:29:05+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47105198",
+    "title": "Evidence of the bouba-kiki effect in naïve baby chicks",
+    "link": "https://www.science.org/doi/10.1126/science.adq7188",
+    "summary": "Article URL: https://www.science.org/doi/10.1126/science.adq7188 Comments URL: https://news.ycombinator.com/item?id=47105198 Points: 164 # Comments: 53",
+    "published": "2026-02-21T21:51:58+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47104667",
+    "title": "Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU",
+    "link": "https://github.com/xaskasdf/ntransformer",
+    "summary": "Hi everyone, I'm kinda involved in some retrogaming and with some experiments I ran into the following question: \"It would be possible to run transformer models bypassing the cpu/ram, connecting the gpu to the nvme?\"This is the result of that question itself and some weekend vibecoding (it has the linked library repository in the readme as well), it seems to work, even on consumer gpus, it should work better on professional ones tho Comments URL: https://news.ycombinator.com/item?id=47104667 ...",
+    "published": "2026-02-21T20:57:30+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47103931",
+    "title": "Parse, Don't Validate and Type-Driven Design in Rust",
+    "link": "https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/",
+    "summary": "Article URL: https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/ Comments URL: https://news.ycombinator.com/item?id=47103931 Points: 220 # Comments: 59",
+    "published": "2026-02-21T19:40:06+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "CBMivAFBVV95cUxQMFdmZ3FNSFVXbGN2ekhWXzNkX093TmRYeU1KTjVuOHFiMzlYUXJoM3hHRlhidFJqRV9nR1Fxai1OdjAwSjZFM1lYbUgyY0FDa3lQOENRWnpmZm9IU3JZUmtHMloyWFNYMmh6eU52TUVSc1VKdGVrY2hEMUJIcGJlOTNjcnI1QXNvMmtKM2haYl94SU8wbEsxNzlhV2Q2MXhWMUpQbmh5Y1RBV196dGZyWHI4a1p6Vl9DaTlfMQ",
+    "title": "Tom Sawyer Software Announces Data Streams 1.0 First Public Release - The Desert Sun",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMFdmZ3FNSFVXbGN2ekhWXzNkX093TmRYeU1KTjVuOHFiMzlYUXJoM3hHRlhidFJqRV9nR1Fxai1OdjAwSjZFM1lYbUgyY0FDa3lQOENRWnpmZm9IU3JZUmtHMloyWFNYMmh6eU52TUVSc1VKdGVrY2hEMUJIcGJlOTNjcnI1QXNvMmtKM2haYl94SU8wbEsxNzlhV2Q2MXhWMUpQbmh5Y1RBV196dGZyWHI4a1p6Vl9DaTlfMQ?oc=5",
+    "summary": "Tom Sawyer Software Announces Data Streams 1.0 First Public Release The Desert Sun",
+    "published": "2026-02-21T15:28:41+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-1806101152341830568.post-7232616010389931583",
+    "title": "MySQL 8.0 JSON Functions: Practical Examples and Indexing",
+    "link": "https://anothermysqldba.blogspot.com/2026/02/mysql-80-json-functions-practical.html",
+    "summary": "This post covers a hands-on walkthrough of MySQL 8.0's JSON functions. JSON support has been in MySQL since 5.7, but 8.0 added a meaningful set of improvements — better indexing strategies, new functions, and multi-valued indexes — that make working with JSON data considerably more practical. The following documents several of the most commonly needed patterns, including EXPLAIN output and performance observations worth knowing about. This isn't a \"JSON vs. relational\" debate post. If you're ...",
+    "published": "2026-02-21T22:39:00+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMiigFBVV95cUxOX1dVdnBWdDY1SWZqRjYxUzgzMm1wcFJYVmQtUGdUTkdkYktFRzcyXzJVMUl3UFlSbzVxTEZ1Q3FRRWlsSHlZMWVMZGJaLXNmaHREYmZlZmFpTURjc2doa041UE42cnVaQ0lvUklnbnlNc0RVai1ob3FpZnJFV2dhejg1c0prMUlXdFE",
+    "title": "Apache Cassandra: The Secret Weapon for AI - TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX1dVdnBWdDY1SWZqRjYxUzgzMm1wcFJYVmQtUGdUTkdkYktFRzcyXzJVMUl3UFlSbzVxTEZ1Q3FRRWlsSHlZMWVMZGJaLXNmaHREYmZlZmFpTURjc2doa041UE42cnVaQ0lvUklnbnlNc0RVai1ob3FpZnJFV2dhejg1c0prMUlXdFE?oc=5",
+    "summary": "Apache Cassandra: The Secret Weapon for AI TechCrunch",
+    "published": "2026-02-20T15:30:00+00:00",
+    "source_name": "Google News Cassandra",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608429",
+    "title": "The Reality of Vibe Coding: AI Agents and the Security Debt Crisis",
+    "link": "https://towardsdatascience.com/the-reality-of-vibe-coding-ai-agents-and-the-security-debt-crisis/",
+    "summary": "Why optimizing for speed over safety is leaving applications vulnerable, and how to fix it. The post The Reality of Vibe Coding: AI Agents and the Security Debt Crisis appeared first on Towards Data Science.",
+    "published": "2026-02-22T15:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/",
+    "title": "Arkanix Stealer pops up as short-lived AI info-stealer experiment",
+    "link": "https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/",
+    "summary": "An information-stealing malware operation named Arkanix Stealer, promoted on multiple dark web forums towards the end of 2025, was likely developed as an AI-assisted experiment. [...]",
+    "published": "2026-02-22T15:33:26+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/us-bilateral-trade-deals-are-still-on-track-greer-says",
+    "title": "US Tells Partners to Honor Tariff Deals as Trump Recalibrates",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/us-bilateral-trade-deals-are-still-on-track-greer-says",
+    "summary": "Senior US officials said President Donald Trump’s tariff defeat at the Supreme Court won’t unravel deals negotiated with US partners as they sought to defend the administration’s assertive trade policies.",
+    "published": "2026-02-22T14:49:57+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/lagarde-says-us-tariff-moves-risk-upsetting-equilibrium-with-eu",
+    "title": "Lagarde Says US Tariff Moves Risk Upsetting Equilibrium With EU",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/lagarde-says-us-tariff-moves-risk-upsetting-equilibrium-with-eu",
+    "summary": "President Donald Trump’s latest tariff moves risk upsetting the previously negotiated “equilibrium” between the European Union and the US and could pose a new headwind to the economy, European Central Bank President Christine Lagarde said on Sunday.",
+    "published": "2026-02-22T17:06:33+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-21/germany-about-to-find-out-whether-its-recovery-is-real",
+    "title": "Germany Is About to Find Out Whether Its Recovery Is Real",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-21/germany-about-to-find-out-whether-its-recovery-is-real",
+    "summary": "Data from Germany in the coming days will shed light on whether Europe’s largest economy is on the cusp of a meaningful revival or still being hampered by Donald Trump’s tariffs and its own chronic shortcomings.",
+    "published": "2026-02-21T21:00:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/xi-gains-upper-hand-before-trump-summit-after-us-tariff-reversal",
+    "title": "Xi Gains Leverage Before Trump Summit After Tariff Reversal",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/xi-gains-upper-hand-before-trump-summit-after-us-tariff-reversal",
+    "summary": "Chinese President Xi Jinping is heading to the negotiating table with Donald Trump with a boost in bargaining power, after the US leader lost his ability to quickly raise tariffs for nearly any reason.",
+    "published": "2026-02-22T07:48:26+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/german-opposition-to-eu-debt-hasn-t-changed-klingbeil-tells-faz",
+    "title": "German Opposition to EU Debt Hasn’t Changed, Klingbeil Tells FAZ",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/german-opposition-to-eu-debt-hasn-t-changed-klingbeil-tells-faz",
+    "summary": "German Finance Minister Lars Klingbeil said Germany sees no need to revise its stance on common European debt, backing Chancellor Friedrich Merz in opposing recent calls for more joint borrowing.",
+    "published": "2026-02-22T09:59:01+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/india-postpones-us-trip-to-finalize-trade-pact-on-tariff-ruling",
+    "title": "India Postpones US Trip to Finalize Trade Pact on Tariff Ruling",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/india-postpones-us-trip-to-finalize-trade-pact-on-tariff-ruling",
+    "summary": "Indian trade officials will postpone a trip to the US aimed at finalizing their interim deal after a US Supreme Court ruling that struck down many of President Donald Trump’s tariffs.",
+    "published": "2026-02-22T06:57:52+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/japan-s-ruling-party-tax-chief-calls-us-tariff-situation-messy",
+    "title": "Japan’s Ruling Party Tax Chief Calls US Tariff Situation ‘Messy’",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/japan-s-ruling-party-tax-chief-calls-us-tariff-situation-messy",
+    "summary": "A heavyweight of Japan’s ruling Liberal Democratic Party called US tariffs “a real mess” after President Donald Trump hiked levies in response to a Supreme Court decision that his previous tariffs were illegal.",
+    "published": "2026-02-22T05:56:17+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/australia-says-weighing-all-options-after-unjustified-tariffs",
+    "title": "Australia Says Weighing All Options After ‘Unjustified’ Tariffs",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/australia-says-weighing-all-options-after-unjustified-tariffs",
+    "summary": "Australia’s government said it will “examine all options” after US President Donald Trump imposed a 15% tariff on foreign imports.",
+    "published": "2026-02-22T04:18:44+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "CBMi7gFBVV95cUxPLTd2Nlk5dHVXT1JwZmF4S3V6NmNIaGJYMHdDQnctdHpXazlDaU5sclVpRDdRc1VQdHJMWGJuRElSdzFxSDZCZENreDFJTEZjU01pVGlPekJsWHdHTjY3aEJHNjBtSi1tNUgtU184MUNwTFg4cGctdjBZN3NxT2tnT285YU9ac0UwOUlfSHM0blRxTGlrYzFmalprQ0h2ODhXdllZOXJud2YzZDNSakJZMFRyMUhGS1gwZXpCUTJDUGw0d2dqX0xnb3RiMXZRR21KcGVraEowS0ZySjFuOEt4ZnBFcnE3T2F4a3N1aF9R",
+    "title": "ZAWYA-PRESSR: First Abu Dhabi Bank Misr supports the transition to a green economy - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPLTd2Nlk5dHVXT1JwZmF4S3V6NmNIaGJYMHdDQnctdHpXazlDaU5sclVpRDdRc1VQdHJMWGJuRElSdzFxSDZCZENreDFJTEZjU01pVGlPekJsWHdHTjY3aEJHNjBtSi1tNUgtU184MUNwTFg4cGctdjBZN3NxT2tnT285YU9ac0UwOUlfSHM0blRxTGlrYzFmalprQ0h2ODhXdllZOXJud2YzZDNSakJZMFRyMUhGS1gwZXpCUTJDUGw0d2dqX0xnb3RiMXZRR21KcGVraEowS0ZySjFuOEt4ZnBFcnE3T2F4a3N1aF9R?oc=5",
+    "summary": "ZAWYA-PRESSR: First Abu Dhabi Bank Misr supports the transition to a green economy TradingView",
+    "published": "2026-02-22T09:26:52+00:00",
+    "source_name": "Reuters (via Google News)",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/us-homeland-security-tsa-precheck-still-operational-reversesearlier-announcement-4517595",
+    "title": "Reversing course, US will keep TSA PreCheck program operational",
+    "link": "https://www.investing.com/news/economy-news/us-homeland-security-tsa-precheck-still-operational-reversesearlier-announcement-4517595",
+    "summary": "",
+    "published": "2026-02-22T18:18:29+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/eu-tells-us-a-deal-is-a-deal-as-tariff-uncertainty-grows-after-court-ruling-4517603",
+    "title": "EU tells U.S. “a deal is a deal” as tariff uncertainty grows after court ruling",
+    "link": "https://www.investing.com/news/economy-news/eu-tells-us-a-deal-is-a-deal-as-tariff-uncertainty-grows-after-court-ruling-4517603",
+    "summary": "",
+    "published": "2026-02-22T16:15:45+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/us-trade-chief-says-no-countries-plan-to-exit-tariff-deals-4517587",
+    "title": "US trade chief says no countries plan to exit tariff deals",
+    "link": "https://www.investing.com/news/economy-news/us-trade-chief-says-no-countries-plan-to-exit-tariff-deals-4517587",
+    "summary": "",
+    "published": "2026-02-22T14:24:50+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/switzerland-may-need-to-accept-us-tariffs-as-permanent-trade-chief-says-4517586",
+    "title": "Switzerland may need to accept US tariffs as permanent, trade chief says",
+    "link": "https://www.investing.com/news/economy-news/switzerland-may-need-to-accept-us-tariffs-as-permanent-trade-chief-says-4517586",
+    "summary": "",
+    "published": "2026-02-22T14:19:22+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/bull-vs-bear-argument-on-fridays-supreme-court-tariff-ruling-4517579",
+    "title": "Bull vs. bear argument on Friday’s Supreme Court tariff ruling",
+    "link": "https://www.investing.com/news/economy-news/bull-vs-bear-argument-on-fridays-supreme-court-tariff-ruling-4517579",
+    "summary": "",
+    "published": "2026-02-22T12:35:19+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/eu-trade-chief-urges-pause-on-us-deal-approval-amid-trump-tariff-uncertainty-4517578",
+    "title": "EU trade chief urges pause on US deal approval amid Trump tariff uncertainty",
+    "link": "https://www.investing.com/news/economy-news/eu-trade-chief-urges-pause-on-us-deal-approval-amid-trump-tariff-uncertainty-4517578",
+    "summary": "",
+    "published": "2026-02-22T12:21:36+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/xi-gains-strategic-edge-ahead-of-trump-summit-as-us-tariff-regime-stumbles-4517566",
+    "title": "Xi gains strategic edge ahead of Trump summit as U.S. tariff regime stumbles",
+    "link": "https://www.investing.com/news/economy-news/xi-gains-strategic-edge-ahead-of-trump-summit-as-us-tariff-regime-stumbles-4517566",
+    "summary": "",
+    "published": "2026-02-22T11:38:42+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/germany-rejects-new-eu-joint-debt-as-klingbeil-signals-fiscal-continuity-4517569",
+    "title": "Germany rejects new EU joint debt as Klingbeil signals fiscal continuity",
+    "link": "https://www.investing.com/news/economy-news/germany-rejects-new-eu-joint-debt-as-klingbeil-signals-fiscal-continuity-4517569",
+    "summary": "",
+    "published": "2026-02-22T11:38:34+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/rolls-royce-plans-a-1-5-billion-stock-buyback-sky-news-says",
+    "title": "Rolls-Royce Plans £1.5 Billion Stock Buyback, Sky News Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/rolls-royce-plans-a-1-5-billion-stock-buyback-sky-news-says",
+    "summary": "Rolls-Royce Holdings PLC is set to announce a share buyback worth as much as £1.5 billion ($2 billion), Sky News reported.",
+    "published": "2026-02-22T18:45:17+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/bond-market-momentum-shifts-bears-way-as-sell-signals-flash",
+    "title": "Bond Market Momentum Shifts Bears’ Way as Sell Signals Flash",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/bond-market-momentum-shifts-bears-way-as-sell-signals-flash",
+    "summary": "From the Supreme Court’s decision against Donald Trump’s tariffs to the threat of Federal Reserve rate hikes and signs of labor-market resilience, a range of pressures are forcing a sentiment shift in the $31 trillion Treasury market back in favor of bears.",
+    "published": "2026-02-22T17:54:22+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/option-pros-trade-index-versus-index-to-play-huge-stock-rotation",
+    "title": "Option Pros Trade Index Versus Index to Play Huge Stock Rotation",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/option-pros-trade-index-versus-index-to-play-huge-stock-rotation",
+    "summary": "Equity-options investors are looking to relative value trades between markets as opportunities to profit from dispersion strategies become scare.",
+    "published": "2026-02-22T15:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/szijjarto-says-hungary-to-block-eu-sanctions-package-on-monday",
+    "title": "Hungary to Block EU Sanctions, Loans Over Druzhba Standoff",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/szijjarto-says-hungary-to-block-eu-sanctions-package-on-monday",
+    "summary": "Hungary plans to block every European Union decision concerning Ukraine, including a new sanctions package against Russia and key loans, until oil starts flowing again through the Druzhba pipeline in western Ukraine.",
+    "published": "2026-02-22T11:55:37+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-22/global-cash-fuels-record-start-of-year-for-latin-america-stocks",
+    "title": "Global Cash Is Fueling a Historic Start for Latin America Stocks",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-22/global-cash-fuels-record-start-of-year-for-latin-america-stocks",
+    "summary": "Global investors are piling into Latin American stocks at the fastest clip in a decade, sending markets across the region to multi-year highs.",
+    "published": "2026-02-22T13:30:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554946-rolls-royce-is-said-to-prepare-up-to-2b-share-buyback?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Rolls-Royce is said to prepare up to $2B share buyback",
+    "link": "https://seekingalpha.com/news/4554946-rolls-royce-is-said-to-prepare-up-to-2b-share-buyback?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-22T20:02:06+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554945-dae-is-said-to-near-deal-to-acquire-controlling-stake-in-macquarie-airfinance?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "DAE is said to near deal to acquire controlling stake in Macquarie AirFinance",
+    "link": "https://seekingalpha.com/news/4554945-dae-is-said-to-near-deal-to-acquire-controlling-stake-in-macquarie-airfinance?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-22T19:49:46+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554944-treasury-bears-regain-ground-as-tariff-ruling-firm-data-pressure-bonds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Treasury bears regain ground as tariff ruling, firm data pressure bonds",
+    "link": "https://seekingalpha.com/news/4554944-treasury-bears-regain-ground-as-tariff-ruling-firm-data-pressure-bonds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-22T19:16:04+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554943-enel-announces-1_18b-share-buyback-ahead-of-strategic-update?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Enel announces $1.18B share buyback ahead of strategic update",
+    "link": "https://seekingalpha.com/news/4554943-enel-announces-1_18b-share-buyback-ahead-of-strategic-update?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-22T18:28:08+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554942-treasury-signals-tariff-strategy-to-continue-as-courts-weigh-potential-refunds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Treasury signals tariff strategy to continue as courts weigh potential refunds",
+    "link": "https://seekingalpha.com/news/4554942-treasury-signals-tariff-strategy-to-continue-as-courts-weigh-potential-refunds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-22T18:17:55+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554941-major-winter-storm-threatens-northeast-u-s-raising-travel-and-utility-disruption-risks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Major winter storm threatens northeast U.S., raising travel and utility disruption risks",
+    "link": "https://seekingalpha.com/news/4554941-major-winter-storm-threatens-northeast-u-s-raising-travel-and-utility-disruption-risks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-22T18:04:03+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4554940-tsa-precheck-reinstated-amid-shutdown-limiting-near-term-travel-disruption-risk?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "TSA PreCheck reinstated amid shutdown, limiting near-term travel disruption risk",
+    "link": "https://seekingalpha.com/news/4554940-tsa-precheck-reinstated-amid-shutdown-limiting-near-term-travel-disruption-risk?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-22T17:37:39+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873230",
+    "title": "S&P 500: Best Case Scenario? Another Failed Rally (Technical Analysis)",
+    "link": "https://seekingalpha.com/article/4873230-s-and-p-500-best-case-scenario-another-failed-rally?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T21:00:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873282",
+    "title": "Diamond Hill Intermediate Bond Strategy Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4873282-diamond-hill-intermediate-bond-strategy-q4-2025-commentary?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T20:53:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873281",
+    "title": "BlackRock Large Cap Focus Growth V.I. Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4873281-blackrock-large-cap-focus-growth-vi-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T20:43:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873280",
+    "title": "Northern Emerging Markets Equity Index Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4873280-northern-emerging-markets-equity-index-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T20:35:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873279",
+    "title": "Touchstone Large Cap Focused Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4873279-touchstone-large-cap-focused-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T20:27:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873278",
+    "title": "Victory Diversified Stock Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4873278-victory-diversified-stock-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T20:12:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873277",
+    "title": "Exceptional Returns With Low Volatility: Why I Exited Ellington Financial Series B Preferred Share",
+    "link": "https://seekingalpha.com/article/4873277-exceptional-returns-with-low-volatility-why-i-exited-ellington-financial-series-b-preferred-share?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T20:08:24+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4873276",
+    "title": "Weitz Large Cap Equity Fund Q4 2025 Commentary",
+    "link": "https://seekingalpha.com/article/4873276-weitz-large-cap-equity-fund-q4-2025-commentary?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-22T19:50:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004791373",
+    "title": "Tariffs costs and refunds take the spotlight as Home Depot, TJX and other retailers report earnings this week",
+    "link": "https://www.marketwatch.com/story/tariffs-costs-and-refunds-take-the-spotlight-as-home-depot-tjx-and-other-retailers-report-earnings-this-week-7f2a144a?mod=mw_rss_topstories",
+    "summary": "The Supreme Court struck down most of the Trump administration’s tariffs, but uncertainty remains for store chains.",
+    "published": "2026-02-22T20:38:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004784536",
+    "title": "‘I won’t take out a loan’: I need $18K in house repairs. Do I take it from my Roth, 401(k) or IRA?",
+    "link": "https://www.marketwatch.com/story/i-wont-take-out-a-loan-i-need-18k-in-house-repairs-do-i-take-it-from-my-roth-401-k-or-ira-651f80f1?mod=mw_rss_topstories",
+    "summary": "“I plan to be debt-free in less than two years.”",
+    "published": "2026-02-22T20:36:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004791595",
+    "title": "Last week’s slump in asset-manager stocks was driven by private-credit fears. Here’s what’s worrying investors.",
+    "link": "https://www.marketwatch.com/story/this-weeks-slump-in-asset-manager-stocks-was-driven-by-private-credit-fears-heres-whats-worrying-investors-0c47e043?mod=mw_rss_topstories",
+    "summary": "Shares of asset managers fell due to worries over a private-credit fund managed by Blue Owl Capital, triggering broader anxiety about spillover effects.",
+    "published": "2026-02-22T20:33:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004787705",
+    "title": "Gold sheds its safe-haven status. Is it just another momentum play now?",
+    "link": "https://www.marketwatch.com/story/gold-sheds-its-safe-haven-status-is-it-just-another-momentum-play-now-c60af908?mod=mw_rss_topstories",
+    "summary": "Gold has been on a spectacular, record-breaking bull run for much of the past three years — but some of the shine may be coming off the yellow metal, judging by its moves over the past week.",
+    "published": "2026-02-22T17:00:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004792403",
+    "title": "‘I need to get my financial ducks in a row’: I’m 80 with $1 million. How do I prevent my son from being hit with inheritance tax?",
+    "link": "https://www.marketwatch.com/story/i-need-to-get-my-financial-ducks-in-a-row-im-80-with-1-million-how-do-i-prevent-my-son-from-being-hit-with-inheritance-tax-27913be6?mod=mw_rss_topstories",
+    "summary": "“I have $650,000 in investments, $250,000 in life insurance and about $150,000 equity in my home.”",
+    "published": "2026-02-22T16:30:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "michael-burry-says-slept-bitcoin-205027452.html",
+    "title": "Michael Burry Says He 'Slept' on Bitcoin After Early 2013 Buying Opportunity",
+    "link": "https://finance.yahoo.com/news/michael-burry-says-slept-bitcoin-205027452.html",
+    "summary": "",
+    "published": "2026-02-22T20:50:27+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "oil-analysts-say-there-is-a-supply-glut--why-that-hasnt-translated-to-lower-prices-this-year-150108444.html",
+    "title": "Oil analysts say there is a supply glut — why that hasn't translated to lower prices this year",
+    "link": "https://finance.yahoo.com/news/oil-analysts-say-there-is-a-supply-glut--why-that-hasnt-translated-to-lower-prices-this-year-150108444.html",
+    "summary": "",
+    "published": "2026-02-21T15:01:08+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "nvidia-earnings-scotus-tariff-fallout-geopolitical-tensions-rise-what-to-watch-this-week-124717965.html",
+    "title": "Nvidia earnings, SCOTUS tariff fallout, geopolitical tensions rise: What to watch this week",
+    "link": "https://finance.yahoo.com/news/nvidia-earnings-scotus-tariff-fallout-geopolitical-tensions-rise-what-to-watch-this-week-124717965.html",
+    "summary": "",
+    "published": "2026-02-22T12:47:17+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "heres-walmarts-1-trillion-secret-133058210.html",
+    "title": "Here's Walmart's $1 trillion secret",
+    "link": "https://finance.yahoo.com/news/heres-walmarts-1-trillion-secret-133058210.html",
+    "summary": "",
+    "published": "2026-02-22T13:30:58+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "955-saved-for-retirement-millions-are-in-that-boat-150003868.html",
+    "title": "$955 saved for retirement? Millions are in that boat.",
+    "link": "https://finance.yahoo.com/news/955-saved-for-retirement-millions-are-in-that-boat-150003868.html",
+    "summary": "",
+    "published": "2026-02-22T15:00:03+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "best-stocks-invest-50-000-205000558.html",
+    "title": "The Best Stocks to Invest $50,000 in Right Now",
+    "link": "https://finance.yahoo.com/news/best-stocks-invest-50-000-205000558.html",
+    "summary": "",
+    "published": "2026-02-22T20:50:00+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "moneys-moving-out-of-tech-wall-street-weighs-stock-market-winners-amid-the-ai-scare-trade-160024597.html",
+    "title": "‘Money's moving out of tech’: Wall Street weighs stock market winners amid the AI scare trade",
+    "link": "https://finance.yahoo.com/news/moneys-moving-out-of-tech-wall-street-weighs-stock-market-winners-amid-the-ai-scare-trade-160024597.html",
+    "summary": "",
+    "published": "2026-02-22T16:00:24+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108252436",
+    "title": "As American Girl turns 40, Mattel grapples with bringing dolls into a new era",
+    "link": "https://www.cnbc.com/2026/02/22/american-girl-40th-anniversary-sales-mattel.html",
+    "summary": "American Girl marks its 40th anniversary after five quarters of sales growth, but revenue remains far below its peak as Mattel faces industry pressures.",
+    "published": "2026-02-22T17:07:08+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMisAFBVV95cUxPaDhNbWZsQXNtVm5sLXJBaUI0TjF6YUZQWnh0V3RJX3lBYVBhSFFqZ0JrdFA4SWRnM0NxVGdWODNuLUFZYmlSZ2JzbHNBQXEybHpxbFdYbVRqRTA5TlNsbEZWS056RkVuT1o1UHpzcGFVY2F2bkxobEN1SjFNWl9ILXB3R1ZKYzctNUItbjZKNDlldFFfM0dNNHRBRUo0Z2xSNXIzMC1Pa3hieEJpYk1OVw",
+    "title": "【米国株】S&P500週間見通し(2/23週)：焦点はエヌビディア決算、トランプ新関税の反応注視 - IG Group",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaDhNbWZsQXNtVm5sLXJBaUI0TjF6YUZQWnh0V3RJX3lBYVBhSFFqZ0JrdFA4SWRnM0NxVGdWODNuLUFZYmlSZ2JzbHNBQXEybHpxbFdYbVRqRTA5TlNsbEZWS056RkVuT1o1UHpzcGFVY2F2bkxobEN1SjFNWl9ILXB3R1ZKYzctNUItbjZKNDlldFFfM0dNNHRBRUo0Z2xSNXIzMC1Pa3hieEJpYk1OVw?oc=5",
+    "summary": "【米国株】S&P500週間見通し(2/23週)：焦点はエヌビディア決算、トランプ新関税の反応注視 IG Group",
+    "published": "2026-02-22T09:00:08+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMikgFBVV95cUxPWVB3dkpiWmlfaXdqUkt6TVNUMGtzbEZpSEQ2MGhqeG1ZcXFxRUp3NV9TQ21WeklEZG5aWnNERUdLNkZJcUhucXZkX29LUjhYTF9BR0ZFaTNVQi1oTEMybXJXcmpuNlh2QV9FWWdVOWtBNnBUamJHOXNHYWlXcjRFNjNsR0V2MWtMTGFWQXdiWjItZw",
+    "title": "マネーのまなび【イチからまなぶ米国株投資／２０２６年高配当株投資のポイントは】 - tv-tokyo.co.jp",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWVB3dkpiWmlfaXdqUkt6TVNUMGtzbEZpSEQ2MGhqeG1ZcXFxRUp3NV9TQ21WeklEZG5aWnNERUdLNkZJcUhucXZkX29LUjhYTF9BR0ZFaTNVQi1oTEMybXJXcmpuNlh2QV9FWWdVOWtBNnBUamJHOXNHYWlXcjRFNjNsR0V2MWtMTGFWQXdiWjItZw?oc=5",
+    "summary": "マネーのまなび【イチからまなぶ米国株投資／２０２６年高配当株投資のポイントは】 tv-tokyo.co.jp",
+    "published": "2026-02-22T19:03:20+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw",
+    "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+    "summary": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報 Yahoo!ファイナンス",
+    "published": "2026-02-22T18:07:31+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiTEFVX3lxTE5Ea21zRW10VGxWN1RFODIyaDlpWVFqVWx5TVZKNjBlOHFPYUFNZEhKWFJGSTJib0FSSm90TWtuQ2J5WXhwQTc4Uk9rdzc",
+    "title": "「オルカン」と「S&P500」両方持ちは「アリ」か「ナシ」か？新NISAで米国株8割に偏るリスクと判断基準 - LIMO | くらしとお金の経済メディア",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Ea21zRW10VGxWN1RFODIyaDlpWVFqVWx5TVZKNjBlOHFPYUFNZEhKWFJGSTJib0FSSm90TWtuQ2J5WXhwQTc4Uk9rdzc?oc=5",
+    "summary": "「オルカン」と「S&P500」両方持ちは「アリ」か「ナシ」か？新NISAで米国株8割に偏るリスクと判断基準 LIMO | くらしとお金の経済メディア",
+    "published": "2026-02-22T02:10:00+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMic0FVX3lxTE54ZWxoXzE1Yllsb0ltRTNOd1Z0bXU1LXd4ejA3NHdwU3hzaVpMQkltRnNmVTBuT2xpUkVPSl9SamNOTEpPNFk2NHljYkY1RHJxQ2czTGZ6Qy14VkJMRHFab3gtOGx3d0JDcW5WTkdYVmVncVE",
+    "title": "テック株反発と為替もみ合いが同時進行｜米国市場サマリー - Bloomo",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54ZWxoXzE1Yllsb0ltRTNOd1Z0bXU1LXd4ejA3NHdwU3hzaVpMQkltRnNmVTBuT2xpUkVPSl9SamNOTEpPNFk2NHljYkY1RHJxQ2czTGZ6Qy14VkJMRHFab3gtOGx3d0JDcW5WTkdYVmVncVE?oc=5",
+    "summary": "テック株反発と為替もみ合いが同時進行｜米国市場サマリー Bloomo",
+    "published": "2026-02-22T10:00:24+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiUkFVX3lxTE9OalI5Q1dyNlBxeWM2R3pCelFzV1JhQ1p3dkJiVmlCS0RhclBZZDl6UFpqQmlEV05IRjRaQXE4M3hZYWtEc0FScHJ2VlVqNzk3MGc",
+    "title": "NEXT NOTES 金先物 ダブル・ブル ETN【2036】：株価・株式情報 - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OalI5Q1dyNlBxeWM2R3pCelFzV1JhQ1p3dkJiVmlCS0RhclBZZDl6UFpqQmlEV05IRjRaQXE4M3hZYWtEc0FScHJ2VlVqNzk3MGc?oc=5",
+    "summary": "NEXT NOTES 金先物 ダブル・ブル ETN【2036】：株価・株式情報 Yahoo!ファイナンス",
+    "published": "2026-02-22T17:31:51+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiakFVX3lxTE1mcFVOa0NIUVBiWkszUHR6ejBwSnRZdGs4RlpyVXNBb1RLbDg3SkZubG5sYmU2TmNiTFc1a1Z0aGxFdXFHejVQeWEtRUh2eDN0MWNzd05ybERRMk96WHk1cndoNlUxbUVYUWc",
+    "title": "マネックス証券株式会社向け「米国株取引サービス」新システム稼働開始のお知らせ（株式会社トレードワークス） - Mapion",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mcFVOa0NIUVBiWkszUHR6ejBwSnRZdGs4RlpyVXNBb1RLbDg3SkZubG5sYmU2TmNiTFc1a1Z0aGxFdXFHejVQeWEtRUh2eDN0MWNzd05ybERRMk96WHk1cndoNlUxbUVYUWc?oc=5",
+    "summary": "マネックス証券株式会社向け「米国株取引サービス」新システム稼働開始のお知らせ（株式会社トレードワークス） Mapion",
+    "published": "2026-02-22T16:53:02+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiUkFVX3lxTE5iUXNCc0kwdHRpc2IwcVRYQVZqREN2OThSU0xJbXVlT0g3TFk2dW9QZWxmSWVPUjZsak8yNktfN3ZvLWZwNFZVajRuQkhtT1hZeEE",
+    "title": "VIX短期先物指数ETF【318A】：株価・株式情報 - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iUXNCc0kwdHRpc2IwcVRYQVZqREN2OThSU0xJbXVlT0g3TFk2dW9QZWxmSWVPUjZsak8yNktfN3ZvLWZwNFZVajRuQkhtT1hZeEE?oc=5",
+    "summary": "VIX短期先物指数ETF【318A】：株価・株式情報 Yahoo!ファイナンス",
+    "published": "2026-02-22T19:07:00+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiVEFVX3lxTE1DeFBMbTJZUmR2akJBZlhCYU12WGMyZ3U3TEVkTm5JOUZHenE2eWRfanNXb0Zvc3NYWFRZSTZSbWdvTDllbjcwejhfSGN3b0ZiUzJxXw",
+    "title": "TOPIXの指数情報・推移 - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DeFBMbTJZUmR2akJBZlhCYU12WGMyZ3U3TEVkTm5JOUZHenE2eWRfanNXb0Zvc3NYWFRZSTZSbWdvTDllbjcwejhfSGN3b0ZiUzJxXw?oc=5",
+    "summary": "TOPIXの指数情報・推移 Yahoo!ファイナンス",
+    "published": "2026-02-22T20:40:25+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA",
+    "title": "日経平均株価の指数情報・推移 - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+    "summary": "日経平均株価の指数情報・推移 Yahoo!ファイナンス",
+    "published": "2026-02-22T17:43:23+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMibEFVX3lxTE5rY284UGZhQ2VrZmcwakltb1JocW5PV3g0cmo0bzg3bkVqNjZCak8tZVg2Z3hXbU00eWVBYng0bzRJQjl6a1o5Z2xEazNvZDNxM3dXSS16cTJWdHYtV3JGWTJ5Sm51dnVKOE9VZw",
+    "title": "効率良く稼ぐ株 「ROE向上」だけでなく「高ROE維持」も狙い目に - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rY284UGZhQ2VrZmcwakltb1JocW5PV3g0cmo0bzg3bkVqNjZCak8tZVg2Z3hXbU00eWVBYng0bzRJQjl6a1o5Z2xEazNvZDNxM3dXSS16cTJWdHYtV3JGWTJ5Sm51dnVKOE9VZw?oc=5",
+    "summary": "効率良く稼ぐ株 「ROE向上」だけでなく「高ROE維持」も狙い目に 日本経済新聞",
+    "published": "2026-02-22T19:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMipgFBVV95cUxNRU5FWlJ3aDBkRkZhSk40UlJCazlfNnEzMFA3Tk1EczNXcTB4dnhJdFBNYTc1UHhkRU8zMUxySzRzTm05RzJTUV8xR21oQXJvMUJpbHdSd014dDB1QTJHMXBRbk9hWUFzUHVoMmg0OFA3b0ZjQVRKWkt0YzZFVTZXZTI0ekFUcFhKSTI5a0ZyZVl3emFfY3drSHoyRDhxbUZCNjRtM2FR",
+    "title": "富士山麓も伊豆もホテルラッシュ 静岡で投資加速、観光立県へ商機 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRU5FWlJ3aDBkRkZhSk40UlJCazlfNnEzMFA3Tk1EczNXcTB4dnhJdFBNYTc1UHhkRU8zMUxySzRzTm05RzJTUV8xR21oQXJvMUJpbHdSd014dDB1QTJHMXBRbk9hWUFzUHVoMmg0OFA3b0ZjQVRKWkt0YzZFVTZXZTI0ekFUcFhKSTI5a0ZyZVl3emFfY3drSHoyRDhxbUZCNjRtM2FR?oc=5",
+    "summary": "富士山麓も伊豆もホテルラッシュ 静岡で投資加速、観光立県へ商機 日本経済新聞",
+    "published": "2026-02-22T20:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMibEFVX3lxTE45WHBnQXM2Zjd3b04tTjUxcV9YMklHV0pQWUtvWGk0cUFtUU5INTNlcGFfa0dHeU54cWNRam9EU2x6MGJJQjRXRDBRLWFtRVBMVUItbE5BWmlLaFVueDVJU3UwWFhCTlVDdUlCcA",
+    "title": "今はAIバブルか？日本は負の実質金利が資産高騰招く 陣内了氏 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45WHBnQXM2Zjd3b04tTjUxcV9YMklHV0pQWUtvWGk0cUFtUU5INTNlcGFfa0dHeU54cWNRam9EU2x6MGJJQjRXRDBRLWFtRVBMVUItbE5BWmlLaFVueDVJU3UwWFhCTlVDdUlCcA?oc=5",
+    "summary": "今はAIバブルか？日本は負の実質金利が資産高騰招く 陣内了氏 日本経済新聞",
+    "published": "2026-02-22T17:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMipgFBVV95cUxOX1RYVVdDWTMwNUZVSGUxTFIzby01RXgzQ0hQNnFNNmI4dnkzNGotOU8tc213NTRlWXZfaXl2WnBoRjlMbC1LdFktYzVUT0lZcHA5MVM2bDJKUEYwNFRLOGVFZXl6Y2xvWkIxY0V6M1JSQzRjY3RZUS10dk9GNWl3MFlqS2pwSGkwUHNNa3dRUlJGWjlUbG5KbjE3SEdMUUtVQjZabmRB",
+    "title": "自治体向け融資、信金が照準 融資実績の積み上げ狙う - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX1RYVVdDWTMwNUZVSGUxTFIzby01RXgzQ0hQNnFNNmI4dnkzNGotOU8tc213NTRlWXZfaXl2WnBoRjlMbC1LdFktYzVUT0lZcHA5MVM2bDJKUEYwNFRLOGVFZXl6Y2xvWkIxY0V6M1JSQzRjY3RZUS10dk9GNWl3MFlqS2pwSGkwUHNNa3dRUlJGWjlUbG5KbjE3SEdMUUtVQjZabmRB?oc=5",
+    "summary": "自治体向け融資、信金が照準 融資実績の積み上げ狙う 日本経済新聞",
+    "published": "2026-02-22T20:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMibEFVX3lxTE5Hdk9aMG9DNHk1M0dMcVM4UTR5Ry1DZlJHc0Q1MTNZV08wSlpyTTc5dnVxVnpUTElIWVRHTnllRFRlWW9TZkQzbmZjLWlsUUNOX2dJUTktZVoxOTNJanJ2SmMwQlg3RXVqd2JhTg",
+    "title": "インドでオンライン証券急成長 時価総額世界5位、若者が支える - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Hdk9aMG9DNHk1M0dMcVM4UTR5Ry1DZlJHc0Q1MTNZV08wSlpyTTc5dnVxVnpUTElIWVRHTnllRFRlWW9TZkQzbmZjLWlsUUNOX2dJUTktZVoxOTNJanJ2SmMwQlg3RXVqd2JhTg?oc=5",
+    "summary": "インドでオンライン証券急成長 時価総額世界5位、若者が支える 日本経済新聞",
+    "published": "2026-02-22T17:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMipgFBVV95cUxNU2YxZDNGOC1KNmVaaEozR0J6cVlmVHVoZ1lIdWh5cmEyWHZGbXFPQTNybU5NRWpvS0dJaEwyNDhScEg3aEdhZlo3UGNKbl9pWmNUa3ZmZXlOLXdLOUdxWFpibS1QZzZMX3RBLTh4bDdqYW5GTmRRSVlYUld4VllCUFdJV2RwTUJjeGYyRTVSSlVaR1JRa1NQRlZFWUlPdXRkRkZPb3h3",
+    "title": "「元気寿司」がコメ生産に参入 宇都宮の農家と共同出資で新会社 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU2YxZDNGOC1KNmVaaEozR0J6cVlmVHVoZ1lIdWh5cmEyWHZGbXFPQTNybU5NRWpvS0dJaEwyNDhScEg3aEdhZlo3UGNKbl9pWmNUa3ZmZXlOLXdLOUdxWFpibS1QZzZMX3RBLTh4bDdqYW5GTmRRSVlYUld4VllCUFdJV2RwTUJjeGYyRTVSSlVaR1JRa1NQRlZFWUlPdXRkRkZPb3h3?oc=5",
+    "summary": "「元気寿司」がコメ生産に参入 宇都宮の農家と共同出資で新会社 日本経済新聞",
+    "published": "2026-02-22T20:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
   }
 ]
