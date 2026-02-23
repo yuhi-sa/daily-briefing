@@ -48,8 +48,18 @@ def _parse_date(entry: dict) -> datetime:
     return datetime.now(timezone.utc)
 
 
-def fetch_articles(source: FeedSource, max_articles: int = 10) -> list[Article]:
+def fetch_articles(
+    source: FeedSource,
+    max_articles: int = 10,
+    max_age_hours: float | None = None,
+) -> list[Article]:
     """Fetch and normalize articles from a single RSS feed.
+
+    Args:
+        source: Feed source configuration.
+        max_articles: Maximum number of entries to process from the feed.
+        max_age_hours: If set, skip articles older than this many hours.
+            Articles without a parseable date are always included.
 
     Returns an empty list on failure (never crashes).
     """
@@ -63,8 +73,17 @@ def fetch_articles(source: FeedSource, max_articles: int = 10) -> list[Article]:
             logger.warning("Feed error for %s: %s", source.name, feed.bozo_exception)
             return []
 
+        now = datetime.now(timezone.utc)
         articles: list[Article] = []
         for entry in feed.entries[:max_articles]:
+            published = _parse_date(entry)
+
+            # Freshness filter: skip articles older than max_age_hours
+            if max_age_hours is not None:
+                age_hours = (now - published).total_seconds() / 3600
+                if age_hours > max_age_hours:
+                    continue
+
             title = _strip_html(entry.get("title", "No Title"))
             link = entry.get("link", "")
             summary_raw = entry.get("summary", entry.get("description", ""))
@@ -81,7 +100,7 @@ def fetch_articles(source: FeedSource, max_articles: int = 10) -> list[Article]:
                     title=title,
                     link=link,
                     summary=summary,
-                    published=_parse_date(entry),
+                    published=published,
                     source_name=source.name,
                     category=source.category,
                     category_ja=source.category_ja,
@@ -100,8 +119,15 @@ def fetch_all_articles(
     sources: list[FeedSource],
     max_articles: int = 10,
     max_workers: int = 8,
+    max_age_hours: float | None = None,
 ) -> tuple[list[Article], dict[str, bool]]:
     """Fetch articles from all feeds in parallel using a thread pool.
+
+    Args:
+        sources: List of feed sources to fetch.
+        max_articles: Default maximum articles per feed.
+        max_workers: Thread pool size.
+        max_age_hours: If set, skip articles older than this many hours.
 
     Returns a tuple of (all_articles, feed_stats) where feed_stats maps
     each feed name to whether it succeeded (had at least one article).
@@ -111,7 +137,12 @@ def fetch_all_articles(
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_to_source = {
-            executor.submit(fetch_articles, source, max_articles): source
+            executor.submit(
+                fetch_articles,
+                source,
+                source.max_articles if source.max_articles is not None else max_articles,
+                max_age_hours,
+            ): source
             for source in sources
         }
 

@@ -13,6 +13,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import replace
 
 from .parser import Article
+from .text_utils import keyword_similarity
 
 logger = logging.getLogger(__name__)
 
@@ -542,6 +543,51 @@ class GeminiSummarizer(Summarizer):
         return processed
 
 
+def _cluster_articles(
+    articles: list[Article], sim_threshold: float = 0.5,
+) -> list[list[int]]:
+    """Group articles into topic clusters using Union-Find on keyword similarity.
+
+    Returns a list of clusters, each cluster is a list of article indices.
+    """
+    n = len(articles)
+    parent = list(range(n))
+
+    def find(x: int) -> int:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a: int, b: int) -> None:
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            jaccard, overlap = keyword_similarity(articles[i].title, articles[j].title)
+            if jaccard >= sim_threshold and overlap >= 2:
+                union(i, j)
+
+    clusters: dict[int, list[int]] = {}
+    for i in range(n):
+        root = find(i)
+        clusters.setdefault(root, []).append(i)
+    return list(clusters.values())
+
+
+def _deduplicate_clusters(
+    articles: list[Article], clusters: list[list[int]],
+) -> list[Article]:
+    """From each cluster, keep only the article with the longest summary."""
+    result: list[Article] = []
+    for cluster in clusters:
+        best_idx = max(cluster, key=lambda i: len(articles[i].summary))
+        result.append(articles[best_idx])
+    return result
+
+
 def generate_briefing(articles: list[Article], api_key: str | None = None) -> str:
     """Generate a curated briefing. Returns empty string if no API key."""
     if not api_key:
@@ -550,12 +596,22 @@ def generate_briefing(articles: list[Article], api_key: str | None = None) -> st
     if not articles:
         logger.warning("No articles provided, skipping briefing generation")
         return ""
+
+    # Topic dedup: cluster similar articles and keep the best from each cluster
+    clusters = _cluster_articles(articles)
+    deduped = _deduplicate_clusters(articles, clusters)
+    multi_clusters = sum(1 for c in clusters if len(c) > 1)
+    logger.info(
+        "Topic clustering: %d articles → %d unique topics (%d clusters merged)",
+        len(articles), len(deduped), multi_clusters,
+    )
+
     summarizer = GeminiSummarizer(api_key=api_key)
-    result = summarizer.generate_briefing(articles)
+    result = summarizer.generate_briefing(deduped)
     if not result:
         logger.error(
             "Briefing generation failed after all retries for %d articles",
-            len(articles),
+            len(deduped),
         )
     return result or ""
 

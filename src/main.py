@@ -10,7 +10,7 @@ import pathlib
 import sys
 from datetime import datetime, timezone
 
-from .dedup import Deduplicator
+from .dedup import Deduplicator, normalize_url
 from .feeds import load_config
 from .formatter import format_digest
 from .paper_dedup import PaperDeduplicator
@@ -89,9 +89,10 @@ def run_collect(verbose: bool = False) -> None:
     config = load_config()
     logger.info("Loaded %d feeds from config", len(config.feeds))
 
-    # 2. Fetch articles (parallel)
+    # 2. Fetch articles (parallel, with freshness filter)
     all_articles, feed_stats = fetch_all_articles(
         config.feeds, max_articles=config.max_articles_per_feed,
+        max_age_hours=48,
     )
 
     logger.info("Fetched %d total articles from %d feeds", len(all_articles), len(config.feeds))
@@ -150,6 +151,21 @@ def run_digest(dry_run: bool = False, verbose: bool = False) -> None:
 
     articles = [_dict_to_article(d) for d in buffer]
     logger.info("Loaded %d articles from buffer", len(articles))
+
+    # 1.5. Deduplicate buffer (remove URL duplicates accumulated across days)
+    seen_urls: set[str] = set()
+    unique_articles: list[Article] = []
+    for a in articles:
+        norm = normalize_url(a.link)
+        if norm not in seen_urls:
+            seen_urls.add(norm)
+            unique_articles.append(a)
+    if len(unique_articles) < len(articles):
+        logger.info(
+            "Buffer dedup: %d → %d articles (removed %d URL duplicates)",
+            len(articles), len(unique_articles), len(articles) - len(unique_articles),
+        )
+    articles = unique_articles
 
     # 2. Generate briefing
     api_key = os.environ.get("SUMMARIZER_API_KEY")

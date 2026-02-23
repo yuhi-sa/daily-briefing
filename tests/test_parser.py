@@ -1,7 +1,8 @@
 """Tests for RSS parser module."""
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from unittest.mock import patch, MagicMock
+from time import mktime
 
 from src.parser import Article, _strip_html, _parse_date, fetch_articles
 from src.feeds import FeedSource
@@ -111,3 +112,70 @@ class TestFetchArticles:
         source = self._make_source()
         articles = fetch_articles(source, max_articles=5)
         assert len(articles) == 5
+
+    @patch("src.parser.feedparser.parse")
+    def test_max_age_hours_filters_old_articles(self, mock_parse):
+        """Articles older than max_age_hours are skipped."""
+        now = datetime.now(timezone.utc)
+        old_time = now - timedelta(hours=72)
+        fresh_time = now - timedelta(hours=1)
+
+        old_tt = old_time.timetuple()
+        fresh_tt = fresh_time.timetuple()
+
+        old_entry = MagicMock()
+        old_entry.get = lambda key, default="": {
+            "title": "Old Article",
+            "link": "https://example.com/old",
+            "summary": "Old summary",
+            "id": "old-1",
+        }.get(key, default)
+        old_entry.published_parsed = old_tt
+        old_entry.updated_parsed = None
+
+        fresh_entry = MagicMock()
+        fresh_entry.get = lambda key, default="": {
+            "title": "Fresh Article",
+            "link": "https://example.com/fresh",
+            "summary": "Fresh summary",
+            "id": "fresh-1",
+        }.get(key, default)
+        fresh_entry.published_parsed = fresh_tt
+        fresh_entry.updated_parsed = None
+
+        mock_parse.return_value = MagicMock(
+            bozo=False,
+            entries=[old_entry, fresh_entry],
+        )
+
+        source = self._make_source()
+        articles = fetch_articles(source, max_articles=10, max_age_hours=48)
+
+        assert len(articles) == 1
+        assert articles[0].title == "Fresh Article"
+
+    @patch("src.parser.feedparser.parse")
+    def test_no_max_age_keeps_all(self, mock_parse):
+        """Without max_age_hours, all articles are kept."""
+        now = datetime.now(timezone.utc)
+        old_time = now - timedelta(hours=72)
+        old_tt = old_time.timetuple()
+
+        entry = MagicMock()
+        entry.get = lambda key, default="": {
+            "title": "Old Article",
+            "link": "https://example.com/old",
+            "summary": "Old summary",
+            "id": "old-1",
+        }.get(key, default)
+        entry.published_parsed = old_tt
+        entry.updated_parsed = None
+
+        mock_parse.return_value = MagicMock(
+            bozo=False,
+            entries=[entry],
+        )
+
+        source = self._make_source()
+        articles = fetch_articles(source, max_articles=10, max_age_hours=None)
+        assert len(articles) == 1

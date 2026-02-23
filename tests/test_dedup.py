@@ -118,6 +118,66 @@ class TestDeduplicator:
         dedup.prune(window_days=7)
         assert len(dedup._seen) == 0
 
+    def test_cross_source_keyword_dedup(self):
+        """Same news story reported by different sources with different wording."""
+        with tempfile.NamedTemporaryFile(suffix=".json", mode="w", delete=False) as f:
+            json.dump({}, f)
+            db_path = f.name
+
+        dedup = Deduplicator(db_path=db_path)
+        articles = [
+            _make_article(
+                title="Breaking: Critical CVE-2025-1234 Vulnerability Found in Apache Kafka",
+                link="https://reuters.com/kafka-vuln",
+            ),
+            _make_article(
+                title="[Updated] Critical CVE-2025-1234 Vulnerability Discovered in Apache Kafka - Bloomberg",
+                link="https://bloomberg.com/kafka-vuln",
+            ),
+        ]
+        result = dedup.filter_new(articles)
+        assert len(result) == 1
+
+    def test_different_topics_not_merged(self):
+        """Articles about different topics should not be deduped."""
+        with tempfile.NamedTemporaryFile(suffix=".json", mode="w", delete=False) as f:
+            json.dump({}, f)
+            db_path = f.name
+
+        dedup = Deduplicator(db_path=db_path)
+        articles = [
+            _make_article(
+                title="Google Releases New Kubernetes Security Patch v1.30",
+                link="https://a.com/k8s",
+            ),
+            _make_article(
+                title="Microsoft Announces Azure Price Reductions for 2025",
+                link="https://b.com/azure",
+            ),
+        ]
+        result = dedup.filter_new(articles)
+        assert len(result) == 2
+
+    def test_normalized_title_similarity(self):
+        """Titles that differ only in prefix/suffix noise should be deduped."""
+        with tempfile.NamedTemporaryFile(suffix=".json", mode="w", delete=False) as f:
+            json.dump({}, f)
+            db_path = f.name
+
+        dedup = Deduplicator(db_path=db_path)
+        articles = [
+            _make_article(
+                title="Python 3.14 Released with Major Performance Improvements",
+                link="https://a.com/py1",
+            ),
+            _make_article(
+                title="Breaking: Python 3.14 Released with Major Performance Improvements - Reuters",
+                link="https://b.com/py2",
+            ),
+        ]
+        result = dedup.filter_new(articles)
+        assert len(result) == 1
+
     def test_corrupted_db_starts_fresh(self):
         with tempfile.NamedTemporaryFile(suffix=".json", mode="w", delete=False) as f:
             f.write("not valid json{{{")

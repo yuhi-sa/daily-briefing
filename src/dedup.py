@@ -11,6 +11,7 @@ from difflib import SequenceMatcher
 from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 from .parser import Article
+from .text_utils import keyword_similarity, normalize_title
 
 logger = logging.getLogger(__name__)
 
@@ -39,9 +40,26 @@ def normalize_url(url: str) -> str:
     return urlunparse(("", host, path, "", clean_query, ""))
 
 
-def _titles_similar(a: str, b: str, threshold: float = 0.9) -> bool:
-    """Check if two titles are similar enough to be duplicates."""
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
+def _titles_similar(a: str, b: str, threshold: float = 0.85) -> bool:
+    """Check if two titles are similar enough to be duplicates.
+
+    Uses two complementary strategies:
+    1. SequenceMatcher on normalized titles (catches near-identical wording)
+    2. Jaccard keyword similarity (catches cross-source rewrites of same story)
+    """
+    norm_a = normalize_title(a)
+    norm_b = normalize_title(b)
+
+    # Strategy 1: sequence similarity on normalized titles
+    if SequenceMatcher(None, norm_a, norm_b).ratio() >= threshold:
+        return True
+
+    # Strategy 2: keyword overlap (catches "same story, different wording")
+    jaccard, overlap = keyword_similarity(a, b)
+    if jaccard >= 0.6 and overlap >= 3:
+        return True
+
+    return False
 
 
 class Deduplicator:

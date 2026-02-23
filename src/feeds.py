@@ -14,6 +14,7 @@ class FeedSource:
     url: str
     category: str
     category_ja: str
+    max_articles: int | None = None
 
 
 @dataclass
@@ -52,6 +53,7 @@ def load_config(path: str | pathlib.Path | None = None) -> DigestConfig:
                     url=feed["url"],
                     category=cat_name,
                     category_ja=cat_ja,
+                    max_articles=feed.get("max_articles"),
                 )
             )
 
