@@ -12,12 +12,65 @@ from abc import ABC, abstractmethod
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import replace
 
+from html.parser import HTMLParser as _StdHTMLParser
+
 from .parser import Article
 from .text_utils import keyword_similarity
 
 logger = logging.getLogger(__name__)
 
 _MAX_BODY_CHARS = 10000
+
+
+class _ArticleExtractor(_StdHTMLParser):
+    """HTML parser that extracts text, preferring <article>/<main> content."""
+
+    _SKIP_TAGS: frozenset[str] = frozenset({
+        "script", "style", "nav", "footer", "aside",
+        "header", "noscript", "iframe", "svg", "form",
+    })
+    _CONTENT_TAGS: frozenset[str] = frozenset({"article", "main"})
+
+    def __init__(self) -> None:
+        super().__init__()
+        self._skip_depth: int = 0
+        self._content_depth: int = 0
+        self._content_parts: list[str] = []
+        self._all_parts: list[str] = []
+
+    # -- parser callbacks --------------------------------------------------
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        t = tag.lower()
+        if t in self._SKIP_TAGS:
+            self._skip_depth += 1
+        if t in self._CONTENT_TAGS and self._skip_depth == 0:
+            self._content_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        t = tag.lower()
+        if t in self._SKIP_TAGS and self._skip_depth > 0:
+            self._skip_depth -= 1
+        if t in self._CONTENT_TAGS and self._content_depth > 0:
+            self._content_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if self._skip_depth > 0:
+            return
+        stripped = data.strip()
+        if not stripped:
+            return
+        if self._content_depth > 0:
+            self._content_parts.append(stripped)
+        self._all_parts.append(stripped)
+
+    # -- public API --------------------------------------------------------
+
+    def get_text(self) -> str:
+        """Return extracted text, preferring article/main content."""
+        if self._content_parts:
+            return " ".join(self._content_parts)
+        return " ".join(self._all_parts)
 
 
 def _fetch_page_text(url: str, timeout: int = 15) -> str:
@@ -36,9 +89,19 @@ def _fetch_page_text(url: str, timeout: int = 15) -> str:
         logger.debug("Failed to fetch %s", url)
         return ""
 
-    # Remove script/style blocks, then strip all tags
-    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", raw, flags=re.S | re.I)
-    text = re.sub(r"<[^>]+>", " ", text)
+    # Strip HTML comments before parsing
+    cleaned = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
+
+    # Try structured extraction via HTMLParser
+    try:
+        extractor = _ArticleExtractor()
+        extractor.feed(cleaned)
+        text = extractor.get_text()
+    except Exception:
+        # Fallback: regex approach
+        text = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", cleaned, flags=re.S | re.I)
+        text = re.sub(r"<[^>]+>", " ", text)
+
     text = html.unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
     return text[:_MAX_BODY_CHARS]
@@ -60,6 +123,40 @@ def _fetch_pages_parallel(
             except Exception:
                 results[url] = ""
     return results
+
+# Keywords from the reader's tech stack for relevance filtering
+_READER_STACK_KEYWORDS = frozenset({
+    # Reader's specific stack
+    "typescript", "javascript", "next.js", "nextjs", "python", "golang",
+    "spark", "kubernetes", "k8s", "kafka", "mysql", "cassandra", "redis",
+    "hadoop", "athenz", "dbt", "airflow", "databricks", "bigquery", "athena",
+    # Closely related infrastructure
+    "docker", "container", "microservice", "data pipeline", "etl",
+    "data warehouse", "iceberg", "parquet", "data lake",
+    # AI/ML (practical applications relevant to engineers)
+    "llm", "language model", "rag", "vector database", "embedding",
+    "fine-tun", "prompt engineer", "code generation", "copilot",
+    # Security (always relevant)
+    "vulnerability", "cve-", "exploit", "malware", "ransomware",
+    "zero-day", "supply chain attack", "authentication",
+    # Cloud & DevOps
+    "aws", "gcp", "azure", "serverless", "terraform", "github action",
+    # Practical engineering topics
+    "api gateway", "service mesh", "observability", "monitoring",
+    "database", "caching", "queue", "streaming",
+})
+
+
+def _is_relevant_for_reader(article: Article) -> bool:
+    """Check if an article is relevant to the reader's tech stack.
+
+    Non-ArXiv articles always pass through. ArXiv articles must mention
+    at least one keyword from the reader's tech stack to be included.
+    """
+    if "arxiv.org" not in article.link:
+        return True
+    text = (article.title + " " + article.summary).lower()
+    return any(kw in text for kw in _READER_STACK_KEYWORDS)
 
 _PROMPT_TEMPLATE = (
     "以下のニュース記事のタイトルと概要を読んで、日本語で1〜2文の簡潔な要約を書いてください。"
@@ -220,10 +317,30 @@ class GeminiSummarizer(Summarizer):
     # ------------------------------------------------------------------
 
     def _select_articles(self, articles: list[Article]) -> list[int]:
-        """Stage 1: Ask Gemini to pick the most important article indices."""
+        """Stage 1: Ask Gemini to pick the most important article indices.
+
+        Returns indices into the *original* articles list.
+        """
+        # Pre-filter: remove ArXiv papers not relevant to reader's stack.
+        # Keep a mapping from filtered-index → original-index so Gemini's
+        # response can be translated back to the caller's list.
+        original_indices = [
+            i for i, a in enumerate(articles) if _is_relevant_for_reader(a)
+        ]
+        if len(original_indices) < len(articles):
+            logger.info(
+                "Pre-filter: removed %d irrelevant ArXiv articles (%d → %d)",
+                len(articles) - len(original_indices),
+                len(articles),
+                len(original_indices),
+            )
+        if not original_indices:
+            original_indices = list(range(len(articles)))  # Safety fallback
+        filtered = [articles[i] for i in original_indices]
+
         article_list = "\n".join(
             f"{i}. [{a.category}] {a.title}: {a.summary}"
-            for i, a in enumerate(articles)
+            for i, a in enumerate(filtered)
         )
         prompt = (
             "あなたはデータエンジニア・セキュリティエンジニア兼日本株・米国株の個人投資家向けの"
@@ -253,20 +370,24 @@ class GeminiSummarizer(Summarizer):
             "## 出力形式\n"
             "選んだ記事の番号をJSON配列で返してください。それ以外のテキストは不要です。\n"
             "例: [0, 3, 5, 7, 9, 12, 15, 18]\n\n"
-            f"## 記事一覧（{len(articles)}件）\n\n"
+            f"## 記事一覧（{len(filtered)}件）\n\n"
             f"{article_list}"
         )
-        logger.info("Stage 1: selecting important articles from %d candidates", len(articles))
+        logger.info("Stage 1: selecting important articles from %d candidates", len(filtered))
         response = self._call_gemini(prompt)
         if not response:
             return []
 
-        # Extract JSON array from response
+        # Extract JSON array from response and map back to original indices
         try:
             match = re.search(r"\[[\d\s,]+\]", response)
             if match:
                 indices = json.loads(match.group())
-                valid = [i for i in indices if 0 <= i < len(articles)]
+                valid = [
+                    original_indices[i]
+                    for i in indices
+                    if 0 <= i < len(filtered)
+                ]
                 logger.info("Stage 1: selected %d articles", len(valid))
                 return valid
         except (json.JSONDecodeError, ValueError):
@@ -337,7 +458,12 @@ class GeminiSummarizer(Summarizer):
             "- 全トピックの末尾に 📎 [記事タイトル](URL) 必須。例外なし\n"
             "- 複数の関連記事は1トピックにまとめてよい\n"
             "- 各バレットポイントには必ず1つ以上の具体的事実（数値、固有名詞、バージョン番号、"
-            "CVE番号など）を含める。具体性のないバレットは書かない\n\n"
+            "CVE番号など）を含める。具体性のないバレットは書かない\n"
+            "- **悪い例**: 「Kubernetesの新バージョンがリリースされた。新機能が追加されている。」"
+            "（何の新機能か不明。読者が何をすべきかわからない）\n"
+            "- **良い例**: 「Kubernetes v1.32でGateway APIがGA昇格。"
+            "Ingress廃止ロードマップが前進し、v1.30以前のHPA manifestは移行が必要。」"
+            "（バージョン、変更点、影響が明確）\n\n"
             "## セクション構成\n\n"
             "### `## 🔥 本日のハイライト`\n"
             "最重要の3件のみ。各セクションと重複しないこと。\n"
@@ -398,34 +524,28 @@ class GeminiSummarizer(Summarizer):
         return self._post_process_briefing(refined)
 
     def _refine_briefing(self, draft: str) -> str:
-        """Stage 3: Self-critique and refine the briefing for quality."""
+        """Stage 3: Deepen analysis and improve readability (LLM-only improvements)."""
         prompt = (
-            "以下のデイリーブリーフィングの原稿を校正・改善してください。\n\n"
-            "## 品質チェック項目（不合格なら修正）\n"
-            "1. 📎リンクのないトピックがあれば、そのトピックを削除する\n"
-            "2. 以下の定型表現があれば具体的な表現に書き換える:\n"
-            "   - 「〜に注目が集まっています」→ 具体的に誰が何に注目しているか\n"
-            "   - 「〜が重要です」→ なぜ重要かを具体的に\n"
-            "   - 「注意が必要です」→ 具体的に何をすべきか\n"
-            "   - 「〜の可能性があります」→ 根拠を示して断定するか削除\n"
-            "   - 「今後の動向に注目」「引き続き注視」→ 削除するか具体的な日付・イベントに置換\n"
-            "   - 「〜が期待されます」→ 誰がなぜ期待しているか具体的に\n"
-            "3. 同じ語尾が3回以上連続していたら語尾を変える\n"
-            "4. 1トピックが9行以上なら8行以内に削る\n"
-            "5. **マーケットセクション**: 具体的な数値（指数、%、ティッカー）が1つもなければ、\n"
-            "   セクション冒頭に「データ不足：該当記事に具体的数値の記載なし」と追記\n"
-            "6. **セキュリティセクション**: 各項目にCVE番号または具体的なソフトウェア名がなければ、\n"
-            "   その項目を削除するか具体化する\n"
-            "7. ハイライトと他セクションで同じ記事（同じURL）を扱っていたら他セクション側を削除\n"
-            "8. 具体的事実（数値、固有名詞、バージョン等）を1つも含まないバレットポイントは削除\n\n"
-            "## ルール\n"
-            "- Markdownのセクション構造はそのまま維持する\n"
-            "- 情報を追加・捏造しない。原稿にある情報だけで改善する\n"
-            "- 改善後のブリーフィング全文のみを出力する。説明やコメントは不要\n\n"
-            "## 原稿\n\n"
-            f"{draft}"
+            "以下のデイリーブリーフィングの原稿を改善してください。\n\n"
+            "## 改善方針（LLMでしかできないことに集中）\n"
+            "1. 浅い分析を深める: 事実の羅列を「だから何？」まで踏み込んだ分析に書き換える\n"
+            "   - 各トピックで「読者（データエンジニア・セキュリティエンジニア）の日常業務にどう影響するか」を\n"
+            "     1文追加する\n"
+            "2. 関連トピックの横断: 複数の記事に共通するトレンドがあれば言及する\n"
+            "3. 語尾の単調さ解消: 同じ語尾が3回以上連続していたら変える\n"
+            "4. 1文が40字を超えていたら分割する\n\n"
+            "## 禁止事項\n"
+            "- 情報を追加・捏造しない（原稿にある情報だけで改善）\n"
+            "- セクション構造は変更しない\n"
+            "- リンクの追加・削除はしない\n"
+            "- 以下の表現は使わない: "
+            "「注目が集まっています」「が重要です」「が求められています」「注意が必要です」"
+            "「対策が急務です」「が進んでいます」「が加速しています」「今後の動向に注目」"
+            "「引き続き注視」「が期待されます」「が見込まれます」\n\n"
+            "改善後のブリーフィング全文のみを出力してください。\n\n"
+            f"## 原稿\n\n{draft}"
         )
-        logger.info("Stage 3: refining briefing quality")
+        logger.info("Stage 3: refining briefing (deepening analysis)")
         refined = self._call_gemini(prompt)
         return refined or draft
 
@@ -503,17 +623,22 @@ class GeminiSummarizer(Summarizer):
 
         processed = "".join(result_parts)
 
-        # Log banned phrases still present (for monitoring, not removal --
-        # removing mid-sentence could break readability)
+        # Remove banned phrases from text (sentence-level cleanup)
         for phrase in self._BANNED_PHRASES:
-            count = processed.count(phrase)
-            if count > 0:
-                banned_found.append(f"'{phrase}' x{count}")
+            if phrase in processed:
+                processed = processed.replace(phrase, "")
+                banned_found.append(f"'{phrase}'")
         if banned_found:
-            logger.warning(
-                "Post-process: banned phrases still present: %s",
+            logger.info(
+                "Post-process: removed banned phrases: %s",
                 ", ".join(banned_found),
             )
+        # Clean up artifacts from phrase removal
+        processed = re.sub(r"[ \t]{2,}", " ", processed)  # double spaces
+        processed = re.sub(r"\n\s*-\s*\n", "\n", processed)  # empty bullet points
+        processed = re.sub(r"\n{3,}", "\n\n", processed)  # excessive blank lines
+        # Remove broken sentence fragments (very short text ending with 。)
+        processed = re.sub(r"(?m)^(.{1,5}。)\s*$", "", processed)
 
         # Check for duplicate URLs across highlight and other sections
         highlight_urls: set[str] = set()
