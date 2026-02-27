@@ -136,14 +136,31 @@ _READER_STACK_KEYWORDS = frozenset({
     # AI/ML (practical applications relevant to engineers)
     "llm", "language model", "rag", "vector database", "embedding",
     "fine-tun", "prompt engineer", "code generation", "copilot",
+    # AI/LLM (practical applications relevant to engineers) — EXPANDED
+    "chatgpt", "gpt-4", "gpt-5", "claude", "llama", "mistral",
+    "transformer", "diffusion", "llm agent", "ai agent", "function calling",
+    "tool use", "mcp", "openai", "anthropic", "huggingface",
     # Security (always relevant)
     "vulnerability", "cve-", "exploit", "malware", "ransomware",
     "zero-day", "supply chain attack", "authentication",
     # Cloud & DevOps
     "aws", "gcp", "azure", "serverless", "terraform", "github action",
+    # Cloud & DevOps — EXPANDED
+    "cloudflare", "cdn", "edge computing",
+    "ci/cd", "cicd", "gitops",
+    "hashicorp", "consul", "vault", "nomad",
+    "helm", "argocd", "flux",
+    "eks", "gke", "aks",
+    "aws lambda", "cloud functions", "cloud run",
+    # Observability
+    "prometheus", "grafana", "opentelemetry", "datadog",
+    "jaeger", "tracing", "sli", "slo",
+    # Additional languages/frameworks
+    "rust", "rustlang", "react", "wasm", "webassembly",
     # Practical engineering topics
     "api gateway", "service mesh", "observability", "monitoring",
     "database", "caching", "queue", "streaming",
+    "postgresql", "postgres", "grpc", "clickhouse", "duckdb",
 })
 
 
@@ -345,28 +362,34 @@ class GeminiSummarizer(Summarizer):
         prompt = (
             "あなたはデータエンジニア・セキュリティエンジニア兼日本株・米国株の個人投資家向けの"
             "シニアニュースアナリストです。\n"
-            "以下の記事一覧から、読者にとって本当に重要な記事を**8〜10件**選んでください。\n\n"
+            "以下の記事一覧から、読者にとって本当に重要な記事を**12〜15件**選んでください。\n\n"
             "## 読者の技術スタック\n"
             "読者は以下の技術を日常的に使うデータエンジニア・セキュリティエンジニアです。"
             "これらに関連する記事は優先的に選んでください:\n"
-            "- 言語: TypeScript/Next.js, Python, Go, Spark\n"
-            "- インフラ: Kubernetes, Kafka, MySQL, Cassandra, Redis, Hadoop, Athenz\n"
-            "- データ基盤: dbt, Airflow, Databricks, BigQuery, Athena\n\n"
+            "- 言語: TypeScript/Next.js, Python, Go, Rust, Spark\n"
+            "- インフラ: Kubernetes, Docker, Kafka, MySQL, Cassandra, Redis, Hadoop, Athenz\n"
+            "- データ基盤: dbt, Airflow, Databricks, BigQuery, Athena\n"
+            "- AI/LLM: RAG, Vector DB, Embedding, LLMエージェント, Function Calling\n"
+            "- クラウド: AWS, GCP, Azure, Terraform, Cloudflare, GitHub Actions\n\n"
             "## 必須の選定配分\n"
             "以下のカテゴリごとに最低限の記事数を確保すること:\n"
-            "- セキュリティ: 3〜5件（実際に悪用されているCVE、重大な脆弱性、攻撃キャンペーンのみ。"
+            "- AI・LLM: 2〜3件（モデルリリース、API変更、実用的なRAG/Agent手法を優先。"
+            "理論のみの論文は除外）\n"
+            "- セキュリティ: 2〜4件（実際に悪用されているCVE、重大な脆弱性、攻撃キャンペーンのみ。"
             "一般論や啓蒙記事は除外）\n"
             "- マーケット/投資: 2〜3件（具体的数値・指標・決算を含む記事を優先。"
             "数字のない一般的な経済論評は除外）\n"
-            "- データエンジニアリング: 1〜3件（dbt/Airflow/Spark/BigQuery等の具体的ツール更新・"
+            "- クラウド・DevOps: 1〜2件（AWS/GCP/Azure/CI-CDの具体的サービス更新・障害情報）\n"
+            "- データエンジニアリング: 1〜2件（dbt/Airflow/Spark/BigQuery等の具体的ツール更新・"
             "アーキテクチャ変更を含む記事）\n"
-            "- テクノロジー全般: 3〜5件（読者スタックに直結する記事を優先）\n\n"
+            "- テクノロジー全般: 2〜4件（読者スタックに直結する記事を優先）\n\n"
             "## 選定基準（優先順）\n"
             "1. 具体的な数値・メトリクス・CVE番号を含む記事を最優先\n"
             "2. 上記スタックに関連する重要アップデート・脆弱性・ベストプラクティス\n"
             "3. 投資判断に直結（マクロ指標の具体数値、決算、セクター動向）\n"
-            "4. 些末なニュース、宣伝的な記事、既知の繰り返しは除外\n"
-            "5. 量より質: 似たテーマの記事は最も情報量の多い1件だけ選ぶ\n\n"
+            "4. 日本語テック記事も選定対象（英語記事と同一トピックの場合は英語版を優先）\n"
+            "5. 些末なニュース、宣伝的な記事、既知の繰り返しは除外\n"
+            "6. 量より質: 似たテーマの記事は最も情報量の多い1件だけ選ぶ\n\n"
             "## 出力形式\n"
             "選んだ記事の番号をJSON配列で返してください。それ以外のテキストは不要です。\n"
             "例: [0, 3, 5, 7, 9, 12, 15, 18]\n\n"
@@ -438,9 +461,11 @@ class GeminiSummarizer(Summarizer):
             "あなたはベテランのテックジャーナリストです。データエンジニア・セキュリティエンジニア兼"
             "個人投資家（日米株）向けのデイリーブリーフィングを日本語で作成してください。\n\n"
             "## 読者\n"
-            "- 技術スタック: TypeScript/Next.js, Python, Go, Spark, "
-            "Kubernetes, Kafka, MySQL, Cassandra, Redis, Hadoop, Athenz, "
+            "- 技術スタック: TypeScript/Next.js, Python, Go, Rust, Spark, "
+            "Kubernetes, Docker, Kafka, MySQL, Cassandra, Redis, Hadoop, Athenz, "
             "dbt, Airflow, Databricks, BigQuery, Athena\n"
+            "- AI/LLM: RAG, Vector DB, LLMエージェント, Function Calling を実務で活用\n"
+            "- クラウド: AWS, GCP, Azure, Terraform, Cloudflare\n"
             "- 読者のスタックに直結する話題は技術名を挙げて影響を具体的に述べる\n"
             "- 読者は日米の個別株・ETFに投資している。ニュースの投資インパクトを知りたい\n\n"
             "## 禁止表現（これらを使ったら書き直す）\n"
@@ -470,10 +495,18 @@ class GeminiSummarizer(Summarizer):
             "- **太字見出し**（10字前後）\n"
             "- 事実1文 + 意味1文\n"
             "- 📎 リンク\n\n"
+            "### `## 🤖 AI・LLM`\n"
+            "AI/ML関連。モデルリリース、API変更、実用的なRAG/Agent/ツール活用法のみ。最大3件。\n"
+            "読者はLLMを実務で使うエンジニア。理論より実装・運用への影響を具体的に述べる。\n"
+            "📎 リンク必須。\n\n"
             "### `## 🛠️ テクノロジー`\n"
             "読者の技術スタック（TypeScript, Python, Go, K8s, Kafka等）に直結するトピックのみ。\n"
             "ハイライトと重複しない別のトピック。最大3件。\n"
             "具体的なバージョン番号、API変更点、マイグレーション手順があれば明記。\n"
+            "📎 リンク必須。\n\n"
+            "### `## ☁️ クラウド・DevOps`\n"
+            "AWS/GCP/Azure、CI/CD、IaC、CDN関連。該当なしなら省略。最大3件。\n"
+            "サービスのバージョン、料金変更、アーキテクチャ変更の具体値を含める。\n"
             "📎 リンク必須。\n\n"
             "### `## 📊 データエンジニアリング`\n"
             "データ基盤・パイプライン関連。該当なしなら省略。最大3件。\n"
@@ -504,7 +537,9 @@ class GeminiSummarizer(Summarizer):
             "- 複数記事を横断的に結びつけてトレンドを抽出\n"
             "- ハイライトの記事は他セクションに書かない（重複厳禁）\n"
             "- 冒頭挨拶・末尾締め不要。セクションだけ出力\n"
-            "- 記事に書かれていない数値や事実を捏造しない\n\n"
+            "- 記事に書かれていない数値や事実を捏造しない\n"
+            "- 日本語ソースの記事は日本語のまま自然に組み込む\n"
+            "- 日本語と英語で同じトピックの場合、1つにまとめて両方のリンクを付ける\n\n"
             f"## 厳選記事（{len(selected)}件・本文付き）\n\n"
             f"{enriched_text}"
         )
@@ -529,7 +564,7 @@ class GeminiSummarizer(Summarizer):
             "以下のデイリーブリーフィングの原稿を改善してください。\n\n"
             "## 改善方針（LLMでしかできないことに集中）\n"
             "1. 浅い分析を深める: 事実の羅列を「だから何？」まで踏み込んだ分析に書き換える\n"
-            "   - 各トピックで「読者（データエンジニア・セキュリティエンジニア）の日常業務にどう影響するか」を\n"
+            "   - 各トピックで「読者（AI/LLMを実務で活用するデータエンジニア・セキュリティエンジニア）の日常業務にどう影響するか」を\n"
             "     1文追加する\n"
             "2. 関連トピックの横断: 複数の記事に共通するトレンドがあれば言及する\n"
             "3. 語尾の単調さ解消: 同じ語尾が3回以上連続していたら変える\n"

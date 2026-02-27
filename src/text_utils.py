@@ -32,7 +32,9 @@ _NOISE_PREFIX_RE = re.compile(
 _SOURCE_SUFFIX_RE = re.compile(
     r"\s*[-–—|]\s*(?:bloomberg|reuters|cnbc|yahoo|the\s+verge|ars\s+technica"
     r"|techcrunch|wired|bbc|cnn|nyt|wsj|seeking\s+alpha|marketwatch"
-    r"|investing\.com|the\s+hacker\s+news|bleepingcomputer)\s*$",
+    r"|investing\.com|the\s+hacker\s+news|bleepingcomputer"
+    r"|publickey|zenn|gihyo|cloudflare|github|hashicorp"
+    r"|openai|anthropic|huggingface|deepmind|simon\s+willison)\s*$",
     re.IGNORECASE,
 )
 

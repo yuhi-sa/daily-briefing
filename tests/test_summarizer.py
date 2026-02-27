@@ -161,6 +161,24 @@ class TestIsRelevantForReader(unittest.TestCase):
         )
         self.assertFalse(_is_relevant_for_reader(article))
 
+    def test_arxiv_with_llm_agent_keyword_passes(self):
+        """ArXiv article about LLM agents should pass the filter."""
+        a = _make_article(
+            title="Multi-Agent LLM Systems for Code Generation",
+            link="https://arxiv.org/abs/2026.12345",
+            summary="We propose an agent-based framework using function calling for automated code review.",
+        )
+        self.assertTrue(_is_relevant_for_reader(a))
+
+    def test_arxiv_with_cloud_keyword_passes(self):
+        """ArXiv article about cloud/devops topics should pass the filter."""
+        a = _make_article(
+            title="Optimizing EKS Cluster Autoscaling with ML",
+            link="https://arxiv.org/abs/2026.67890",
+            summary="A study on eks autoscaling strategies using prometheus metrics.",
+        )
+        self.assertTrue(_is_relevant_for_reader(a))
+
 
 # --- Post-processing tests --------------------------------------------
 
@@ -231,6 +249,35 @@ class TestPostProcessBriefing(unittest.TestCase):
         )
         result = self.summarizer._post_process_briefing(text)
         self.assertNotIn("  ", result)  # No double spaces
+
+    def test_drops_ai_section_without_links(self):
+        """AI & LLM section without links should be dropped."""
+        text = (
+            "## 🔥 本日のハイライト\n"
+            "- 📎 [Test](https://example.com)\n\n"
+            "## 🤖 AI・LLM\n"
+            "- GPT-5がリリースされた。\n\n"
+            "## 🔮 今後の注目\n"
+            "- 来週のイベント\n"
+        )
+        result = self.summarizer._post_process_briefing(text)
+        self.assertNotIn("🤖", result)
+        self.assertIn("🔥", result)
+        self.assertIn("🔮", result)
+
+    def test_drops_cloud_section_without_links(self):
+        """Cloud & DevOps section without links should be dropped."""
+        text = (
+            "## 🔥 本日のハイライト\n"
+            "- 📎 [Test](https://example.com)\n\n"
+            "## ☁️ クラウド・DevOps\n"
+            "- AWSが新サービスを発表。\n\n"
+            "## 🔮 今後の注目\n"
+            "- 来週のイベント\n"
+        )
+        result = self.summarizer._post_process_briefing(text)
+        self.assertNotIn("☁️", result)
+        self.assertIn("🔥", result)
 
 
 # --- _select_articles pre-filter integration test ---------------------

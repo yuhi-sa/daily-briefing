@@ -40,6 +40,21 @@ class TestNormalizeTitle:
         assert "kubernetes" in result
         assert "130" in result or "release" in result
 
+    def test_removes_publickey_suffix(self):
+        assert "cloudflare workers" in normalize_title(
+            "Cloudflare Workers gets new features - Publickey"
+        )
+
+    def test_removes_openai_suffix(self):
+        assert "gpt" in normalize_title(
+            "GPT-5 Released with New Capabilities — OpenAI"
+        )
+
+    def test_removes_cloudflare_suffix(self):
+        assert "workers" in normalize_title(
+            "Workers AI now supports tool use | Cloudflare"
+        )
+
 
 class TestExtractKeywords:
     def test_removes_stop_words(self):

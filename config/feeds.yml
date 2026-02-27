@@ -8,8 +8,6 @@ categories:
   - name: "Engineering & Technology"
     label_ja: "エンジニアリング・技術"
     feeds:
-      - name: "ArXiv AI/ML"
-        url: "https://rss.arxiv.org/rss/cs.AI+cs.LG"
       - name: "Hacker News (100+ points)"
         url: "https://hnrss.org/frontpage?points=100"
       - name: "IEEE Spectrum AI"
@@ -20,8 +18,76 @@ categories:
         url: "https://www.technologyreview.com/feed/"
       - name: "Google Developers Blog"
         url: "https://developers.googleblog.com/feeds/posts/default"
+
+  - name: "AI & LLM"
+    label_ja: "AI・LLM"
+    feeds:
+      - name: "ArXiv AI/ML"
+        url: "https://rss.arxiv.org/rss/cs.AI+cs.LG"
       - name: "Google AI Blog"
         url: "https://blog.research.google/feeds/posts/default"
+        max_articles: 3
+      - name: "OpenAI Blog"
+        url: "https://openai.com/blog/rss.xml"
+        max_articles: 3
+      - name: "Anthropic News"
+        url: "https://www.anthropic.com/feed"
+        max_articles: 3
+      - name: "HuggingFace Blog"
+        url: "https://huggingface.co/blog/feed.xml"
+        max_articles: 5
+      - name: "DeepMind Blog"
+        url: "https://deepmind.google/blog/rss.xml"
+        max_articles: 3
+      - name: "Sebastian Raschka"
+        url: "https://magazine.sebastianraschka.com/feed"
+        max_articles: 3
+      - name: "The Batch (Andrew Ng)"
+        url: "https://www.deeplearning.ai/the-batch/feed/"
+        max_articles: 3
+      - name: "Simon Willison"
+        url: "https://simonwillison.net/atom/everything/"
+        max_articles: 5
+
+  - name: "Cloud & DevOps"
+    label_ja: "クラウド・DevOps"
+    feeds:
+      - name: "AWS Architecture Blog"
+        url: "https://aws.amazon.com/blogs/architecture/feed/"
+        max_articles: 3
+      - name: "Google Cloud Blog"
+        url: "https://cloud.google.com/blog/feed"
+        max_articles: 5
+      - name: "Azure Updates"
+        url: "https://azurecomcdn.azureedge.net/en-us/updates/feed/"
+        max_articles: 3
+      - name: "Cloudflare Blog"
+        url: "https://blog.cloudflare.com/rss/"
+        max_articles: 5
+      - name: "GitHub Engineering"
+        url: "https://github.blog/engineering/feed/"
+        max_articles: 5
+      - name: "HashiCorp Blog"
+        url: "https://www.hashicorp.com/blog/feed.xml"
+        max_articles: 3
+      - name: "Docker Blog"
+        url: "https://www.docker.com/blog/feed/"
+        max_articles: 3
+
+  - name: "Japanese Tech"
+    label_ja: "日本語テック"
+    feeds:
+      - name: "Publickey"
+        url: "https://www.publickey1.jp/atom.xml"
+        max_articles: 5
+      - name: "Zenn Trending"
+        url: "https://zenn.dev/feed"
+        max_articles: 5
+      - name: "はてなブックマーク IT"
+        url: "https://b.hatena.ne.jp/hotentry/it.rss"
+        max_articles: 5
+      - name: "Gihyo.jp"
+        url: "https://gihyo.jp/feed/rss2"
         max_articles: 3
 
   - name: "Languages & Frameworks"
@@ -35,6 +101,12 @@ categories:
         url: "https://go.dev/blog/feed.atom"
       - name: "Python Insider"
         url: "https://blog.python.org/feeds/posts/default"
+      - name: "Rust Blog"
+        url: "https://blog.rust-lang.org/feed.xml"
+        max_articles: 3
+      - name: "Next.js Blog"
+        url: "https://nextjs.org/feed.xml"
+        max_articles: 3
 
   - name: "Infrastructure"
     label_ja: "インフラ"
@@ -69,6 +141,9 @@ categories:
         url: "https://seattledataguy.substack.com/feed"
       - name: "Towards Data Science"
         url: "https://towardsdatascience.com/feed"
+      - name: "Airflow Blog"
+        url: "https://airflow.apache.org/blog/feed.xml"
+        max_articles: 3
 
   - name: "Security"
     label_ja: "セキュリティ"

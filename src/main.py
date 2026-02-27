@@ -125,12 +125,18 @@ def run_collect(verbose: bool = False) -> None:
     digest_path.write_text(digest_content, encoding="utf-8")
     logger.info("Digest written to %s", digest_path)
 
-    # 6. Append to weekly buffer
+    # 6. Append to weekly buffer (with URL dedup to prevent duplicates)
     buffer = _load_weekly_buffer()
+    existing_urls = {normalize_url(d.get("link", "")) for d in buffer}
+    added = 0
     for a in summarized:
-        buffer.append(_article_to_dict(a))
+        norm = normalize_url(a.link)
+        if norm not in existing_urls:
+            buffer.append(_article_to_dict(a))
+            existing_urls.add(norm)
+            added += 1
     _save_weekly_buffer(buffer)
-    logger.info("Weekly buffer now has %d articles", len(buffer))
+    logger.info("Weekly buffer: added %d new, %d total", added, len(buffer))
 
     # 7. Save dedup DB
     dedup.save()

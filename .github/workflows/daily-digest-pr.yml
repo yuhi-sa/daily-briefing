@@ -37,3 +37,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SUMMARIZER_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -m src.main digest
+
+      - name: Commit cleared article buffer
+        run: |
+          git pull --rebase origin main || true
+          git add data/weekly_articles.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Clear article buffer after digest"
+          git push
