@@ -54,5 +54,9 @@
   "2602.21447": {
     "title": "Adversarial Intent is a Latent Variable: Stateful Trust Inference for Securing Multimodal Agentic RAG",
     "seen_at": "2026-02-26T22:43:57.554970+00:00"
+  },
+  "2602.22413": {
+    "title": "Epistemic Filtering and Collective Hallucination: A Jury Theorem for Confidence-Calibrated Agents",
+    "seen_at": "2026-02-27T22:40:26.712846+00:00"
   }
 }
