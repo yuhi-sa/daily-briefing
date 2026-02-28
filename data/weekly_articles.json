@@ -1,1 +1,822 @@
-[]
+[
+  {
+    "id": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/",
+    "title": "Trump moves to ban Anthropic from the US government",
+    "link": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/",
+    "summary": "The Defense Department pressured Anthropic to drop restrictions on how its AI can be used by the military.",
+    "published": "2026-02-28T20:00:26+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/health/2026/02/did-chatgpt-help-health-officials-solve-a-weird-outbreak-maybe/",
+    "title": "In puzzling outbreak, officials look to cold beer, gross ice, and ChatGPT",
+    "link": "https://arstechnica.com/health/2026/02/did-chatgpt-help-health-officials-solve-a-weird-outbreak-maybe/",
+    "summary": "An AI chatbot convinced health investigators they had the right answer.",
+    "published": "2026-02-28T18:17:12+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/",
+    "title": "Google quantum-proofs HTTPS by squeezing 15kB of data into 700-byte space",
+    "link": "https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/",
+    "summary": "Merkle Tree Certificate support is already in Chrome. Soon, it will be everywhere.",
+    "published": "2026-02-28T01:26:41+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/",
+    "title": "The Air Force's new ICBM is nearly ready to fly, but there’s nowhere to put it",
+    "link": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/",
+    "summary": "\"There were assumptions that were made in the strategy that obviously didn’t come to fruition.\"",
+    "published": "2026-02-28T00:32:24+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/gadgets/2026/02/under-a-paramount-wbd-merger-two-struggling-media-giants-would-unite/",
+    "title": "Under a Paramount-WBD merger, two struggling media giants would unite",
+    "link": "https://arstechnica.com/gadgets/2026/02/under-a-paramount-wbd-merger-two-struggling-media-giants-would-unite/",
+    "summary": "Can two declining companies form a profitable one?",
+    "published": "2026-02-27T22:39:00+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://arstechnica.com/science/2026/02/photons-that-arent-actually-there-influence-superconductivity/",
+    "title": "Photons that aren't actually there influence superconductivity",
+    "link": "https://arstechnica.com/science/2026/02/photons-that-arent-actually-there-influence-superconductivity/",
+    "summary": "Interactions between neighboring materials is mediated by virtual photons.",
+    "published": "2026-02-27T21:27:33+00:00",
+    "source_name": "Ars Technica",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.technologyreview.com/?p=1133769",
+    "title": "MIT Technology Review is a 2026 ASME finalist in reporting",
+    "link": "https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/",
+    "summary": "The American Society of Magazine Editors has named MIT Technology Review as a finalist for a 2026 National Magazine Award in the reporting category. The shortlisted story—“We did the math on AI’s energy footprint. Here’s the story you haven’t heard”—is part of the publication’s Power Hungry package on AI’s energy burden. AI is often described…",
+    "published": "2026-02-27T21:41:31+00:00",
+    "source_name": "MIT Technology Review",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/",
+    "title": "Turn creative prompts into interactive XR experiences with Gemini",
+    "link": "https://developers.googleblog.com/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/",
+    "summary": "The Android XR team is using Gemini's Canvas feature to make creating immersive extended reality (XR) experiences more accessible. This allows developers to rapidly prototype interactive 3D environments and models on a Samsung Galaxy XR headset using simple creative prompts.",
+    "published": "2026-02-28T21:03:04.972089+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47197505",
+    "title": "The whole thing was a scam",
+    "link": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
+    "summary": "Article URL: https://garymarcus.substack.com/p/the-whole-thing-was-scam Comments URL: https://news.ycombinator.com/item?id=47197505 Points: 286 # Comments: 80",
+    "published": "2026-02-28T16:51:49+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47197267",
+    "title": "Obsidian Sync now has a headless client",
+    "link": "https://help.obsidian.md/sync/headless",
+    "summary": "Article URL: https://help.obsidian.md/sync/headless Comments URL: https://news.ycombinator.com/item?id=47197267 Points: 243 # Comments: 95",
+    "published": "2026-02-28T16:31:53+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47195371",
+    "title": "Addressing Antigravity Bans and Reinstating Access",
+    "link": "https://github.com/google-gemini/gemini-cli/discussions/20632",
+    "summary": "Article URL: https://github.com/google-gemini/gemini-cli/discussions/20632 Comments URL: https://news.ycombinator.com/item?id=47195371 Points: 155 # Comments: 133",
+    "published": "2026-02-28T13:50:13+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47195317",
+    "title": "OpenAI fires an employee for prediction market insider trading",
+    "link": "https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/",
+    "summary": "Article URL: https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/ Comments URL: https://news.ycombinator.com/item?id=47195317 Points: 221 # Comments: 126",
+    "published": "2026-02-28T13:46:20+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47195123",
+    "title": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
+    "link": "https://nowigetit.us",
+    "summary": "Understanding scientific articles can be tough, even in your own field. Trying to comprehend articles from others? Good luck.Enter, Now I Get It!I made this app for curious people. Simply upload an article and after a few minutes you'll have an interactive web page showcasing the highlights. Generated pages are stored in the cloud and can be viewed from a gallery.Now I Get It! uses the best LLMs out there, which means the app will improve as AI improves.Free for now - it's capped at 20 articl...",
+    "published": "2026-02-28T13:29:36+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47194611",
+    "title": "Don't trust AI agents",
+    "link": "https://nanoclaw.dev/blog/nanoclaw-security-model",
+    "summary": "Article URL: https://nanoclaw.dev/blog/nanoclaw-security-model Comments URL: https://news.ycombinator.com/item?id=47194611 Points: 279 # Comments: 161",
+    "published": "2026-02-28T12:39:32+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47193064",
+    "title": "Stop Burning Your Context Window – How We Cut MCP Output by 98% in Claude Code",
+    "link": "https://mksg.lu/blog/context-mode",
+    "summary": "Article URL: https://mksg.lu/blog/context-mode Comments URL: https://news.ycombinator.com/item?id=47193064 Points: 146 # Comments: 24",
+    "published": "2026-02-28T10:01:20+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47192505",
+    "title": "Unsloth Dynamic 2.0 GGUFs",
+    "link": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
+    "summary": "Article URL: https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs Comments URL: https://news.ycombinator.com/item?id=47192505 Points: 177 # Comments: 50",
+    "published": "2026-02-28T08:56:33+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://openai.com/index/our-agreement-with-the-department-of-war",
+    "title": "Our agreement with the Department of War",
+    "link": "https://openai.com/index/our-agreement-with-the-department-of-war",
+    "summary": "Details on OpenAI’s contract with the Department of War, outlining safety redlines, legal protections, and how AI systems will be deployed in classified environments.",
+    "published": "2026-02-28T12:30:00+00:00",
+    "source_name": "OpenAI Blog",
+    "category": "AI & LLM",
+    "category_ja": "AI・LLM"
+  },
+  {
+    "id": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+    "title": "Please, please, please stop using passkeys for encrypting user data",
+    "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+    "summary": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time, and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting and using passkeys to encrypt user data. I’m begging you. Let them be great, phishing-resistant authentication credentials. Via lobste.rs Tags: security, usability, passkeys",
+    "published": "2026-02-27T22:49:32+00:00",
+    "source_name": "Simon Willison",
+    "category": "AI & LLM",
+    "category_ja": "AI・LLM"
+  },
+  {
+    "id": "https://zenn.dev/schroneko/articles/claude-code-remote-control-and-mobile-notification",
+    "title": "Claude Code のリモートコントロールとスマホ通知の始め方",
+    "link": "https://zenn.dev/schroneko/articles/claude-code-remote-control-and-mobile-notification",
+    "summary": "! この記事は人力で書きました。 tl;dr Claude Code のリモートコントロール機能を使ってスマホやブラウザからローカルパソコンで開いているセッションを操作できるよ Notification Hook + Bark を使えばスマホにプッシュ通知も飛ばせるよ この記事の通りに進めると、バナー通知をタップすれば iOS アプリで自動でセッションが開くようになるよ Claude Code のリモートコントロール機能はいいぞ！ https://x.com/nukonuko/status/2026441783287414965 このポストは多くの方に見てもらえました。スマホで...",
+    "published": "2026-02-27T18:04:59+00:00",
+    "source_name": "Zenn Trending",
+    "category": "Japanese Tech",
+    "category_ja": "日本語テック"
+  },
+  {
+    "id": "https://zenn.dev/jy8752/articles/3653cfad23a0bc",
+    "title": "壊れやすいテストとは？ 「単体テストの考え方/使い方」(古典学派)と「実践テスト駆動開発」(ロンドン学派)を読んで考える",
+    "link": "https://zenn.dev/jy8752/articles/3653cfad23a0bc",
+    "summary": "はじめに 「ControllerやUseCase層のテストは壊れやすい」「だからDomain層のテストを手厚く書くほうがいい」みたいな話を耳にし少し心がざわついたので本当にそうなのかを考えてみた。テストが壊れやすいのはモックを使いすぎているとか振る舞いをテストしていないとかそんな理由があったように記憶している。 今テストについて学ぶなら「単体テストの考え方/使い方」から学ぶのがいいでしょう。しかし、モックについて学ぶなら「単体テストの考え方/使い方」が推す古典学派とは異なるロンドン学派の考え方も学んだほうが良いかもしれません。そして、ロンドン学派のテストの考え方を学ぶなら「実践テスト...",
+    "published": "2026-02-27T14:50:29+00:00",
+    "source_name": "Zenn Trending",
+    "category": "Japanese Tech",
+    "category_ja": "日本語テック"
+  },
+  {
+    "id": "https://zenn.dev/rna4219/articles/b945d175cde87c",
+    "title": "ついにローカルLLMで安心して仕事が出来る！― Qwen3.5-27B 採用レポート (2026/02/27)",
+    "link": "https://zenn.dev/rna4219/articles/b945d175cde87c",
+    "summary": "! リンクの紹介は目視で確認。文章ドラフトおよび調査においてGPTを利用しています。 TL;DR ・RTX 3090（VRAM 24GB）＋5bit量子化で Qwen3.5-27B (Reasoning) を実用速度でローカル動作させた話。 ・Artificial Analysis の Intelligence Index 上では、 Qwen3.5-27B (42) ＞ o3-pro (41) ＞ Qwen3.5-35B-A3B (37) という並びになっている。 ・実際のコーディング体験でも、長めのタスクのやり切り／コードの一貫性／プロンプト耐性の3点で 27B が 35B-A3...",
+    "published": "2026-02-27T12:00:53+00:00",
+    "source_name": "Zenn Trending",
+    "category": "Japanese Tech",
+    "category_ja": "日本語テック"
+  },
+  {
+    "id": "https://zenn.dev/nrs/articles/db4120beb0e601",
+    "title": "Claude Code や Codex をオーケストレーションして自動でレビュー FB ループを回して洗い物をしてる話",
+    "link": "https://zenn.dev/nrs/articles/db4120beb0e601",
+    "summary": "はじめに 皆さんはもう AI コーディングツールを使っているでしょうか。Claude Code や GitHub Copilot、Cursor など、さまざまなツールが登場して、「AI がコードを書いてくれる時代」がやってきました。 私も例に漏れず、その恩恵に預かろうと意気揚々と AI コーディングを始めました。これまでの生活はプログラミングと家事の二本柱。 AI がコードを書いてくれるなら、プログラミングの時間が圧縮されて、自分の時間が増えるはず。溜まった洗い物や洗濯物を片付ける余裕が生まれるはず。そんな期待を胸に。 ところが現実は違いました。 AI がコードを書いている間、私...",
+    "published": "2026-02-27T09:56:25+00:00",
+    "source_name": "Zenn Trending",
+    "category": "Japanese Tech",
+    "category_ja": "日本語テック"
+  },
+  {
+    "id": "https://zenn.dev/mickamy/articles/e4bb206db564a5",
+    "title": "もうポート番号は覚えない ── Docker Compose のポート競合を消す CLI「tug」を作った",
+    "link": "https://zenn.dev/mickamy/articles/e4bb206db564a5",
+    "summary": "前回のあらすじ 前回の記事で、portless に触発されて「Docker Compose 環境なら Traefik の defaultRule で同じことができる」という話を書きました。 HTTP サービスは http://service.project.localhost で自動ルーティング git worktree との相性が良い ラベル不要、defaultRule の Go テンプレートだけで動く ただ、実際に運用してみると手作業が残ります。 Traefik 用の compose.yaml を別途管理して起動する 各プロジェクトの compose.yaml に trae...",
+    "published": "2026-02-27T07:50:43+00:00",
+    "source_name": "Zenn Trending",
+    "category": "Japanese Tech",
+    "category_ja": "日本語テック"
+  },
+  {
+    "id": "https://zenn.dev/dinii/articles/28c8fcd041837d",
+    "title": "「全エンジニアが Claude Code を 100% 活用する」を目指してダッシュボードを作った",
+    "link": "https://zenn.dev/dinii/articles/28c8fcd041837d",
+    "summary": "はじめに 「全エンジニアが Claude Code を 100% 活用する」 これは、ダイニーの今期の目標のひとつです。 正直、最初に思ったのは「何をもって 100% なんだ？」です。 手がかりを探るために、まずチーム全員にアンケートを取りました。 結果はバラバラで、「かなり活用できている」という人もいれば、「スキルやサブエ...",
+    "published": "2026-02-28T00:07:26+00:00",
+    "source_name": "はてなブックマーク IT",
+    "category": "Japanese Tech",
+    "category_ja": "日本語テック"
+  },
+  {
+    "id": "https://speakerdeck.com/hayama17/timumenbami-wanaiiacshe-ji",
+    "title": "チームメンバー迷わないIaC設計",
+    "link": "https://speakerdeck.com/hayama17/timumenbami-wanaiiacshe-ji",
+    "summary": "WBCの解説は生成AIにやらせよう - 生成AIで野球解説者AI Agentを実現する / Baseball Commentator AI Agent for Gemini",
+    "published": "2026-02-28T07:36:18+00:00",
+    "source_name": "はてなブックマーク IT",
+    "category": "Japanese Tech",
+    "category_ja": "日本語テック"
+  },
+  {
+    "id": "CBMihgFBVV95cUxNcHY2MHFodVg4aG1CUzY1b1NIVXlDLU5kQVZvYnpQZmRCRVM5eDgyM2VtNWZiOXQyRm02QVQ4R0owVGR1eXhRTUdYZTIzY1o1M3JSZWY0a3hrTUlQVF92QTVhVmZ6N0dxMkN4MjZrTlB1S3NlTHRicXd4MmV4RVRHd1oyRmo0UQ",
+    "title": "Confluent links AI agents & boosts anomaly detection - IT Brief Australia",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcHY2MHFodVg4aG1CUzY1b1NIVXlDLU5kQVZvYnpQZmRCRVM5eDgyM2VtNWZiOXQyRm02QVQ4R0owVGR1eXhRTUdYZTIzY1o1M3JSZWY0a3hrTUlQVF92QTVhVmZ6N0dxMkN4MjZrTlB1S3NlTHRicXd4MmV4RVRHd1oyRmo0UQ?oc=5",
+    "summary": "Confluent links AI agents & boosts anomaly detection IT Brief Australia",
+    "published": "2026-02-27T03:52:00+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://blog.devart.com/?p=176217",
+    "title": "ODBC Driver for MySQL: Open-Source vs Commercial (2026)",
+    "link": "https://blog.devart.com/mysql-odbc-driver-open-source-vs-commercial.html",
+    "summary": "The MySQL ODBC driver is what keeps BI tools, reporting systems, and ETL pipelines connected to MySQL without errors. Teams have depended on it for years, and it’s still vital today, especially with MySQL ranked #2 worldwide in February 2026. However, not all ODBC drivers are built alike. There are two categories: open-source options and commercial ones. While both connect applications to […] The post ODBC Driver for MySQL: Open-Source vs Commercial (2026) appeared first on Devart Blog.",
+    "published": "2026-02-28T18:21:25+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608483",
+    "title": "Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel",
+    "link": "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/",
+    "summary": "How reusable, lazy-loaded instructions solve the context bloat problem in AI-assisted development. The post Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel appeared first on Towards Data Science.",
+    "published": "2026-02-28T15:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608485",
+    "title": "Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not?",
+    "link": "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
+    "summary": "A case study on techniques to maximize your clusters The post Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not? appeared first on Towards Data Science.",
+    "published": "2026-02-28T13:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71679",
+    "title": "Friday Squid Blogging: Squid Fishing in Peru",
+    "link": "https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html",
+    "summary": "Peru has increased its squid catch limit. The article says “giant squid,” but they can’t possibly mean that. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+    "published": "2026-02-27T22:04:45+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/",
+    "title": "QuickLens Chrome extension steals crypto, shows ClickFix attack",
+    "link": "https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/",
+    "summary": "A Chrome extension named \"QuickLens - Search Screen with Google Lens\" has been removed from the Chrome Web Store after it was compromised to push malware and attempt to steal crypto from thousands of users. [...]",
+    "published": "2026-02-28T19:18:52+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/",
+    "title": "$4.8M in crypto stolen after Korean tax agency exposes wallet seed",
+    "link": "https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/",
+    "summary": "South Korea's National Tax Service accidentally exposed the mnemonic recovery phrase of a seized cryptocurrency wallet in an official press release, allowing hackers to steal 6.4 billion won ($4.8M) worth in cryptocurrency. [...]",
+    "published": "2026-02-28T15:17:23+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+    "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
+    "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+    "summary": "OpenClaw has fixed a high-severity security issue that, if successfully exploited, could have allowed a malicious website to connect to a locally running artificial intelligence (AI) agent and take over control. \"Our vulnerability lives in the core system itself – no plugins, no marketplace, no user-installed extensions – just the bare OpenClaw gateway, running exactly as documented,\" Oasis",
+    "published": "2026-02-28T17:21:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
+    "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
+    "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
+    "summary": "New research has found that Google Cloud API keys, typically designated as project identifiers for billing purposes, could be abused to authenticate to sensitive Gemini endpoints and access private data. The findings come from Truffle Security, which discovered nearly 3,000 Google API keys (identified by the prefix \"AIza\") embedded in client-side code to provide Google-related services like",
+    "published": "2026-02-28T09:56:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
+    "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
+    "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
+    "summary": "Anthropic on Friday hit back after U.S. Secretary of Defense Pete Hegseth directed the Pentagon to designate the artificial intelligence (AI) upstart as a \"supply chain risk.\" \"This action follows months of negotiations that reached an impasse over two exceptions we requested to the lawful use of our AI model, Claude: the mass domestic surveillance of Americans and fully autonomous weapons,\" the",
+    "published": "2026-02-28T04:57:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=73057",
+    "title": "Who is the Kimwolf Botmaster “Dort”?",
+    "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
+    "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines...",
+    "published": "2026-02-28T12:01:57+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.investing.com/news/world-news/geopolitical-shock-israel-moves-against-iran-ending-diplomatic-hopes-4533234",
+    "title": "U.S., Israel strike Iran; Khamenei reported killed",
+    "link": "https://www.investing.com/news/world-news/geopolitical-shock-israel-moves-against-iran-ending-diplomatic-hopes-4533234",
+    "summary": "",
+    "published": "2026-02-28T20:04:31+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/online-travel-agencies-may-emerge-as-ai-winners-morgan-stanley-says-4533431",
+    "title": "Online travel agencies may emerge as AI winners, Morgan Stanley says",
+    "link": "https://www.investing.com/news/economy-news/online-travel-agencies-may-emerge-as-ai-winners-morgan-stanley-says-4533431",
+    "summary": "",
+    "published": "2026-02-28T17:55:41+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/china-may-trim-2026-growth-target-keep-policy-supportive-bofa-says-4533424",
+    "title": "China may trim 2026 growth target, keep policy supportive, BofA says",
+    "link": "https://www.investing.com/news/economy-news/china-may-trim-2026-growth-target-keep-policy-supportive-bofa-says-4533424",
+    "summary": "",
+    "published": "2026-02-28T16:20:24+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/japan-policy-backdrop-turns-dovish-but-yen-risks-limit-boj-inaction-bofa-says-4533420",
+    "title": "Japan policy backdrop turns dovish, but yen risks limit BoJ inaction, BofA says",
+    "link": "https://www.investing.com/news/economy-news/japan-policy-backdrop-turns-dovish-but-yen-risks-limit-boj-inaction-bofa-says-4533420",
+    "summary": "",
+    "published": "2026-02-28T15:40:31+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/strategists-see-shortterm-shock-not-lasting-market-shift-4533411",
+    "title": "Strategists see only temporary market impact from Iran strikes",
+    "link": "https://www.investing.com/news/economy-news/strategists-see-shortterm-shock-not-lasting-market-shift-4533411",
+    "summary": "",
+    "published": "2026-02-28T14:35:17+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/is-ai-killing-jobs-the-vacancy-data-tells-a-different-story-4533409",
+    "title": "Is AI killing jobs? The vacancy data tells a different story",
+    "link": "https://www.investing.com/news/economy-news/is-ai-killing-jobs-the-vacancy-data-tells-a-different-story-4533409",
+    "summary": "",
+    "published": "2026-02-28T14:22:39+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/how-usiran-tensions-could-shape-world-markets-4533405",
+    "title": "How US-Iran tensions could shape world markets",
+    "link": "https://www.investing.com/news/economy-news/how-usiran-tensions-could-shape-world-markets-4533405",
+    "summary": "",
+    "published": "2026-02-28T13:36:28+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.investing.com/news/economy-news/chinas-new-era-15th-fiveyear-plan-set-to-drive-global-tech-leadership-4533317",
+    "title": "China’s new era: 15th five-year plan set to drive global tech leadership",
+    "link": "https://www.investing.com/news/economy-news/chinas-new-era-15th-fiveyear-plan-set-to-drive-global-tech-leadership-4533317",
+    "summary": "",
+    "published": "2026-02-28T11:17:13+00:00",
+    "source_name": "Investing.com Economy",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-28/us-farmers-see-new-trump-tariffs-as-yet-another-round-of-instability",
+    "title": "US Farmers See New Trump Tariffs as Yet Another Round of Instability",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-28/us-farmers-see-new-trump-tariffs-as-yet-another-round-of-instability",
+    "summary": "US farmers have been looking for some stability after a mercurial year under President Donald Trump’s tariffs. But after new trade upheaval last week, it’s becoming increasingly clear that uncertainty is the only constant.",
+    "published": "2026-02-28T14:30:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-28/clash-between-uk-treasury-defense-ministry-spills-into-open",
+    "title": "Clash Between UK Treasury, Defense Ministry Spills Into Open",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-28/clash-between-uk-treasury-defense-ministry-spills-into-open",
+    "summary": "A simmering dispute between the Treasury and Ministry of Defense over a massive spending plan designed to transform Britain’s military tumbled into public view this week after it raised doubts about a £1 billion ($1.3 billion) helicopter contract.",
+    "published": "2026-02-28T13:27:52+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/newsletters/2026-02-28/europe-and-china-can-only-dream-of-rivaling-dollar-new-economy",
+    "title": "Europe and China Can Only Dream of Rivaling Dollar For Now",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-02-28/europe-and-china-can-only-dream-of-rivaling-dollar-new-economy",
+    "summary": "Having a truly global currency has its downside, and neither has suggested it’s ready to accept that.",
+    "published": "2026-02-28T11:45:01+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-28/world-economy-latest-trump-presses-on-with-tariffs-after-court-loss",
+    "title": "Charting the Global Economy: Trump Presses On With Tariffs After Court Loss",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-28/world-economy-latest-trump-presses-on-with-tariffs-after-court-loss",
+    "summary": "US President Donald Trump is pressing on with his tariff agenda after a major setback from the Supreme Court, looking to use different avenues to enact the levies.",
+    "published": "2026-02-28T10:00:00+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/features/2026-02-28/ai-and-italy-giorgia-meloni-wants-economic-growth-and-a-reality-check",
+    "title": "The Evolution of Giorgia Meloni: Her Plan for Italy and Fears of AI",
+    "link": "https://www.bloomberg.com/news/features/2026-02-28/ai-and-italy-giorgia-meloni-wants-economic-growth-and-a-reality-check",
+    "summary": "The prime minister stabilized Italy. In her second act, she wants growth — and a global reality check on AI.",
+    "published": "2026-02-28T09:30:05+00:00",
+    "source_name": "Bloomberg Economics",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-28/iran-strikes-what-s-at-stake-for-oil-markets-as-trump-attacks-tehran",
+    "title": "What’s at Stake for Oil Markets as Trump Strikes Iran",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-28/iran-strikes-what-s-at-stake-for-oil-markets-as-trump-attacks-tehran",
+    "summary": "President Donald Trump’s decision to strike Iran creates new risks for a significant chunk of the world’s oil supply.",
+    "published": "2026-02-28T10:14:32+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-28/private-credit-stocks-signal-more-pain-is-coming-credit-weekly",
+    "title": "Private Credit Stocks Signal More Pain Is Coming: Credit Weekly",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-28/private-credit-stocks-signal-more-pain-is-coming-credit-weekly",
+    "summary": "Falling income, slashed dividends and loan markdowns: the results from some of the most transparent private credit funds this week have done little to soothe investors concerned about cockroaches in the market.",
+    "published": "2026-02-28T20:00:00+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-28/bloomberg-this-weekend-2-28-2026-video",
+    "title": "Bloomberg This Weekend 2/28/2026",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-28/bloomberg-this-weekend-2-28-2026-video",
+    "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity and context to this weekend's biggest news, US and Israel's attack on Iran, LIVE from New York. Joined by Beacon Global Strategies Managing Director & Partner Michael Allen, International Security Assistance Force Gen. John Allen (Ret.), Rep. Jake Auchincloss,Gen. Mark Kimmitt (Ret.), Former US Ambassador to UN John Bolton, Director & Senior Adviser at Center for Strategic & Intl Studies...",
+    "published": "2026-02-28T19:15:39+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/videos/2026-02-28/dubai-counters-iranian-missiles-and-drones-video",
+    "title": "Dubai Prepares for the Worst as Iran Launches Drones and Missiles",
+    "link": "https://www.bloomberg.com/news/videos/2026-02-28/dubai-counters-iranian-missiles-and-drones-video",
+    "summary": "Dubai defense systems repel Iranian drones and missiles as random explosions and plumes of black smoke can be seen rising out of the city-state’s most celebrated neighborhood. Bloomberg's Joumanna Bercetche reports from Dubai on \"Bloomberg This Weekend.\" (Source: Bloomberg)",
+    "published": "2026-02-28T18:35:44+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-races-to-destroy-cash-that-fell-from-sky-in-plane-crash",
+    "title": "Bolivia Races to Destroy Cash That Fell From Sky in Plane Crash",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-races-to-destroy-cash-that-fell-from-sky-in-plane-crash",
+    "summary": "Bolivian authorities are scrambling to destroy what likely amounts to millions of dollars worth of local currency that suddenly fell from the sky in a deadly plane crash in the country’s second largest city.",
+    "published": "2026-02-28T18:25:22+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4558973-israeli-officials-say-iran-s-supreme-leader-ayatollah-ali-khamenei-is-dead-ap?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Israeli officials say Iran’s Supreme Leader Ayatollah Ali Khamenei is dead - AP",
+    "link": "https://seekingalpha.com/news/4558973-israeli-officials-say-iran-s-supreme-leader-ayatollah-ali-khamenei-is-dead-ap?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-28T20:43:48+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4558955-key-deals-this-week-kore-topbuild-equinix-paypal-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Key deals this week: KORE, TopBuild, Equinix, PayPal and more",
+    "link": "https://seekingalpha.com/news/4558955-key-deals-this-week-kore-topbuild-equinix-paypal-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-28T20:15:29+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4558972-latest-on-us-israeli-strikes-on-iran?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Latest on U.S.-Israeli strikes on Iran",
+    "link": "https://seekingalpha.com/news/4558972-latest-on-us-israeli-strikes-on-iran?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-28T19:45:17+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4558971-fedex-essilorluxottica-sued-tariff-refunds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "FedEx, EssilorLuxottica sued by customers for tariff refunds",
+    "link": "https://seekingalpha.com/news/4558971-fedex-essilorluxottica-sued-tariff-refunds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-28T19:16:27+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4558970-oil-markets-bracing-volatility-us-israel-attacks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Oil markets bracing for volatility after U.S.-Israel attacks on Iran",
+    "link": "https://seekingalpha.com/news/4558970-oil-markets-bracing-volatility-us-israel-attacks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "",
+    "published": "2026-02-28T18:13:11+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4874900",
+    "title": "Pursuit Attractions and Hospitality, Inc. (PRSU) Q4 2025 Earnings Call Transcript",
+    "link": "https://seekingalpha.com/article/4874900-pursuit-attractions-and-hospitality-inc-prsu-q4-2025-earnings-call-transcript?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-28T20:57:47+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4876778",
+    "title": "National Bank of Greece S.A. (NBGRY) Q4 2025 Earnings Call Transcript",
+    "link": "https://seekingalpha.com/article/4876778-national-bank-of-greece-s-a-nbgry-q4-2025-earnings-call-transcript?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-28T20:17:46+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4876777",
+    "title": "Iran Escalation Shock Triggers Risk-Off Move To USD And Gold, Oil, Defense And Aerospace Win",
+    "link": "https://seekingalpha.com/article/4876777-iran-escalation-shock-triggers-risk-off-move-to-usd-and-gold-oil-defense-and-aerospace-win?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-28T20:00:05+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4874749",
+    "title": "Leonardo S.p.a. (FINMY) Q4 2025 Earnings Call Transcript",
+    "link": "https://seekingalpha.com/article/4874749-leonardo-s-p-a-finmy-q4-2025-earnings-call-transcript?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-28T18:47:45+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4876776",
+    "title": "AFC Energy plc (AFGYF) Q4 2025 Earnings Call Transcript",
+    "link": "https://seekingalpha.com/article/4876776-afc-energy-plc-afgyf-q4-2025-earnings-call-transcript?source=feed_all_articles",
+    "summary": "",
+    "published": "2026-02-28T18:37:48+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004782624",
+    "title": "‘She spent $1,000 a month on weight-loss drugs’: My son wrecked his finances after meeting his girlfriend. Who’s to blame?",
+    "link": "https://www.marketwatch.com/story/his-credit-rating-is-wrecked-my-son-and-his-girlfriend-mingled-their-finances-big-mistake-b5273119?mod=mw_rss_topstories",
+    "summary": "“My son is smart — he really is — but he was in love.”",
+    "published": "2026-02-28T20:45:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004803447",
+    "title": "My brother is paranoid, alone and has forgotten that he sold his house. How can we help?",
+    "link": "https://www.marketwatch.com/story/my-sister-and-i-are-his-only-family-my-brother-is-paranoid-and-forgot-he-sold-his-house-what-can-i-do-006a8d3a?mod=mw_rss_topstories",
+    "summary": "His lawyer said, “He’s gone off the deep end.”",
+    "published": "2026-02-28T20:27:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004805671",
+    "title": "‘I dread the snow’: My heating and air conditioning always breaks down. Do I spend $15,000 on a new one?",
+    "link": "https://www.marketwatch.com/story/i-dread-the-snow-my-heating-and-air-conditioning-always-breaks-down-do-i-spend-15k-on-a-new-one-e4cbf07e?mod=mw_rss_topstories",
+    "summary": "“Is there a formula or method for figuring out when replacement becomes more cost-effective than ongoing repairs?”",
+    "published": "2026-02-28T20:27:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004810202",
+    "title": "Middle Eastern airports are crossroads of the world. Here’s how the U.S.-Israel attack on Iran will sow chaos on air travel.",
+    "link": "https://www.marketwatch.com/story/middle-eastern-airports-are-crossroads-of-the-world-heres-how-the-u-s-israel-attack-on-iran-will-sow-chaos-on-air-travel-3f34465d?mod=mw_rss_topstories",
+    "summary": "Dubai and Doha airports are among the largest international hubs for air travel.",
+    "published": "2026-02-28T19:50:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004810089",
+    "title": "Iran conflict raises talk of a return to $100-a-barrel oil",
+    "link": "https://www.marketwatch.com/story/iran-conflict-raises-talk-of-a-return-to-100-a-barrel-oil-63bbc1b3?mod=mw_rss_topstories",
+    "summary": "The U.S. and Israel attacked Iran on Saturday, putting a key regional source of the world’s crude oil at risk and raising talk of a return to $100-a-barrel oil prices.",
+    "published": "2026-02-28T19:39:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "Trump Says Khamenei Likely Killed In U.S.-Israeli Attacks On Iran. How Will Dow Jones Futures React?",
+    "link": "https://www.investors.com/market-trend/stock-market-today/trump-us-israel-massive-attacks-iran-dow-jones-futures-oil-prices/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published": "2026-02-28T20:53:19+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "billion-dollar-infrastructure-deals-powering-173527896.html",
+    "title": "The billion-dollar infrastructure deals powering the AI boom",
+    "link": "https://finance.yahoo.com/news/billion-dollar-infrastructure-deals-powering-173527896.html",
+    "summary": "",
+    "published": "2026-02-28T20:41:55+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "erasca-inc-eras-bull-case-201522170.html",
+    "title": "Erasca, Inc. (ERAS): A Bull Case Theory",
+    "link": "https://finance.yahoo.com/news/erasca-inc-eras-bull-case-201522170.html",
+    "summary": "",
+    "published": "2026-02-28T20:15:22+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "huntington-ingalls-industries-inc-hii-195814368.html",
+    "title": "Huntington Ingalls Industries, Inc. (HII): A Bull Case Theory",
+    "link": "https://finance.yahoo.com/news/huntington-ingalls-industries-inc-hii-195814368.html",
+    "summary": "",
+    "published": "2026-02-28T19:58:14+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "lkq-corporation-lkq-bull-case-195738050.html",
+    "title": "LKQ Corporation (LKQ): A Bull Case Theory",
+    "link": "https://finance.yahoo.com/news/lkq-corporation-lkq-bull-case-195738050.html",
+    "summary": "",
+    "published": "2026-02-28T19:57:38+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108268502",
+    "title": "NASA is sending its first Black and first female astronauts to the moon",
+    "link": "https://www.cnbc.com/2026/02/28/nasa-astronauts-moon-artemis.html",
+    "summary": "NASA is sending the first Black and first female astronauts to the moon in an upcoming launch, marking the first journey to the moon in over 50 years.",
+    "published": "2026-02-28T13:00:01+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108270564",
+    "title": "How the 'K-shaped' economy is showing up at two big U.S. gyms",
+    "link": "https://www.cnbc.com/2026/02/28/life-time-planet-fitness-earnings-show-k-shaped-economy.html",
+    "summary": "The outlooks of Life Time and Planet Fitness show the divergence in spending between higher- and lower-income consumers.",
+    "published": "2026-02-28T13:00:01+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiVEFVX3lxTFBSalpJb2FzZjBqSU1vTFo3RVd1X3liczdRc25wZU9jMVI2dWJ0R0xDcU1UaWhMOUNxODRGdlNhMU5JYkUzaWJnNEk1QThpODAwM2x4Yg",
+    "title": "eMAXIS Slim国内株式(TOPIX)【03317172】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSalpJb2FzZjBqSU1vTFo3RVd1X3liczdRc25wZU9jMVI2dWJ0R0xDcU1UaWhMOUNxODRGdlNhMU5JYkUzaWJnNEk1QThpODAwM2x4Yg?oc=5",
+    "summary": "eMAXIS Slim国内株式(TOPIX)【03317172】：基準価格・投資信託情報 Yahoo!ファイナンス",
+    "published": "2026-02-28T18:03:25+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMibEFVX3lxTFBUaHJRYU9QN1llTDBpRzl5SlBGUFNBVUZCdG1neFpETW5YQzJhZ2RsRk16dkpwUWZBTDhkNjFDMEVxTDVURDZwOFhhdHYzSzgyMkRyX1ItVE1QTldBTjRoODlBVnhleXhoT2N3NQ",
+    "title": "米・イスラエルのイラン攻撃、市場はリスク回避ムードに - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUaHJRYU9QN1llTDBpRzl5SlBGUFNBVUZCdG1neFpETW5YQzJhZ2RsRk16dkpwUWZBTDhkNjFDMEVxTDVURDZwOFhhdHYzSzgyMkRyX1ItVE1QTldBTjRoODlBVnhleXhoT2N3NQ?oc=5",
+    "summary": "米・イスラエルのイラン攻撃、市場はリスク回避ムードに 日本経済新聞",
+    "published": "2026-02-28T19:00:00+00:00",
+    "source_name": "Google News Nikkei 225",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMitAFBVV95cUxPMl95ZXREZ1ozNzVIS2ViS3d4bmh4UDZ1ckRUeWhSSDl3RTZPRGxQX2Q4VUdwVjV6c2REdlJzVEdnQkZPNy1meXdSQ3BLSGVDUFlQZTZqb3dPa3pkTHpXUUJ5Z3BSYnp1c2phbnhtRkhNRjRCamFaSW1ULU9KY2FlUHgtWUR0RE1LRkFiYkNRX1ptMVJNcEp3SjlRNnR1eGp6dnUtZHh5bGkwa0ZFUWFWNnpIeTg",
+    "title": "米国株、急落リスク拡大 S&P500週次反落 AI不信や金融不安渦巻く - ig.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMl95ZXREZ1ozNzVIS2ViS3d4bmh4UDZ1ckRUeWhSSDl3RTZPRGxQX2Q4VUdwVjV6c2REdlJzVEdnQkZPNy1meXdSQ3BLSGVDUFlQZTZqb3dPa3pkTHpXUUJ5Z3BSYnp1c2phbnhtRkhNRjRCamFaSW1ULU9KY2FlUHgtWUR0RE1LRkFiYkNRX1ptMVJNcEp3SjlRNnR1eGp6dnUtZHh5bGkwa0ZFUWFWNnpIeTg?oc=5",
+    "summary": "米国株、急落リスク拡大 S&P500週次反落 AI不信や金融不安渦巻く ig.com",
+    "published": "2026-02-28T07:01:00+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiT0FVX3lxTE1mdHBiLW90SE0wYUM1YjA2bnhmS0RGNVBQZkp6LW45cUMtNDhYZ1FwOFl1bXBURGNNRUVoTnJFXzNhTkplSEc3QnBmZTJfWEE",
+    "title": "インテル【INTC】：株価・株式情報 - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mdHBiLW90SE0wYUM1YjA2bnhmS0RGNVBQZkp6LW45cUMtNDhYZ1FwOFl1bXBURGNNRUVoTnJFXzNhTkplSEc3QnBmZTJfWEE?oc=5",
+    "summary": "インテル【INTC】：株価・株式情報 Yahoo!ファイナンス",
+    "published": "2026-02-28T14:03:17+00:00",
+    "source_name": "Google News US Market JP",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://vercel.com/blog/keeping-community-human-while-scaling-with-agents",
+    "title": "Keeping community human while scaling with agents",
+    "link": "https://vercel.com/blog/keeping-community-human-while-scaling-with-agents",
+    "summary": "At Vercel, our developer community is at the heart of everything we do. It's how we stay closest to the people using what we build.As our community grew, automation helped us scale. But questions still got lost, routing took time, and context switching pulled us away from the work that actually required our expertise. And automation could never help with the things that mattered most, the moments where you really connect with someone and help them. You can't use AI to replicate the feeling of...",
+    "published": "2026-02-27T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/vercel-queues-now-in-public-beta",
+    "title": "Vercel Queues now in public beta",
+    "link": "https://vercel.com/changelog/vercel-queues-now-in-public-beta",
+    "summary": "Vercel Queues is a durable event streaming system built with Fluid compute, and is now available in public beta for all teams. Vercel Queues also powers Workflow: use Queues for direct message publishing and consumption, Workflow for ergonomic multi step orchestration.Functions need a reliable way to defer expensive work and guarantee that tasks complete even when functions crash or new deployments roll out. Queues makes it simple to process messages asynchronously with automatic retries and ...",
+    "published": "2026-02-27T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  }
+]
