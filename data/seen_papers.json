@@ -66,5 +66,9 @@
   "2602.22780v1": {
     "title": "An Artificial Intelligence Framework for Joint Structural-Temporal Load Forecasting in Cloud Native Platforms",
     "seen_at": "2026-03-01T22:39:52.527302+00:00"
+  },
+  "2602.23516": {
+    "title": "Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory",
+    "seen_at": "2026-03-02T22:42:09.156706+00:00"
   }
 }
