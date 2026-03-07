@@ -86,5 +86,9 @@
   "2603.04456": {
     "title": "How Effective Are Publicly Accessible Deepfake Detection Tools? A Comparative Evaluation of Open-Source and Free-to-Use Platforms",
     "seen_at": "2026-03-06T22:42:27.226738+00:00"
+  },
+  "2603.05488v1": {
+    "title": "Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought",
+    "seen_at": "2026-03-07T22:39:09.886859+00:00"
   }
 }
