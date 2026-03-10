@@ -98,5 +98,9 @@
   "2603.06350": {
     "title": "MoEless: Efficient MoE LLM Serving via Serverless Computing",
     "seen_at": "2026-03-09T22:42:19.542175+00:00"
+  },
+  "2603.06862": {
+    "title": "Supporting Artifact Evaluation with LLMs: A Study with Published Security Research Papers",
+    "seen_at": "2026-03-10T22:42:25.532252+00:00"
   }
 }
