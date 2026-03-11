@@ -13,10 +13,6 @@ from datetime import datetime, timezone
 from .dedup import Deduplicator, normalize_url
 from .feeds import load_config
 from .formatter import format_digest
-from .paper_dedup import PaperDeduplicator
-from .paper_fetcher import enrich_paper, fetch_papers_for_category, get_todays_category, select_paper
-from .paper_formatter import format_paper_pr_body
-from .paper_summarizer import summarize_paper
 from .parser import Article, fetch_all_articles, fetch_articles
 from .slack_notifier import send_slack_message
 from .summarizer import generate_briefing, get_summarizer
@@ -145,9 +141,9 @@ def run_collect(verbose: bool = False) -> None:
 
 
 def run_digest(dry_run: bool = False, verbose: bool = False) -> None:
-    """Daily digest: generate briefing from accumulated articles, create PR."""
+    """Daily digest: generate briefing from accumulated articles, send to Slack."""
     setup_logging(verbose)
-    logger.info("Starting daily digest PR creation")
+    logger.info("Starting daily digest")
 
     # 1. Load article buffer
     buffer = _load_weekly_buffer()
@@ -216,82 +212,6 @@ def run_digest(dry_run: bool = False, verbose: bool = False) -> None:
         logger.warning("Slack notification failed")
 
 
-def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
-    """Daily paper digest: select a classic CS paper, summarize, create PR."""
-    setup_logging(verbose)
-    logger.info("Starting paper digest")
-
-    now = datetime.now(timezone.utc)
-    date_label = now.strftime("%Y-%m-%d")
-
-    # 1. Determine today's category
-    category = get_todays_category(now)
-    from .paper_fetcher import PAPER_CATEGORIES
-    category_ja = PAPER_CATEGORIES[category]["name_ja"]
-    logger.info("Today's category: %s (%s)", category, category_ja)
-
-    # 2. Fetch candidate papers
-    papers = fetch_papers_for_category(category)
-    if not papers:
-        logger.warning("No papers found for category %s, skipping", category)
-        return
-
-    # 3. Select paper (dedup check)
-    dedup = PaperDeduplicator()
-    dedup.prune(window_days=30)
-    seen_ids = dedup.get_seen_ids()
-
-    paper = select_paper(papers, seen_ids)
-    if paper is None:
-        logger.warning("All candidate papers have been seen, skipping")
-        return
-
-    # 4. Enrich with full abstract from API (RSS abstracts may be truncated)
-    paper = enrich_paper(paper)
-
-    logger.info("Selected paper: %s (published: %s)", paper.title, paper.published)
-
-    # 4. Summarize
-    api_key = os.environ.get("SUMMARIZER_API_KEY")
-    summary = summarize_paper(paper, api_key)
-    logger.info("Summary generated (%d chars)", len(summary))
-
-    # 5. Format PR body
-    pr_body = format_paper_pr_body(paper, summary, date_label)
-
-    # 6. Write digest file
-    digest_path = PROJECT_ROOT / "digests" / f"paper-{date_label}.md"
-    digest_path.parent.mkdir(parents=True, exist_ok=True)
-    digest_path.write_text(pr_body, encoding="utf-8")
-    logger.info("Paper digest written to %s", digest_path)
-
-    # 7. Mark as seen and save
-    dedup.mark_seen(paper.paper_id, paper.title)
-    dedup.save()
-
-    if dry_run:
-        logger.info("Dry run mode - skipping Slack notification")
-        print(f"\n{'='*60}")
-        print(f"PAPER DIGEST ({date_label}) - {category_ja}")
-        print(f"{'='*60}\n")
-        print(pr_body)
-        return
-
-    # 8. Send Slack notification
-    webhook_url = os.environ.get("SLACK_WEBHOOK_URL", "")
-    title = f"Paper Digest: {date_label} - {category_ja}"
-    success = send_slack_message(
-        webhook_url=webhook_url,
-        title=title,
-        body=pr_body,
-    )
-
-    if success:
-        logger.info("Paper digest sent to Slack")
-    else:
-        logger.warning("Slack notification failed")
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Daily News Digest Generator")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -301,14 +221,9 @@ def main() -> None:
     collect_parser.add_argument("--verbose", "-v", action="store_true")
 
     # digest subcommand
-    digest_parser = subparsers.add_parser("digest", help="Create daily digest PR")
+    digest_parser = subparsers.add_parser("digest", help="Send daily digest to Slack")
     digest_parser.add_argument("--dry-run", action="store_true")
     digest_parser.add_argument("--verbose", "-v", action="store_true")
-
-    # paper subcommand
-    paper_parser = subparsers.add_parser("paper", help="Create paper digest PR")
-    paper_parser.add_argument("--dry-run", action="store_true")
-    paper_parser.add_argument("--verbose", "-v", action="store_true")
 
     args = parser.parse_args()
 
@@ -316,8 +231,6 @@ def main() -> None:
         run_collect(verbose=args.verbose)
     elif args.command == "digest":
         run_digest(dry_run=args.dry_run, verbose=args.verbose)
-    elif args.command == "paper":
-        run_paper(dry_run=args.dry_run, verbose=args.verbose)
 
 
 if __name__ == "__main__":

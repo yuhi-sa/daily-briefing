@@ -4,33 +4,100 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import urllib.request
 import urllib.error
 
 logger = logging.getLogger(__name__)
 
-# Slack message limit is ~40,000 chars, but for readability keep it reasonable.
 MAX_TEXT_LENGTH = 30000
 # Slack section block text limit is 3000 chars
 BLOCK_TEXT_LIMIT = 2900
 
 
-def _split_body(body: str) -> list[str]:
-    """Split body into chunks that fit within Slack's section block text limit."""
-    if len(body) <= BLOCK_TEXT_LIMIT:
-        return [body]
+def _md_to_slack(text: str) -> str:
+    """Convert Markdown to Slack mrkdwn format."""
+    # Convert Markdown links [text](url) → <url|text>
+    text = re.sub(r"\[([^\]]+)\]\((https?://[^\s)]+)\)", r"<\2|\1>", text)
+
+    # Convert **bold** → *bold* (Slack bold)
+    text = re.sub(r"\*\*(.+?)\*\*", r"*\1*", text)
+
+    # Convert ### heading → *heading* (bold)
+    text = re.sub(r"^###\s+(.+)$", r"*\1*", text, flags=re.MULTILINE)
+
+    return text
+
+
+def _build_blocks(title: str, body: str) -> list[dict]:
+    """Build Slack blocks from a title and Markdown body.
+
+    Splits on ## headings so each section gets its own header block
+    with a divider, making the message visually structured.
+    """
+    blocks: list[dict] = [
+        {
+            "type": "header",
+            "text": {"type": "plain_text", "text": title[:150], "emoji": True},
+        },
+    ]
+
+    # Split body by ## headings
+    parts = re.split(r"^(## .+)$", body, flags=re.MULTILINE)
+
+    i = 0
+    while i < len(parts):
+        part = parts[i]
+
+        if part.startswith("## "):
+            # Section heading
+            heading = part.lstrip("# ").strip()
+            section_body = parts[i + 1] if i + 1 < len(parts) else ""
+            section_body = _md_to_slack(section_body.strip())
+            i += 2
+
+            # Divider before each section
+            blocks.append({"type": "divider"})
+            blocks.append({
+                "type": "header",
+                "text": {"type": "plain_text", "text": heading[:150], "emoji": True},
+            })
+
+            if section_body:
+                for chunk in _split_text(section_body):
+                    blocks.append({
+                        "type": "section",
+                        "text": {"type": "mrkdwn", "text": chunk},
+                    })
+        else:
+            # Text before first heading (preamble)
+            preamble = _md_to_slack(part.strip())
+            if preamble:
+                for chunk in _split_text(preamble):
+                    blocks.append({
+                        "type": "section",
+                        "text": {"type": "mrkdwn", "text": chunk},
+                    })
+            i += 1
+
+    return blocks
+
+
+def _split_text(text: str) -> list[str]:
+    """Split text into chunks that fit within Slack's block text limit."""
+    if len(text) <= BLOCK_TEXT_LIMIT:
+        return [text]
 
     chunks: list[str] = []
-    while body:
-        if len(body) <= BLOCK_TEXT_LIMIT:
-            chunks.append(body)
+    while text:
+        if len(text) <= BLOCK_TEXT_LIMIT:
+            chunks.append(text)
             break
-        # Try to split at a newline near the limit
-        split_at = body.rfind("\n", 0, BLOCK_TEXT_LIMIT)
+        split_at = text.rfind("\n", 0, BLOCK_TEXT_LIMIT)
         if split_at <= 0:
             split_at = BLOCK_TEXT_LIMIT
-        chunks.append(body[:split_at])
-        body = body[split_at:].lstrip("\n")
+        chunks.append(text[:split_at])
+        text = text[split_at:].lstrip("\n")
     return chunks
 
 
@@ -47,21 +114,10 @@ def send_slack_message(
         logger.error("No Slack webhook URL provided")
         return False
 
-    # Truncate if too long
     if len(body) > MAX_TEXT_LENGTH:
         body = body[:MAX_TEXT_LENGTH] + "\n\n... (truncated)"
 
-    blocks: list[dict] = [
-        {
-            "type": "header",
-            "text": {"type": "plain_text", "text": title[:150]},
-        },
-    ]
-    for chunk in _split_body(body):
-        blocks.append({
-            "type": "section",
-            "text": {"type": "mrkdwn", "text": chunk},
-        })
+    blocks = _build_blocks(title, body)
 
     payload = {"blocks": blocks}
 
