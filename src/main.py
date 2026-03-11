@@ -18,7 +18,7 @@ from .paper_fetcher import enrich_paper, fetch_papers_for_category, get_todays_c
 from .paper_formatter import format_paper_pr_body
 from .paper_summarizer import summarize_paper
 from .parser import Article, fetch_all_articles, fetch_articles
-from .pr_creator import create_pr
+from .slack_notifier import send_slack_message
 from .summarizer import generate_briefing, get_summarizer
 
 logger = logging.getLogger(__name__)
@@ -191,29 +191,29 @@ def run_digest(dry_run: bool = False, verbose: bool = False) -> None:
     logger.info("Briefing file written to %s", briefing_path)
 
     if dry_run:
-        logger.info("Dry run mode - skipping PR creation")
+        logger.info("Dry run mode - skipping Slack notification")
         print(f"\n{'='*60}")
         print(f"DAILY BRIEFING ({date_label})")
         print(f"{'='*60}\n")
         print(briefing or "(no briefing)")
         return
 
-    # 5. Create PR
-    pr_url = create_pr(
-        briefing_path=briefing_path,
-        date_label=date_label,
-        article_count=len(articles),
-        repo_root=PROJECT_ROOT,
-        briefing=briefing or "",
+    # 5. Send Slack notification
+    webhook_url = os.environ.get("SLACK_WEBHOOK_URL", "")
+    title = f"Daily Digest: {date_label}"
+    success = send_slack_message(
+        webhook_url=webhook_url,
+        title=title,
+        body=briefing or "(No briefing generated)",
     )
 
-    if pr_url:
+    if success:
         # 6. Clear buffer
         _save_weekly_buffer([])
         logger.info("Article buffer cleared")
-        logger.info("Daily digest PR created: %s", pr_url)
+        logger.info("Daily digest sent to Slack")
     else:
-        logger.warning("PR creation failed or was skipped")
+        logger.warning("Slack notification failed")
 
 
 def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
@@ -270,26 +270,26 @@ def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
     dedup.save()
 
     if dry_run:
-        logger.info("Dry run mode - skipping PR creation")
+        logger.info("Dry run mode - skipping Slack notification")
         print(f"\n{'='*60}")
         print(f"PAPER DIGEST ({date_label}) - {category_ja}")
         print(f"{'='*60}\n")
         print(pr_body)
         return
 
-    # 8. Create PR
-    pr_url = create_pr(
-        briefing_path=digest_path,
-        date_label=date_label,
-        repo_root=PROJECT_ROOT,
-        briefing=pr_body,
-        title_prefix="Paper Digest",
+    # 8. Send Slack notification
+    webhook_url = os.environ.get("SLACK_WEBHOOK_URL", "")
+    title = f"Paper Digest: {date_label} - {category_ja}"
+    success = send_slack_message(
+        webhook_url=webhook_url,
+        title=title,
+        body=pr_body,
     )
 
-    if pr_url:
-        logger.info("Paper digest PR created: %s", pr_url)
+    if success:
+        logger.info("Paper digest sent to Slack")
     else:
-        logger.warning("PR creation failed or was skipped")
+        logger.warning("Slack notification failed")
 
 
 def main() -> None:

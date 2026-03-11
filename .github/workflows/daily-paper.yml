@@ -2,12 +2,11 @@ name: Daily Paper Digest
 
 on:
   schedule:
-    - cron: '30 22 * * *'  # 07:30 JST (30 min after digest PR)
+    - cron: '30 22 * * *'  # 07:30 JST (30 min after digest)
   workflow_dispatch: {}
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   paper:
@@ -15,8 +14,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
@@ -27,19 +24,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Run paper digest
+      - name: Run paper digest and notify Slack
         env:
           SUMMARIZER_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: python -m src.main paper --verbose
 
       - name: Commit seen papers database
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/seen_papers.json
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Update seen papers database"

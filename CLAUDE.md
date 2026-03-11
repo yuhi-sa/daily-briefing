@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Automated news aggregation system that fetches articles from 30+ RSS feeds, deduplicates them, summarizes in Japanese via Google Gemini API, and creates daily digest PRs on GitHub. Written in Python 3.12+, runs on GitHub Actions.
+Automated news aggregation system that fetches articles from 30+ RSS feeds, deduplicates them, summarizes in Japanese via Google Gemini API, and sends daily digests to Slack. Written in Python 3.12+, runs on GitHub Actions.
 
 ## Commands
 
@@ -15,11 +15,11 @@ pip install -r requirements.txt
 # Collect articles (fetch → dedup → summarize → save)
 python -m src.main collect --verbose
 
-# Generate briefing and create PR (use --dry-run for local testing)
+# Generate briefing and send to Slack (use --dry-run for local testing)
 python -m src.main digest --dry-run
 python -m src.main digest --verbose
 
-# Generate paper digest (classic CS paper summary PR)
+# Generate paper digest and send to Slack (use --dry-run for local testing)
 python -m src.main paper --dry-run
 python -m src.main paper --verbose
 
@@ -33,19 +33,20 @@ pytest tests/test_dedup.py -v
 ## Environment Variables
 
 - `SUMMARIZER_API_KEY` — Google Gemini API key. Without it, the PassthroughSummarizer is used (no LLM summarization).
+- `SLACK_WEBHOOK_URL` — Slack Incoming Webhook URL for sending digest notifications.
 
 ## Architecture
 
 ```
-RSS Feeds → Parser → Dedup → Summarizer → Formatter → PR
-Semantic Scholar → Paper Fetcher → Paper Dedup → Paper Summarizer → Paper Formatter → PR
+RSS Feeds → Parser → Dedup → Summarizer → Formatter → Slack
+Semantic Scholar → Paper Fetcher → Paper Dedup → Paper Summarizer → Paper Formatter → Slack
 ```
 
 **Two-stage daily pipeline** via GitHub Actions:
 
 1. **Collect** (06:00 JST): Parallel-fetches RSS feeds → deduplicates → summarizes → writes `digests/YYYY-MM-DD.md` → appends to `data/weekly_articles.json` buffer → commits to main.
-2. **Digest** (07:00 JST): Loads buffered articles → two-stage Gemini analysis (select top articles, then fetch full text for deeper briefing) → creates PR with briefing as body → clears buffer.
-3. **Paper** (07:30 JST): Selects a classic CS paper from 4 rotating categories (distributed systems, security, AI, cloud) via Semantic Scholar API → Gemini structured summary → creates PR.
+2. **Digest** (07:00 JST): Loads buffered articles → two-stage Gemini analysis (select top articles, then fetch full text for deeper briefing) → sends briefing to Slack → clears buffer.
+3. **Paper** (07:30 JST): Selects a classic CS paper from 4 rotating categories (distributed systems, security, AI, cloud) via Semantic Scholar API → Gemini structured summary → sends to Slack.
 
 ### Key modules (`src/`)
 
@@ -54,7 +55,7 @@ Semantic Scholar → Paper Fetcher → Paper Dedup → Paper Summarizer → Pape
 - **dedup.py** — URL normalization (strips tracking params) + title similarity (difflib, 0.9 threshold), persists to `data/seen_articles.json`
 - **summarizer.py** — Pluggable via ABC: `PassthroughSummarizer` and `GeminiSummarizer`. Batch summarization (size 5) with fallback. Two-stage briefing generation with page text fetching.
 - **formatter.py** — Markdown output grouped by category with bilingual headers
-- **pr_creator.py** — Git branch + PR creation via `gh` CLI
+- **slack_notifier.py** — Slack notification via Incoming Webhook
 - **paper_fetcher.py** — Semantic Scholar API client, Paper dataclass, 4-category rotation (day_of_year % 4)
 - **paper_dedup.py** — Tracks featured papers in `data/seen_papers.json` (90-day window)
 - **paper_summarizer.py** — Structured paper summary via Gemini (background, method, contributions, impact)
