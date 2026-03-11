@@ -26,14 +26,49 @@ def _md_to_slack(text: str) -> str:
     # Convert ### heading → *heading* (bold)
     text = re.sub(r"^###\s+(.+)$", r"*\1*", text, flags=re.MULTILINE)
 
+    # Convert Markdown bullets to Slack-friendly bullets
+    text = re.sub(r"^\*\s+", "• ", text, flags=re.MULTILINE)
+    text = re.sub(r"^-\s+", "• ", text, flags=re.MULTILINE)
+
     return text
+
+
+def _split_topics(section_body: str) -> list[str]:
+    """Split a section body into individual topics.
+
+    Topics are separated by double newlines. Each topic typically
+    ends with a 📎 link line.
+    """
+    # Split on double newlines (paragraph breaks)
+    paragraphs = re.split(r"\n{2,}", section_body.strip())
+
+    # Merge paragraphs that don't end with a link into the next one
+    # (a topic = text paragraphs + 📎 link at the end)
+    topics: list[str] = []
+    current: list[str] = []
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            continue
+        current.append(para)
+        # If this paragraph contains a 📎 link, it's the end of a topic
+        if "📎" in para:
+            topics.append("\n\n".join(current))
+            current = []
+
+    # Any remaining paragraphs without a 📎 link
+    if current:
+        topics.append("\n\n".join(current))
+
+    return topics
 
 
 def _build_blocks(title: str, body: str) -> list[dict]:
     """Build Slack blocks from a title and Markdown body.
 
-    Splits on ## headings so each section gets its own header block
-    with a divider, making the message visually structured.
+    Splits on ## headings so each section gets its own header block.
+    Within each section, individual topics get their own blocks
+    separated visually.
     """
     blocks: list[dict] = [
         {
@@ -50,27 +85,28 @@ def _build_blocks(title: str, body: str) -> list[dict]:
         part = parts[i]
 
         if part.startswith("## "):
-            # Section heading
             heading = part.lstrip("# ").strip()
             section_body = parts[i + 1] if i + 1 < len(parts) else ""
-            section_body = _md_to_slack(section_body.strip())
             i += 2
 
-            # Divider before each section
+            # Section header with divider
             blocks.append({"type": "divider"})
             blocks.append({
                 "type": "header",
                 "text": {"type": "plain_text", "text": heading[:150], "emoji": True},
             })
 
-            if section_body:
-                for chunk in _split_text(section_body):
-                    blocks.append({
-                        "type": "section",
-                        "text": {"type": "mrkdwn", "text": chunk},
-                    })
+            # Split section into topics for better readability
+            topics = _split_topics(section_body)
+            for topic in topics:
+                slack_text = _md_to_slack(topic)
+                if slack_text:
+                    for chunk in _split_text(slack_text):
+                        blocks.append({
+                            "type": "section",
+                            "text": {"type": "mrkdwn", "text": chunk},
+                        })
         else:
-            # Text before first heading (preamble)
             preamble = _md_to_slack(part.strip())
             if preamble:
                 for chunk in _split_text(preamble):
@@ -118,6 +154,14 @@ def send_slack_message(
         body = body[:MAX_TEXT_LENGTH] + "\n\n... (truncated)"
 
     blocks = _build_blocks(title, body)
+
+    # Slack allows max 50 blocks per message
+    if len(blocks) > 50:
+        blocks = blocks[:49]
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": "_... (truncated)_"},
+        })
 
     payload = {"blocks": blocks}
 
