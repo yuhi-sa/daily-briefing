@@ -11,6 +11,27 @@ logger = logging.getLogger(__name__)
 
 # Slack message limit is ~40,000 chars, but for readability keep it reasonable.
 MAX_TEXT_LENGTH = 30000
+# Slack section block text limit is 3000 chars
+BLOCK_TEXT_LIMIT = 2900
+
+
+def _split_body(body: str) -> list[str]:
+    """Split body into chunks that fit within Slack's section block text limit."""
+    if len(body) <= BLOCK_TEXT_LIMIT:
+        return [body]
+
+    chunks: list[str] = []
+    while body:
+        if len(body) <= BLOCK_TEXT_LIMIT:
+            chunks.append(body)
+            break
+        # Try to split at a newline near the limit
+        split_at = body.rfind("\n", 0, BLOCK_TEXT_LIMIT)
+        if split_at <= 0:
+            split_at = BLOCK_TEXT_LIMIT
+        chunks.append(body[:split_at])
+        body = body[split_at:].lstrip("\n")
+    return chunks
 
 
 def send_slack_message(
@@ -30,18 +51,19 @@ def send_slack_message(
     if len(body) > MAX_TEXT_LENGTH:
         body = body[:MAX_TEXT_LENGTH] + "\n\n... (truncated)"
 
-    payload = {
-        "blocks": [
-            {
-                "type": "header",
-                "text": {"type": "plain_text", "text": title[:150]},
-            },
-            {
-                "type": "section",
-                "text": {"type": "mrkdwn", "text": body},
-            },
-        ],
-    }
+    blocks: list[dict] = [
+        {
+            "type": "header",
+            "text": {"type": "plain_text", "text": title[:150]},
+        },
+    ]
+    for chunk in _split_body(body):
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": chunk},
+        })
+
+    payload = {"blocks": blocks}
 
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
