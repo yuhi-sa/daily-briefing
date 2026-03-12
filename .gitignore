@@ -4,3 +4,5 @@ __pycache__/
 .pytest_cache/
 data/paper_cache.json
 .env
+.DS_Store
+.claude/
