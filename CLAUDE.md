@@ -47,7 +47,7 @@ RSS Feeds → Parser → Dedup → Summarizer → Formatter → Slack
 - **main.py** — Entry point with `collect` and `digest` subcommands
 - **parser.py** — RSS fetching with ThreadPoolExecutor (8 workers), Article dataclass
 - **dedup.py** — URL normalization (strips tracking params) + title similarity (difflib, 0.9 threshold), persists to `data/seen_articles.json`
-- **summarizer.py** — Pluggable via ABC: `PassthroughSummarizer` and `GeminiSummarizer`. Batch summarization (size 5) with fallback. Two-stage briefing generation with page text fetching.
+- **summarizer.py** — Pluggable via ABC: `PassthroughSummarizer` and `GeminiSummarizer`. Batch summarization (size 5, Flash) with fallback. Three-stage briefing generation (select → generate → refine, all using Gemini 2.5 Pro) with page text fetching.
 - **formatter.py** — Markdown output grouped by category with bilingual headers
 - **slack_notifier.py** — Slack notification via Incoming Webhook (Markdown→Slack mrkdwn変換、セクション分割)
 - **feeds.py** — Loads `config/feeds.yml`

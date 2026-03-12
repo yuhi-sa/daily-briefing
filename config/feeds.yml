@@ -8,10 +8,8 @@ categories:
   - name: "Engineering & Technology"
     label_ja: "エンジニアリング・技術"
     feeds:
-      - name: "Hacker News (100+ points)"
-        url: "https://hnrss.org/frontpage?points=100"
-      - name: "IEEE Spectrum AI"
-        url: "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+      - name: "Hacker News (200+ points)"
+        url: "https://hnrss.org/frontpage?points=200"
       - name: "Ars Technica"
         url: "https://feeds.arstechnica.com/arstechnica/index/"
       - name: "MIT Technology Review"
@@ -115,15 +113,6 @@ categories:
         url: "https://kubernetes.io/feed.xml"
       - name: "CNCF Blog"
         url: "https://www.cncf.io/blog/feed/"
-      - name: "Google News Kafka"
-        url: "https://news.google.com/rss/search?q=when:7d+%22Apache+Kafka%22+OR+%22Confluent+Kafka%22+-football+-sports&ceid=US:en&hl=en-US&gl=US"
-        max_articles: 3
-      - name: "Planet MySQL"
-        url: "https://planet.mysql.com/rss20.xml"
-      - name: "Redis Blog"
-        url: "https://redis.io/blog/feed/"
-      - name: "Google News Cassandra"
-        url: "https://news.google.com/rss/search?q=when:7d+%22Apache+Cassandra%22+NoSQL+OR+database&ceid=US:en&hl=en-US&gl=US"
         max_articles: 3
 
   - name: "Data Engineering"
@@ -137,10 +126,6 @@ categories:
         url: "https://www.databricks.com/feed"
       - name: "AWS Big Data Blog"
         url: "https://aws.amazon.com/blogs/big-data/feed/"
-      - name: "Seattle Data Guy"
-        url: "https://seattledataguy.substack.com/feed"
-      - name: "Towards Data Science"
-        url: "https://towardsdatascience.com/feed"
       - name: "Airflow Blog"
         url: "https://airflow.apache.org/blog/feed.xml"
         max_articles: 3
@@ -158,8 +143,6 @@ categories:
         url: "https://feeds.feedburner.com/TheHackersNews"
       - name: "BleepingComputer"
         url: "https://www.bleepingcomputer.com/feed/"
-      - name: "SANS ISC"
-        url: "https://isc.sans.edu/rssfeed.xml"
       - name: "Google Project Zero"
         url: "https://googleprojectzero.blogspot.com/feeds/posts/default"
 
@@ -201,3 +184,16 @@ categories:
       - name: "Google News US Market JP"
         url: "https://news.google.com/rss/search?q=when:24h+%22S%26P500%22+OR+%22NASDAQ%22+OR+%22%E7%B1%B3%E5%9B%BD%E6%A0%AA%22&ceid=JP:ja&hl=ja&gl=JP"
         max_articles: 3
+
+  - name: "General News"
+    label_ja: "世間の話題"
+    feeds:
+      - name: "NHK 主要ニュース"
+        url: "https://www.nhk.or.jp/rss/news/cat0.xml"
+        max_articles: 5
+      - name: "BBC News Japan"
+        url: "https://feeds.bbci.co.uk/japanese/rss.xml"
+        max_articles: 3
+      - name: "Google News Japan Top"
+        url: "https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja"
+        max_articles: 5

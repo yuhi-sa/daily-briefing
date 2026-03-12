@@ -45,6 +45,7 @@ class TestFeedsConfig:
             "Security",
             "Economy & Finance",
             "Investment & Markets",
+            "General News",
         }
         assert expected == categories, f"Missing categories: {expected - categories}"
 
@@ -58,8 +59,6 @@ class TestFeedsConfig:
             "Yahoo Finance",
             "Google News Nikkei 225",
             "Google News US Market JP",
-            "Google News Kafka",
-            "Google News Cassandra",
         }
         for feed in self.feeds:
             if feed.name in high_volume_feeds:

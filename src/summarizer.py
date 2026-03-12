@@ -206,15 +206,18 @@ class PassthroughSummarizer(Summarizer):
         return articles
 
 
-GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+GEMINI_ENDPOINT_FLASH = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+GEMINI_ENDPOINT_PRO = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent"
 
 
-def call_gemini(prompt: str, api_key: str, max_retries: int = 2) -> str | None:
+def call_gemini(prompt: str, api_key: str, max_retries: int = 2, use_pro: bool = False) -> str | None:
     """Call Gemini API with retry logic and return the generated text.
 
     Retries up to max_retries times on failure with backoff.
+    When use_pro=True, uses Gemini 2.5 Pro for higher quality output.
     """
-    url = f"{GEMINI_ENDPOINT}?key={api_key}"
+    endpoint = GEMINI_ENDPOINT_PRO if use_pro else GEMINI_ENDPOINT_FLASH
+    url = f"{endpoint}?key={api_key}"
     payload = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
     }).encode("utf-8")
@@ -246,16 +249,14 @@ def call_gemini(prompt: str, api_key: str, max_retries: int = 2) -> str | None:
 
 
 class GeminiSummarizer(Summarizer):
-    """Summarizes articles in Japanese using Google Gemini API (free tier)."""
-
-    ENDPOINT = GEMINI_ENDPOINT
+    """Summarizes articles in Japanese using Google Gemini API."""
 
     def __init__(self, api_key: str):
         self.api_key = api_key
 
-    def _call_gemini(self, prompt: str) -> str | None:
+    def _call_gemini(self, prompt: str, use_pro: bool = False) -> str | None:
         """Call Gemini API and return the generated text."""
-        return call_gemini(prompt, self.api_key)
+        return call_gemini(prompt, self.api_key, use_pro=use_pro)
 
     def _summarize_single(self, article: Article) -> Article:
         """Summarize a single article via Gemini API."""
@@ -382,14 +383,23 @@ class GeminiSummarizer(Summarizer):
             "- クラウド・DevOps: 1〜2件（AWS/GCP/Azure/CI-CDの具体的サービス更新・障害情報）\n"
             "- データエンジニアリング: 1〜2件（dbt/Airflow/Spark/BigQuery等の具体的ツール更新・"
             "アーキテクチャ変更を含む記事）\n"
-            "- テクノロジー全般: 2〜4件（読者スタックに直結する記事を優先）\n\n"
+            "- テクノロジー全般: 2〜4件（読者スタックに直結する記事を優先）\n"
+            "- 世間の話題: 0〜2件（テック以外でも社会的に大きなニュースがあれば含める。"
+            "政治・経済・災害・国際情勢など、話題として知っておくべきもの）\n\n"
             "## 選定基準（優先順）\n"
-            "1. 具体的な数値・メトリクス・CVE番号を含む記事を最優先\n"
-            "2. 上記スタックに関連する重要アップデート・脆弱性・ベストプラクティス\n"
+            "1. **アクション可能か？**: 読者が読んだ後に「何かすべきこと」がある記事を最優先\n"
+            "   （例: パッチ適用、API移行、設定変更、投資判断、ツール導入検討）\n"
+            "2. 具体的な数値・メトリクス・CVE番号・バージョン番号を含む記事\n"
             "3. 投資判断に直結（マクロ指標の具体数値、決算、セクター動向）\n"
-            "4. 日本語テック記事も選定対象（英語記事と同一トピックの場合は英語版を優先）\n"
-            "5. 些末なニュース、宣伝的な記事、既知の繰り返しは除外\n"
-            "6. 量より質: 似たテーマの記事は最も情報量の多い1件だけ選ぶ\n\n"
+            "4. 世間で大きな話題になっている出来事（テック以外でも社会的インパクトが大きいもの）\n"
+            "5. 日本語テック記事も選定対象（英語記事と同一トピックの場合は英語版を優先）\n\n"
+            "## 除外基準（以下に該当する記事は選ばない）\n"
+            "- 「〜が発表された」だけで具体的中身がない速報\n"
+            "- 製品の宣伝・マーケティング色が強い記事\n"
+            "- 既に広く知られている事実の繰り返し解説\n"
+            "- 抽象的な「トレンド予測」や「〜が重要になる」系の記事\n"
+            "- チュートリアルや入門記事（読者はシニアエンジニア）\n"
+            "- 似たテーマの記事は最も情報量の多い1件だけ選ぶ\n\n"
             "## 出力形式\n"
             "選んだ記事の番号をJSON配列で返してください。それ以外のテキストは不要です。\n"
             "例: [0, 3, 5, 7, 9, 12, 15, 18]\n\n"
@@ -397,7 +407,7 @@ class GeminiSummarizer(Summarizer):
             f"{article_list}"
         )
         logger.info("Stage 1: selecting important articles from %d candidates", len(filtered))
-        response = self._call_gemini(prompt)
+        response = self._call_gemini(prompt, use_pro=True)
         if not response:
             return []
 
@@ -519,6 +529,11 @@ class GeminiSummarizer(Summarizer):
             "(3)深刻度（Critical/High/Medium）, (4)具体的対応策（パッチ適用、設定変更等）\n"
             "類似の脆弱性は1トピックにまとめる。\n"
             "📎 リンク必須。\n\n"
+            "### `## 🌍 世間の話題`\n"
+            "テック以外で社会的インパクトが大きいニュース。該当なしなら省略。最大2件。\n"
+            "政治・経済政策・国際情勢・災害・社会現象など。\n"
+            "エンジニアや投資家としてどう関係するかを1文添える。\n"
+            "📎 リンク必須。\n\n"
             "### `## 📈 マーケット`\n"
             "**記事本文から抽出した具体的数値のみ記載**。以下を可能な限り含む:\n"
             "- 株価指数（S&P500, NASDAQ, 日経225, TOPIX）の数値と前日比%\n"
@@ -544,7 +559,7 @@ class GeminiSummarizer(Summarizer):
             f"{enriched_text}"
         )
         logger.info("Stage 2: generating briefing with enriched content")
-        draft = self._call_gemini(prompt)
+        draft = self._call_gemini(prompt, use_pro=True)
         if not draft:
             logger.error("Stage 2: Gemini returned no content")
             return None
@@ -581,7 +596,7 @@ class GeminiSummarizer(Summarizer):
             f"## 原稿\n\n{draft}"
         )
         logger.info("Stage 3: refining briefing (deepening analysis)")
-        refined = self._call_gemini(prompt)
+        refined = self._call_gemini(prompt, use_pro=True)
         return refined or draft
 
     # ------------------------------------------------------------------
