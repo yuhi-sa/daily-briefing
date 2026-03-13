@@ -1,328 +1,4 @@
 {
-  "//gihyo.jp/article/2026/02/production-ready-logging-strategy": {
-    "title": "実運用を見据えたログ設計の観点 ——5つの設計指針と運用面での活用戦略",
-    "seen_at": "2026-03-04T21:08:48.045120+00:00"
-  },
-  "//news.google.com/rss/articles/CBMiuwFBVV95cUxQRkJmTjZacWwxLV9jWVZsMXB0SkZxaHIwSGZma0MycWx4R0NBMnc3MlF4QWNCLTNhX0d1bmdzWFBUbDBaLVBMUi1MMDlyVHUwQUNwSURnT3lIZ2hPWURJa0YwMkFaeG9EdVNaQ0wyZXRISXhuUVFFamMtRzZwMkhFRGFKN0VPVmNaZ1JzVE5sMlNVT1VwdzcwaXNVQmU3cVJOV2hBZnBWVUxZbGVCTUlXMEtJZ0FrampSSEZn0gG7AUFVX3lxTFBGQmZONlpxbDEtX2NZVmwxcHRKRnFocjBIZmZrQzJxbHhHQ0EydzcyUXhBY0ItM2FfR3VuZ3NYUFRsMFotUExSLUwwOXJUdTBBQ3BJRGdPeUhnaE9ZRElrRjAyQVp4b0R1U1pDTDJldEhJeG5RUUVqYy1HNnAySEVEYUo3RU9WY1pnUnNUTmwyU1VPVXB3NzBpc1VCZTdxUk5XaEFmcFZVTFlsZUJNSVcwS0lnQWtqalJIRmc?oc=5": {
-    "title": "Top Big Data Tools and Technologies in 2026: Key Features Explained - Analytics Insight",
-    "seen_at": "2026-03-04T21:08:48.271746+00:00"
-  },
-  "//databricks.com/blog/unified-data-discovery-business-context-unity-catalog": {
-    "title": "Unified data discovery with business context in Unity Catalog",
-    "seen_at": "2026-03-04T21:08:48.444808+00:00"
-  },
-  "//databricks.com/blog/bayer-consumer-health-scales-global-self-service-analytics-unity-catalog": {
-    "title": "Bayer Consumer Health scales global self-service analytics with Unity Catalog",
-    "seen_at": "2026-03-04T21:08:48.648834+00:00"
-  },
-  "//databricks.com/blog/azure-databricks-lakebase-generally-available": {
-    "title": "Azure Databricks Lakebase is Generally Available",
-    "seen_at": "2026-03-04T21:08:48.797324+00:00"
-  },
-  "//towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem": {
-    "title": "Stop Tuning Hyperparameters. Start Tuning Your Problem.",
-    "seen_at": "2026-03-04T21:08:48.954444+00:00"
-  },
-  "//towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls": {
-    "title": "Escaping the Prototype Mirage: Why Enterprise AI Stalls",
-    "seen_at": "2026-03-04T21:08:49.116641+00:00"
-  },
-  "//towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work": {
-    "title": "RAG with Hybrid Search: How Does Keyword Search Work?",
-    "seen_at": "2026-03-04T21:08:49.269903+00:00"
-  },
-  "//bleepingcomputer.com/news/microsoft/windows-10-kb5075039-update-fixes-broken-recovery-environment": {
-    "title": "Windows 10 KB5075039 update fixes broken Recovery Environment",
-    "seen_at": "2026-03-04T21:08:49.436246+00:00"
-  },
-  "//bleepingcomputer.com/news/security/fake-lastpass-support-email-threads-try-to-steal-vault-passwords": {
-    "title": "Fake LastPass support email threads try to steal vault passwords",
-    "seen_at": "2026-03-04T21:08:49.620014+00:00"
-  },
-  "//bleepingcomputer.com/news/security/cisco-warns-of-max-severity-secure-fmc-flaws-giving-root-access": {
-    "title": "Cisco warns of max severity Secure FMC flaws giving root access",
-    "seen_at": "2026-03-04T21:08:49.799899+00:00"
-  },
-  "//bleepingcomputer.com/news/security/spyware-grade-coruna-ios-exploit-kit-now-used-in-crypto-theft-attacks": {
-    "title": "Spyware-grade Coruna iOS exploit kit now used in crypto theft attacks",
-    "seen_at": "2026-03-04T21:08:49.993057+00:00"
-  },
-  "//bleepingcomputer.com/news/security/hacker-mass-mails-hungerrush-extortion-emails-to-restaurant-patrons": {
-    "title": "Hacker mass-mails HungerRush extortion emails to restaurant patrons",
-    "seen_at": "2026-03-04T21:08:50.177514+00:00"
-  },
-  "//bleepingcomputer.com/news/security/fbi-seizes-leakbase-cybercrime-forum-data-of-142-000-members": {
-    "title": "FBI seizes LeakBase cybercrime forum, data of 142,000 members",
-    "seen_at": "2026-03-04T21:08:50.345628+00:00"
-  },
-  "//bleepingcomputer.com/news/security/europol-coordinated-action-disrupts-tycoon2fa-phishing-platform": {
-    "title": "Europol-coordinated action disrupts Tycoon2FA phishing platform",
-    "seen_at": "2026-03-04T21:08:50.513871+00:00"
-  },
-  "//bleepingcomputer.com/news/security/mississippi-medical-center-reopens-clinics-hit-by-ransomware-attack": {
-    "title": "Mississippi medical center reopens clinics hit by ransomware attack",
-    "seen_at": "2026-03-04T21:08:50.699285+00:00"
-  },
-  "//schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html": {
-    "title": "Manipulating AI Summarization Features",
-    "seen_at": "2026-03-04T21:08:50.823630+00:00"
-  },
-  "//thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html": {
-    "title": "149 Hacktivist DDoS Attacks Hit 110 Organizations in 16 Countries After Middle East Conflict",
-    "seen_at": "2026-03-04T21:08:51.062010+00:00"
-  },
-  "//thehackernews.com/2026/03/coruna-ios-exploit-kit-uses-23-exploits.html": {
-    "title": "Coruna iOS Exploit Kit Uses 23 Exploits Across Five Chains Targeting iOS 13–17.2.1",
-    "seen_at": "2026-03-04T21:08:51.280419+00:00"
-  },
-  "//thehackernews.com/2026/03/new-rfp-template-for-ai-usage-control.html": {
-    "title": "New RFP Template for AI Usage Control and AI Governance",
-    "seen_at": "2026-03-04T21:08:51.452738+00:00"
-  },
-  "//thehackernews.com/2026/03/fake-laravel-packages-on-packagist.html": {
-    "title": "Fake Laravel Packages on Packagist Deploy RAT on Windows, macOS, and Linux",
-    "seen_at": "2026-03-04T21:08:51.654009+00:00"
-  },
-  "//thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html": {
-    "title": "APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2",
-    "seen_at": "2026-03-04T21:08:51.880181+00:00"
-  },
-  "//thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html": {
-    "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
-    "seen_at": "2026-03-04T21:08:52.103975+00:00"
-  },
-  "//isc.sans.edu/diary/rss/32766": {
-    "title": "Want More XWorm?, (Wed, Mar 4th)",
-    "seen_at": "2026-03-04T21:08:52.209498+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-": {
-    "title": "Stocks Rise Amid Economic Surprise as Oil Whipsaws: Markets Wrap",
-    "seen_at": "2026-03-04T21:08:52.593247+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/btig-joins-goldman-citadel-securities-in-bullish-stocks-call": {
-    "title": "BTIG Joins Goldman, Citadel Securities in Bullish Stock Call",
-    "seen_at": "2026-03-04T21:08:52.769223+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/airlines-shippers-panic-shop-for-fuel-hedges-as-prices-surge": {
-    "title": "Airlines, Shippers Panic Shop for Fuel Hedges With Prices Surging",
-    "seen_at": "2026-03-04T21:08:52.954658+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/banco-master-owner-sent-back-to-jail-in-brazil-newspaper-says": {
-    "title": "Banco Master Owner Arrested for Allegedly Obstructing Probe",
-    "seen_at": "2026-03-04T21:08:53.127583+00:00"
-  },
-  "//bloomberg.com/news/newsletters/2026-03-04/the-us-shows-the-ultimate-exorbitant-privilege": {
-    "title": "The US Shows the Ultimate Exorbitant Privilege",
-    "seen_at": "2026-03-04T21:08:53.277308+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/el-nino-s-bad-weather-risks-blunting-peru-s-farm-export-boom": {
-    "title": "El Niño’s Bad Weather Risks Blunting Peru’s Farm-Export Boom",
-    "seen_at": "2026-03-04T21:08:53.454027+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/warsh-nominated-for-fed-chair-path-to-confirmation-unclear": {
-    "title": "Warsh Nominated for Fed Chair, Path to Confirmation Unclear",
-    "seen_at": "2026-03-04T21:08:53.632357+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/polish-president-brings-central-bank-into-eu-defense-loans-spat": {
-    "title": "Polish President Brings Central Bank Into EU Defense Loans Spat",
-    "seen_at": "2026-03-04T21:08:53.819414+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/macklem-says-bank-of-canada-to-move-to-central-repo-clearing": {
-    "title": "Bank of Canada Moves to Central Clearing to Curb Repo Risk",
-    "seen_at": "2026-03-04T21:08:54.000062+00:00"
-  },
-  "//bloomberg.com/news/articles/2026-03-04/firms-skimped-on-pay-as-health-costs-soared-in-2025-fed-survey": {
-    "title": "Firms Skimped on Pay as Health Costs Soared in 2025, Fed Survey Shows",
-    "seen_at": "2026-03-04T21:08:54.196696+00:00"
-  },
-  "//seekingalpha.com/news/4560933-smith-micro-software-non-gaap-eps-of-0_08-misses-by-0_01-revenue-of-4m-misses-by-0_3m?feed_item_type=news": {
-    "title": "Smith Micro Software Non-GAAP EPS of -$0.08 misses by $0.01, revenue of $4M misses by $0.3M",
-    "seen_at": "2026-03-04T21:08:54.423313+00:00"
-  },
-  "//seekingalpha.com/news/4560860-baidu-gains-after-nine-session-losing-streak?feed_item_type=news": {
-    "title": "Baidu gains after nine-session losing streak",
-    "seen_at": "2026-03-04T21:08:54.567866+00:00"
-  },
-  "//seekingalpha.com/news/4560932-okta-non-gaap-eps-of-0_90-beats-by-0_05-revenue-of-761m-beats-by-11_5m?feed_item_type=news": {
-    "title": "Okta Non-GAAP EPS of $0.90 beats by $0.05, revenue of $761M beats by $11.5M",
-    "seen_at": "2026-03-04T21:08:54.763439+00:00"
-  },
-  "//seekingalpha.com/news/4560865-valero-climbs-for-a-seventh-session?feed_item_type=news": {
-    "title": "Valero climbs for a seventh session",
-    "seen_at": "2026-03-04T21:08:54.888700+00:00"
-  },
-  "//seekingalpha.com/news/4560861-netflix-shares-uptick-for-seven-consecutive-sessions-add-over-25-in-last-six-sessions?feed_item_type=news": {
-    "title": "Netflix shares uptick for seven consecutive sessions; add over 25% in last six sessions",
-    "seen_at": "2026-03-04T21:08:55.127083+00:00"
-  },
-  "//seekingalpha.com/article/4878375-nos-s-g-p-s-s-a-zonnf-q4-2025-earnings-call-transcript": {
-    "title": "NOS, S.G.P.S., S.A. (ZONNF) Q4 2025 Earnings Call Transcript",
-    "seen_at": "2026-03-04T21:08:55.286897+00:00"
-  },
-  "//seekingalpha.com/article/4878038-asmpt-limited-asmvy-q4-2025-earnings-call-transcript": {
-    "title": "ASMPT Limited (ASMVY) Q4 2025 Earnings Call Transcript",
-    "seen_at": "2026-03-04T21:08:55.443980+00:00"
-  },
-  "//seekingalpha.com/article/4878487-aurora-innovation-inc-aur-presents-at-47th-annual-raymond-james-institutional-investor": {
-    "title": "Aurora Innovation, Inc. (AUR) Presents at 47th Annual Raymond James Institutional Investor Conference Prepared Remarks Transcript",
-    "seen_at": "2026-03-04T21:08:56.008803+00:00"
-  },
-  "//seekingalpha.com/article/4878458-surviving-epic-fury-and-the-asian-stock-market-crash": {
-    "title": "Surviving 'Epic Fury' And The Asian Stock Market Crash",
-    "seen_at": "2026-03-04T21:08:56.171461+00:00"
-  },
-  "//investing.com/news/economy-news/fed-report-points-to-positive-economic-outlook-stable-employment-4541974": {
-    "title": "Fed report says economy solid, notes disruption from immigration crackdown in Minnesota",
-    "seen_at": "2026-03-04T21:08:56.403150+00:00"
-  },
-  "//investing.com/news/economy-news/wall-street-futures-slip-on-middle-east-conflict-oildriven-inflation-concerns-4540020": {
-    "title": "Wall Street gains after report of Iran’s secret outreach to US",
-    "seen_at": "2026-03-04T21:08:56.591273+00:00"
-  },
-  "//investing.com/news/economy-news/scandinavian-airlines-bomb-threat-prompts-laguardia-ground-stop-93CH-4542009": {
-    "title": "Scandinavian Airlines bomb threat prompts LaGuardia ground stop",
-    "seen_at": "2026-03-04T21:08:56.772887+00:00"
-  },
-  "//investing.com/news/economy-news/us-postal-service-hires-restructuring-advisers-amid-cash-crisis-93CH-4541990": {
-    "title": "US Postal Service hires restructuring advisers amid cash crisis",
-    "seen_at": "2026-03-04T21:08:56.960032+00:00"
-  },
-  "//investing.com/news/economy-news/moneymarket-funds-hit-record-8271-trillion-amid-iran-war-concerns-93CH-4541966": {
-    "title": "Money-market funds hit record $8.271 trillion amid Iran war concerns",
-    "seen_at": "2026-03-04T21:08:57.153891+00:00"
-  },
-  "//investing.com/news/economy-news/spain-agrees-to-cooperate-with-us-military-white-house-says-93CH-4541952": {
-    "title": "Spain agrees to cooperate with US military, White House says",
-    "seen_at": "2026-03-04T21:08:57.335515+00:00"
-  },
-  "//investing.com/news/economy-news/msc-announces-emergency-fuel-surcharge-on-some-trade-routes-4541933": {
-    "title": "MSC announces emergency fuel surcharge on some trade routes",
-    "seen_at": "2026-03-04T21:08:57.516544+00:00"
-  },
-  "//investing.com/news/economy-news/global-firms-investors-in-share-sale-rush-as-middle-east-conflict-erupts-4541915": {
-    "title": "Global firms, investors in share sale rush as Middle East conflict erupts",
-    "seen_at": "2026-03-04T21:08:57.728676+00:00"
-  },
-  "//news.google.com/rss/articles/CBMiwwFBVV95cUxPMUx4ME15TDhybjRseU80VWo4YklKVms0WDZGRUhmNFZhS2lfcHBUSzg3T21nSFl3U1ZqdGhRTVlXM21JNzUta3RRTE1TUlNTZlhqTzg1aHR2ek0xNE1JMV9keXhHTmlGM1BOOGpmUzI3YjdGeUVrTkJSRzRkWHZvZE1MVnhPZDZDQWdWUVNwTVI5dVVqam9yQ0FZQnBSdXhBN1FIMjl2YVUzOGduNUFuNENoMVhEVFJKUEtINS1XOVF2R2M?oc=5": {
-    "title": "Damage to Israeli economy from Iran war seen at about $3 billion a week - Reuters",
-    "seen_at": "2026-03-04T21:08:57.941469+00:00"
-  },
-  "//news.google.com/rss/articles/CBMi0gFBVV95cUxQbjkxa2hFTFVKdHhjc1NGcFZyQU1MX2xjN09FQ2lKd2NvNHRLQ2dDel9hWklUQUM4SUFYZ28tZFZSTFdQYURxVkFzWnJZT0RfemtUWkdxSjRRbWh5VXJSX19PYjI2VTBRN0YwQW8yUUVzS09yWGUxVG5nbnFGenJHaUw5N0Z2TnMyNGlXT1ZMLXAwdFZoekF2dEFjYmRQTkZrNnplWTREUzFZU0dfTGpwSVlqSkJpVHAtbkZGd2JsTGhjNmdhX0RfYTVaZlkxZ2ZzTEE?oc=5": {
-    "title": "Russian GDP down 2.1% year-on-year in January, Economy Ministry says - TradingView",
-    "seen_at": "2026-03-04T21:08:58.159153+00:00"
-  },
-  "//news.google.com/rss/articles/CBMiwwFBVV95cUxQN2NVaEF5bTRjeGdLS0EwYnZpRUo4UGJNMURKYnpFWnRabnB6WHFBLThqaGVmcFhNMjBMV19pNl85Z29fZ09uaVhXdHpzakh4VXdTQ3lVeE50SnZyTFVBRXRmWVYyd18ta0F1ZXBFemZDZDZja01XcVh0Mk5OcmM1Q1VhUElyU0M0VDBOQlkyam05akE1WjlTaXZDWTVoamVqcDZzejdmZlU4STZkQTRSTlloZTU0b1J1Y1dhSjBTaHowaTQ?oc=5": {
-    "title": "Australia economy picks up speed in Q4, stretches supply - TradingView",
-    "seen_at": "2026-03-04T21:08:58.357079+00:00"
-  },
-  "//finance.yahoo.com/news/norway-wealth-fund-makes-first-125312022.html": {
-    "title": "Norway wealth fund makes first investment in US renewable energy assets",
-    "seen_at": "2026-03-04T21:08:58.563461+00:00"
-  },
-  "//finance.yahoo.com/news/stock-markets-slump-amid-iran-125749326.html": {
-    "title": "Stock markets slump amid Iran war as gas prices jump 30% to three-year high",
-    "seen_at": "2026-03-04T21:08:58.777750+00:00"
-  },
-  "//finance.yahoo.com/news/alabama-family-owned-carrier-files-130000667.html": {
-    "title": "Alabama family-owned carrier files for Chapter 11 bankruptcy",
-    "seen_at": "2026-03-04T21:08:58.955522+00:00"
-  },
-  "//investors.com/research/natural-gas?src=A00220&yptr=yahoo": {
-    "title": "Natural Gas Stock's Relative Strength Line Flares Up",
-    "seen_at": "2026-03-04T21:08:59.119266+00:00"
-  },
-  "//finance.yahoo.com/news/blue-chip-stock-just-issued-123002875.html": {
-    "title": "This Blue-Chip Stock Just Issued a Warning for 2026. Should You Buy the Dip or Stay Away?",
-    "seen_at": "2026-03-04T21:08:59.355869+00:00"
-  },
-  "//cnbc.com/2026/03/04/target-earnings-investor-day-ceo-michael-fiddelke-merchandise-plans.html": {
-    "title": "Target is making big changes to win back customers. Here's what shoppers can expect to see",
-    "seen_at": "2026-03-04T21:08:59.605389+00:00"
-  },
-  "//cnbc.com/2026/03/04/trump-crypto-banks-stablecoin-yield.html": {
-    "title": "Trump sides with crypto firms in trillion-dollar battle with banks over stablecoin yield",
-    "seen_at": "2026-03-04T21:08:59.845358+00:00"
-  },
-  "//cnbc.com/2026/03/04/disney-adventure-cruise-ship-foothold-asia.html": {
-    "title": "Disney launches its Adventure cruise ship — a new foothold in Southeast Asia",
-    "seen_at": "2026-03-04T21:09:00.070624+00:00"
-  },
-  "//cnbc.com/2026/03/04/institutional-investors-housing-market.html": {
-    "title": "Big investors have been fleeing for-sale housing market, even before Trump ordered ban",
-    "seen_at": "2026-03-04T21:09:00.309375+00:00"
-  },
-  "//marketwatch.com/story/he-has-been-emotionally-abusive-my-father-75-is-on-oxygen-and-destitute-what-do-i-owe-him-eb21e873?mod=mw_rss_topstories": {
-    "title": "‘He has been emotionally abusive’: My father, 75, is on oxygen and destitute. What do I owe him?",
-    "seen_at": "2026-03-04T21:09:00.577001+00:00"
-  },
-  "//marketwatch.com/story/you-could-be-paying-an-extra-2-000-for-home-insurance-every-year-because-of-this-financial-baggage-heres-how-to-fix-it-22bb0caf?mod=mw_rss_topstories": {
-    "title": "You could be paying an extra $2,000 for home insurance every year because of this financial baggage. Here’s how to fix it.",
-    "seen_at": "2026-03-04T21:09:00.898475+00:00"
-  },
-  "//marketwatch.com/story/these-are-the-hottest-cybersecurity-stocks-in-the-wake-of-the-iran-conflict-80bebeb6?mod=mw_rss_topstories": {
-    "title": "Here are the hottest cybersecurity stocks as the Iran conflict rages",
-    "seen_at": "2026-03-04T21:09:01.105281+00:00"
-  },
-  "//marketwatch.com/story/global-u-s-oil-price-spread-hits-more-than-2-year-high-as-strait-of-hormuz-shutdown-halts-tanker-traffic-b427721a?mod=mw_rss_topstories": {
-    "title": "Global-U.S. oil price spread hits more than 2-year high, as Strait of Hormuz shutdown halts tanker traffic",
-    "seen_at": "2026-03-04T21:09:01.395167+00:00"
-  },
-  "//marketwatch.com/story/the-iran-conflict-could-feed-a-defense-boom-why-a-rearming-world-needs-more-dollars-61e32f2f?mod=mw_rss_topstories": {
-    "title": "The Iran conflict could feed a defense boom. Why a rearming world needs more dollars.",
-    "seen_at": "2026-03-04T21:09:01.635727+00:00"
-  },
-  "//marketwatch.com/story/u-s-economy-gets-off-to-choppy-start-in-2026-the-fed-finds-heres-the-good-and-bad-news-29a35f12?mod=mw_rss_topstories": {
-    "title": "U.S. economy got off to a choppy start in 2026, the Fed finds. Here’s the good and bad news.",
-    "seen_at": "2026-03-04T21:09:01.883360+00:00"
-  },
-  "//marketwatch.com/story/my-mother-refuses-to-turn-on-the-heat-will-americas-war-with-iran-really-push-up-our-utility-bills-df746548?mod=mw_rss_topstories": {
-    "title": "‘My mother refuses to turn on the heat’: Will America’s war with Iran really push up our utility bills?",
-    "seen_at": "2026-03-04T21:09:02.161869+00:00"
-  },
-  "//marketwatch.com/story/bitcoin-bounces-back-topping-70-000-as-safe-havens-waver-8e8f4740?mod=mw_rss_topstories": {
-    "title": "Bitcoin climbs over $73,000 and touches one-month high on resilience to Iran conflict",
-    "seen_at": "2026-03-04T21:09:02.396490+00:00"
-  },
-  "//news.google.com/rss/articles/CBMibEFVX3lxTFB4YVRuUFRjY1FBT3E3bWtSR25lRE1sVHhXd2hvQjJtalVtNDFyR2RGU0FPVDE0ZjRiVFJPR2xUbHVrTGYtYk12clkwcFFVazlCYXJmN3FDaTA0MHR5WDhVeG5fZGRZUkhoR01aNg?oc=5": {
-    "title": "アジア、景気減速に身構え 中東エネ依存が影 日経平均続落2033円安、韓国株は12%安 - 日本経済新聞 - 日本経済新聞",
-    "seen_at": "2026-03-04T21:09:02.527509+00:00"
-  },
-  "//news.google.com/rss/articles/CBMiU0FVX3lxTE5Bak1fR1NDamRMMDhYTm5lT2gtWERneE1pUE05bXFVWjdZZFZCUEVWRE12VXlOazZ6YjEtN1pZWlctSVNiYmYydFNXaS1WelhyaHRv?oc=5": {
-    "title": "「コンセンサス」とは？ 好決算でも株価が下がるのは？/日経平均続落【今日の注目株＆日本株市場見通し】「デイリーZAi」3月3日号 - ダイヤモンド・オンライン",
-    "seen_at": "2026-03-04T21:09:02.659227+00:00"
-  },
-  "//news.google.com/rss/articles/CBMiW0FVX3lxTFB0TWlsQTc2Sk1DdWpoYXZXb25JbWRsODc4UGNvVlNsUTk0ZVBIdGRxRFRsYTgwZnUyRUYwNHpCN1hCbWdQQ0d4NlY2NWRfZ2ZJQUhtYVJuZUtMN0k?oc=5": {
-    "title": "日経平均 一時1400円超↓ 午前終値は5万6727円 中東情勢悪化でリスク回避の姿勢強まる - ABEMA",
-    "seen_at": "2026-03-04T21:09:02.791704+00:00"
-  },
-  "//news.google.com/rss/articles/CBMid0FVX3lxTE50aFZnUzFqZXlXY0hiSjdyeE91WjNUQnpyRm5HODFjVG9SdVkzUlZyT3cwSTBPdzJqbUZFZlVqRjNlUWRRaTBCRHFuSFhaUkRSWHZRd25yc3VKNEVWS0VXT2Z5TjE3ZHpyWktoaFpYQVZzYkFJQVc0?oc=5": {
-    "title": "米国株が反発、堅調な経済指標を好感－ドルは下落156円台後半 - Bloomberg.com",
-    "seen_at": "2026-03-04T21:09:02.896893+00:00"
-  },
-  "//news.google.com/rss/articles/CBMiTkFVX3lxTE1aVzJsOGRNMzZINmJzSk1nYmJDcnlpZEhIVGI0ZkNKb1lWOWxtQkR1WXJldlNhZ3FiVXZYdGVndkNLWnZWZER1R192aTZRdw?oc=5": {
-    "title": "ARMホールディングス【ARM】：株価・株式情報 - Yahoo!ファイナンス",
-    "seen_at": "2026-03-04T21:09:03.005974+00:00"
-  },
-  "//news.google.com/rss/articles/CBMiUkFVX3lxTE9ReWtVN0NLenB2a0llcDBDOFlLNTUxNWV1cUlLM0ZxUm9LVlhldWsxbGFyelVXMmhNcV9JREpfTVdZNzBLZjQteXlYUVFtRWtsaVE?oc=5": {
-    "title": "レイサム、決算受け大幅高 予想上回る見通しを示す＝米国株個別 - かぶたん",
-    "seen_at": "2026-03-04T21:09:03.090354+00:00"
-  },
-  "//vercel.com/changelog/mcp-apps-support-on-vercel": {
-    "title": "MCP Apps support on Vercel",
-    "seen_at": "2026-03-04T21:09:03.199015+00:00"
-  },
-  "//vercel.com/blog/building-slack-agents-can-be-easy": {
-    "title": "Building Slack agents can be easy",
-    "seen_at": "2026-03-04T21:09:03.323482+00:00"
-  },
-  "//vercel.com/changelog/vercel-sandbox-now-accepts-environment-variables-at-creation": {
-    "title": "Vercel Sandbox now accepts environment variables at creation",
-    "seen_at": "2026-03-04T21:09:03.511130+00:00"
-  },
-  "//vercel.com/changelog/vercel-workflow-is-now-twice-as-fast": {
-    "title": "Vercel Workflow is now twice as fast",
-    "seen_at": "2026-03-04T21:09:03.643372+00:00"
-  },
   "//arstechnica.com/culture/2026/03/the-boys-s5-trailer-tees-up-a-bloody-final-season": {
     "title": "The Boys S5 trailer tees up a bloody final season",
     "seen_at": "2026-03-05T21:09:32.692171+00:00"
@@ -4314,5 +3990,533 @@
   "//vercel.com/changelog/deprecating-the-dhe-cipher-suite-for-tls-connections": {
     "title": "Deprecating the DHE cipher suite for TLS connections",
     "seen_at": "2026-03-12T21:09:10.438594+00:00"
+  },
+  "//arstechnica.com/gadgets/2026/03/adobe-settles-doj-cancellation-fee-lawsuit-will-pay-75-million-penalty": {
+    "title": "Adobe settles DOJ cancellation fee lawsuit, will pay $75 million penalty",
+    "seen_at": "2026-03-13T21:08:49.142958+00:00"
+  },
+  "//arstechnica.com/cars/2026/03/doubling-the-voltage-what-800-v-architecture-really-changes-in-evs": {
+    "title": "Doubling the voltage: What 800 V architecture really changes in EVs",
+    "seen_at": "2026-03-13T21:08:49.324146+00:00"
+  },
+  "//arstechnica.com/tech-policy/2026/03/att-wrongly-charged-man-6196-reversed-bill-after-hearing-from-ars": {
+    "title": "Another AT&T FirstNet user gets shocking $6,200 bill, at $2 per megabyte",
+    "seen_at": "2026-03-13T21:08:49.511368+00:00"
+  },
+  "//arstechnica.com/gadgets/2026/03/amazon-will-increase-ad-free-prime-video-prices-by-2-per-month-on-april-10": {
+    "title": "Subscribers to Amazon Prime Video with ads lose 4K support on April 10",
+    "seen_at": "2026-03-13T21:08:49.703852+00:00"
+  },
+  "//arstechnica.com/gadgets/2026/03/m5-macbook-air-review-still-the-best-macbook-for-almost-everybody": {
+    "title": "M5 MacBook Air review: Still the best MacBook for almost everybody",
+    "seen_at": "2026-03-13T21:08:49.885261+00:00"
+  },
+  "//arstechnica.com/science/2026/03/magnetars-drag-spacetime-to-power-superluminous-supernovae": {
+    "title": "Magnetars drag spacetime to power superluminous supernovae",
+    "seen_at": "2026-03-13T21:08:50.052293+00:00"
+  },
+  "//arstechnica.com/health/2026/03/signs-of-hope-as-measles-spread-new-mexico-vaccinations-surged-55": {
+    "title": "Measles vaccinations rose 291% among New Mexico adults during outbreak",
+    "seen_at": "2026-03-13T21:08:50.234897+00:00"
+  },
+  "//arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times": {
+    "title": "Microsoft is working to eliminate PC gaming's \"compiling shaders\" wait times",
+    "seen_at": "2026-03-13T21:08:50.434740+00:00"
+  },
+  "//technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage": {
+    "title": "Why physical AI is becoming manufacturing’s next advantage",
+    "seen_at": "2026-03-13T21:08:50.597954+00:00"
+  },
+  "//technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain": {
+    "title": "The Download: how AI is used for military targeting, and the Pentagon’s war on Claude",
+    "seen_at": "2026-03-13T21:08:50.818111+00:00"
+  },
+  "//technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass": {
+    "title": "Future AI chips could be built on glass",
+    "seen_at": "2026-03-13T21:08:50.948105+00:00"
+  },
+  "//technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions": {
+    "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
+    "seen_at": "2026-03-13T21:08:51.161001+00:00"
+  },
+  "//techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702": {
+    "title": "The Wyden Siren Goes Off Again: We'll Be \"Stunned\" by NSA Under Section 702",
+    "seen_at": "2026-03-13T21:08:51.362276+00:00"
+  },
+  "//help.instagram.com/491565145294150": {
+    "title": "E2E encrypted messaging on Instagram will no longer be supported after 8 May",
+    "seen_at": "2026-03-13T21:08:51.569419+00:00"
+  },
+  "//canirun.ai": {
+    "title": "Can I run AI locally?",
+    "seen_at": "2026-03-13T21:08:51.660933+00:00"
+  },
+  "//tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock": {
+    "title": "Qatar helium shutdown puts chip supply chain on a two-week clock",
+    "seen_at": "2026-03-13T21:08:51.839171+00:00"
+  },
+  "//tui.studio": {
+    "title": "TUI Studio – visual terminal UI design tool",
+    "seen_at": "2026-03-13T21:08:51.982708+00:00"
+  },
+  "//github.com/upper-up/meta-lobbying-and-other-findings": {
+    "title": "Meta Platforms: Lobbying, dark money, and the App Store Accountability Act",
+    "seen_at": "2026-03-13T21:08:52.179634+00:00"
+  },
+  "//onecloudplease.com/blog/bucketsquatting-is-finally-dead": {
+    "title": "Bucketsquatting is finally dead",
+    "seen_at": "2026-03-13T21:08:52.286980+00:00"
+  },
+  "//percepta.ai/blog/can-llms-be-computers": {
+    "title": "Executing programs inside transformers with exponentially faster inference",
+    "seen_at": "2026-03-13T21:08:52.485308+00:00"
+  },
+  "//arxiv.org/abs/2603.11049": {
+    "title": "Comparison of Outlier Detection Algorithms on String Data",
+    "seen_at": "2026-03-13T21:08:52.651950+00:00"
+  },
+  "//arxiv.org/abs/2603.11052": {
+    "title": "Structure-Aware Epistemic Uncertainty Quantification for Neural Operator PDE Surrogates",
+    "seen_at": "2026-03-13T21:08:52.875435+00:00"
+  },
+  "//arxiv.org/abs/2603.11076": {
+    "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+    "seen_at": "2026-03-13T21:08:53.079051+00:00"
+  },
+  "//arxiv.org/abs/2603.11090": {
+    "title": "Interventional Time Series Priors for Causal Foundation Models",
+    "seen_at": "2026-03-13T21:08:53.254915+00:00"
+  },
+  "//arxiv.org/abs/2603.11093": {
+    "title": "A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms",
+    "seen_at": "2026-03-13T21:08:53.487351+00:00"
+  },
+  "//arxiv.org/abs/2603.11094": {
+    "title": "Fingerprinting Concepts in Data Streams with Supervised and Unsupervised Meta-Information",
+    "seen_at": "2026-03-13T21:08:53.713516+00:00"
+  },
+  "//arxiv.org/abs/2603.11099": {
+    "title": "Graph Tokenization for Bridging Graphs and Transformers",
+    "seen_at": "2026-03-13T21:08:53.875356+00:00"
+  },
+  "//arxiv.org/abs/2603.11114": {
+    "title": "Task-Conditioned Routing Signatures in Sparse Mixture-of-Experts Transformers",
+    "seen_at": "2026-03-13T21:08:54.075637+00:00"
+  },
+  "//huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval": {
+    "title": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline",
+    "seen_at": "2026-03-13T21:08:54.333673+00:00"
+  },
+  "//simonwillison.net/2026/Mar/13/1m-context": {
+    "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+    "seen_at": "2026-03-13T21:08:54.515128+00:00"
+  },
+  "//simonwillison.net/2026/Mar/13/craig-mod": {
+    "title": "Quoting Craig Mod",
+    "seen_at": "2026-03-13T21:08:54.596232+00:00"
+  },
+  "//simonwillison.net/2026/Mar/13/liquid": {
+    "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
+    "seen_at": "2026-03-13T21:08:54.787296+00:00"
+  },
+  "//zenn.dev/nrs/articles/88f158aca0505b": {
+    "title": "Claude CodeやCodexのスキルの管理を楽にするツール「faceted-prompting」",
+    "seen_at": "2026-03-13T21:08:55.019265+00:00"
+  },
+  "//zenn.dev/notahotel/articles/399fc929f48d01": {
+    "title": "バグチケットに気づく頃にはもう直っている仕組みを作った",
+    "seen_at": "2026-03-13T21:08:55.070739+00:00"
+  },
+  "//zenn.dev/gemcook/articles/claude-code-company-wide": {
+    "title": "Claude Code 全社導入までの意思決定と歴史",
+    "seen_at": "2026-03-13T21:08:55.159178+00:00"
+  },
+  "//note.com/tsukky739/n/n40f4ec2b506a": {
+    "title": "スタートアップのマーケターがClaude Codeを使い倒したら、事業が4ヶ月で300%成長した話｜tsukky",
+    "seen_at": "2026-03-13T21:08:55.280790+00:00"
+  },
+  "//azukiazusa.dev/blog/try-vite-plus": {
+    "title": "新時代のフロントエンドツールチェイン Vite+ を試してみた",
+    "seen_at": "2026-03-13T21:08:55.363552+00:00"
+  },
+  "//zenn.dev/shio_shoppaize/articles/shogun-skill-creator-v2": {
+    "title": "Anthropic公式が33ページのスキル設計書を出したので、将軍のスキルクリエイターと答え合わせしたら先を行ってた",
+    "seen_at": "2026-03-13T21:08:55.479666+00:00"
+  },
+  "//zenn.dev/simossyi/articles/309e8cd88a90c3": {
+    "title": "仕様駆動開発はやめた方がええ",
+    "seen_at": "2026-03-13T21:08:55.524243+00:00"
+  },
+  "//blog.cloudflare.com/legacy-to-agile-sase": {
+    "title": "From legacy architecture to Cloudflare One",
+    "seen_at": "2026-03-13T21:08:55.660793+00:00"
+  },
+  "//docker.com/blog/native-e2e-test-reliability": {
+    "title": "Achieving Test Reliability for Native E2E Testing: Beyond Fixing Broken Tests",
+    "seen_at": "2026-03-13T21:08:55.870900+00:00"
+  },
+  "//docker.com/blog/run-claude-code-with-docker": {
+    "title": "How to Run Claude Code with Docker: Local Models, MCP Servers, and Secure Sandboxes",
+    "seen_at": "2026-03-13T21:08:56.088763+00:00"
+  },
+  "//docker.com/blog/nanoclaw-docker-sandboxes-agent-security": {
+    "title": "Secure Agent Execution with NanoClaw and Docker Sandboxes",
+    "seen_at": "2026-03-13T21:08:56.254502+00:00"
+  },
+  "//blog.rust-lang.org/2026/03/13/call-for-testing-build-dir-layout-v2": {
+    "title": "Call for Testing: Build Dir Layout v2",
+    "seen_at": "2026-03-13T21:08:56.380465+00:00"
+  },
+  "//databricks.com/blog/serverless-workspaces-azure-databricks-now-generally-available": {
+    "title": "Serverless Workspaces in Azure Databricks is now Generally Available",
+    "seen_at": "2026-03-13T21:08:56.573612+00:00"
+  },
+  "//gihyo.jp/article/2026/03/aws-llmops-01": {
+    "title": "AWSネイティブサービスで実現するDataOps × LLMOps統合アーキテクチャ",
+    "seen_at": "2026-03-13T21:08:56.684971+00:00"
+  },
+  "//gihyo.jp/admin/clip/01/ubuntu-topics/202603/13": {
+    "title": "Renesas RZシリーズとArduino VENTUNO Qのサポート、Ubuntu 26.04（resolute）の開発; glibc 2.43のFTBFSの解決",
+    "seen_at": "2026-03-13T21:08:56.888948+00:00"
+  },
+  "//cncf.io/blog/2026/03/13/kubecon-cloudnativecon-europe-2026-co-located-event-deep-dive-observability-day": {
+    "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: Observability Day",
+    "seen_at": "2026-03-13T21:08:57.100232+00:00"
+  },
+  "//schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html": {
+    "title": "Friday Squid Blogging: Increased Squid Population in the Falklands",
+    "seen_at": "2026-03-13T21:08:57.284610+00:00"
+  },
+  "//schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html": {
+    "title": "Academia and the “AI Brain Drain”",
+    "seen_at": "2026-03-13T21:08:57.405722+00:00"
+  },
+  "//thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html": {
+    "title": "Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware",
+    "seen_at": "2026-03-13T21:08:57.636338+00:00"
+  },
+  "//thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html": {
+    "title": "Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026",
+    "seen_at": "2026-03-13T21:08:57.849313+00:00"
+  },
+  "//thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html": {
+    "title": "INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime",
+    "seen_at": "2026-03-13T21:08:58.047612+00:00"
+  },
+  "//thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html": {
+    "title": "Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials",
+    "seen_at": "2026-03-13T21:08:58.259499+00:00"
+  },
+  "//thehackernews.com/2026/03/investigating-new-click-fix-variant.html": {
+    "title": "Investigating a New Click-Fix Variant",
+    "seen_at": "2026-03-13T21:08:58.385081+00:00"
+  },
+  "//thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html": {
+    "title": "Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8",
+    "seen_at": "2026-03-13T21:08:58.596692+00:00"
+  },
+  "//thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html": {
+    "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
+    "seen_at": "2026-03-13T21:08:58.834528+00:00"
+  },
+  "//thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html": {
+    "title": "Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries",
+    "seen_at": "2026-03-13T21:08:59.061695+00:00"
+  },
+  "//bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware": {
+    "title": "FBI seeks victims of Steam games used to spread malware",
+    "seen_at": "2026-03-13T21:08:59.245363+00:00"
+  },
+  "//bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack": {
+    "title": "Poland's nuclear research centre targeted by cyberattack",
+    "seen_at": "2026-03-13T21:08:59.413123+00:00"
+  },
+  "//bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues": {
+    "title": "Microsoft investigates classic Outlook sync and connection issues",
+    "seen_at": "2026-03-13T21:08:59.601974+00:00"
+  },
+  "//bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration": {
+    "title": "From VMware to what’s next: Protecting data during hypervisor migration",
+    "seen_at": "2026-03-13T21:08:59.799781+00:00"
+  },
+  "//bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown": {
+    "title": "Police sinkholes 45,000 IP addresses in cybercrime crackdown",
+    "seen_at": "2026-03-13T21:08:59.972151+00:00"
+  },
+  "//bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials": {
+    "title": "Fake enterprise VPN sites used to steal company credentials",
+    "seen_at": "2026-03-13T21:09:00.152007+00:00"
+  },
+  "//bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees": {
+    "title": "Starbucks discloses data breach affecting hundreds of employees",
+    "seen_at": "2026-03-13T21:09:00.334113+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-03-13/why-oil-s-future-is-so-unpredictable-video": {
+    "title": "Why Oil's Future Is So Unpredictable",
+    "seen_at": "2026-03-13T21:09:00.640830+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-03-13/mamdani-wants-new-york-estate-tax-threshold-cut-90-to-750-000": {
+    "title": "Mamdani Wants New York Estate Tax Threshold Cut 90% to $750,000",
+    "seen_at": "2026-03-13T21:09:00.816718+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-03-13/burlington-bets-big-on-budget-shoppers-video": {
+    "title": "Burlington Bets Big on Budget Shoppers",
+    "seen_at": "2026-03-13T21:09:00.947817+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-03-13/inside-the-5m-ferrari-trade-video": {
+    "title": "Inside the $5M Ferrari Trade",
+    "seen_at": "2026-03-13T21:09:01.059206+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-03-13/us-consumer-spending-barely-rose-in-january-inflation-strong": {
+    "title": "US Economy Lost Some Momentum, Inflation Held Firm Ahead of War",
+    "seen_at": "2026-03-13T21:09:01.246771+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-03-13/hedge-funds-turn-most-bullish-on-oil-since-2020-amid-iran-war": {
+    "title": "Hedge Funds Turn Most Bullish on Oil Since 2020 Amid Iran War",
+    "seen_at": "2026-03-13T21:09:01.431135+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-03-13/em-stocks-set-for-second-weekly-drop-as-oil-prices-stay-buoyant": {
+    "title": "EM Posts Weekly Slump as Oil Shock Triggers Rates Repricing",
+    "seen_at": "2026-03-13T21:09:01.609030+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-03-13/hims-shares-set-for-record-week-as-new-novo-pact-fuels-optimism": {
+    "title": "Hims Shares Notch Record Week as Novo Pact Spurs Optimism",
+    "seen_at": "2026-03-13T21:09:01.789331+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-03-13/brent-crude-closes-above-100-for-second-straight-session": {
+    "title": "Brent Crude Closes Above $100 for Second Straight Session",
+    "seen_at": "2026-03-13T21:09:01.962646+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-03-13/us-authorizes-venezuela-to-sell-fertilizers-as-war-crimps-supply": {
+    "title": "US Allows Venezuela to Sell Fertilizers as War Crimps Supply",
+    "seen_at": "2026-03-13T21:09:02.149101+00:00"
+  },
+  "//investing.com/news/economy-news/investors-await-fed-rate-outlook-as-iran-war-keeps-markets-on-edge-4559361": {
+    "title": "Investors await Fed rate outlook as Iran war keeps markets on edge",
+    "seen_at": "2026-03-13T21:09:02.357052+00:00"
+  },
+  "//investing.com/news/economy-news/wall-st-futures-subdued-as-middle-east-unrest-fuels-inflation-worries-data-awaited-4559396": {
+    "title": "Wall Street closes lower, posts weekly loss as war on Iran fuels inflation worries",
+    "seen_at": "2026-03-13T21:09:02.588610+00:00"
+  },
+  "//investing.com/news/economy-news/judge-blocks-subpoenas-against-fed-chair-powell-4560787": {
+    "title": "Judge blocks subpoenas against Fed Chair Powell; DOJ to appeal",
+    "seen_at": "2026-03-13T21:09:02.774927+00:00"
+  },
+  "//investing.com/news/economy-news/trump-signs-two-executive-orders-aimed-at-boosting-home-ownership-4560810": {
+    "title": "Trump signs two executive orders aimed at boosting home ownership",
+    "seen_at": "2026-03-13T21:09:02.971291+00:00"
+  },
+  "//investing.com/news/economy-news/trump-signs-orders-to-ease-housing-regulations--ap-93CH-4560780": {
+    "title": "Trump signs orders to ease housing regulations - AP",
+    "seen_at": "2026-03-13T21:09:03.137671+00:00"
+  },
+  "//investing.com/news/economy-news/barclays-expects-fed-to-push-back-rate-cuts-on-inflation-worries-4560506": {
+    "title": "Barclays expects Fed to push back rate cuts on inflation worries",
+    "seen_at": "2026-03-13T21:09:03.332530+00:00"
+  },
+  "//investing.com/news/economy-news/judge-blocks-justice-department-subpoenas-of-fed-chair-powell--nbc-93CH-4560773": {
+    "title": "Judge blocks Justice Department subpoenas of Fed Chair Powell - NBC",
+    "seen_at": "2026-03-13T21:09:03.529213+00:00"
+  },
+  "//investing.com/news/economy-news/fertilizer-shortage-threatens-us-spring-planting-season-93CH-4560732": {
+    "title": "Fertilizer shortage threatens U.S. spring planting season",
+    "seen_at": "2026-03-13T21:09:03.701472+00:00"
+  },
+  "//seekingalpha.com/news/4564535-jayud-global-logistics-announces-pricing-of-67m-registered-direct-offering?feed_item_type=news": {
+    "title": "Jayud Global Logistics announces pricing of $6.7M registered direct offering",
+    "seen_at": "2026-03-13T21:09:03.914839+00:00"
+  },
+  "//seekingalpha.com/news/4564534-stocks-to-watch-after-the-bell-on-friday-psky-snex-ccj?feed_item_type=news": {
+    "title": "Stocks to watch after the bell on Friday: PSKY, SNEX, CCJ",
+    "seen_at": "2026-03-13T21:09:04.088194+00:00"
+  },
+  "//seekingalpha.com/news/4564529-nfl-negotiating-new-3b-deal-with-paramount-for-sunday-night-football?feed_item_type=news": {
+    "title": "NFL negotiating new $3B deal with Paramount for Sunday night football",
+    "seen_at": "2026-03-13T21:09:04.292265+00:00"
+  },
+  "//seekingalpha.com/news/4564520-cameco-slumps-as-trump-administration-reportedly-courts-westinghouse-rivals-in-nuclear-talks?feed_item_type=news": {
+    "title": "Cameco slumps as Trump administration reportedly courts Westinghouse rivals in nuclear talks",
+    "seen_at": "2026-03-13T21:09:04.539306+00:00"
+  },
+  "//seekingalpha.com/news/4564532-universal-logistics-gaap-eps-of-0_14-beats-by-0_19-revenue-of-385_43m-beats-by-9_33m?feed_item_type=news": {
+    "title": "Universal Logistics GAAP EPS of $0.14 beats by $0.19, revenue of $385.43M beats by $9.33M",
+    "seen_at": "2026-03-13T21:09:04.765532+00:00"
+  },
+  "//seekingalpha.com/article/4882356-solid-power-place-your-bets": {
+    "title": "Solid Power: Place Your Bets",
+    "seen_at": "2026-03-13T21:09:04.879887+00:00"
+  },
+  "//seekingalpha.com/article/4882355-expect-pfizer-to-comeback-take-the-dividend-while-waiting-for-capital-appreciation": {
+    "title": "Expect Pfizer To Comeback: Take The Dividend While Waiting For Capital Appreciation",
+    "seen_at": "2026-03-13T21:09:05.109159+00:00"
+  },
+  "//seekingalpha.com/article/4882354-novo-nordisk-enough-is-enough-5-reasons-its-time-to-sell-rating-downgrade": {
+    "title": "Novo Nordisk - Enough Is Enough: 5 Reasons It's Time To Sell (Rating Downgrade)",
+    "seen_at": "2026-03-13T21:09:05.330110+00:00"
+  },
+  "//seekingalpha.com/article/4882353-the-new-value-stocks": {
+    "title": "The New Value Stocks",
+    "seen_at": "2026-03-13T21:09:05.425579+00:00"
+  },
+  "//seekingalpha.com/article/4882316-legacy-housing-corporation-legh-q4-2025-earnings-call-transcript": {
+    "title": "Legacy Housing Corporation (LEGH) Q4 2025 Earnings Call Transcript",
+    "seen_at": "2026-03-13T21:09:05.613555+00:00"
+  },
+  "//finance.yahoo.com/news/alan-raises-115m-funding-valuation-111117949.html": {
+    "title": "Alan raises $115m in funding, valuation surpasses $5.7bn",
+    "seen_at": "2026-03-13T21:09:05.780716+00:00"
+  },
+  "//finance.yahoo.com/news/older-americans-sacrificing-savings-support-111500456.html": {
+    "title": "Older Americans are sacrificing savings to support adult children. Here's how to stop it from derailing your retirement",
+    "seen_at": "2026-03-13T21:09:06.090808+00:00"
+  },
+  "//finance.yahoo.com/news/nyc-family-bought-home-italy-111500776.html": {
+    "title": "An NYC family bought a home in Italy for $13K instead of returning Stateside. What to know before moving abroad",
+    "seen_at": "2026-03-13T21:09:06.383439+00:00"
+  },
+  "//finance.yahoo.com/news/white-house-tax-refunds-average-111000272.html": {
+    "title": "White House update on tax refunds: Average check tops $3,700 as US taxpayers claim Trump’s ‘historic’ cuts. What to do",
+    "seen_at": "2026-03-13T21:09:06.678671+00:00"
+  },
+  "//finance.yahoo.com/news/1-trump-linked-drone-stock-113002535.html": {
+    "title": "1 Trump-Linked Drone Stock to Buy Now Amid Middle East Conflict",
+    "seen_at": "2026-03-13T21:09:06.869398+00:00"
+  },
+  "//cnbc.com/2026/03/13/nfl-media-deal-paramount.html": {
+    "title": "NFL, Paramount discussing media deal that could mean CBS pays an extra $1 billion or more",
+    "seen_at": "2026-03-13T21:09:07.120781+00:00"
+  },
+  "//cnbc.com/2026/03/13/mortgage-rates-7-month-high.html": {
+    "title": "Mortgage rates surge to highest since September, hitting spring housing market",
+    "seen_at": "2026-03-13T21:09:07.342587+00:00"
+  },
+  "//cnbc.com/2026/03/13/starbucks-workers-united-union-contract-proposal.html": {
+    "title": "Starbucks union sent the company a proposed contract. Here's what baristas want",
+    "seen_at": "2026-03-13T21:09:07.564767+00:00"
+  },
+  "//cnbc.com/2026/03/13/iran-war-retail-prices.html": {
+    "title": "How the Iran war could start to impact U.S. retail prices",
+    "seen_at": "2026-03-13T21:09:07.746278+00:00"
+  },
+  "//cnbc.com/2026/03/13/jpmorgan-silicon-valley-bank-startup-bank.html": {
+    "title": "Inside JPMorgan Chase's push to become the startup world’s new Silicon Valley Bank",
+    "seen_at": "2026-03-13T21:09:07.980292+00:00"
+  },
+  "//cnbc.com/2026/03/13/blackstone-commercial-real-estate.html": {
+    "title": "Blackstone is a major seller in January commercial real estate deals",
+    "seen_at": "2026-03-13T21:09:08.189282+00:00"
+  },
+  "//cnbc.com/2026/03/13/philanthropy-charity-wealthy.html": {
+    "title": "The biggest names missing from the list of America's top philanthropists",
+    "seen_at": "2026-03-13T21:09:08.406083+00:00"
+  },
+  "//marketwatch.com/story/kevin-warshs-fed-confirmation-faces-new-delay-key-senator-says-heres-why-3ffdfa39?mod=mw_rss_topstories": {
+    "title": "Kevin Warsh’s Fed confirmation faces new delay, key senator says. Here’s why.",
+    "seen_at": "2026-03-13T21:09:08.619282+00:00"
+  },
+  "//marketwatch.com/story/think-russian-oil-will-calm-the-iran-conflicts-supply-panic-heres-what-the-math-reveals-e392c4be?mod=mw_rss_topstories": {
+    "title": "Think Russian oil will calm the Iran conflict’s supply panic? Here’s what the math reveals.",
+    "seen_at": "2026-03-13T21:09:08.869905+00:00"
+  },
+  "//marketwatch.com/story/healthcare-is-important-to-me-im-worried-about-relocating-to-florida-from-new-jersey-are-hospitals-there-under-stress-5c270b07?mod=mw_rss_topstories": {
+    "title": "‘Healthcare is important to me’: I’m worried about relocating to Florida from New Jersey. Are hospitals there under stress?",
+    "seen_at": "2026-03-13T21:09:09.190818+00:00"
+  },
+  "//marketwatch.com/story/warren-buffetts-sage-advice-about-fear-and-greed-is-a-trap-in-this-market-8d2d69c4?mod=mw_rss_topstories": {
+    "title": "Warren Buffett’s sage advice about fear and greed is a trap in this market",
+    "seen_at": "2026-03-13T21:09:09.417167+00:00"
+  },
+  "//marketwatch.com/story/investors-are-shunning-u-s-debt-as-a-haven-play-during-the-iran-conflict-f84c9f4e?mod=mw_rss_topstories": {
+    "title": "Investors are shunning U.S. debt as a haven play during the Iran conflict",
+    "seen_at": "2026-03-13T21:09:09.634246+00:00"
+  },
+  "//marketwatch.com/story/i-am-stuck-in-a-low-income-trap-im-a-teacher-will-i-ever-earn-six-figures-5f7dd2b9?mod=mw_rss_topstories": {
+    "title": "‘I am stuck in a low-income trap’: I’m a teacher and very good at my job. Will I ever earn six figures?",
+    "seen_at": "2026-03-13T21:09:09.920169+00:00"
+  },
+  "//marketwatch.com/story/s-p-500-and-nasdaq-face-a-lost-decade-as-2000-dot-com-bubble-parallels-turn-real-58ce1b70?mod=mw_rss_topstories": {
+    "title": "S&P 500 and Nasdaq face a lost decade as 2000 dot-com bubble parallels turn real",
+    "seen_at": "2026-03-13T21:09:10.151716+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiYEFVX3lxTE5MSkcwSDlESmlvb003R2lQNm90SV80b2FzbW5qM1NjWUljVHlBcjFRVW81a1U2cmt4cEdyS2k4VGdUa0xZZWZnVUNwYUdDV1BhZmVEbTgtYXVlSXBEYVVBRg?oc=5": {
+    "title": "【市況】 ダウ平均４日ぶり反発＝米国株序盤 - かぶたん",
+    "seen_at": "2026-03-13T21:09:10.234988+00:00"
+  },
+  "//news.google.com/rss/articles/CBMihwFBVV95cUxQdTZTQWxlZ1dQcGxmZ0FOM2ZhUHdEMGF3QTRUcmczU3FkYzdFQW9fSlFXVXk1ZnpOLTRkX2ctaHVJZWRybFRiRWdWbzMwQjFFYmFad1gzdHNSendMaV8yNlJ3TUtZQnJEeUVJdm5MelUwSE1kN0lSZDkyTXV0ZnZ4OTJYWTVzMnc?oc=5": {
+    "title": "エバーコマース 業績見通しが失望されて下げる＝米国株個別(株探ニュース) - Yahoo!ファイナンス",
+    "seen_at": "2026-03-13T21:09:10.354669+00:00"
+  },
+  "//news.google.com/rss/articles/CBMid0FVX3lxTE81aUVldTVVbzF1TEUxWi0ySDJSWUx4ckhhMmxWY0V5YkpIUGVKMW1HcXdHdjZ6ZWJVbXRQTGZ3MEdZazlSbVBkSnlqZmx2VDdrLUdJR1d0RW1mRUo3TnZMME9xRlhrTC0zdFdIdHRBWGtNQTE3ZHVr?oc=5": {
+    "title": "米国債が上昇、経済指標受け利下げ観測強まる－米国株も値上がり - Bloomberg.com",
+    "seen_at": "2026-03-13T21:09:10.465236+00:00"
+  },
+  "//news.web.nhk/newsweb/na/na-k10015075271000": {
+    "title": "新年度予算案 衆院本会議で可決 自民・維新両党など賛成多数で",
+    "seen_at": "2026-03-13T21:09:10.547229+00:00"
+  },
+  "//news.web.nhk/newsweb/na/na-k10015075381000": {
+    "title": "JR東日本 きょうから運賃値上げ 消費税対応除き会社発足以来初",
+    "seen_at": "2026-03-13T21:09:10.640663+00:00"
+  },
+  "//news.web.nhk/newsweb/na/na-k10015075541000": {
+    "title": "キューバ「米代表と協議」圧力受けるなか歩み寄りの姿勢",
+    "seen_at": "2026-03-13T21:09:10.696744+00:00"
+  },
+  "//news.web.nhk/newsweb/na/na-k10015075521000": {
+    "title": "「トランプ大統領 訪中後 台湾への武器売却承認の可能性」報道",
+    "seen_at": "2026-03-13T21:09:10.779274+00:00"
+  },
+  "//news.web.nhk/newsweb/na/na-k10015074571000": {
+    "title": "モジタバ師 徹底抗戦の構え トランプ大統領 さらなる攻撃示唆",
+    "seen_at": "2026-03-13T21:09:10.875684+00:00"
+  },
+  "//bbc.com/japanese/articles/c20zl1v2l8eo?at_medium=RSS&at_campaign=rss": {
+    "title": "イランの新しい最高指導者の初声明、国営メディアが紹介 ホルムズ海峡封鎖を継続すると",
+    "seen_at": "2026-03-13T21:09:10.956154+00:00"
+  },
+  "//bbc.com/japanese/articles/cz0g5v3zl5xo?at_medium=RSS&at_campaign=rss": {
+    "title": "「ミサイルの下でも私たちは生き続ける」 イランの若者は戦争とどう向き合っているのか",
+    "seen_at": "2026-03-13T21:09:11.036720+00:00"
+  },
+  "//bbc.com/japanese/articles/c62gk8ly950o?at_medium=RSS&at_campaign=rss": {
+    "title": "中国、少数民族に標準語学習を義務付け 全人代で「民族団結進歩促進法」を承認",
+    "seen_at": "2026-03-13T21:09:11.112550+00:00"
+  },
+  "//news.google.com/rss/articles/CBMibEFVX3lxTE9hSGNCOHh2NlBONFN1X01XM2FQd2I5eEdzMFJuYzJSd0R6WkJUeFpSTjVwZXQ4Y3ZQbkhQcHB1V1VmUWktSzFXdm9zczJSZHVySTV5bk9hSFFUSnpOTEk1M3BDX3U2RVpOTWdqYQ?oc=5": {
+    "title": "日経平均633円安、「幻のSQ」出現 下値支持線の見方も - 日本経済新聞",
+    "seen_at": "2026-03-13T21:09:11.210596+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiUkFVX3lxTFBoSXJOa2dkbWprTUdFYWNqMS1TUks2aF82bXFUblhxcThHSmY3S1I0cWJWeWlqc3QyalZoM3pUMFRpZVhQa3FidUcweFVhUFplRFE?oc=5": {
+    "title": "(NEXT FUNDS)日経平均レバレッジ上場投信【1570】：株価・株式情報 - Yahoo!ファイナンス",
+    "seen_at": "2026-03-13T21:09:11.348846+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiYEFVX3lxTFBxQzg2d2tLVWlQeHRWcElrVlRrSlZaWjFnN1dzaDZZc3BmMmtBQlRJSy05cnZ4TTMtTzJ1SWtMdVFGcXRCNkhfU2lFbkJLZ01udkh6LW1ra3docXpZcmJCbQ?oc=5": {
+    "title": "【市況】 【↓】日経平均 大引け｜ 続落、原油高を警戒した売りが継続 (3月13日) - かぶたん",
+    "seen_at": "2026-03-13T21:09:11.485028+00:00"
+  },
+  "//news.google.com/rss/articles/CBMidkFVX3lxTE9JS0VOWERJY2k4ZVQtU0RrMG5oU3ZVWjdYdWt5ejlzSlNGbEFoU2lQaEwySVVfb0U4eTAtMXh1cDQ0b2N0UUwwcU8zaExNVFJSZ2RVSE45VDhvXzNyaENDSlFOcWxRbE85WDdIbllnM08wZ0NXRUE?oc=5": {
+    "title": "国民民主、広がる政権との距離…予算案に反対、委員長解任決議案も賛成 - 産経ニュース",
+    "seen_at": "2026-03-13T21:09:11.568622+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiY0FVX3lxTE80SV9VZkhTOFVBVW5aS2c5amdQVUFSLWQ3LXc2Mk1xZ3FLZXBKam4wV1RPZnJzTkNlRmtWYzRoOWl2aElKUnlyS0JFQmtjS2FJWWJjNS1qeWdVd0d0cDZkellqRQ?oc=5": {
+    "title": "イスラエル軍、２００カ所攻撃 イラン新指導者は徹底抗戦誓う - 時事ドットコム",
+    "seen_at": "2026-03-13T21:09:11.661788+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiggFBVV95cUxQQXJqQWpuX2Q0OFFSMVpDUFRpUkpkT3FHSzlzVW0tbnhMSDVfYlBJZHhRVW1mNUJST2hZdVJwNVE0dWhxSVo4QVQxalBUX1J2SlY0Umk1dndfM082SzZQYmw1emJ6Y2pYb3hyWmxKMXJnWFZsbE1VS1ZJS1ptRnZCbmpR?oc=5": {
+    "title": "トランプ氏、イランのウラン押収の可能性に言及＝報道 - Reuters",
+    "seen_at": "2026-03-13T21:09:11.719216+00:00"
+  },
+  "//news.google.com/rss/articles/CBMif0FVX3lxTE9IVEtsWHFHeTMyYm9mSHFrUXUwTGwtZVZvMkE2SklzTXFQVWc4MXE4cTV2SndWa0pDWUg0UXFael8zR0p5b21Xc2ZwSDVjckc4NU9kNGhjN1dOVXJNN21Pdkp4MlpqSTZCVUFZYTJiR19NZ3lpUGZZS3ZDTGxpNm8?oc=5": {
+    "title": "イラクでの米軍空中給油機墜落で4人死亡（共同通信） - Yahoo!ニュース",
+    "seen_at": "2026-03-13T21:09:11.815542+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiiAFBVV95cUxQQkV5WDh2WkdUSVM4YjRsSmpNRzhrdGxQQzJPazFQUFR0VXZpaHB6bWJqQ1FDcmx1OE5vSE1EZURBN3l5Qi0tZFpZOFFmaEJ1U1hnRkp6WHJHekxPYXlMMk5wVW1yNEZoQVl6UV9vWDl3Y2c5RG1VRFZWMjExSUU2TDJWb0JQQURG?oc=5": {
+    "title": "キューバ、米と協議開始 石油封鎖の影響深刻化 - Reuters",
+    "seen_at": "2026-03-13T21:09:11.882348+00:00"
+  },
+  "//vercel.com/changelog/next-forge-6": {
+    "title": "next-forge 6 is now available",
+    "seen_at": "2026-03-13T21:09:12.003807+00:00"
   }
 }
